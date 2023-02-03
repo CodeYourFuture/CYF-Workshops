@@ -22,14 +22,16 @@ In this next section, you'll need to answer some questions ❓
 
 So for the first question, Person 1 and Person 2 can read the first question.
 
-- Person 2 try and answer the question in your own words if you can.
-- Person 1 should write down Person 1's answer and then commit and push the work.
+- Person 2 try and answer the question out loud in your own words.
+- Person 1 should write down Person 1's answer in the file and then commit and push your changes.
 - Person 2 should then pull down the answer to their local machine.
 
 ❗🕥 Don't spend longer than 3 minutes on each question
 
-Then swap over and try the next question. 
+Then swap over ( so Person 1 now becomes Person 2 and vice versa ) and try the next question.
+
 You'll find the first question in `questions/0.md`
+
 
 ## Whole group discussion
 
