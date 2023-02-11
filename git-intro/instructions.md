@@ -45,3 +45,5 @@ After you've answered questions. The whole group should go through the questions
 ## Review time
 
 After the group discussion, every pair should raise a PR from Person 1's forked repo to the origin repo. Then ask for feedback by [requesting a review of the PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review) from the pair that is sat to the right of you. Each pair should then [review the PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request) they've been requested to review.
+
+Pair A should review Pair B, Pair B should review Pair C, Pair C should review Pair D, Pair D should review Pair A etc.
