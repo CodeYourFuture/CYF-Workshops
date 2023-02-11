@@ -7,6 +7,8 @@ Topics: pair programming, git basics, pull requests, clone, fork
 Please follow the steps below:
 
 
+Test addition to file
+
 1. The whole group should split up into separate breakout rooms. Then in each breakout room each pair should be assigned a letter from the alphabet starting at "A". So if one breakout room includes 8 people then you should end up with 4 pairs: pair A, pair B, pair C and pair D.
 
 1. In your pairs, label yourselves person 1 and person 2 - it doesn't matter who is 1 or 2, you'll end up swapping. 😄
