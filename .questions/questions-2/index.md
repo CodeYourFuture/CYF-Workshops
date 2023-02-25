@@ -5,6 +5,6 @@ console.log(2 * 4 + 10 / 5);
 ```
 
 A: {YOUR ANSWER HERE}
-
+function multiplication,addition and divison
 
 Remember to commit and push when you're finished!
