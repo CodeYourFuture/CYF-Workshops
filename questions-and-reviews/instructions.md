@@ -15,7 +15,7 @@ To begin with, **Person 1** **fork** this repository and **clone** it to your lo
 
 3. Person 2 should clone **Person 1's fork** to their local machine.
 
-4. Once it is cloned, in Github desktop, Person 1 should go to Branch at the top of the window and click New branch... and then enter a name js-2-week-1-questions. _Don't worry if you don't understand what branches are - they'll explained in depth later on in the course._
+4. Once it is cloned, in Github desktop, Person 1 should go to Branch at the top of the window and click New branch... and then enter a name: **js-2-week-1-questions**. _Don't worry if you don't understand what branches are - they'll explained in depth later on in the course._
 
 ## Answering questions ❓
 
