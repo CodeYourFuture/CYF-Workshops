@@ -23,4 +23,6 @@ b) What will `result2` evaluate to? Explain your answer
 c) Try to summarise the main difference between `logSum` and `calculateSum`
 
 
-{YOUR ANSWERS HERE}
+a) 42 - returns the value of adding a and b
+b) undefined - just prints value doesn's return it
+c) calculateSum has return logSum does not
