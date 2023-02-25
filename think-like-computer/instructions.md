@@ -2,11 +2,16 @@
 
 you will need:
 
-- Piece of paper saying "memory"
-- Piece of paper saying "console"
+- Piece of paper saying "memory" - where we store variables
+- Piece of paper saying "console" - where we print to the console
 - A set of functions in envelopes
 
 ## Rules of execution
+
+
+### Rule 0 
+Only one person can be sat at the table at a time ( where we write to the memory sheet / console sheet)
+
 
 ### Rule 1
 Start reading code from top to bottom, one line at a time
@@ -27,4 +32,4 @@ using Rules 1 and 2.
 
 
 ### Rule 4
-When a function returns or finishes execution leaves the seat and everyone jumps forward one seat
+When a function returns or finishes execution this person leaves their seat and everyone jumps forward one seat
