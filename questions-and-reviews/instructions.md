@@ -1,21 +1,21 @@
-# Intro to git recap session / workshop
+# Question and review workshop
 
-Topics: pair programming, git basics, pull requests, clone, fork
 
 ## Getting setup 💻
 
 Please follow the steps below:
 
 
-1. The whole group should split up into separate breakout rooms. Then in each breakout room each pair should be assigned a letter from the alphabet starting at "A". So if one breakout room includes 8 people then you should end up with 4 pairs: pair A, pair B, pair C and pair D.
+1. The whole group should split up into separate breakout rooms. Then each breakout room / table should split up into pairs.
 
 1. In your pairs, label yourselves person 1 and person 2 - it doesn't matter who is 1 or 2, you'll end up swapping. 😄
 
-2. You should swap roles frequently during this activity.
+2. You will end up swapping roles frequently during this activity.
 To begin with, **Person 1** **fork** this repository and **clone** it to your local machine.
 
-3. Person 2 should clone Person 1's fork to their local machine.
+3. Person 2 should clone **Person 1's fork** to their local machine.
 
+4. Once it is cloned, Person 1 should go to Branch at the top of the window and click New branch... and then enter a name js-2-week-1-questions. _Don't worry if you don't understand what branches are - they'll explained in depth later on in the course._
 
 ## Answering questions ❓
 
