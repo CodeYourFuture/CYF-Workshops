@@ -34,7 +34,7 @@ So for the first question, Person 1 and Person 2 can read the first question.
 
 Then swap over ( so Person 1 now becomes Person 2 and vice versa ) and try the next question.
 
-You'll find the first question in `questions/0.md`
+You'll find the first question in `js-1-week-2/0.md`
 
 
 ## Whole group discussion
