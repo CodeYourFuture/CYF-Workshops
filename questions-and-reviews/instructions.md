@@ -21,7 +21,7 @@ To begin with, **Person 1** **fork** this repository and **clone** it to your lo
 
 In this next section, you'll need to answer some questions ❓
 
-**N.B.: You may struggle to answer some or all of the questions in this section: however, we're not trying to trick you or catch you out! It's important you try answering in your own terms in this section! You'll really feel the benefit fromm trying to answer questions that may appear tricky at first.**
+**N.B: You may struggle to answer some or all of the questions in this section: however, we're not trying to trick you or catch you out! It's important you try answering in your own terms in this section! You'll really feel the benefit from trying to answer questions that may appear tricky at first.**
 
 
 So for the first question, Person 1 and Person 2 can read the first question.
