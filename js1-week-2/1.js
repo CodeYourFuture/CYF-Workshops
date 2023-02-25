@@ -3,3 +3,8 @@
 
 const currentYear = 2023;
 currentYear();
+
+function getYear(currentYear){
+    console.log(currentYear)
+}
+getYear(currentYear);
