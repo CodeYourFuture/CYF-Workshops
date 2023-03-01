@@ -1,6 +1,6 @@
 
 
-printTimesTables(3);
+printTimesTables(4);
 
 /*function printTimesTables(n) {
     const count = 1;
