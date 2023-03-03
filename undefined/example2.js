@@ -2,5 +2,5 @@ function sayHello() {
     console.log("Hello");
 }
 
-let a = sayHello();
+let result = sayHello();
 console.log(a);
