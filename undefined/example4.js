@@ -1,2 +1,2 @@
-let arr = [1, 2, 3];
+let letters = ['a', 'b', 'c'];
 console.log(arr[3]);
