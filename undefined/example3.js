@@ -1,5 +1,6 @@
 function sayHello(user) {
-    console.log(`Hello ${user}`);
+  console.log(`Hello ${user}`);
 }
 
-sayHello();
+sayHello("lol");
+// nothing working because we didn't pass anything as a paranteses
