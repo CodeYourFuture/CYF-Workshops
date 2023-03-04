@@ -1,5 +1,9 @@
 function sayHello(user) {
-    console.log(`Hello ${user}`);
+
+   console.log(`Hello ${user}`);
+   
 }
 
-sayHello();
+sayHello("kh");
+
+// we have to pass an input value to the function
