@@ -9,7 +9,8 @@ function mergeLists(list1, list2) {
   let mergedList = [];
   for (let i = 0; i < list1.length; i++) {
     mergedList.push(list1[i]);
-    for (let j = 0; j < list2.length; i++) {
+
+    for (let j = 0; j < list2.length; j++) {
       mergedList.push(list2[j]);
     }
   }
