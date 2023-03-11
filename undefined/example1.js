@@ -1,4 +1,4 @@
 
-let a;
+let  = 5;
 
 console.log(a);
