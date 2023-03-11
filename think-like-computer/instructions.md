@@ -1,10 +1,35 @@
-## Thinking like a computer
+# Thinking like a computer
 
-Each group has:
+you will need:
 
-- a person representing the main program
-- a person representing each function (built in and user-defined)
-- a piece of paper representing the console
-- a piece of paper representing the list of variables (strike out or post-it on each assignment)
-- function call/return is a piece of paper passing the arguments/return value
-- when a function is called, parameters are added to the variable list, then striked out again (or they could write their variables on a new piece of paper each time the function is called)
+- Piece of paper saying "memory" - where we store variables
+- Piece of paper saying "console" - where we print to the console
+- A set of functions in envelopes
+
+## Rules of execution
+
+
+### Rule 0 
+Only one person can be sat at the table at a time ( where we write to the memory sheet / console sheet)
+
+
+### Rule 1
+Start reading code from top to bottom, one line at a time
+
+
+### Rule 2
+Write and update variables in memory as you go along
+For example, if the program says:
+```js
+let a = 32;
+```
+You would write down "a : 32" on your piece of paper saying "memory"
+
+### Rule 3
+
+If a function is called that person takes the seat and we jump to the instructions in that function,
+using Rules 1 and 2.
+
+
+### Rule 4
+When a function returns or finishes execution this person leaves their seat and everyone jumps forward one seat
