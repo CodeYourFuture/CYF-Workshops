@@ -5,12 +5,11 @@ And fix this code!
 */
 
 function isValueFive(n) {
-    if (n === "5") {
-     return true
-    }
-
-    return false
+  if (n === 5) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-isValueFive(5)
-
+console.log(isValueFive(5));

@@ -3,3 +3,5 @@
 
 const currentYear = 2023;
 currentYear();
+
+// currentYear is not a function, it's impossible to invoke it
