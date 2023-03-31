@@ -74,4 +74,6 @@ Given 15, the function should return "1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, buz
 
 `cd testing`
 
+`npm i`
+
 `npm run test`
