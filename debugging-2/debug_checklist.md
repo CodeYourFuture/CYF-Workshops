@@ -3,6 +3,8 @@
   * Are the JS files and CSS files referenced correctly
 * Javascript
   * Do we see any errors in the console?
+  * Have we made sure our event listeners are being used (with console log)
+  * prettier to make sure your syntax is correct
     * What is the error
       * Can we find documentation on the JS function/object at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference for the builtin objects
         * are we using the built in code correctly
