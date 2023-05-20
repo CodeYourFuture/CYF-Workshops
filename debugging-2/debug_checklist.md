@@ -8,6 +8,7 @@
   * prettier to make sure your syntax is correct
   * *checking for syntax errors, using some extensions to help with it . * be mindful with with naming variables , classes , functions etc
   * using live server to see your changes in real time
+  * Also taking breaks often and have time to think , maybe walks
     * What is the error
       * Can we find documentation on the JS function/object at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference for the builtin objects
         * are we using the built in code correctly
