@@ -1,3 +1,4 @@
+console.log("hello")
 const form = document.getElementById("form");
 const usernameElement = document.getElementById("username");
 const passwordElement = document.getElementById("password");
