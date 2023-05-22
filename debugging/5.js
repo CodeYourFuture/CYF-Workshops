@@ -17,4 +17,4 @@ function mergeLists(list1, list2) {
 
 
 //Expected output: [1,6,2,7,3,8,4,9,5,10]
-console.log(mergeLists(list1, list2));
+console.log(mergeLists(list1, list2 ));

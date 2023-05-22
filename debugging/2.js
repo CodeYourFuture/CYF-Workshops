@@ -15,4 +15,5 @@ function getLargestNum(arr) {
   }
   let arr = [1, 2, 3, 4, 5];
 
-  getLargestNum(arr)
+  console.log(getLargestNum(arr));
+  

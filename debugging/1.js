@@ -13,6 +13,6 @@ function isValueFive(n) {
         return false;
     
 }
+console.log(isValueFive(5));
 
-isValueFive(5)
 

@@ -11,6 +11,6 @@ function calculateSum(arr) {
     return sum;
   }
   
-  let arr = [1, 2, 3, 4, 5];
+  let arr = [1, 2, 3, 4, 5, 6];
   let sum = calculateSum(arr);
   console.log("The sum of " + arr + " is " + sum);

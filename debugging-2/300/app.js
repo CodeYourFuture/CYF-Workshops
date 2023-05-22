@@ -15,7 +15,13 @@ form.addEventListener("submit", (event) => {
 //4 functions to check validations:
 const validateForm = (inputArr) => {
   inputArr.forEach((input) => {
-    if (input.value === "") {
+  console.log(input);
+    if (
+      input.value === username ||
+      input.value === email ||
+      input.value === password ||
+      input.value === passwordConfirmation
+    ) {
       showError(input, `This field is required`);
     } else {
       showSuccess(inputArr);
