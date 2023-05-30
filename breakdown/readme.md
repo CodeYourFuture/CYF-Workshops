@@ -32,7 +32,7 @@ Start by identifying the core functionality of this app. Forget about the web pa
    {{</note>}}
 
 <details>
-<summary>Don't peek until you are all together
+<summary>Perhaps you said something like...
 </summary>
 - As a user, I want to draw a line and cut it in half.
 - As a user, I want to find the midpoint between me and my friend so we can meet for lunch.
@@ -53,7 +53,7 @@ _Given_ some input, _when_ I do something, _then_ I expect some output.
 <!--{{</note>}}-->
 
 <details>
-<summary>Don't peek until you are all together
+<summary>Perhaps you said something like...
 </summary>
 _Given_ that I have two distinct geographical locations,
 _When_ I input these locations into the application,
@@ -73,7 +73,7 @@ Put all your acceptance criteria together and vote on the best one. Now we under
 <!--{{</note>}}-->
 
 <details>
-<summary>Don't peek until you are all together
+<summary>Perhaps you said something like...
 </summary>
 
 ```js
@@ -106,7 +106,7 @@ Now that we have a test, we can write the simplest code to pass that test.
 <!--{{</note>}}-->
 
 <details>
-<summary>Don't peek until you are all together
+<summary>Perhaps you said something like...
 </summary>
 
 ```js
