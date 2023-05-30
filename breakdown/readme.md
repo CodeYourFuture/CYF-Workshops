@@ -18,7 +18,7 @@ Here is an app that helps users find a halfway point to meet up.
 
 You have probably done lots of tutorials where you follow along and copy what the teacher shows you, and this does teach you some simple things about programming. But it doesn't teach you how to solve your own problems or build your own products, and it doesn't help you when things go _wrong_. To understand how to develop really new things, you have to practice thinking up your own solutions and trying (and failing a lot).
 
-So let's start today by "reverse engineering" an existing app together, and then everyone will practice again with a random product from the [CYF Product Factory](./index.html).
+So let's start today by "reverse engineering" an existing app together, and then everyone will practice again with a random product from the [CYF Product Factory](http://cyf-random-product-factory.netlify.app).
 
 Start by identifying the core functionality of this app. Forget about the web page, or the fonts, or the name... what does this thing REALLY DO? **What is the simplest version of that function you can build and test.**
 
@@ -140,7 +140,7 @@ OK that's a spike! We have a test and some code that passes that test. We can go
 
 ## Practice makes permanent
 
-Go to the [CYF Product Factory](./index.html) and get a random product. Break it down into user stories, acceptance criteria, tests, and code.
+Go to the [CYF Product Factory](http://cyf-random-product-factory.netlify.app) and get a random product. Break it down into user stories, acceptance criteria, tests, and code.
 
 1. Discover the core functionality of the product.
 2. Write a user story for that functionality.
