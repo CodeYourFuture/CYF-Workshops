@@ -29,14 +29,16 @@ Start by identifying the core functionality of this app. Forget about the web pa
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. Define a User Story:
    "As a user, I want to do _x_ so that I can _y_."
-   {{</note>}}
+   <!--{{</note>}}-->
 
 <details>
 <summary>Perhaps you said something like...
 </summary>
+
 - As a user, I want to draw a line and cut it in half.
 - As a user, I want to find the midpoint between me and my friend so we can meet for lunch.
 - As a user, I want to enter two different locations and receive information about the geographic midpoint between them.
+
 </details>
 
 ---
@@ -49,15 +51,19 @@ Put all your user stories together and vote on the best one. Now let's spike on 
 
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. Define Acceptance Criteria (Given/When/Then):
-_Given_ some input, _when_ I do something, _then_ I expect some output.
+
+   _Given_ some input, _when_ I do something, _then_ I expect some output.
+
 <!--{{</note>}}-->
 
 <details>
 <summary>Perhaps you said something like...
 </summary>
-_Given_ that I have two distinct geographical locations,
-_When_ I input these locations into the application,
-_Then_ I should be provided with the geographic midpoint between the two locations.
+
+- _Given_ that I have two distinct geographical locations,
+- _When_ I input these locations into the application,
+- _Then_ I should be provided with the geographic midpoint between the two locations.
+
 </details>
 
 ---
