@@ -18,9 +18,11 @@ Here is an app that helps users find a halfway point to meet up.
 
 You have probably done lots of tutorials where you follow along and copy what the teacher shows you, and this does teach you some simple things about programming. But it doesn't teach you how to solve your own problems or build your own products, and it doesn't help you when things go _wrong_. To understand how to develop really new things, you have to practice thinking up your own solutions and trying (and failing a lot).
 
-So let's start today by "reverse engineering" an existing app together, and then everyone will practice again with a random product from the [CYF Product Factory](http://cyf-random-product-factory.netlify.app).
+So let's start today by "reverse engineering" an existing app together.
 
 Start by identifying the core functionality of this app. Forget about the web page, or the fonts, or the name... what does this thing REALLY DO? **What is the simplest version of that function you can build and test.**
+
+Split into groups of 4-6. Choose one of the group to wear the User Hat. If in doubt, blocked, or making an assumption, ask the User what to do.
 
 ## User Stories
 
@@ -52,7 +54,7 @@ Put all your user stories together and vote on the best one. Now let's spike on 
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. Define Acceptance Criteria (Given/When/Then):
 
-   _Given_ some input, _when_ I do something, _then_ I expect some output.
+   _Given_ some scenario, _when_ I do something, _then_ I expect some output.
 
 <!--{{</note>}}-->
 
