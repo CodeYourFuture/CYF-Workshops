@@ -54,7 +54,7 @@ Put all your user stories together and vote on the best one. Now let's spike on 
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. Define Acceptance Criteria (Given/When/Then):
 
-   _Given_ some scenario, _when_ I do something, _then_ I expect some output.
+   _Given_ some scenario, _when_ I do something, _then_ I expect some outcome.
 
 <!--{{</note>}}-->
 
