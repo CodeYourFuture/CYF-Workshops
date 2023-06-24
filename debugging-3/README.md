@@ -22,4 +22,4 @@ must read the scenario and fix/implement the required behavior
 The goal here is to focus on fixing one small part functionality at a time. Trainees should: 
 * fix one scenario
 * test it works
-* commit the changes
+* commit the changesnpm

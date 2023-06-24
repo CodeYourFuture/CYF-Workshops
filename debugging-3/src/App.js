@@ -5,6 +5,7 @@ function EmailInput() {
     const [email, setEmail] = useState(null);
 
     function valid(val) {
+        debugger;
         return val && val.indexOf('@') !== '-1'
     }
 
@@ -13,6 +14,8 @@ function EmailInput() {
         <input
             onChange={(e) => setEmail(e.target.value)}
             onBlur={() => {
+                const testing= !valid(email)
+                console.log(testing);
                 if (!valid(email)) {
                     alert('Email not valid')
                 }
