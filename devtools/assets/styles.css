@@ -1,0 +1,111 @@
+:root {
+  --copy: "Lato";
+  --paper: hsla(260, 35%, 90%, 0.95);
+  --ink: hsla(270, 8%, 20%, 0.98);
+  --brand: hsla(0, 100%, 67%, 0.98);
+  --shade: hsla(270, 8%, 20%, 0.1);
+  --space: 20px;
+  --container: clamp(220px, calc(100vw - calc(var(--space) * 2)), 1180px);
+  --finger: 48px;
+}
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:any-link {
+  color: currentColor;
+}
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  color: var(--brand);
+}
+
+body {
+  font: 100%/1.5 var(--copy), system-ui, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+  display: grid;
+  gap: var(--space);
+  grid-template:
+    ". ...... ." var(--space)
+    ". header ." min-content
+    ". main   ." minmax(70vh, 1fr)
+    ". footer ." min-content
+    ". ...... ." var(--space) /
+    minmax(var(--space), 1fr) var(--container) minmax(var(--space), 1fr);
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  grid-template:
+    "logo space button" var(--finger) /
+    var(--finger) 1fr var(--finger);
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+  display: grid;
+  grid-template: "github space" var(--finger) / var(--finger) 1fr;
+}
+footer a {
+  grid-area: github;
+}
+
+.menu {
+  background-color: var(--ink);
+  color: var(--paper);
+  height: 100vh;
+  width: max-content;
+  padding: var(--space);
+  z-index: 1;
+  position: absolute;
+  left: -100vw;
+}
+
+button {
+  grid-area: button;
+  appearance: none;
+  border: none;
+  background: transparent;
+}
+
+h1 {
+  grid-area: logo;
+  margin: 0;
+}
+
+ul,
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-list {
+  display: grid;
+  grid-auto-flow: column;
+  gap: var(--space);
+  margin: 0;
+  padding: 0;
+}
+.card {
+  background-color: var(--paper);
+  padding: var(--space);
+  box-shadow: 2px 3px 15px var(--shade);
+}
+
+.is-invisible {
+  position: absolute;
+  left: -9999em;
+}
