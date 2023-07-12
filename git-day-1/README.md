@@ -5,7 +5,7 @@
 In this workshop, you'll learn the following: 
 
 - how to create a commit
-- how we can
+- 
 
 
 ## Recap activity
@@ -39,28 +39,67 @@ c) What is the hash for the first commit in the history?
 - Get a local copy of a repository on your local machine. Open the files and folders of your copy on your local machine.
 
 
-## Creating a commit
+## Creating a commits
 
-### Pairs
-### ⏲️ ( 15 mins )
+⏲️ ( 20 mins )
+
+We have the following goal in this section:
+
+> 🎯 Goal: Make some **local** changes and create a **local commit**.
+
+
+Let's consider a Git timeline like this:
+
+```mermaid
+---
+title: Example Git diagram
+---
+gitGraph
+   commit
+   commit
+```
+
+We want to figure out to make local changes and then commit them so our timeline ends up looking like this:
+
+```mermaid
+---
+title: Example Git diagram
+---
+gitGraph
+   commit
+   commit
+   commit
+```
+
+where the most recent commit contains our recent changes.
+
+To create a commit, we're going to step through the following process:
+
+1. Make a change to a file
+2. Stage the changes
+3. Create the commit
+
+
+### Changing a file
+
+Pairs
+⏲️ ( 15 mins )
 
 Go to your files and folders in the repository. Now answer the question in line 10 on the Github repository. Save the file.
 
 Tip: You can use CMD + S to save changes to a file in VSCode.
 
 
-## Checking out the changes
+### Checking out the changes
 
-### Pairs
-### ⏲️ ( 15 mins )
+Pairs
+ ⏲️ ( 15 mins )
 
 You've got a git commit.
 You can check out the changes on your local machine.
 Go to the **Source Control** tab on your local machine.
 
 📝 Double-check how many commits you have locally.
-
-> 🎯 Goal: Make some **local** changes and create a **local commit**.
 
 
 To create a commit, we need to c
@@ -69,10 +108,10 @@ To create a commit, we need to c
 2. Go to the Changes section and look at the changes for the file.
 
 
-## Staging changes
+### Staging changes
 
-### Pairs
-### ⏲️ ( 15 mins )
+Pairs
+⏲️ ( 15 mins )
 
 
 To create a commit, we need to tell Git the changes we want to include in the next commit.
@@ -86,10 +125,10 @@ Notice what happens when you carry out step 1.
 
 2. View the Staged Changes area in your Source Control panel.
 
-## 📸 Creating the commit
+### 📸 Creating the commit
 
-### Pairs
-### ⏲️ ( 15 mins )
+Pairs
+⏲️ ( 15 mins )
 
 
 Once we've staged changes, then we can **commit** these changes.
