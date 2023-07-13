@@ -14,7 +14,7 @@ Change the values in Devtools */
   /* spacing */
   --space: 2rem;
   --box: 18rem;
-  --container: clamp(var(--box), calc(100vw - calc(var(--space) * 2)), 80rem);
+  --container: clamp(var(--box), calc(100vw - calc(var(--space) * 2)), 74rem);
   --finger: 48px;
   --line-length: 60ch;
 }
@@ -132,19 +132,19 @@ How will you write yours? */
 .menu.is-active {
   left: 0;
 }
-/* Now inside main we have some cards. 
+/* Now inside main we have a deck/list/array we can stuff some objects in */
+.deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--box), 1fr));
+  gap: var(--space);
+  flex-grow: 1;
+}
+
+/* This time we will fill this with cards.
 You will write a lot of card components as a developer. 
 Every time you look at a website, find the cards and inspect them in Devtools 
-to see how they are made. */
-.card-list {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(var(--box), calc(calc(var(--container) / 3) - var(--space)))
-  );
-  gap: var(--space);
-}
-.card a {
+to see how they are made. Notice how my cards don't have a size. */
+.card {
   background-color: var(--paper);
   padding: var(--space);
   box-shadow: 2px 4px 16px var(--shade);
@@ -152,8 +152,8 @@ to see how they are made. */
   flex-flow: column-reverse;
   align-items: center;
 }
-.card a:hover,
-.card a:focus {
+.card:hover,
+.card:focus {
   box-shadow: 1px 1px 2px var(--shade);
 }
 .emoji {
