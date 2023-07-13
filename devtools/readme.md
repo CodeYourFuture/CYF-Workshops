@@ -47,7 +47,7 @@ Each browser has its own Devtools. Download Safari, Chrome Canary, and Firefox D
 
 In groups of no more than five.
 
-1.  Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
+1.  Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 1.  [Inspect the page](http://cyf-workshops.netlify.app/devtools/) with Devtools.
 1.  _Write down_ the answers to these questions:
 
