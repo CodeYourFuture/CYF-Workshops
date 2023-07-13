@@ -90,7 +90,7 @@ Next, let's see how the page layout is handled. Modern websites use the CSS Grid
 <!--
 {{<note type="exercise" title="Grid Editor">}} -->
 
-1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
+1. Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. With Devtools, locate a grid element on [the workshop page](http://cyf-workshops.netlify.app/devtools/).
 3. Activate the [Grid Badge](https://developer.chrome.com/docs/devtools/css/grid/) in the Elements panel.
 4. Use the Grid Editor to try changing the layout.
