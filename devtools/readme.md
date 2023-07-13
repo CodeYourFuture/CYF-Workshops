@@ -23,6 +23,7 @@ For this workshop you will need:
 - [ ] [Chrome](https://www.google.com/intl/en_uk/chrome/) with Devtools
 - [ ] A [ChatGPT account](https://chat.openai.com/auth/login)
 - [ ] This [Devtools Workshop page](http://cyf-workshops.netlify.app/devtools/)
+- [ ] Someone to keep track of the timer for each activity
 
 You've already used a little bit of Devtools in ITD when you used [Lighthouse](https://developer.chrome.com/docs/lighthouse/) to audit your code. But there's much much more! Devtools is an [entire IDE](https://developer.chrome.com/) running inside your browser and it has hundreds of ways to inspect, test, and develop your code.
 
