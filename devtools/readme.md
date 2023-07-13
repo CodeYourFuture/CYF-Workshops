@@ -46,6 +46,7 @@ Each browser has its own Devtools. Download Safari, Chrome Canary, and Firefox D
 {{<note type="exercise" title="Explore">}} -->
 
 In groups of no more than five.
+Take it in turns to swap the driver for each section of this workshop
 
 1.  Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 1.  [Inspect the page](http://cyf-workshops.netlify.app/devtools/) with Devtools.
