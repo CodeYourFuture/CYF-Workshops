@@ -4,9 +4,10 @@
 
 In this workshop, you'll learn the following: 
 
-- how to create a commit
-- 
-
+- how to make local changes in VSCode
+- how to stage changes
+- how to commit changes
+- how to 
 
 ## Recap activity
 
@@ -39,8 +40,9 @@ c) What is the hash for the first commit in the history?
 - Get a local copy of a repository on your local machine. Open the files and folders of your copy on your local machine.
 
 
-## Creating a commits
+## Creating a commit
 
+Pairs
 ⏲️ ( 20 mins )
 
 We have the following goal in this section:
@@ -48,7 +50,7 @@ We have the following goal in this section:
 > 🎯 Goal: Make some **local** changes and create a **local commit**.
 
 
-Let's consider a Git timeline like this:
+Our Git timeline starts off in this way:
 
 ```mermaid
 ---
@@ -80,38 +82,26 @@ To create a commit, we're going to step through the following process:
 3. Create the commit
 
 
-### Changing a file
+### 🗄️ Changing a file
 
-Pairs
-⏲️ ( 15 mins )
 
 Go to your files and folders in the repository. Now answer the question in line 10 on the Github repository. Save the file.
 
 Tip: You can use CMD + S to save changes to a file in VSCode.
 
 
-### Checking out the changes
-
-Pairs
- ⏲️ ( 15 mins )
-
-You've got a git commit.
-You can check out the changes on your local machine.
-Go to the **Source Control** tab on your local machine.
-
-📝 Double-check how many commits you have locally.
+### : Checking out the changes
 
 
-To create a commit, we need to c
+We want to view the changes we've made to our working directory so we can start making a commit.
+
 
 1. Go to the **Source Control** tab in VSCode.
 2. Go to the Changes section and look at the changes for the file.
+3. Try editing the file again in the Explorer tab and check to see the update is visible in the Source Control panel
 
 
 ### Staging changes
-
-Pairs
-⏲️ ( 15 mins )
 
 
 To create a commit, we need to tell Git the changes we want to include in the next commit.
@@ -127,9 +117,6 @@ Notice what happens when you carry out step 1.
 
 ### 📸 Creating the commit
 
-Pairs
-⏲️ ( 15 mins )
-
 
 Once we've staged changes, then we can **commit** these changes.
 
@@ -141,4 +128,5 @@ Once we've staged changes, then we can **commit** these changes.
 📝  Now re-check the number of commits you have locally.
 
 
-Once you've completed this **commit**, you can swap roles in your pair.
+
+> ❗ Once you've completed this **commit**, you can swap roles in your pair.
