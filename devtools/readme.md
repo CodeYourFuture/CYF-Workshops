@@ -21,7 +21,8 @@ facilitation=true
 For this workshop you will need:
 
 - [ ] [Chrome](https://www.google.com/intl/en_uk/chrome/) with Devtools
-- [ ] A [ChatGPT account](chat.openai.com/auth/login)
+- [ ] A [ChatGPT account](https://chat.openai.com/auth/login)
+- [ ] This [Devtools Workshop page](http://cyf-workshops.netlify.app/devtools/)
 
 You've already used a little bit of Devtools in ITD when you used [Lighthouse](https://developer.chrome.com/docs/lighthouse/) to audit your code. But there's much much more! Devtools is an [entire IDE](https://developer.chrome.com/) running inside your browser and it has hundreds of ways to inspect, test, and develop your code.
 
@@ -46,7 +47,7 @@ Each browser has its own Devtools. Download Safari, Chrome Canary, and Firefox D
 In groups of no more than five.
 
 1.  Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-1.  Inspect the page with Devtools.
+1.  [Inspect the page](http://cyf-workshops.netlify.app/devtools/) with Devtools.
 1.  _Write down_ the answers to these questions:
 
 - What is the name of the font used on the page?
@@ -63,7 +64,7 @@ Fonts, colors, and spacing are often stored as CSS Variables, or custom properti
 {{<note type="exercise" title="Experiment">}} -->
 
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-2. Inspect the CSS of the page with Devtools.
+2. Inspect the [CSS of the page](http://cyf-workshops.netlify.app/devtools/) with Devtools.
 3. Find the CSS Variables (hint: they usually start with `--`, for example, `--paper`)
 4. Try changing the values of these variables and see how it affects the page.
 5. Some questions to answer. (Make a prediction about what you think will happen first, and then test it)
@@ -89,7 +90,7 @@ Next, let's see how the page layout is handled. Modern websites use the CSS Grid
 {{<note type="exercise" title="Grid Editor">}} -->
 
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-2. With Devtools, locate a grid element on the page.
+2. With Devtools, locate a grid element on [the workshop page](http://cyf-workshops.netlify.app/devtools/).
 3. Activate the [Grid Badge](https://developer.chrome.com/docs/devtools/css/grid/) in the Elements panel.
 4. Use the Grid Editor to try changing the layout.
 5. Go straight to the next challenge!
@@ -109,7 +110,7 @@ It's important that software works and that people can use it. Lighthouse can he
 {{<note type="exercise" title="Audit">}} -->
 
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-1. Run a Lighthouse audit on the page.
+1. Run a Lighthouse audit on [the workshop page](http://cyf-workshops.netlify.app/devtools/).
 1. Look at the results and identify the issue.
 1. Now, how will you fix it? Click on the error. Lighthouse explains what is wrong and provides a link to a detailed explanation on why it's wrong, how serious it is, and how to fix it!
 1. If you have time, fix the error, but in any case, once the timer goes off, past the link to the detailed explanation page into the workshop thread in Slack.
