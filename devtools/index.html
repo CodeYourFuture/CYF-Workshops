@@ -7,12 +7,15 @@
     <meta name="description" content="A Devtools workshop" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/styles.css" />
-    <script src="assets/scripts.js" defer></script>
+    <script src="assets/app.js" defer></script>
   </head>
   <body>
+    <a class="is-invisible" href="#main">Skip to main</a>
     <header>
       <h1>
-        <a href="/">
+        <a
+          href="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools-day-1/readme.md"
+        >
           <span class="is-invisible">Code Your Future</span>
           <svg
             class="logo"
@@ -28,7 +31,7 @@
           </svg>
         </a>
       </h1>
-      <button class="toggle">
+      <button id="toggle">
         <span class="is-invisible">Toggle Menu.</span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
           <path
@@ -41,38 +44,130 @@
         </svg>
       </button>
     </header>
-    <nav class="menu">
+    <nav class="menu" id="menu" hidden>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
+        <li>
+          <a
+            href="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools-day-1"
+            >Devtools Workshop</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools-day-1/index.html"
+            >This file on GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools-day-1/assets/styles.css"
+            >The styles</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools-day-1/assets/app.js"
+            >The script</a
+          >
+        </li>
+        <li><a href="chat.openai.com/auth/login">Sign up for ChatGPT</a></li>
       </ul>
     </nav>
-    <main>
-      <h2>Dev Tools Workshop</h2>
-      <p>When we build websites, we actually build it from pieces.</p>
+    <main tabindex="0" id="main">
+      <h2>🕵️ Dev Tools Workshop</h2>
       <ul class="card-list">
         <li class="card">
-          <a href="/">
+          <a href="https://fonts.google.com/knowledge">
             <h3>Fonts</h3>
-            <p>Card</p>
             <span class="emoji">📰</span>
           </a>
         </li>
         <li class="card">
-          <a href="/">
+          <a href="https://color.adobe.com/create/color-wheel">
             <h3>Colours</h3>
-            <p>Card</p>
             <span class="emoji">🎨</span>
           </a>
         </li>
         <li class="card">
-          <a href="/">
+          <a href="https://uxdesign.cc/whitespace-in-ui-design-44e332c8e4a">
             <h3>Spaces</h3>
-            <p>Card</p>
             <span class="emoji">📐</span>
           </a>
         </li>
       </ul>
+      <section class="copy">
+        <p>
+          When we build visual web pages, or "front end", we always use these
+          building blocks: <em>fonts</em> <em>colours</em>, and
+          <em>spacing</em>. Every site you see uses these building blocks to
+          show the user an interface.
+        </p>
+        <h3>🧩 Components</h3>
+        <p>
+          In fact they use these building blocks to design
+          <a href="https://design-system.service.gov.uk/components/"
+            >components</a
+          >. The components are <em>composed</em> on the page to make a user
+          interface. All web coding is the <em>composition</em> of small, simple
+          pieces into more and more complex systems.
+        </p>
+
+        <p>
+          It is the job of a developer to build the smallest, simplest piece she
+          can. We are always operating within a wafer thin layer of a vastly
+          more complex system, and it's our job to make that layer as clear and
+          simple as possible, so all the other layers can predict what it might
+          do.
+        </p>
+        <h3>⚛️ Complexity</h3>
+        <p>
+          But any "block" is really composed of and dependent upon many
+          components. Fonts, for example, are made of
+          <a href="https://en.wikipedia.org/wiki/Vector">vectors</a> - points
+          and a mathematical description of the distances between them - and
+          shown on the screen by
+          <a href="https://www.techopedia.com/definition/24012/pixel">pixels</a
+          >. The pixels are coloured using
+          <a
+            href="https://towardsdatascience.com/how-color-is-represented-and-viewed-in-computer-vision-b1cc97681b68"
+            >computer colour</a
+          >, another mathematical system to represent colours as coordinates, or
+          locations, in a colourspace. The colourspace values are sent to the
+          <abbr title="Liquid Crystal Display">LCD</abbr> as a set of subpixel
+          intensities, or
+          <a
+            href="https://www.nxp.com/wcm_documents/techzones/microcontrollers-techzone/Presentations/graphics.lcd.technologies.pdf"
+            >gates</a
+          >
+          to filter the light, but if it's an
+          <abbr title="Organic Light Emitting Diode">OLED</abbr> display... we
+          could go on forever like this. We are only really saying that
+          everything is made of something.
+        </p>
+        <h3>🤔 We learn by asking questions</h3>
+        <p>
+          So you can see, it doesn't make sense to try to memorise or "complete"
+          coding. The "stack" is millions of layers deep. Where would you stop?
+          Instead, developers learn to understand systems using a combination of
+          learning rules and using systematic inquiry.
+        </p>
+
+        <p>
+          <strong>Developers are explorers</strong>, botanists, astronomers. We
+          explore code by reading it, making predictions about what it will do
+          based on the rules we already know, and testing those predictions to
+          develop our understanding. In short: developers constantly look at how
+          things work using tools and tests.
+        </p>
+        <h3>
+          🧪 <a href="https://developer.chrome.com/docs/devtools">Devtools</a>
+        </h3>
+        <p>
+          For web coding, your first tool, your sonic screwdriver, is called
+          <a href="https://developer.chrome.com/docs/devtools">Devtools</a>.
+          Inspect this page with Devtools.
+        </p>
+      </section>
     </main>
     <footer>
       <a href="https://github.com/CodeYourFuture/CYF-Workshops"
