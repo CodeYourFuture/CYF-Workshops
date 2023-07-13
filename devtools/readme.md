@@ -110,7 +110,7 @@ It's important that software works and that people can use it. Lighthouse can he
 <!--
 {{<note type="exercise" title="Audit">}} -->
 
-1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
+1. Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 1. Run a Lighthouse audit on [the workshop page](http://cyf-workshops.netlify.app/devtools/).
 1. Look at the results and identify the issue.
 1. Now, how will you fix it? Click on the error. Lighthouse explains what is wrong and provides a link to a detailed explanation on why it's wrong, how serious it is, and how to fix it!
