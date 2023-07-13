@@ -64,7 +64,7 @@ Fonts, colors, and spacing are often stored as CSS Variables, or custom properti
 <!--
 {{<note type="exercise" title="Experiment">}} -->
 
-1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
+1. Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. Inspect the [CSS of the page](http://cyf-workshops.netlify.app/devtools/) with Devtools.
 3. Find the CSS Variables (hint: they usually start with `--`, for example, `--paper`)
 4. Try changing the values of these variables and see how it affects the page.
