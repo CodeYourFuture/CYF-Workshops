@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CYF Workshops</title>
+    <meta name="description" content="Workshops for CYF classes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <style>
+      /* Here's our design 
+It's fonts, colours, and spacing.
+Every design is made of these basic building blocks.
+Change the values in Devtools */
+      :root {
+        /* fonts */
+        --copy: "Lato", system-ui;
+        /* colours */
+        --paper: hsla(260, 35%, 90%, 0.95);
+        --ink: hsla(270, 8%, 20%, 0.98);
+        --brand: hsla(0, 100%, 67%, 0.98);
+        /* spacing */
+        --space: 1rem;
+        --box: 18rem;
+        --container: clamp(
+          var(--box),
+          calc(100vw - calc(var(--space) * 2)),
+          74rem
+        );
+        --finger: 48px;
+        --line-length: 60ch;
+      }
+      /* What does this rule do? Try removing it. */
+      * {
+        box-sizing: border-box;
+      }
+      /* What about this one? 
+Make a prediction first and then find and uncheck this rule in Devtools */
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+      }
+      /* Rules for interactive elements like links and buttons. 
+What happens when you change the order of these rules around? */
+      a,
+      a:any-link {
+        color: currentColor;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+      }
+      :focus {
+        outline: none;
+      }
+      a:hover,
+      a:focus {
+        color: var(--brand);
+      }
+      a:focus {
+        outline: 2px dashed var(--brand);
+      }
+
+      /* LAYOUT 
+Set up the body rules: fonts, colours, and spacing. 
+Everything inside the body will inherit these basic styles
+*/
+      body {
+        font: 100%/1.5 var(--copy), system-ui, sans-serif;
+        background-color: var(--paper);
+        color: var(--ink);
+        /* Let's also write a layout for the whole site.  */
+        display: grid;
+        gap: var(--space);
+        grid-template:
+          ". ...... ." var(--space)
+          ". header ." min-content
+          ". main   ." minmax(75vh, 1fr)
+          ". ...... ." var(--space) /
+          minmax(var(--space), 1fr) var(--container) minmax(var(--space), 1fr);
+        place-content: center;
+      }
+      /* Now let's add each component to this grid layout 
+And give them their own layouts inside. */
+      header {
+        grid-area: header;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header svg {
+        width: var(--finger);
+      }
+      readme-component {
+        grid-area: main;
+      }
+      /* Now some body copy.
+ Why have I constrained this box? Google it!  */
+      main {
+        max-width: var(--line-length);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="https://github.com/CodeYourFuture/CYF-Workshops/">
+        <svg
+          class="logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          focusable="false"
+          title="CYF"
+        >
+          <path
+            fill="currentcolor"
+            stroke="currentcolor"
+            d="M225.5 1c-1.1.5-3.5.9-5.3.9-4.1.1-22.9 4.5-30.7 7.2-63.1 22-114.7 72.3-142.7 139.4-6.4 15.2-11.8 33.8-16.7 57-4.1 19.7-5.4 64.5-2.6 90.8C33 346.2 49.8 390.1 76.8 425c6.2 7.9 23.9 26.4 30.7 32 8.1 6.7 26.1 18.7 35.1 23.6 28.1 15.1 58 24.3 91.9 28.3 5.5.7 13.6 1.7 18 2.2 8.8 1.2 33.9.7 48-.9 11-1.3 31.7-4.8 36.5-6.2 1.9-.5 8-2.3 13.5-3.9 21.3-6.1 47.2-17.8 67.5-30.5 8.8-5.4 23.7-15.8 28.5-19.7 10.2-8.4 24.5-21.3 31.4-28.2l8.4-8.5-2.2-2.9c-1.3-1.5-4.6-5.3-7.4-8.3-6.2-6.7-14.5-15.7-21.2-23.1-2.7-3-7.5-8.2-10.5-11.4-3-3.3-9.8-10.8-15.1-16.5-21.5-23.6-24.2-26.5-24.9-26.8-.3-.1-2 1.2-3.6 3-1.6 1.9-6.3 7.1-10.4 11.7-8.6 9.7-25.6 24.6-35.9 31.4-21.4 14.4-42.5 21.7-62.6 21.7-15.3-.1-29.3-3.3-42.5-10-22.8-11.5-41.9-35.5-51.5-64.7-4.2-12.8-4.3-13.4-5.9-22.8-3.8-22.9-4.6-39.2-2.6-55.6 2.7-22.7 3.3-26.5 5-33.2 7.9-30.9 16.7-48.6 32.4-65.6 16.8-17.9 41.1-24.9 65.1-18.6 30 7.8 50.7 36.3 55.5 76.3.5 4.6 1.2 8.7 1.5 9.3.4.5 25.1.9 62.6.9H474V9H364.2L357 26.7c-4 9.8-7.9 18.5-8.7 19.3-1.3 1.3-2.1.8-6.6-4.3-6-6.9-18.3-16.7-28.2-22.5-7.4-4.3-22.6-10.9-28.5-12.4-9.2-2.2-18.1-4.1-24-5-9-1.3-33.1-1.9-35.5-.8z"
+          ></path>
+        </svg>
+      </a>
+      <h1>CYF Workshops</h1>
+    </header>
+    <readme-component></readme-component>
+    <script>
+      class ReadmeComponent extends HTMLElement {
+        constructor() {
+          super();
+          this.attachShadow({ mode: "open" });
+        }
+
+        connectedCallback() {
+          this.fetchReadme();
+        }
+
+        async fetchReadme() {
+          try {
+            const response = await fetch(
+              "https://raw.githubusercontent.com/CodeYourFuture/CYF-Workshops/main/readme.md"
+            );
+            if (!response.ok) {
+              console.error("Failed to fetch README: " + response.status);
+              return;
+            }
+            const md = await response.text();
+            this.render(md);
+          } catch (error) {
+            console.error(error);
+          }
+        }
+
+        render(md) {
+          try {
+            let converter = new showdown.Converter();
+            let html = converter.makeHtml(md);
+            this.shadowRoot.innerHTML = `
+              <main>${html}</main>
+            `;
+          } catch (error) {
+            console.error("Failed to convert markdown to HTML: " + error);
+          }
+        }
+      }
+
+      customElements.define("readme-component", ReadmeComponent);
+    </script>
+  </body>
+</html>
