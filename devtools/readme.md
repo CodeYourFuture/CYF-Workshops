@@ -52,12 +52,12 @@ Take it in turns to swap the driver for each section of this workshop
 1.  [Inspect the page](http://cyf-workshops.netlify.app/devtools/) with Devtools.
 1.  _Write down_ the answers to these questions:
 
-- What is the name of the font used on the page?
-- What is the CSS variable that holds this value? (Hint: variables start with `--`, for example, `--paper`)
-- What is the brand colour value?
-- What variables hold [CSS length data type](https://developer.mozilla.org/en-US/docs/Web/CSS/length) values?
+    - What is the name of the font used on the page?
+    - What is the CSS variable that holds this value? (Hint: variables start with `--`, like, `--paper`)
+    - What is the brand colour value?
+    - What variables hold [CSS length data type](https://developer.mozilla.org/en-US/docs/Web/CSS/length) values?
 
-1. When the timer goes off, share your answers with the other groups. Paste them in a thread in Slack and go quickly to the next challenge.
+1.  When the timer goes off, share your answers with the other groups. Paste them in a thread in Slack and go quickly to the next challenge.
 <!-- {{</note>}} -->
 
 So we've seen that fonts, colors, and spacing are often stored as CSS Variables, or custom properties. This allows them to be easily changed throughout a project by simply altering one value. Let's experiment with this.
@@ -136,7 +136,7 @@ If the explanation doesn't make sense to you, ask Chat GPT to explain it further
 
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 1. Select `<main>` in the Elements panel
-1. Hover over the ruleset attached to main in the Styles panel.
+1. Hover over the [ruleset](https://www.codecademy.com/learn/intro-to-css/modules/learn-css-selectors-visual-rules/cheatsheet) attached to main in the Styles panel.
 1. Copy the Devtools explanation and ask ChatGPT to explain it, like this:
 <details><summary>Please explain this to me like I'm a beginner learning HTML and CSS.</summary>
 
@@ -174,7 +174,7 @@ For example, you have just looked in the Elements panel. This is not really your
 
 1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 1. Find the [Accessibility Panel](https://developer.chrome.com/blog/full-accessibility-tree/) and check 'Enable full-page accessibility tree'
-1. Now click the "Access man" button in the Elements Panel.
+1. Now click the "Universal Man" button in the Elements Panel.
 1. What is _Ignored_ in the Accessibility Tree that is present in the DOM?
 1. When the timer goes off, share your answer with the other groups by pasting in the workshop thread.
 <!-- {{</note>}} -->
@@ -185,7 +185,7 @@ For example, you have just looked in the Elements panel. This is not really your
 {{<note type="exercise" title="Develop Your Skills">}} -->
 
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-1. Discuss how your team will develop your understanding with Devtools. Make your goals [SMART](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals).
+1. Discuss how your team will work on developing your skill with Devtools. Make your goals [SMART](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals). For example, you might audit a website you have built already with Lighthouse and improve its score using the guides. You might schedule a study group where each person researches and then teaches the group about a different panel in Devtools.
 1. Write down your learning goals with Devtools on a piece of paper and sign it underneath. Elect a new person to represent your group.
 1. Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+20+minutes).
 1. Popcorn round the representatives and share your commitments.
