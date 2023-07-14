@@ -34,11 +34,11 @@ Each browser has its own Devtools. Download Safari, Chrome Canary, and Firefox D
 
 <!-- {{</note>}} -->
 
-## Inspect the DOM
+## Inspect the [DOM](https://en.wikipedia.org/wiki/Document_Object_Model#:~:text=DOM%20tree%20structure,-A%20Document%20Object&text=It%20consists%20of%20a%20root,can%20have%20multiple%20child%20nodes.)
 
 ```objectives
 - [ ] Inspect the DOM
-- [ ] Identify the values of the design tokens in the CSS
+- [ ] Identify the values of design tokens in the CSS
 - [ ] Alter the values of the CSS Variables using DevTools
 ```
 
@@ -53,21 +53,21 @@ Take it in turns to swap the driver for each section of this workshop
 1.  _Write down_ the answers to these questions:
 
 - What is the name of the font used on the page?
-- What is the CSS variable that holds this value?
+- What is the CSS variable that holds this value? (Hint: variables start with `--`, for example, `--paper`)
 - What is the brand colour value?
 - What variables hold [CSS length data type](https://developer.mozilla.org/en-US/docs/Web/CSS/length) values?
 
 1. When the timer goes off, share your answers with the other groups. Paste them in a thread in Slack and go quickly to the next challenge.
 <!-- {{</note>}} -->
 
-Fonts, colors, and spacing are often stored as CSS Variables, or custom properties. This allows them to be easily changed throughout a project by simply altering one value. Let's experiment with this.
+So we've seen that fonts, colors, and spacing are often stored as CSS Variables, or custom properties. This allows them to be easily changed throughout a project by simply altering one value. Let's experiment with this.
 
 <!--
 {{<note type="exercise" title="Experiment">}} -->
 
 1. Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. Inspect the [CSS of the page](http://cyf-workshops.netlify.app/devtools/) with Devtools.
-3. Find the CSS Variables (hint: they usually start with `--`, for example, `--paper`)
+3. Find the CSS Variables (hint: variables start with `--`, for example, `--paper`)
 4. Try changing the values of these variables and see how it affects the page.
 5. Some questions to answer. (Make a prediction about what you think will happen first, and then test it)
 
