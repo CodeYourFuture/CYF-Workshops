@@ -75,6 +75,7 @@ So we've seen that fonts, colors, and spacing are often stored as CSS Variables,
 - What will happen when you click the value of `--finger` and press `up arrow` ten times?
 - What will happen when you delete the _value_ of `--copy`
 
+### Reflection
 When the timer goes off, set a new [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes) to share your answers with the other groups.
 
 <!-- {{</note>}} -->
