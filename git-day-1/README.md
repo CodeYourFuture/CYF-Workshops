@@ -65,12 +65,14 @@ Get a local copy of a repository on your local machine. Open the files and folde
 
 ## Creating a commit
 
+> 🎯 Goal: Make some **local** changes and create a **local commit**.
+
 ### Do this section in pairs 
 ### ⏲️ ( 25 mins )
 
 We have the following goal in this section:
 
-> 🎯 Goal: Make some **local** changes and create a **local commit**.
+
 
 
 Our Git timeline starts off in this way:
