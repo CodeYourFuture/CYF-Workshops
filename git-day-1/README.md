@@ -7,7 +7,6 @@ In this workshop, you'll learn the following:
 - how to make local changes in VSCode
 - how to stage changes
 - how to commit changes
-- how to 
 
 
 In this workshop, you'll learn how to create a commit on your local machine.
@@ -71,8 +70,6 @@ Get a local copy of a repository on your local machine. Open the files and folde
 ### ⏲️ ( 25 mins )
 
 We have the following goal in this section:
-
-
 
 
 Our Git timeline starts off in this way:
@@ -142,11 +139,12 @@ We do this by **staging our changes**.
 
 👓 Notice what happens when you carry out step 1.
 
+Explain what you think will happen if you don't stage anything in your working directory.
+
 2. View the **Staged Changes** area in your **Source Control** panel.
 
 
 ### 📸 Creating the commit
-
 
 Once we've staged changes, then we can **commit** these changes.
 
@@ -157,6 +155,7 @@ Once we've staged changes, then we can **commit** these changes.
 
 📝  Now re-check the number of commits you have locally.
 
-
+### When you're finished...
 
 > ❗ Once you've completed this **commit**, you can swap roles in your pair.
+> Choose another file and then go through the steps in [Creating a commit section](#creating-a-commit)
