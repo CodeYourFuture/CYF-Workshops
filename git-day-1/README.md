@@ -9,18 +9,36 @@ In this workshop, you'll learn the following:
 - how to commit changes
 - how to 
 
+
+In this workshop, you'll learn how to create a commit on your local machine.
+At the same time, you'll start to develop an understanding for how Git works.
+
 ## Recap activity
 
 ### Pairs
 ### ⏲️ ( 15 mins )
 
 
+Let's recap some of the things from earlier in the week.
 
-To start you'll need to build up your own intuition of how we can create git commits and how we can then so first off you'll need to visit the following repository on Github and in groups answer the following question: 
+Visit the following repository on Github: https://github.com/CodeYourFuture/cyf-demo-repo
 
-a) How many commits are there in this project?
-b) What is the title of the second commit?
-c) What is the hash for the first commit in the history?
+You'll need to answer the following questions:
+
+
+a) How many commits are there in this project? 
+b) Who committed on Oct 31, 2020?
+c) What changes did Illictonion do in the commit titled "Revert changes accidentally pushed in the past"?
+d) How many files were added in the first commit? What were the names of the files?
+e) What is the hash for the first commit in the history?
+
+In your pair, discuss briefly:
+
+
+- what is a commit ?
+- why do we store repositories on Github?
+- what is VSCode used for ?
+
 
 ## 🍴 Creating a fork
 
@@ -32,6 +50,14 @@ c) What is the hash for the first commit in the history?
 - Create a 
 
 ## Getting a local repository
+
+
+Learn the steps to clone a public repository from GitHub to your local computer using Visual Studio Code.
+
+
+
+In this section, you'll need to clone a remote repository from Github on to your local machine.
+
 
 ### Pairs
 ### ⏲️ ( 15 mins )
@@ -90,13 +116,16 @@ Go to your files and folders in the repository. Now answer the question in line 
 Tip: You can use CMD + S to save changes to a file in VSCode.
 
 
-### : Checking out the changes
+### Viewing the changes
 
 
 We want to view the changes we've made to our working directory so we can start making a commit.
 
 
 1. Go to the **Source Control** tab in VSCode.
+
+![vscode-sidebar-source-control](vscode-sidebar-source-control.png)
+
 2. Go to the Changes section and look at the changes for the file.
 3. Try editing the file again in the Explorer tab and check to see the update is visible in the Source Control panel
 
