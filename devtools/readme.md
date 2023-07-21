@@ -1,7 +1,7 @@
 <!---
 +++
-title='Devtools Day 1'
-time='120'
+title="Devtools Day 1"
+time="120"
 facilitation=true
 [objectives]
 1="Inspect the DOM"
