@@ -7,3 +7,7 @@ const server = app();
 // initialise a server
 console.log("Log 2: ", typeof server);
 
+
+
+app.get(,);
+// set up a "/" endpoint
