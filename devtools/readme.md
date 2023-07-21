@@ -1,5 +1,4 @@
-<!---
-+++
+<!---+++
 title="Devtools Day 1"
 time="120"
 facilitation=true
@@ -12,8 +11,7 @@ facilitation=true
 6="Run a Lighthouse audit"
 7="Identify and resolve the reported issues"
 8="Inspect the Accessibility Tree and compare it to the DOM"
-+++
--->
++++-->
 
 # Inspector Gadget
 
