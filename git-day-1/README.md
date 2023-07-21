@@ -87,7 +87,7 @@ gitGraph
    commit
    commit
    commit
-   branch  "week-1-coursework"
+   branch  "week-1-workshop"
 ```
 
 
@@ -115,12 +115,12 @@ gitGraph
    commit
    commit
    commit
-   branch  "week-1-coursework"
+   branch  "week-1-workshop"
 ```
 
 We're going to figure out how to 
 
-- make local changes and commit them to our branch "week-1-coursework",
+- make local changes and commit them to our branch "week-1-workshop",
 
 so our history ends up looking something like this:
 
@@ -132,7 +132,7 @@ gitGraph
    commit
    commit
    commit
-   branch "week-1-coursework"
+   branch "week-1-workshop"
    commit
    commit
 ```
@@ -222,17 +222,16 @@ title: cyf-demo-repo
 gitGraph
    commit
    commit
-   branch "week-1-coursework"
+   branch "week-1-workshop"
    commit
    commit
 ```
 
 
-📋 Double-check you've been committing to your branch and not your `main` branch. 
+📋 Double-check you've been committing to your branch `week-1-workshop` branch and not your `main` branch. 
 
 
-
-However, our fork has the following:
+However, our remote fork only has a main branch:
 
 ```mermaid
 ---
@@ -245,14 +244,15 @@ gitGraph
 
 
 
-In other words, we've not added our local branch on to Github.
+In other words, we've not added our local branch on to the remote fork on Github.
 
 To do this, we must **push** our branch on to Github.
 
 
 **push** means adding local work to a remote Github repository.
 
-Figure out how to **push** your local branch to the Github repository.
+
+🔍 Figure out how to **push** your local branch to the Github repository using the Source Control interface in VSCode.
 
 
 
