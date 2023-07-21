@@ -86,7 +86,8 @@ title: cyf-demo-repo
 gitGraph
    commit
    commit
-   branch "week-1-coursework" type: HIGHLIGHT
+   commit
+   branch  "week-1-coursework"
 ```
 
 
@@ -112,8 +113,10 @@ Our Git timeline starts off with some commits like this ( there will be more tha
 title: cyf-demo-repo
 ---
 gitGraph
+   commit 
    commit
    commit
+   branch "week-1-coursework"
 ```
 
 We want to figure out to make local changes and then commit them so our timeline ends up looking like this:
@@ -125,7 +128,7 @@ title: cyf-demo-repo
 gitGraph
    commit
    commit
-   commit type: HIGHLIGHT
+   branch "week-1-coursework"
 ```
 
 where the most recent commit contains our recent changes.
@@ -218,12 +221,10 @@ gitGraph
    commit
 ```
 
-{{<note type="exercise">}}
 
 📋 Double-check you've been committing to your branch and not your `main` branch. 
 
 
-{{</note>}}
 
 However, our fork has the following:
 
