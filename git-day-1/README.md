@@ -113,7 +113,7 @@ Our Git timeline starts off with some commits like this ( there will be more tha
 title: cyf-demo-repo
 ---
 gitGraph
-   commit 
+   commit
    commit
    commit
    branch "week-1-coursework"
