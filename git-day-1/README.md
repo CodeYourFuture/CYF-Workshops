@@ -118,7 +118,11 @@ gitGraph
    branch  "week-1-coursework"
 ```
 
-We want to figure out to make local changes and then commit them so our timeline ends up looking like this:
+We're going to figure out how to 
+
+- make local changes and commit them to our branch "week-1-coursework",
+
+so our history ends up looking something like this:
 
 ```mermaid
 ---
@@ -133,7 +137,7 @@ gitGraph
    commit
 ```
 
-where the most recent commit contains our recent changes.
+where the most recent commits contain our recent work.
 
 To create a commit, you're going to go through the following steps:
 
