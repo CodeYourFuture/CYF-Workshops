@@ -17,19 +17,8 @@ app.get("/",function() {
 // it should respond with status code 200
 
 
-const albums = [{
-    title : "Afrique Victime",
-    artist: "Mdou Moctar",
-    yearOfRelease: 2021
-    
-},
-{
-    title: 'Africa Brasil',
-    artist: 'Jorge Ben Jor',
-    yearOfRelease: 1976
-},
-{
-    title: "Doing it in Lagos,L Boogie,Pop & Disco in 1980's Nigeria",
-    artist: 'Compilation',
-    yearOfRelease: 2016
-}];
+app.get('/albums',function(request,response) {
+    response.status(200).send({
+        albums
+    });
+});
