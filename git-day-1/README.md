@@ -1,12 +1,13 @@
 
 
-## Part 1 -  📸 Creating a commit
+## Part 1 -  📸 Git week 1 workshop
 
 In this workshop, you'll learn the following: 
 
 - how to make local changes in VSCode
 - how to stage changes
 - how to commit changes
+- how to push local changes on to remote repository
 
 
 In this workshop, you'll learn how to create a commit on your local machine.
