@@ -106,8 +106,7 @@ You'll need to carefully follow through the instructions in this task.
 
 
 
-Our Git timeline starts off with some commits like this ( there will be more than 3 commits in the actual history ):
-
+Our Git timeline starts off with some commits like this:
 ```mermaid
 ---
 title: cyf-demo-repo
@@ -116,7 +115,7 @@ gitGraph
    commit
    commit
    commit
-   branch "week-1-coursework"
+   branch  "week-1-coursework"
 ```
 
 We want to figure out to make local changes and then commit them so our timeline ends up looking like this:
@@ -136,7 +135,7 @@ gitGraph
 
 where the most recent commit contains our recent changes.
 
-To create a commit, we're going to step through the following process:
+To create a commit, you're going to go through the following steps:
 
 1. Make a change to a file
 2. View the local changes
