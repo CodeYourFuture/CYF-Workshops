@@ -4,22 +4,20 @@
 
 In this workshop, we'll build up a NodeJS app from the ground up and check our understanding as we go along.
 
-## Level 100
+## Level 200
 
-Welcome to Node Workshop Level 100.
+Welcome to Node Workshop Level 200.
 
 
-Take a look at  `package.json`.
-And take a look at `app.js`.
 
 ## Questions
 
-a) Analyse and then predict what will happen when you run the command `node app.js` inside the `node-review` directory.
 
-Think carefully about the current files and folders you've got in the `node-review` directory. 
-
+You run the command `npm start` inside this directory, then
+  
+  a) what will the first `console.log` starting with  "Log 1..." print to the terminal? Explain your answer
+  b) what will the second `console.log` starting with "Log 2..." print to the terminal? Explain your answer.
+ 
 
 {YOUR_ANSWER_HERE}
 
-
-b) How can you can resolve this problem?
