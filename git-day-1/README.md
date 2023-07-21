@@ -77,7 +77,7 @@ Remember to check your answer before continuing.
 ## Recap - 🌳 creating a branch
 
 
-In this section, you'll need to create a branch so that your git timeline looks like this:
+In this section, you'll need to create a branch so that your local git repository looks like this:
 
 ```mermaid
 ---
@@ -128,7 +128,10 @@ title: cyf-demo-repo
 gitGraph
    commit
    commit
+   commit
    branch "week-1-coursework"
+   commit
+   commit
 ```
 
 where the most recent commit contains our recent changes.
