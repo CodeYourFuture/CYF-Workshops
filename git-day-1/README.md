@@ -92,11 +92,11 @@ gitGraph
 ```
 
 
-## Creating a commit
+## New skill 🧰 - Creating a commit 📸
 
 We have the following goal in this section:
 
-> 🎯 Goal: Make some **local** changes and create a **local commit**.
+> 🎯 Goal: Make some **local** changes and create a **local commit** on our branch.
 
 
 You'll need to carefully follow through the instructions in this task.
@@ -150,7 +150,7 @@ To create a commit, you're going to go through the following steps:
 
 ### 🗄️ 1. Make a change to a file
 
-1. Open up your local github repo `cyf-demo-repo` to 
+1. Open up your local github repo `cyf-demo-repo`.
 2. Go to the Explorer section of VSCode
 3. Locate `file.txt` and edit the file with the answer to the questions.
 4. Remember to save the changes to `file.txt`.
