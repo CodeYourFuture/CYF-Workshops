@@ -22,3 +22,13 @@ app.get('/albums',function(request,response) {
         albums
     });
 });
+
+
+app.get('/albums/:id',function(request,response) {
+
+    const album = albums.find(album => album.id === request.params);
+
+    response.status(200).send({
+        album
+    });
+});
