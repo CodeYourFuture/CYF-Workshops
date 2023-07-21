@@ -9,5 +9,9 @@ console.log("Log 2: ", typeof server);
 
 
 
-app.get(,);
+app.get("/",function() {
+    response.status(201).send("");
+});
 // set up a "/" endpoint
+// it should respond with "You've successfully reached the server"
+// it should respond with status code 200
