@@ -4,6 +4,9 @@
 
 In this workshop, we'll build up a NodeJS app from the ground up and check our understanding as we go along.
 
+
+Remember to Preview this README.
+
 ## Level 100
 
 Welcome to Node Workshop Level 100.
