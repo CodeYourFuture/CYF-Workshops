@@ -1,15 +1,15 @@
-const app = require('express');
+const express = require('express');
 // loading the express module on line one
 
 
 
-const server = app();
+const server = express();
 // initialise a server
 
 
 
 
-app.get("/",function() {
+server.get("/",function() {
     response.status(200).send("You've successfully reached the server");
 });
 // set up a "/" endpoint
@@ -33,3 +33,7 @@ const albums = [{
     artist: 'Compilation',
     yearOfRelease: 2016
 }];
+
+server.listen(9090,() => {
+    console.log("the server is listening on port 9090...");
+})
