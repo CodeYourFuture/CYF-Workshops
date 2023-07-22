@@ -31,7 +31,7 @@ You'll need to keep testing this endpoint works by starting a locally hosted ser
 
 Remember to check the response body and the status code.
 
-To test this endpoint you could use the command: `npm start; curl localhost:9090/albums`. Alternatively, you can use Postman to test this endpoint is working properly.
+To test this endpoint you could use the command: `curl localhost:9090/albums`. Alternatively, you can use Postman to test this endpoint is working properly.
 
  
 
