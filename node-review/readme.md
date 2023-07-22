@@ -21,9 +21,10 @@ a) Analyse and then predict what will happen when you run the command `node app.
 
 Think carefully about the current files and folders you've got in the `node-review` directory. 
 
-
-{YOUR_ANSWER_HERE}
+In the app.js, there is only the import of Express, so it would return an error.
 
 
 b) How can you can resolve this problem?
-hhjjkk
+1. we need to call the express function 
+2. We need to write a listen function and give the app a port number on which to listen to requests.
+3. We need to write the get function and write what response we want to send back
