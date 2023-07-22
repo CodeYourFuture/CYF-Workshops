@@ -1,15 +1,13 @@
-const app = require('express');
+const express = require('express');
+const albums = require('./albums.js')
 // loading the express module on line one
 
 
-
-const server = app();
+const server = express();
 // initialise a server
 
 
-
-
-app.get("/",function() {
+server.get("/",function() {
     response.status(200).send("You've successfully reached the server");
 });
 // set up a "/" endpoint
@@ -17,14 +15,14 @@ app.get("/",function() {
 // it should respond with status code 200
 
 
-app.get('/albums',function(request,response) {
+server.get('/albums',function(request,response) {
     response.status(200).send({
         albums
     });
 });
 
 
-app.get('/albums/:id',function(request,response) {
+server.get('/albums/:id',function(request,response) {
 
     const album = albums.find(album => album.id === request.params);
 
@@ -32,3 +30,7 @@ app.get('/albums/:id',function(request,response) {
         album
     });
 });
+
+server.listen(9090,() => {
+    console.log('listening on port 9090...');
+})
