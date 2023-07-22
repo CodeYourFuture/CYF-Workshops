@@ -15,7 +15,7 @@ Welcome to Node Workshop Level 600.
 In this level, we've moved the albums data to another file `albums.js` to keep `app.js` tidier.
 
 
-Read the source code in `app.js` and then predict what will happen when you run the command `npm start`.
+Read the source code in `app.js` and then predict what will happen when you call the endpoint `localhost:9090/albums`
 
 
 What problem do you notice? Why is this happening?
