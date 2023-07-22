@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>CYF Workshops</title>
     <meta name="description" content="Workshops for CYF classes" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js" defer async></script>
     <style>
       /* Here's our design 
 It's fonts, colours, and spacing.
@@ -121,28 +121,27 @@ And give them their own layouts inside. */
       <h1>CYF Workshops</h1>
     </header>
     <readme-component></readme-component>
-    <script>
+      <script>
       class ReadmeComponent extends HTMLElement {
         constructor() {
           super();
           this.attachShadow({ mode: "open" });
         }
-
         connectedCallback() {
           this.fetchReadme();
         }
-
         async fetchReadme() {
           try {
             const response = await fetch(
-              "https://raw.githubusercontent.com/CodeYourFuture/CYF-Workshops/main/readme.md"
+              "https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme"
             );
             if (!response.ok) {
               console.error("Failed to fetch README: " + response.status);
               return;
             }
-            const md = await response.text();
-            this.render(md);
+            const json = await response.json();
+            const decodedContent = atob(json.content);
+            this.render(decodedContent);
           } catch (error) {
             console.error(error);
           }
