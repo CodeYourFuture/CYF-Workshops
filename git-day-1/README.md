@@ -1,10 +1,12 @@
-
-## Learning objectives
-
-1. save local changes to a repository in VSCode
-2. stage local changes
-3. commit changes to a local branch
-4. push local changes on to remote repository
+title='Git week 1 workshop'
+time='120'
+facilitation=true
+[objectives]
+1='save local changes to a repository in VSCode'
+2='stage local changes'
+3='commit changes to a local branch'
+4='push local changes on to remote repository'
++++
 
 ## Part 1 -  📸 Git week 1 workshop
 
