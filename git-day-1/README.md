@@ -24,7 +24,7 @@ Let's recap some of the things from earlier in the week.
 
 Visit the following repository on Github: https://github.com/CodeYourFuture/cyf-demo-repo
 
-You'll need to answer the following questions:
+Answer the following questions:
 
 
 a) How many commits are there in this project?  
@@ -45,9 +45,9 @@ In your pair, discuss briefly:
 ### Do this section in pairs
 ### ⏲️ ( 10 mins )
 
-You can use the guidelines from the prep section of this week to help you create a fork.
+Use the guidelines from the prep section of this week to create a fork.
 
-1. On one person's computer, create a fork of the following repo: https://github.com/CodeYourFuture/cyf-demo-repo
+1. On one person's computer, fork this repo: https://github.com/CodeYourFuture/cyf-demo-repo
 2. 📝 Double-check the URL of your forked repo. How can you tell the fork was successfully created?
 
 
@@ -56,9 +56,9 @@ You can use the guidelines from the prep section of this week to help you create
 ### Do this section in pairs
 ### ⏲️ ( 10 mins )
 
-In this section, you'll need to clone a remote repository from Github on to your local machine.
+Now clone a remote repository from Github on to your local machine.
 
-ℹ️ You can use the prep section from this week to help you create a fork.
+Use the prep section from this week to help you create a fork.
 
 ### 📋 Check your understanding
 
@@ -78,7 +78,7 @@ Remember to check your answer before continuing.
 ## Recap - 🌳 creating a branch
 
 
-In this section, you'll need to create a branch so that your local git repository looks like this:
+Next, create a branch so that your local git repository looks like this:
 
 ```mermaid
 ---
@@ -94,12 +94,11 @@ gitGraph
 
 ## New skill 🧰 - Creating a commit 📸
 
-We have the following goal in this section:
 
 > 🎯 Goal: Make some **local** changes and create a **local commit** on our branch.
 
 
-You'll need to carefully follow through the instructions in this task.
+Follow these instructions carefully.
 
 
 ### Do this section in pairs 
@@ -123,7 +122,7 @@ We're going to figure out how to
 
 - make local changes and commit them to our branch "week-1-workshop",
 
-so our history ends up looking something like this:
+so our history looks something like this:
 
 ```mermaid
 ---
@@ -138,9 +137,9 @@ gitGraph
    commit
 ```
 
-where the most recent commits contain our recent work.
+The most recent commits contain our most recent work.
 
-To create a commit, you're going to go through the following steps:
+Create a commit using these steps:
 
 1. Make a change to a file
 2. View the local changes
@@ -150,9 +149,9 @@ To create a commit, you're going to go through the following steps:
 
 ### 🗄️ 1. Make a change to a file
 
-1. Open up your local github repo `cyf-demo-repo`.
+1. Open up your local repo `cyf-demo-repo`.
 2. Go to the Explorer section of VSCode
-3. Locate `file.txt` and edit the file with the answer to the questions.
+3. Find `file.txt` and edit the file with the answer to the questions.
 4. Remember to save the changes to `file.txt`.
 
 Tip: You can use CMD + S to save changes to a file in VSCode.
@@ -200,7 +199,7 @@ Once we've staged changes, then we can **commit** these changes.
 
 ### When you're finished...
 
-> ❗ Once you've completed this **commit**, you can swap roles in your pair.
+> ❗ Once you've completed this **commit**, swap roles in your pair.
 > Choose another file and then go through the steps in [Creating a commit section](#creating-a-commit)
 
 
@@ -214,7 +213,7 @@ Once we've staged changes, then we can **commit** these changes.
 
 ### 🫸 Pushing (15 mins)
 
-After committing your work locally, you'll have a local branch that looks like this
+After committing your work on your machine, you'll have a local branch that looks like this
 
 ```mermaid
 ---
@@ -245,7 +244,7 @@ gitGraph
 
 
 
-In other words, we've not added our local branch on to the remote fork on Github.
+In other words, we have _not_ added our local branch on to the remote fork on Github.
 
 To do this, we must **push** our branch on to Github.
 
