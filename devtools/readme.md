@@ -1,19 +1,3 @@
-<!--+++
-title="Devtools Day 1"
-time="120"
-facilitation=true
-objectives = [
-  "Inspect the DOM",
-  "Identify the values of the design tokens in the CSS",
-  "Alter the values of the CSS Variables using DevTools",
-  "Select the Grid Badge in the Elements panel",
-  "Use the Grid Editor to change layout",
-  "Run a Lighthouse audit",
-  "Identify and resolve the reported issues",
-  "Inspect the Accessibility Tree and compare it to the DOM"
-]
-+++-->
-
 # Inspector Gadget
 
 ### Prep
