@@ -1,13 +1,15 @@
+title='Git week 1 workshop'
+time='120'
+facilitation=true
+[objectives]
+1='save local changes to a repository in VSCode'
+2='stage local changes'
+3='commit changes to a local branch'
+4='push local changes on to remote repository'
++++
 
 
 ## Part 1 -  📸 Git week 1 workshop
-
-In this workshop, you'll learn the following: 
-
-- how to make local changes in VSCode
-- how to stage changes
-- how to commit changes
-- how to push local changes on to remote repository
 
 
 In this workshop, you'll learn how to create a commit on your local machine.
@@ -203,11 +205,9 @@ Once we've staged changes, then we can **commit** these changes.
 > Choose another file and then go through the steps in [Creating a commit section](#creating-a-commit)
 
 
---- 
 
-### Take a break... 🍫
+##  Take a break for 10 mins... 🍫
 
----
 
 ## Part 2
 
