@@ -57,7 +57,7 @@ Use the guidelines from the prep section of this week to create a fork.
 ### Do this section in pairs
 ### ⏲️ ( 10 mins )
 
-Now clone a remote repository from Github on to your local machine.
+Now clone a remote repository from Github onto your local machine.
 
 Use the prep section from this week to help you create a fork.
 
