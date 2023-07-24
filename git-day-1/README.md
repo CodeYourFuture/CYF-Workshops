@@ -163,7 +163,7 @@ Tip: You can use CMD + S to save changes to a file in VSCode.
 
 We want to view the changes we've just made to our working directory.
 
-1. Go to the **Source Control** tab in VSCode.
+1. Locate the **Source Control** tab in VSCode.
 
 ![vscode-sidebar-source-control](vscode-sidebar-source-control.png)
 
@@ -189,7 +189,7 @@ Explain what you think will happen if you don't stage anything in your working d
 
 ### 📸 4. Create the commit
 
-Once we've staged changes, then we can **commit** these changes.
+Once we've made the commit, then we can **commit** these changes.
 
 📝 Check the number of commits you have locally. They should still be the same as before.
 
