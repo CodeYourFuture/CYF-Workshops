@@ -116,7 +116,7 @@ It's important that software works and that people can use it. Lighthouse can he
 1. Run a Lighthouse audit on [the workshop page](http://cyf-workshops.netlify.app/devtools/).
 1. Look at the results and identify the issue.
 1. Now, how will you fix it? Click on the error. Lighthouse explains what is wrong and provides a link to a detailed explanation on why it's wrong, how serious it is, and how to fix it!
-1. If you have time, fix the error, but in any case, once the timer goes off, past the link to the detailed explanation page into the workshop thread in Slack.
+1. If you have time, fix the error, but in any case, once the timer goes off, paste the link to the detailed explanation page into the workshop thread in Slack.
 1. Go straight to the next challenge, after which we will spend some time discussing what we discovered.
 
 <!-- {{</note>}} -->
@@ -130,7 +130,11 @@ It's important that software works and that people can use it. Lighthouse can he
 
 In fact Devtools is a great teacher. In the Styles panel, hover over any CSS property to get a quick definition of that property. Click 'Learn More' to go straight to the MDN page for that property.
 
-If the explanation doesn't make sense to you, ask Chat GPT to explain it further.
+If the explanation doesn't make sense to you, ask ChatGPT (a generative AI) to explain it further. 
+<!--
+{{<note type="warning" title="Plausible Hallucinations">}} -->
+Remember: Generative AIs are regularly **confidently wrong**; it can be helpful, but never trust it over Devtools.
+<!-- {{</note>}} -->
 
 <!--
 {{<note type="exercise" title="Explore and Explain">}} -->
