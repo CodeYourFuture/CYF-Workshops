@@ -1,3 +1,4 @@
++++
 title='Git week 1 workshop'
 time='120'
 facilitation=true
@@ -243,9 +244,9 @@ gitGraph
 
 
 
-In other words, we have _not_ added our local branch on to the remote fork on Github.
+In other words, we have _not_ added our local branch onto the remote fork on Github.
 
-To do this, we must **push** our branch on to Github.
+To do this, we must **push** our branch onto Github.
 
 
 **push** means adding local work to a remote Github repository.
