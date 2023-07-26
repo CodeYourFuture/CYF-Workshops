@@ -246,8 +246,8 @@ Once we've made the commit, then we can **commit** these changes.
 
 ### When you're finished...
 
-> ❗ Once you've completed this **commit**, swap roles in your pair.
-> Choose another file and then go through the steps in [Creating a commit section](#creating-a-commit)
+❗ Once you've completed this **commit**, swap roles in your pair.
+Choose another file and then go through the steps in [Creating a commit section](#creating-a-commit)
 
 
 ### Whole group discussion/demo 🧵 🗣️
@@ -268,7 +268,6 @@ Also time for clarification questions too.
 
 - Trainees work in pairs
 - ⏲️ 15 mins
-- A volunteer will need to facilitate this section
 
 After committing your work on your machine, you'll have a local branch that looks like this
 
