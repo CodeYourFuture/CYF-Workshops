@@ -200,8 +200,8 @@ To create a commit, we can use the following steps:
 4. Remember to save the changes to `file.txt`.
 
 Tip: 
-- You can use CMD+S on a Mac to save changes to a file in VSCode.
-- You can use Ctrl+S on a Linux OS to save changes to a file in VSCode.
+- You can use <kbd>Cmd</kbd> + <kbd>Save</kbd> on a Mac to save changes to a file in VSCode.
+- You can use <kbd>Ctrl</kbd> + <kbd>Save</kbd> on a Linux OS to save changes to a file in VSCode.
 
 
 ### 🔬 2. View the local changes
