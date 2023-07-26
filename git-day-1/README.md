@@ -3,18 +3,8 @@
 
  # Part 1
 
-```objectives
 
-- [ ] save local changes to a repository in VSCode
-- [ ] stage local changes
-- [ ] commit changes to a local branch
-- [ ] define "pushing"
-- [ ] push local changes on to remote repository
-
-```
-
-In this workshop, you'll learn how to create a commit on your local machine.
-At the same time, you'll start to develop an understanding of how Git works.
+This workshop starts with a recap based on this week's prep material...
 
 ## Exploring Github repositories
 
@@ -138,8 +128,18 @@ gitGraph
 
 ## Part 2 - New skills 🧰 - Committing and pushing 📸
 
+```objectives
 
-### 🕹️ Activity
+- [ ] save local changes to a repository in VSCode
+- [ ] stage local changes
+- [ ] commit changes to a local branch
+- [ ] define "pushing"
+- [ ] push local changes on to remote repository
+
+```
+
+
+### 🕹️ Activity - Figure it out 🔍 
 
 
 > 🎯 Goal: Make some **local** changes and create a **local commit** on our branch.
@@ -150,10 +150,8 @@ gitGraph
 Follow these instructions carefully.
 
 
-
-
-
 Our Git timeline starts off with some commits like this:
+
 ```mermaid
 ---
 title: cyf-demo-repo
@@ -184,9 +182,9 @@ gitGraph
    commit
 ```
 
-The most recent commits contain our most recent work.
+where the most recent commits contain our changes.
 
-Create a commit using these steps:
+To create a commit, we can use the following steps:
 
 1. Make a change to a file
 2. View the local changes
@@ -196,8 +194,8 @@ Create a commit using these steps:
 
 ### 🗄️ 1. Make a change to a file
 
-1. Open up your local repo `cyf-demo-repo`.
-2. Go to the Explorer section of VSCode
+1. Open up your local repo `cyf-demo-repo` in VSCode.
+2. Go to the Explorer section of VSCode ( look for a 🔍 icon ).
 3. Find `file.txt` and edit the file with the answer to the questions.
 4. Remember to save the changes to `file.txt`.
 
@@ -225,6 +223,7 @@ We need to tell Git which changes we want to be part of our next commit.
 
 We do this by **staging our changes**.
 
+In the Source Control tab again...
 
 1. Go to the file `README.md` and click on the **+**.
 
@@ -239,13 +238,10 @@ Explain what you think will happen if you don't stage anything in your working d
 
 Once we've made the commit, then we can **commit** these changes.
 
-📝 Check the number of commits you have locally. They should still be the same as before.
-
 1. Enter a commit message describing briefly what you did in your commit.
 2. Click Commit to create the Git commit.
 
-📝  Now re-check the number of commits you have locally.
-
+📝  Now figure out how many commits you have on your local machine.
 
 
 ### When you're finished...
@@ -257,7 +253,7 @@ Once we've made the commit, then we can **commit** these changes.
 ### Whole group discussion/demo 🧵 🗣️
 
 - Whole class discussion/demo
-- ⏲️ 15 mins
+- ⏲️ 10 mins
 - A volunteer will need to facilitate this section
 
 A volunteer will need to navigate through the steps in the previous section with directions from the group.
@@ -317,7 +313,7 @@ To do this, we must **push** our branch onto Github.
 ### Group discussion
 
 - Whole class discussion/demo
-- ⏲️ 20 mins
+- ⏲️ 10 mins
 - A volunteer will need to facilitate this section
 
 A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
