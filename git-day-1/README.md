@@ -76,7 +76,7 @@ Before continuing, try answering the following:
 
 Remember to check your answer before continuing.
 
-
+TODO: I'm a little confused by this section - what repository are they meant to be cloning? Any one? CodeYourFuture/cyf-demo-repo? Their fork of cyf-demo-repo? I assumed their fork of the cyf-demo-repo, but then the last instruction is "Now clone your forked repository", so presumably it isn't that?
 1. Get a local copy of a repository on your local machine.
 2. Open this local repository using VSCode.
 3. Use `pwd` in your terminal to check you're in the right place.
@@ -102,6 +102,7 @@ A volunteer will need to navigate and let the group guide them in following thro
 
 Next, create a branch so that your local git repository looks like this:
 
+TODO: I don't think this diagram is very clear, it's not obvious that week-1-workshop has the same commits as main in it? It kind of looks like week-1-workshop doesn't have any commits on it at all?
 ```mermaid
 ---
 title: cyf-demo-repo
@@ -128,6 +129,7 @@ gitGraph
 
 ## Part 2 - New skills 🧰 - Committing and pushing 📸
 
+TODO: These aren't currently folded into a collapsable learning objectives block - they probably should be?
 ```objectives
 
 - [ ] save local changes to a repository in VSCode
@@ -211,6 +213,7 @@ We want to view the changes we've just made to our working directory.
 
 1. Locate the **Source Control** tab in VSCode.
 
+TODO: This image appears to be missing in the rendered page?
 ![vscode-sidebar-source-control](vscode-sidebar-source-control.png)
 
 2. Go to the Changes section and click on the file you changed - this should now show the changes for the file.
@@ -238,6 +241,16 @@ In the Source Control tab again...
 ### 📸 4. Create the commit
 
 Once we've staged our changes, then we can **commit** these changes.
+
+Before we do, we should make sure we're on the correct branch. Check in the bottom-right of your VS Code window that it looks like this:
+
+TODO: screenshot of current branch being week-1-workshop
+
+Not like this:
+
+TODO: screenshot of current branch being main
+
+If you're sure you're on the right branch:
 
 1. Enter a commit message describing briefly what you did in your commit.
 2. Click Commit to create the Git commit.
@@ -320,7 +333,11 @@ To do this, we must **push** our branch onto GitHub.
 
 A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
 
-
+TODO: I would have expected three more sections here:
+1. Looking at the remote branch on the GitHub UI and seeing it's there
+2. Creating a pull request
+3. A bit of discussion about code review - how to leave a comment, how to view comments, how to respond to comments.
+The first seems important, the other two can probably wait, but should probably be covered somewhere.
 
 
 
