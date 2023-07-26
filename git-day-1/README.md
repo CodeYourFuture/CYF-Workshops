@@ -55,7 +55,7 @@ A volunteer can facilitate a whole group discussion by going through the questio
 ### 🕹️ Recap activity 
 
 - Trainees do this section in pairs
-- ⏲️ 10 mins
+- ⏲️ 5 mins
 
 Use the guidelines from the prep section of this week to create a fork.
 
@@ -65,7 +65,7 @@ Use the guidelines from the prep section of this week to create a fork.
 ### Whole group discussion/demo 🧵 🗣️
 
 - Whole class discussion
-- ⏲️ 10 mins
+- ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
 A volunteer will need to navigate and let the group guide them in creating a fork as per the steps in the previous section.
@@ -75,7 +75,7 @@ A volunteer will need to navigate and let the group guide them in creating a for
 ### 🕹️ Recap activity 
 
 - Trainees do this section in pairs
-- ⏲️ 10 mins
+- ⏲️ 5 mins
 
 #### 📋 Check your understanding
 
@@ -96,7 +96,7 @@ Now clone your forked repository from Github onto your local machine.
 ### Whole group discussion/demo 🧵 🗣️
 
 - Whole class discussion/demo
-- ⏲️ 10 mins
+- ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
 A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
@@ -143,12 +143,13 @@ gitGraph
 
 > 🎯 Goal: Make some **local** changes and create a **local commit** on our branch.
 
+- Do this section in pairs
+- ⏲️ 25 mins 
 
 Follow these instructions carefully.
 
 
-- Do this section in pairs
-- ⏲️ 25 mins 
+
 
 
 Our Git timeline starts off with some commits like this:
@@ -258,23 +259,18 @@ Once we've made the commit, then we can **commit** these changes.
 - ⏲️ 15 mins
 - A volunteer will need to facilitate this section
 
-A volunteer will need to navigate through the steps in the previous section. Also time for clarification questions too.
+A volunteer will need to navigate through the steps in the previous section with directions from the group.
+Also time for clarification questions too.
 
 
 ## 🫸 Pushing
 
-### 🕹️ Activity
+> 🎯 Goal: Push a branch to a remote repository
+
+### 🕹️ Activity - Figure it out 🔍 
 
 - Trainees work in pairs
 - ⏲️ 15 mins
-- A volunteer will need to facilitate this section
-
-
-
-### Group discussion
-
-- Whole class discussion/demo
-- ⏲️ 20 mins
 - A volunteer will need to facilitate this section
 
 After committing your work on your machine, you'll have a local branch that looks like this
@@ -306,8 +302,6 @@ gitGraph
    commit
 ```
 
-
-
 In other words, we have _not_ added our local branch onto the remote fork on Github.
 
 To do this, we must **push** our branch onto Github.
@@ -317,6 +311,15 @@ To do this, we must **push** our branch onto Github.
 
 
 🔍 Figure out how to **push** your local branch to the Github repository using the Source Control interface in VSCode.
+
+
+### Group discussion
+
+- Whole class discussion/demo
+- ⏲️ 20 mins
+- A volunteer will need to facilitate this section
+
+A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
 
 
 
