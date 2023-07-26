@@ -1,7 +1,7 @@
 
 
 
-## Part 1 -  📸 Git week 1 workshop
+ # Part 1
 
 ```objectives
 
@@ -15,12 +15,12 @@
 In this workshop, you'll learn how to create a commit on your local machine.
 At the same time, you'll start to develop an understanding of how Git works.
 
-## Recap activity
+## Exploring Github repositories
 
-### Pairs
+### Recap activity 🕹️
 
-### ⏲️ ( 15 mins )
-
+- Trainees do this section in pairs
+- ⏲️ 10 mins
 
 Let's recap some of the things from earlier in the week.
 
@@ -29,7 +29,7 @@ Visit the following repository on Github: https://github.com/CodeYourFuture/cyf-
 Answer the following questions:
 
 
-a) How many commits are there in this project?  
+a) How many commits are there in this project?
 b) Who committed on Oct 31, 2020?  
 c) What changes did Illictonion do in the commit titled "Revert changes accidentally pushed in the past"?  
 d) How many files were added in the first commit? What were the names of the files?  
@@ -41,28 +41,43 @@ In your pair, discuss briefly:
 - why do we store repositories on Github ?
 - what is VSCode used for ?
 
+### 🧵🗣️ Whole group discussion 
 
-## 🍴 Recap - Creating a fork
+- Whole class discussion
+- ⏲️ 10 mins
+- A volunteer will need to facilitate this section
 
-### Do this section in pairs
-### ⏲️ ( 10 mins )
+A volunteer can facilitate a whole group discussion by going through the questions above and asking pairs for their feedback. If pairs are unsure / not quite accurate then spend a small amount of time addressing misconceptions. Remember to ask around for feedback 
+
+
+## Creating a fork 🍴
+
+### 🕹️ Recap activity 
+
+- Trainees do this section in pairs
+- ⏲️ 10 mins
 
 Use the guidelines from the prep section of this week to create a fork.
 
 1. On one person's computer, fork this repo: https://github.com/CodeYourFuture/cyf-demo-repo
 2. 📝 Double-check the URL of your forked repo. How can you tell the fork was successfully created?
 
+### Whole group discussion/demo 🧵 🗣️
 
-## Recap - Cloning a repository
+- Whole class discussion
+- ⏲️ 10 mins
+- A volunteer will need to facilitate this section
 
-### Do this section in pairs
-### ⏲️ ( 10 mins )
+A volunteer will need to navigate and let the group guide them in creating a fork as per the steps in the previous section.
 
-Now clone a remote repository from Github onto your local machine.
+## 🌀 Cloning a repository 
 
-Use the prep section from this week to help you create a fork.
+### 🕹️ Recap activity 
 
-### 📋 Check your understanding
+- Trainees do this section in pairs
+- ⏲️ 10 mins
+
+#### 📋 Check your understanding
 
 Before continuing, try answering the following:
 
@@ -71,14 +86,28 @@ Before continuing, try answering the following:
 Remember to check your answer before continuing.
 
 
-
 1. Get a local copy of a repository on your local machine.
 2. Open this local repository using VSCode.
 3. Use `pwd` in your terminal to check you're in the right place.
 
- 
-## Recap - 🌳 creating a branch
+Now clone your forked repository from Github onto your local machine.
 
+
+### Whole group discussion/demo 🧵 🗣️
+
+- Whole class discussion/demo
+- ⏲️ 10 mins
+- A volunteer will need to facilitate this section
+
+A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
+
+
+## 🌳 Creating a branch
+
+### 🕹️ Recap activity 
+
+- Trainees do this section in pairs
+- ⏲️ 10 mins
 
 Next, create a branch so that your local git repository looks like this:
 
@@ -93,8 +122,23 @@ gitGraph
    branch  "week-1-workshop"
 ```
 
+### Whole group discussion/demo 🧵 🗣️
 
-## New skill 🧰 - Creating a commit 📸
+
+- Whole class discussion/demo
+- ⏲️ 10 mins
+- A volunteer will need to facilitate this section
+
+
+
+## Take a break for 10 mins... 🍫
+
+
+
+## Part 2 - New skills 🧰 - Committing and pushing 📸
+
+
+### 🕹️ Activity
 
 
 > 🎯 Goal: Make some **local** changes and create a **local commit** on our branch.
@@ -103,9 +147,8 @@ gitGraph
 Follow these instructions carefully.
 
 
-### Do this section in pairs 
-### ⏲️ ( 25 mins )
-
+- Do this section in pairs
+- ⏲️ 25 mins 
 
 
 Our Git timeline starts off with some commits like this:
@@ -156,7 +199,9 @@ Create a commit using these steps:
 3. Find `file.txt` and edit the file with the answer to the questions.
 4. Remember to save the changes to `file.txt`.
 
-Tip: You can use CMD + S to save changes to a file in VSCode.
+Tip: 
+- You can use CMD+S on a Mac to save changes to a file in VSCode.
+- You can use Ctrl+S on a Linux OS to save changes to a file in VSCode.
 
 
 ### 🔬 2. View the local changes
@@ -199,19 +244,38 @@ Once we've made the commit, then we can **commit** these changes.
 
 📝  Now re-check the number of commits you have locally.
 
+
+
 ### When you're finished...
 
 > ❗ Once you've completed this **commit**, swap roles in your pair.
 > Choose another file and then go through the steps in [Creating a commit section](#creating-a-commit)
 
 
+### Whole group discussion/demo 🧵 🗣️
 
-##  Take a break for 10 mins... 🍫
+- Whole class discussion/demo
+- ⏲️ 15 mins
+- A volunteer will need to facilitate this section
+
+A volunteer will need to navigate through the steps in the previous section. Also time for clarification questions too.
 
 
-## Part 2
+## 🫸 Pushing
 
-### 🫸 Pushing (15 mins)
+### 🕹️ Activity
+
+- Trainees work in pairs
+- ⏲️ 15 mins
+- A volunteer will need to facilitate this section
+
+
+
+### Group discussion
+
+- Whole class discussion/demo
+- ⏲️ 20 mins
+- A volunteer will need to facilitate this section
 
 After committing your work on your machine, you'll have a local branch that looks like this
 
@@ -253,6 +317,11 @@ To do this, we must **push** our branch onto Github.
 
 
 🔍 Figure out how to **push** your local branch to the Github repository using the Source Control interface in VSCode.
+
+
+
+
+
 
 
 
