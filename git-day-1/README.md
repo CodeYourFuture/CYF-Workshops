@@ -231,8 +231,6 @@ In the Source Control tab again...
 
 👓 Notice what happens when you carry out step 1.
 
-(In this course, you will probably want to just stage all of your changes most of the time).
-
 2. View the **Staged Changes** area in your **Source Control** panel.
 
 ### 📸 4. Create the commit
