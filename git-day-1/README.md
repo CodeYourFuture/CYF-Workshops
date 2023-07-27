@@ -223,7 +223,7 @@ We need to tell Git which changes we want to be part of our next commit.
 
 Each commit is a checkpoint we've decided to save. When making a commit, we can decide to _not_ include all of our changes in the checkpoint, but just include some of them.
 
-We choose which changes we do want to include in the commit by **staging our changes**.
+We choose which changes we want to include in a commit by **staging our changes**.
 
 In the Source Control tab again...
 
