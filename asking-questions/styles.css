@@ -3,8 +3,7 @@ WORKSHOP STARTS HERE LOOK HERE HI
 Here are all the rules we are 
 looking at in this workshop 
 =========================== */
-/* What would happen if you add !important to this color:red ?
-color: red !important; */
+/* What would happen if you add !important to this color:red */
 #important {
   color: red;
 }
@@ -51,6 +50,7 @@ Change the values in Devtools */
   --space: 1rem;
   --container: clamp(var(--box), calc(100vw - calc(var(--space) * 2)), 74rem);
   --finger: 48px;
+  --line-length: 60ch;
 }
 /* Rules for interactive elements like links and buttons. 
 What happens when you change the order of these rules around? */
@@ -86,12 +86,6 @@ And give them their own layouts inside. */
 header {
   max-width: var(--container);
   margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-header svg {
-  width: var(--finger);
 }
 main {
   max-width: var(--container);
@@ -99,4 +93,8 @@ main {
 }
 summary > * {
   display: inline-block;
+}
+main p,
+main li {
+  max-width: var(--line-length);
 }
