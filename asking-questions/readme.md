@@ -5,7 +5,7 @@
 - [ ] Read this article about [Mental Models](https://jamesclear.com/mental-models)
 - [ ] Load this webpage, which stores the problems we will work on today. [https://cyf-workshops.netlify.app/asking-questions](asking-questions)
 
-Today we're going to start learning a formal language of developer questions. We will start with this basic format:
+Today we're going to start learning a formal language of developer questions. We will begin with this basic format:
 
 1. What I _did_
 1. What I _expected_
@@ -104,13 +104,17 @@ Include as much context as you can, including links, line numbers, sample code, 
 
 Post your question in #cyf-ask-tech-stuff.
 
-### 🧑🏾‍💻🙋 Developer questions
+### 🧑🏾‍💻🙋 Developer questions contain
 
 1. 🔗 Links 👍
 1. 🖼️ Screenshots of UI 👍
-1. 📝 Code blocks 👍
+1. 📝 `Code blocks` 👍
 1. 📷 ~~Screenshots of code~~ 🙅
 
 <!--{{</note>}}-->
 
-## 📚 Resources
+## 📚 Further reading
+
+- [How to ask](https://stackoverflow.com/help/how-to-ask)
+- [The programming duck](https://rubberduckdebugging.com/)
+- [Asking Questions](https://curriculum.codeyourfuture.io/guides/asking-questions/)

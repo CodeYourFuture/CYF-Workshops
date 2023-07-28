@@ -3,7 +3,7 @@ WORKSHOP STARTS HERE LOOK HERE HI
 Here are all the rules we are 
 looking at in this workshop 
 =========================== */
-/* What would happen if you add !important to this color:red */
+/* What would happen if you added !important to this color:red */
 #important {
   color: red;
 }
@@ -19,7 +19,7 @@ main ul {
 #infinite {
   color: var(--ink);
 }
-.questions li.question:nth-child(6) {
+.problems li.problem:nth-child(6) {
   color: red;
 }
 #boolean {
@@ -38,7 +38,7 @@ main ul {
 /* Here's our design 
 It's fonts, colours, and spacing.
 Every design is made of these basic building blocks.
-Change the values in Devtools */
+ */
 :root {
   /* fonts */
   --copy: "Lato", system-ui;
@@ -48,12 +48,11 @@ Change the values in Devtools */
   --brand: hsla(0, 100%, 67%, 0.98);
   /* spacing */
   --space: 1rem;
-  --container: clamp(var(--box), calc(100vw - calc(var(--space) * 2)), 74rem);
+  --container: clamp(240px, calc(100vw - calc(var(--space) * 2)), 74rem);
   --finger: 48px;
   --line-length: 60ch;
 }
-/* Rules for interactive elements like links and buttons. 
-What happens when you change the order of these rules around? */
+/* Rules for interactive elements like links and buttons.  */
 a,
 a:any-link {
   color: currentColor;
@@ -81,8 +80,7 @@ body {
   color: var(--ink);
   padding: var(--space);
 }
-/* Now let's add each component to this grid layout 
-And give them their own layouts inside. */
+/* Now the components, which in this case are just html elements */
 header {
   max-width: var(--container);
   margin: auto;
