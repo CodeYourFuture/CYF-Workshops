@@ -9,7 +9,7 @@ For this workshop you will need:
 - [ ] This [Devtools Workshop page](http://cyf-workshops.netlify.app/devtools/)
 - [ ] Someone to keep track of the timer for each activity
 
-You've already used a little bit of Devtools in ITD when you used [Lighthouse](https://developer.chrome.com/docs/lighthouse/) to audit your code. But there's much much more! Devtools is an [entire IDE](https://developer.chrome.com/) running inside your browser and it has hundreds of ways to inspect, test, and develop your code.
+You've already used a little bit of Devtools in ITD when you used [Lighthouse](https://developer.chrome.com/docs/lighthouse/) to audit your code. But there's much much more! Devtools is an [entire IDE (Integrated Development Environment)](https://developer.chrome.com/) running inside your browser and it has hundreds of ways to inspect, test, and develop your code.
 
 <!--
 {{<note type="tip" title="Explore">}} -->
@@ -38,7 +38,8 @@ Take it in turns to swap the driver for each section of this workshop
 
     - What is the name of the font used on the page?
     - What is the CSS variable that holds this value? (Hint: variables start with `--`, like, `--paper`)
-    - What is the brand colour value?
+    - What is the brand colour value (Hint: it's set in a variable)?
+    - What is the brand colour value used for in the page?
     - What variables hold [CSS length data type](https://developer.mozilla.org/en-US/docs/Web/CSS/length) values?
 
 1.  When the timer goes off, share your answers with the other groups. Paste them in a thread in Slack and go quickly to the next challenge.
@@ -55,9 +56,9 @@ So we've seen that fonts, colors, and spacing are often stored as CSS Variables,
 4. Try changing the values of these variables and see how it affects the page.
 5. Some questions to answer. (Make a prediction about what you think will happen first, and then test it)
 
-- What will happen when you change the _value_ of `--space` to `red`?
 - What will happen when you click the value of `--finger` and press `up arrow` ten times?
 - What will happen when you delete the _value_ of `--copy`
+- What will happen when you change the _value_ of `--space` to `red`?
 
 ### Reflection
 When the timer goes off, set a new [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes) to share your answers with the other groups.
@@ -118,6 +119,8 @@ If the explanation doesn't make sense to you, ask ChatGPT (a generative AI) to e
 <!--
 {{<note type="warning" title="Plausible Hallucinations">}} -->
 Remember: Generative AIs are regularly **confidently wrong**; it can be helpful, but never trust it over Devtools.
+
+If something doesn't make sense, or seems confusing or maybe wrong, it's better to ask friendly humans in Slack.
 <!-- {{</note>}} -->
 
 <!--
@@ -156,7 +159,7 @@ Remember: Generative AIs are regularly **confidently wrong**; it can be helpful,
 
 So we've explored the Elements panel, the Styles panel, and the Lighthouse panel. There are many many more panels, and they all expose a different way of interpreting, interacting with, or understanding the same code. Computer systems frequently do this. It's a mistake to think that the way you use a website is the only way it can be used. Bots, crawlers, screenreaders, integrations...there are many and various consumers of your code, so it's important to make sure you construct it properly.
 
-For example, you have just looked in the Elements panel. This is not really your HTML, this is [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction), an API the browser builds using your HTML. The [DOM isn't the only API](https://developer.mozilla.org/en-US/docs/Web/API) it builds. Let's look at another one right now!
+For example, you have just looked in the Elements panel. This is not really your HTML, this is [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction), an API the browser builds using your HTML. An example of how the DOM is different from HTML is that JavaScript can change what's in the page - this changes the DOM, but doesn't change the actual HTML. The [DOM isn't the only API](https://developer.mozilla.org/en-US/docs/Web/API) it builds. Let's look at another one right now!
 
 <!--
 {{<note type="exercise" title="A New Lens">}} -->
@@ -186,4 +189,6 @@ And that's it for today! We have covered a lot, but remember, as developers, we 
 
 1. Inspect web pages as you use the internet. Do this _all the time_! What font does Youtube use? What about [CSS Tricks](https://css-tricks.com/tag/devtools/)? [Hackernews](https://news.ycombinator.com/) is still using tables - what's wrong with this?
 
-2. There are crash courses in Devtools all over [Youtube](https://www.youtube.com/watch?v=gTVpBbFWry8) and Udemy etc. Find a useful tip and share it in your class channel.
+2. Try changing the style and content of some websites. Make your favourite website bright pink. Make the BBC News page tell people about something great you did. Send a screenshot of something cool you changed to your cohort's Slack channel.
+
+3. There are crash courses in Devtools all over [YouTube](https://www.youtube.com/watch?v=gTVpBbFWry8) and Udemy etc. Find a useful tip and share it in your class channel.
