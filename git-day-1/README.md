@@ -76,12 +76,11 @@ Before continuing, try answering the following:
 
 Remember to check your answer before continuing.
 
-TODO: I'm a little confused by this section - what repository are they meant to be cloning? Any one? CodeYourFuture/cyf-demo-repo? Their fork of cyf-demo-repo? I assumed their fork of the cyf-demo-repo, but then the last instruction is "Now clone your forked repository", so presumably it isn't that?
-1. Get a local copy of a repository on your local machine.
+
+1. Clone your fork of `cyf-demo-repo` to your local machine.
 2. Open this local repository using VSCode.
 3. Use `pwd` in your terminal to check you're in the right place.
 
-Now clone your forked repository from GitHub onto your local machine.
 
 
 ### Whole group discussion/demo 🧵 🗣️
