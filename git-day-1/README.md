@@ -213,9 +213,7 @@ We want to view the changes we've just made to our working directory.
 
 1. Locate the **Source Control** tab in VSCode.
 
-TODO: This image appears to be missing in the rendered page?
-![vscode-sidebar-source-control](vscode-sidebar-source-control.png)
-
+![vscode-sidebar-source-control](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/vscode-sidebar-source-control.png)
 2. Go to the Changes section and click on the file you changed - this should now show the changes for the file.
 3. Try editing the file again in the Explorer tab and check to see the update is visible in the Source Control panel
 
