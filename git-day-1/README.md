@@ -216,7 +216,7 @@ We choose which changes we want to include in a commit by **staging our changes*
 
 In the Source Control tab again...
 
-1. Go to the file `README.md` and click on the **+**.
+1. Go to the file `file.txt` and click on the **+**.
 
 👓 Notice what happens when you carry out step 1.
 
