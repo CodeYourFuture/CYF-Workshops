@@ -242,11 +242,11 @@ Once we've staged our changes, then we can **commit** these changes.
 
 Before we do, we should make sure we're on the correct branch. Check in the bottom-right of your VS Code window that it looks like this:
 
-TODO: screenshot of current branch being week-1-workshop
+![current-branch-week-1-workshop](https://github.com/CodeYourFuture/curriculum/assets/25401570/91132336-f711-494c-9caa-920bc4c19774)
 
 Not like this:
 
-TODO: screenshot of current branch being main
+![current-branch-main](https://github.com/CodeYourFuture/curriculum/assets/25401570/f6a3d609-5398-4903-a69b-f214633cb5d4)
 
 If you're sure you're on the right branch:
 
