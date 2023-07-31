@@ -6,7 +6,7 @@
 
 This workshop starts with a recap based on this week's prep material...
 
-## Exploring Github repositories
+## Exploring GitHub repositories
 
 ### Recap activity 🕹️
 
@@ -15,21 +15,21 @@ This workshop starts with a recap based on this week's prep material...
 
 Let's recap some of the things from earlier in the week.
 
-Visit the following repository on Github: https://github.com/CodeYourFuture/cyf-demo-repo
+Visit the following repository on GitHub: https://github.com/CodeYourFuture/cyf-demo-repo
 
 Answer the following questions:
 
 
 a) How many commits are there in this project?
 b) Who committed on Oct 31, 2020?  
-c) What changes did Illictonion do in the commit titled "Revert changes accidentally pushed in the past"?  
+c) What changes did illictonion make in the commit titled "Revert changes accidentally pushed in the past"?  
 d) How many files were added in the first commit? What were the names of the files?  
 e) What is the hash for the first commit in the history?  
 
 In your pair, discuss briefly:
 
 - what is a commit ?
-- why do we store repositories on Github ?
+- why do we store repositories on GitHub ?
 - what is VSCode used for ?
 
 ### 🧵🗣️ Whole group discussion 
@@ -81,7 +81,7 @@ Remember to check your answer before continuing.
 2. Open this local repository using VSCode.
 3. Use `pwd` in your terminal to check you're in the right place.
 
-Now clone your forked repository from Github onto your local machine.
+Now clone your forked repository from GitHub onto your local machine.
 
 
 ### Whole group discussion/demo 🧵 🗣️
@@ -184,7 +184,7 @@ gitGraph
 
 where the most recent commits contain our changes.
 
-To create a commit, we can use the following steps:
+To create a commit, we can use the following steps (explained more below):
 
 1. Make a change to a file
 2. View the local changes
@@ -213,15 +213,17 @@ We want to view the changes we've just made to our working directory.
 
 ![vscode-sidebar-source-control](vscode-sidebar-source-control.png)
 
-2. Go to the Changes section and look at the changes for the file.
+2. Go to the Changes section and click on the file you changed - this should now show the changes for the file.
 3. Try editing the file again in the Explorer tab and check to see the update is visible in the Source Control panel
 
 
 ### 🟢 3. Stage the changes
 
-We need to tell Git which changes we want to be part of our next commit. 
+We need to tell Git which changes we want to be part of our next commit.
 
-We do this by **staging our changes**.
+Each commit is a checkpoint we've decided to save. When making a commit, we can decide to _not_ include all of our changes in the checkpoint, but just include some of them.
+
+We choose which changes we want to include in a commit by **staging our changes**.
 
 In the Source Control tab again...
 
@@ -229,25 +231,24 @@ In the Source Control tab again...
 
 👓 Notice what happens when you carry out step 1.
 
-Explain what you think will happen if you don't stage anything in your working directory.
-
 2. View the **Staged Changes** area in your **Source Control** panel.
-
 
 ### 📸 4. Create the commit
 
-Once we've made the commit, then we can **commit** these changes.
+Once we've staged our changes, then we can **commit** these changes.
 
 1. Enter a commit message describing briefly what you did in your commit.
 2. Click Commit to create the Git commit.
 
 📝  Now figure out how many commits you have on your local machine.
 
+🧠 Explain what you think would have happened if you didn't stage anything in your working directory when you made your commit.
+
 
 ### When you're finished...
 
 ❗ Once you've completed this **commit**, swap roles in your pair.
-Choose another file and then go through the steps in [Creating a commit section](#creating-a-commit)
+Choose another file and then go through the steps in the [Creating a commit section](#-4-creating-a-commit)
 
 
 ### Whole group discussion/demo 🧵 🗣️
@@ -298,15 +299,15 @@ gitGraph
    commit
 ```
 
-In other words, we have _not_ added our local branch onto the remote fork on Github.
+In other words, we have _not_ added our local branch onto the remote fork on GitHub.
 
-To do this, we must **push** our branch onto Github.
-
-
-**push** means adding local work to a remote Github repository.
+To do this, we must **push** our branch onto GitHub.
 
 
-🔍 Figure out how to **push** your local branch to the Github repository using the Source Control interface in VSCode.
+**push** means adding local work to a remote GitHub repository.
+
+
+🔍 Figure out how to **push** your local branch to the GitHub repository using the Source Control interface in VSCode.
 
 
 ### Group discussion
