@@ -99,19 +99,7 @@ A volunteer will need to navigate and let the group guide them in following thro
 - Trainees do this section in pairs
 - ⏲️ 10 mins
 
-Next, create a branch so that your local git repository looks like this:
-
-TODO: I don't think this diagram is very clear, it's not obvious that week-1-workshop has the same commits as main in it? It kind of looks like week-1-workshop doesn't have any commits on it at all?
-```mermaid
----
-title: cyf-demo-repo
----
-gitGraph
-   commit
-   commit
-   commit
-   branch  "week-1-workshop"
-```
+Next, create a local branch called `week-1-workshop`
 
 ### Whole group discussion/demo 🧵 🗣️
 
@@ -128,7 +116,9 @@ gitGraph
 
 ## Part 2 - New skills 🧰 - Committing and pushing 📸
 
-TODO: These aren't currently folded into a collapsable learning objectives block - they probably should be?
+
+### Learning objectives
+
 ```objectives
 
 - [ ] save local changes to a repository in VSCode
@@ -211,8 +201,6 @@ Tip:
 We want to view the changes we've just made to our working directory.
 
 1. Locate the **Source Control** tab in VSCode.
-
-![vscode-sidebar-source-control](https://github.com/CodeYourFuture/CYF-Workshops/blob/abde2b7bb2563924df559cfdcc85ad3b3899f545/git-day-1/vscode-sidebar-source-control.png)
 2. Go to the Changes section and click on the file you changed - this should now show the changes for the file.
 3. Try editing the file again in the Explorer tab and check to see the update is visible in the Source Control panel
 
@@ -239,13 +227,8 @@ In the Source Control tab again...
 
 Once we've staged our changes, then we can **commit** these changes.
 
-Before we do, we should make sure we're on the correct branch. Check in the bottom-right of your VS Code window that it looks like this:
-
-![current-branch-week-1-workshop](https://github.com/CodeYourFuture/curriculum/assets/25401570/91132336-f711-494c-9caa-920bc4c19774)
-
-Not like this:
-
-![current-branch-main](https://github.com/CodeYourFuture/curriculum/assets/25401570/f6a3d609-5398-4903-a69b-f214633cb5d4)
+Before we do, we should make sure we're on the correct branch. Check in the bottom-right of your VS Code window that you're on `week-1-workshop`
+branch.
 
 If you're sure you're on the right branch:
 
@@ -320,6 +303,7 @@ To do this, we must **push** our branch onto GitHub.
 
 
 🔍 Figure out how to **push** your local branch to the GitHub repository using the Source Control interface in VSCode.
+🔍 Figure out how to check the `week-1-workshop` branch is on the remote fork.
 
 
 ### Group discussion
@@ -330,11 +314,8 @@ To do this, we must **push** our branch onto GitHub.
 
 A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
 
-TODO: I would have expected three more sections here:
-1. Looking at the remote branch on the GitHub UI and seeing it's there
-2. Creating a pull request
-3. A bit of discussion about code review - how to leave a comment, how to view comments, how to respond to comments.
-The first seems important, the other two can probably wait, but should probably be covered somewhere.
+
+
 
 
 
