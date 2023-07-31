@@ -82,7 +82,6 @@ Remember to check your answer before continuing.
 3. Use `pwd` in your terminal to check you're in the right place.
 
 
-
 ### Whole group discussion/demo 🧵 🗣️
 
 - Whole class discussion/demo
@@ -209,17 +208,17 @@ We want to view the changes we've just made to our working directory.
 
 We need to tell Git which changes we want to be part of our next commit.
 
+
 Each commit is a checkpoint we've decided to save. When making a commit, we can decide to _not_ include all of our changes in the checkpoint, but just include some of them.
 
-We choose which changes we do want to include in the commit by **staging our changes**.
+We choose which changes we want to include in a commit by **staging our changes**.
+
 
 In the Source Control tab again...
 
 1. Go to the file `README.md` and click on the **+**.
 
 👓 Notice what happens when you carry out step 1.
-
-(In this course, you will probably want to just stage all of your changes most of the time).
 
 2. View the **Staged Changes** area in your **Source Control** panel.
 
