@@ -26,27 +26,29 @@ When we are surprised by an outcome it usually means we had a mental model of th
 
 ### Try
 
-1. Code our model
+1. Code up our idea
 1. Run the code
 
 ### Compare and Update
 
 1. Compare the outcome with our prediction
 1. Explain the gap between our prediction and what actually happened
-2. Update our understanding
+1. Update our understanding
 
 This process is cyclical.
 
 ```mermaid
 graph LR
    A[Predict]
-   B[Try]
-   C[Compare]
-   D[Update]
+   B[Explain]
+   C[Try]
+   D[Compare]
+   E[Update]
    A --> B
    B --> C
    C --> D
-   D --> A
+   D --> E
+   E --> A
 ```
 
 ## Updating the _right_ model

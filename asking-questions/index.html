@@ -67,17 +67,25 @@
         <summary><h3>Problem Bank</h3></summary>
         <p>Use Devtools and look at the code to help you.</p>
         <ul id="problems" class="problems">
-          <li id="important" class="problem">
-            <p>
-              If you add the rule <code>!important</code> to line 8 of
-              styles.css, what colour will this text be? Why?
-            </p>
-          </li>
           <li id="user" class="problem">
             <p>
               If you delete all the CSS from the styles.css in the Sources
               panel, what styles will be applied to this page?
             </p>
+          </li>
+          <li id="infinite" class="problem">
+            <p>
+              This text has the ruleset
+              <code>ul li.problem:nth-child(6) p { color: red; }</code>
+
+              Why isn't this paragraph red?
+            </p>
+          </li>
+          <li id="fallback" class="problem">
+            <p>What colour is this text?</p>
+          </li>
+          <li id="boolean" class="problem">
+            <p>There's a transition on this text. Why isn't it working?</p>
           </li>
           <li id="grid" class="problem">
             <p>Why <em>isn't</em> this paragraph a grid item?</p>
@@ -91,19 +99,11 @@
           <li id="hundred" class="problem">
             <p>This text is 100% width. 100% of what?</p>
           </li>
-          <li id="infinite" class="problem">
+          <li id="important" class="problem">
             <p>
-              This text has the ruleset
-              <code>ul li.problem:nth-child(6) p { color: red; }</code>
-
-              Why isn't this paragraph red?
+              If you add the rule <code>!important</code> to line 8 of
+              styles.css, what colour will this text be? Why?
             </p>
-          </li>
-          <li id="boolean" class="problem">
-            <p>There's a transition on this text. Why isn't it working?</p>
-          </li>
-          <li id="fallback" class="problem">
-            <p>What colour is this text?</p>
           </li>
         </ul>
       </details>
