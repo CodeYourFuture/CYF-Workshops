@@ -77,11 +77,9 @@ Before continuing, try answering the following:
 Remember to check your answer before continuing.
 
 
-1. Get a local copy of a repository on your local machine.
+1. Clone your fork of `cyf-demo-repo` to your local machine.
 2. Open this local repository using VSCode.
 3. Use `pwd` in your terminal to check you're in the right place.
-
-Now clone your forked repository from GitHub onto your local machine.
 
 
 ### Whole group discussion/demo 🧵 🗣️
@@ -100,18 +98,7 @@ A volunteer will need to navigate and let the group guide them in following thro
 - Trainees do this section in pairs
 - ⏲️ 10 mins
 
-Next, create a branch so that your local git repository looks like this:
-
-```mermaid
----
-title: cyf-demo-repo
----
-gitGraph
-   commit
-   commit
-   commit
-   branch  "week-1-workshop"
-```
+Next, create a local branch called `week-1-workshop`
 
 ### Whole group discussion/demo 🧵 🗣️
 
@@ -127,6 +114,9 @@ gitGraph
 
 
 ## Part 2 - New skills 🧰 - Committing and pushing 📸
+
+
+### Learning objectives
 
 ```objectives
 
@@ -210,9 +200,6 @@ Tip:
 We want to view the changes we've just made to our working directory.
 
 1. Locate the **Source Control** tab in VSCode.
-
-![vscode-sidebar-source-control](vscode-sidebar-source-control.png)
-
 2. Go to the Changes section and click on the file you changed - this should now show the changes for the file.
 3. Try editing the file again in the Explorer tab and check to see the update is visible in the Source Control panel
 
@@ -221,13 +208,15 @@ We want to view the changes we've just made to our working directory.
 
 We need to tell Git which changes we want to be part of our next commit.
 
+
 Each commit is a checkpoint we've decided to save. When making a commit, we can decide to _not_ include all of our changes in the checkpoint, but just include some of them.
 
 We choose which changes we want to include in a commit by **staging our changes**.
 
+
 In the Source Control tab again...
 
-1. Go to the file `README.md` and click on the **+**.
+1. Go to the file `file.txt` and click on the **+**.
 
 👓 Notice what happens when you carry out step 1.
 
@@ -236,6 +225,11 @@ In the Source Control tab again...
 ### 📸 4. Create the commit
 
 Once we've staged our changes, then we can **commit** these changes.
+
+Before we do, we should make sure we're on the correct branch. Check in the bottom-right of your VS Code window that you're on `week-1-workshop`
+branch.
+
+If you're sure you're on the right branch:
 
 1. Enter a commit message describing briefly what you did in your commit.
 2. Click Commit to create the Git commit.
@@ -308,6 +302,7 @@ To do this, we must **push** our branch onto GitHub.
 
 
 🔍 Figure out how to **push** your local branch to the GitHub repository using the Source Control interface in VSCode.
+🔍 Figure out how to check the `week-1-workshop` branch is on the remote fork.
 
 
 ### Group discussion
@@ -317,6 +312,7 @@ To do this, we must **push** our branch onto GitHub.
 - A volunteer will need to facilitate this section
 
 A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
+
 
 
 
