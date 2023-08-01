@@ -32,7 +32,8 @@ When we are surprised by an outcome it usually means we had a mental model of th
 ### Compare and Update
 
 1. Compare the outcome with our prediction
-1. Update our understanding, or update our code
+1. Explain the gap between our prediction and what actually happened
+2. Update our understanding
 
 This process is cyclical.
 
