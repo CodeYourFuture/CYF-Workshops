@@ -19,7 +19,7 @@ It's also an efficient way to share our current understanding with others.
 
 When we are surprised by an outcome it usually means we had a mental model of the world that didn't predict the world accurately. To develop our understanding of coding, we will:
 
-### Predict
+### Predict & Explain
 
 1. Build a model in our mind (a "mental model" or understanding)
 1. Play computer - "run" the model and _predict_ (say before) what the outcome will be
