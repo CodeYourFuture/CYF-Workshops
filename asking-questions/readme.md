@@ -39,16 +39,16 @@ This process is cyclical.
 
 ```mermaid
 graph LR
-   A[Predict]
-   B[Explain]
-   C[Try]
-   D[Compare]
-   E[Update]
-   A --> B
-   B --> C
-   C --> D
-   D --> E
-   E --> A
+A[Predict]
+B[Explain]
+C[Try]
+D[Compare]
+E[Update]
+A --> B
+B --> C
+C --> D
+D --> E
+E --> A
 ```
 
 ## Updating the _right_ model
@@ -73,7 +73,7 @@ When we ask questions, we need to share our perspective with others so together 
 
     > What is _it_? What are you trying to do? In what way is it not working? Be specific! Share what you see. Do you have a link? What do you want it to do?
 
-    <!--{{</note>}}-->
+ <!--{{</note>}}-->
 
 ### Let's just set some ground rules here:
 
@@ -107,6 +107,8 @@ Include as much context as you can, including links, line numbers, sample code, 
 
 Post your question in #cyf-ask-tech-stuff.
 
+<!--{{</note>}}-->
+
 ### 🧑🏾‍💻🙋 Developer questions contain
 
 1. 🔗 Links 👍
@@ -114,7 +116,6 @@ Post your question in #cyf-ask-tech-stuff.
 1. 📝 `Code blocks` 👍
 1. 📷 ~~Screenshots of code~~ 🙅
 
-<!--{{</note>}}-->
 
 ## 📚 Further reading
 
