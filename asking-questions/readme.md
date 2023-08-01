@@ -21,7 +21,7 @@ When we are surprised by an outcome it usually means we had a mental model of th
 
 ### Predict & Explain
 
-1. Build a model in our mind (a "mental model" or understanding)
+1. Make a _prediction_ by _explaining_ what the outcome will be
 1. Play computer - "run" the model and _predict_ (say before) what the outcome will be
 
 ### Try
