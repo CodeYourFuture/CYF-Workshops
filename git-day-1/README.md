@@ -142,7 +142,7 @@ Follow these instructions carefully.
 
 Our Git timeline starts off with some commits like this:
 
-![main-and-feature-in-sync](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/main-and-feature-in-sync.png)
+![main-and-feature-in-sync](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/main-and-feature-in-sync.png)
 
 We're going to figure out how to 
 
@@ -150,7 +150,7 @@ We're going to figure out how to
 
 so our history looks something like this:
 
-![feature-branch-ahead](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/feature-branch-ahead.png)
+![feature-branch-ahead](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/feature-branch-ahead.png)
 
 where the most recent commits contain our changes.
 
@@ -180,7 +180,7 @@ Tip:
 We want to view the changes we've just made to our working directory.
 
 1. Locate the **Source Control** tab in VSCode.
-![source-control-tab](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/vscode-sidebar-source-control.png)
+![source-control-tab](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/vscode-sidebar-source-control.png)
 2. Go to the Changes section and click on the file you changed - this should now show the changes for the file.
 3. Try editing the file again in the Explorer tab and check to see the update is visible in the Source Control panel
 
@@ -211,11 +211,11 @@ Before we do, we should make sure we're on the correct branch. Check that you're
 
 
 Your VSCode window should look like this:
-![check-current-branch-week-1-workshop](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/check-current-branch-week-1-workshop.png)
+![check-current-branch-week-1-workshop](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/check-current-branch-week-1-workshop.png)
 
 and not like this:
 
-![check-current-branch-is-main](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/check-current-branch-is-main.png)
+![check-current-branch-is-main](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/check-current-branch-is-main.png)
 
 If you're sure you're on the right branch:
 
