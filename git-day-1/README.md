@@ -1,8 +1,10 @@
+# Part 1
 
 
+## Setup 
 
- # Part 1
-
+- Break out into groups of 5/6 ( depending on volunteer and trainee numbers )
+- Use these instructions as guide to check you understanding, resolve misconceptions and develop your understanding
 
 This workshop starts with a recap based on this week's prep material...
 
@@ -31,14 +33,16 @@ In your pair, discuss briefly:
 - what is a commit ?
 - why do we store repositories on GitHub ?
 - what is VSCode used for ?
+- explain the difference between Git and Github
 
-### 🧵🗣️ Whole group discussion 
+### 🧵🗣️ group discussion 
 
-- Whole class discussion
+- Group discussion
 - ⏲️ 10 mins
 - A volunteer will need to facilitate this section
 
-A volunteer can facilitate a whole group discussion by going through the questions above and asking pairs for their feedback. If pairs are unsure / not quite accurate then spend a small amount of time addressing misconceptions. Remember to ask around for feedback 
+A volunteer can facilitate this group discussion by going through the questions above and asking pairs for their feedback. If pairs are unsure / not quite accurate then spend a small amount of time addressing misconceptions.
+Remember to ask around for feedback.
 
 
 ## Creating a fork 🍴
@@ -53,9 +57,9 @@ Use the guidelines from the prep section of this week to create a fork.
 1. On one person's computer, fork this repo: https://github.com/CodeYourFuture/cyf-demo-repo
 2. 📝 Double-check the URL of your forked repo. How can you tell the fork was successfully created?
 
-### Whole group discussion/demo 🧵 🗣️
+### Group discussion/demo 🧵 🗣️
 
-- Whole class discussion
+- Groups discussion
 - ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
@@ -82,9 +86,9 @@ Remember to check your answer before continuing.
 3. Use `pwd` in your terminal to check you're in the right place.
 
 
-### Whole group discussion/demo 🧵 🗣️
+### Group discussion/demo 🧵 🗣️
 
-- Whole class discussion/demo
+- Group discussion/demo
 - ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
@@ -103,10 +107,9 @@ Next, create a local branch called `week-1-workshop`
 ### Whole group discussion/demo 🧵 🗣️
 
 
-- Whole class discussion/demo
+- Group discussion/demo
 - ⏲️ 10 mins
 - A volunteer will need to facilitate this section
-
 
 
 ## Take a break for 10 mins... 🍫
@@ -235,7 +238,7 @@ Choose another file and then go through the steps in the [Creating a commit sect
 
 ### Whole group discussion/demo 🧵 🗣️
 
-- Whole class discussion/demo
+- Group discussion/demo
 - ⏲️ 10 mins
 - A volunteer will need to facilitate this section
 
@@ -295,7 +298,7 @@ To do this, we must **push** our branch onto GitHub.
 
 ### Group discussion
 
-- Whole class discussion/demo
+- Group discussion/demo
 - ⏲️ 10 mins
 - A volunteer will need to facilitate this section
 
