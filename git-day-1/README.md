@@ -242,9 +242,8 @@ Choose another file and then go through the steps in the [Creating a commit sect
 - ⏲️ 10 mins
 - A volunteer will need to facilitate this section
 
-A volunteer will need to navigate through the steps in the previous section with directions from the group.
-Also time for clarification questions too.
-
+A volunteer will now need to navigate with directions from the group. Go through the git commit steps together.
+Also use this time for clarifying questions.
 
 ## 🫸 Pushing
 
