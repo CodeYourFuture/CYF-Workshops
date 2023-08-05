@@ -1,7 +1,7 @@
 # Part 1
 
 
-## Setup 
+## Setup 
 
 - Break out into groups of 5/6 ( depending on volunteer and trainee numbers )
 - Use these instructions as guide to check you understanding, resolve misconceptions and develop your understanding
