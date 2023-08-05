@@ -22,11 +22,17 @@ Visit the following repository on GitHub: https://github.com/CodeYourFuture/cyf-
 Answer the following questions:
 
 
-a) How many commits are there in this project?
+a) How many commits are there in the cyf-demo-repo project?
+
 b) Who committed on Oct 31, 2020?  
+
 c) What changes did illictonion make in the commit titled "Revert changes accidentally pushed in the past"?  
+
 d) How many files were added in the first commit? What were the names of the files?  
-e) What is the hash for the first commit in the history?  
+
+e) What is the hash for the first commit in the history?
+
+f) What is Claire Bickley's favourite food?
 
 
 ### 🧵🗣️ group discussion 
