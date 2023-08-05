@@ -313,11 +313,11 @@ Now is some time to wrap up and try and discuss some of the key concepts from th
 - Trainees discuss in pairs
 - ⏲️ 10 mins
 
-In your pair, discuss briefly:
+In your pair, discuss the following questions/tasks:
 
-1. what is a commit? why do we need to use commits?
-1. why do we store repositories on GitHub?
-1. describe the purpose of VSCode?
+1. what is a commit? explain why need to make commits when we're developing a project?
+1. explain why we store repositories on GitHub
+1. describe the purpose of VSCode
 1. explain the difference between Git and GitHub
 1. explain why developers use branches
 1. explain the difference between a fork and a clone?
