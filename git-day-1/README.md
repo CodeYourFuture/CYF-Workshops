@@ -303,6 +303,8 @@ A volunteer will need to navigate and let the group guide them in following thro
 
 Now is some time to wrap up and try and discuss some of the key concepts from this week.
 
+###  🗣️ Discussion in pairs
+
 - Trainees discuss in pairs
 - ⏲️ 10 mins
 
@@ -315,14 +317,26 @@ In your pair, discuss briefly:
 1. explain why developers use branches
 1. what is the difference between a fork and a clone?
 1. what does the branch name `origin/main` mean instead of just `main`
+1. Check out the following git repository diagram below:
 
+How many commits are in common between `week-1-feature` and `main`?
 
+```mermaid
+---
+title: cyf-demo-repo
+---
+gitGraph
+   commit
+   commit
+   commit
+   branch "week-1-feature"
+   commit
+   commit
+```
 
+###  🗣️ Group discussion
 
-
-
-
-
+- Discuss the questions together as a group. Go round and get feedback from each person in the group.
 
 
 
