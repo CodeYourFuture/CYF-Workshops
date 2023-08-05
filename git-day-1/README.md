@@ -1,8 +1,10 @@
+# Part 1
 
 
+## Setup 
 
- # Part 1
-
+- Break out into groups of 5/6 ( depending on volunteer and trainee numbers )
+- Use these instructions as a guide to check your understanding, resolve misconceptions and develop your understanding
 
 This workshop starts with a recap based on this week's prep material...
 
@@ -20,25 +22,27 @@ Visit the following repository on GitHub: https://github.com/CodeYourFuture/cyf-
 Answer the following questions:
 
 
-a) How many commits are there in this project?
+a) How many commits are there in the cyf-demo-repo project?
+
 b) Who committed on Oct 31, 2020?  
+
 c) What changes did illictonion make in the commit titled "Revert changes accidentally pushed in the past"?  
+
 d) How many files were added in the first commit? What were the names of the files?  
-e) What is the hash for the first commit in the history?  
 
-In your pair, discuss briefly:
+e) What is the hash for the first commit in the history?
 
-- what is a commit ?
-- why do we store repositories on GitHub ?
-- what is VSCode used for ?
+f) What is Claire Bickley's favourite food?
 
-### 🧵🗣️ Whole group discussion 
 
-- Whole class discussion
+### 🧵🗣️ group discussion 
+
+- Group discussion
 - ⏲️ 10 mins
 - A volunteer will need to facilitate this section
 
-A volunteer can facilitate a whole group discussion by going through the questions above and asking pairs for their feedback. If pairs are unsure / not quite accurate then spend a small amount of time addressing misconceptions. Remember to ask around for feedback 
+A volunteer can facilitate this group discussion by going through the questions above and asking pairs for their feedback. If pairs are unsure / not quite accurate then spend a small amount of time addressing misconceptions.
+Remember to ask around for feedback.
 
 
 ## Creating a fork 🍴
@@ -53,9 +57,9 @@ Use the guidelines from the prep section of this week to create a fork.
 1. On one person's computer, fork this repo: https://github.com/CodeYourFuture/cyf-demo-repo
 2. 📝 Double-check the URL of your forked repo. How can you tell the fork was successfully created?
 
-### Whole group discussion/demo 🧵 🗣️
+### Group discussion/demo 🧵 🗣️
 
-- Whole class discussion
+- Groups discussion
 - ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
@@ -82,9 +86,9 @@ Remember to check your answer before continuing.
 3. Use `pwd` in your terminal to check you're in the right place.
 
 
-### Whole group discussion/demo 🧵 🗣️
+### Group discussion/demo 🧵 🗣️
 
-- Whole class discussion/demo
+- Group discussion/demo
 - ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
@@ -100,13 +104,12 @@ A volunteer will need to navigate and let the group guide them in following thro
 
 Next, create a local branch called `week-1-workshop`
 
-### Whole group discussion/demo 🧵 🗣️
+### Group discussion/demo 🧵 🗣️
 
 
-- Whole class discussion/demo
+- Group discussion/demo
 - ⏲️ 10 mins
 - A volunteer will need to facilitate this section
-
 
 
 ## Take a break for 10 mins... 🍫
@@ -135,7 +138,7 @@ Next, create a local branch called `week-1-workshop`
 > 🎯 Goal: Make some **local** changes and create a **local commit** on our branch.
 
 - Do this section in pairs
-- ⏲️ 25 mins 
+- ⏲️ 15 mins 
 
 Follow these instructions carefully.
 
@@ -233,15 +236,14 @@ If you're sure you're on the right branch:
 Choose another file and then go through the steps in the [Creating a commit section](#-4-creating-a-commit)
 
 
-### Whole group discussion/demo 🧵 🗣️
+### Group discussion/demo 🧵 🗣️
 
-- Whole class discussion/demo
+- Group discussion/demo
 - ⏲️ 10 mins
 - A volunteer will need to facilitate this section
 
-A volunteer will need to navigate through the steps in the previous section with directions from the group.
-Also time for clarification questions too.
-
+A volunteer will now need to navigate with directions from the group. Go through the git commit steps together.
+Also use this time for clarifying questions.
 
 ## 🫸 Pushing
 
@@ -250,7 +252,7 @@ Also time for clarification questions too.
 ### 🕹️ Activity - Figure it out 🔍 
 
 - Trainees work in pairs
-- ⏲️ 15 mins
+- ⏲️ 5 mins
 
 After committing your work on your machine, you'll have a local branch that looks like this
 
@@ -295,20 +297,51 @@ To do this, we must **push** our branch onto GitHub.
 
 ### Group discussion
 
-- Whole class discussion/demo
-- ⏲️ 10 mins
+- Group discussion/demo
+- ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
 A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
 
 
+## 🧵 Tying things up
 
+Now is some time to wrap up and try and discuss some of the key concepts from this week.
 
+###  🗣️ Discussion in pairs
 
+- Trainees discuss in pairs
+- ⏲️ 10 mins
 
+In your pair, discuss the following questions/tasks:
 
+1. what is a commit? explain why need to make commits when we're developing a project?
+1. explain why we store repositories on GitHub
+1. describe the purpose of VSCode
+1. explain the difference between Git and GitHub
+1. explain why developers use branches
+1. explain the difference between a fork and a clone?
+1. what does the branch name `origin/main` mean instead of just `main`
+1. Check out the following git repository diagram below:
 
+How many commits are in common between `week-1-feature` and `main`?
 
+```mermaid
+---
+title: cyf-demo-repo
+---
+gitGraph
+   commit
+   commit
+   commit
+   branch "week-1-feature"
+   commit
+   commit
+```
+
+###  🗣️ Group discussion
+
+- Discuss the questions together as a group. Go round and get feedback from each person in the group.
 
 
 
