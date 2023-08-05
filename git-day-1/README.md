@@ -28,12 +28,6 @@ c) What changes did illictonion make in the commit titled "Revert changes accide
 d) How many files were added in the first commit? What were the names of the files?  
 e) What is the hash for the first commit in the history?  
 
-In your pair, discuss briefly:
-
-- what is a commit ?
-- why do we store repositories on GitHub ?
-- what is VSCode used for ?
-- explain the difference between Git and Github
 
 ### 🧵🗣️ group discussion 
 
@@ -104,7 +98,7 @@ A volunteer will need to navigate and let the group guide them in following thro
 
 Next, create a local branch called `week-1-workshop`
 
-### Whole group discussion/demo 🧵 🗣️
+### Group discussion/demo 🧵 🗣️
 
 
 - Group discussion/demo
@@ -138,7 +132,7 @@ Next, create a local branch called `week-1-workshop`
 > 🎯 Goal: Make some **local** changes and create a **local commit** on our branch.
 
 - Do this section in pairs
-- ⏲️ 25 mins 
+- ⏲️ 15 mins 
 
 Follow these instructions carefully.
 
@@ -236,7 +230,7 @@ If you're sure you're on the right branch:
 Choose another file and then go through the steps in the [Creating a commit section](#-4-creating-a-commit)
 
 
-### Whole group discussion/demo 🧵 🗣️
+### Group discussion/demo 🧵 🗣️
 
 - Group discussion/demo
 - ⏲️ 10 mins
@@ -253,7 +247,7 @@ Also time for clarification questions too.
 ### 🕹️ Activity - Figure it out 🔍 
 
 - Trainees work in pairs
-- ⏲️ 15 mins
+- ⏲️ 5 mins
 
 After committing your work on your machine, you'll have a local branch that looks like this
 
@@ -299,11 +293,28 @@ To do this, we must **push** our branch onto GitHub.
 ### Group discussion
 
 - Group discussion/demo
-- ⏲️ 10 mins
+- ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
 A volunteer will need to navigate and let the group guide them in following through the steps in the previous recap activity.
 
+
+## 🧵 Tying things up
+
+Now is some time to wrap up and try and discuss some of the key concepts from this week.
+
+- Trainees discuss in pairs
+- ⏲️ 10 mins
+
+In your pair, discuss briefly:
+
+1. what is a commit? why do we need to use commits?
+1. why do we store repositories on GitHub ?
+1. what is VSCode used for?
+1. explain the difference between Git and Github
+1. explain why developers use branches
+1. what is the difference between a fork and a clone?
+1. what does the branch name `origin/main` mean instead of just `main`
 
 
 
