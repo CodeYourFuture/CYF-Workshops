@@ -87,7 +87,7 @@ Set a whole class timer for 30 minutes.
 
 ### Confound yourselves
 
-- Pick a problem from the bank.
+- Pick a problem from the [bank](https://curriculum.codeyourfuture.io/asking-questions#problem-bank).
 - As a group, make a prediction about what you think the answer is, and write it down.
 - Test your prediction. (Try it out.)
 - Compare your prediction with the outcome.
@@ -103,7 +103,7 @@ What happened? Is there a gap in your understanding?
 
 Put your prediction in the "expected" section.
 
-Include as much context as you can, including links, line numbers, sample code, etc. Use code blocks to mark up your code. If you use screenshots, they should only show the _visual render_ (never screenshot code).
+Include as much context as you can, including links, line numbers, sample code, etc. Use code blocks to mark up your code. If you use screenshots, they should only show the _visual render_ (never screenshot code - paste code as text).
 
 Post your question in #cyf-ask-tech-stuff.
 
@@ -112,6 +112,7 @@ Post your question in #cyf-ask-tech-stuff.
 ### 🧑🏾‍💻🙋 Developer questions contain
 
 1. 🔗 Links 👍
+1. Objectives - what are you actually trying to do? 👍
 1. 🖼️ Screenshots of UI 👍
 1. 📝 `Code blocks` 👍
 1. 📷 ~~Screenshots of code~~ 🙅
