@@ -52,7 +52,7 @@ This workshop is designed to be a bit tricky and mysterious on purpose: but hope
 - ℹ️ - Instructions
 - 🖊️ - Write something down
 - 👀 - Observe something
-- 🔑 - Key info / definition
+- 🔑 - Key info/definition
 - 🏃 - Run a command
 
 
