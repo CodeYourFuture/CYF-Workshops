@@ -9,7 +9,7 @@ This workshop serves several overarching aims:
 - Practice use of CLI skills for Git
 
 
-## Learning objects
+## Learning objectives
 
 After this session, learners should be able to:
 
