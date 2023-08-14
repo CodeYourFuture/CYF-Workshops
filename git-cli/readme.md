@@ -1,19 +1,19 @@
 # Git workshop
 
 
-This workshop serves several overarching aims:
+This workshop serves several overarching _themes_:
 
-- Build a strong **mental model** for Git
+- Develop our **mental model** of staging and committing in Git
 - Consolidate existing knowledge of Git
-- Practice use of CLI skills for Git
+- Develop use of CLI skills for Git
 
 
 ## Learning objectives
 
-After this session, learners should be able to:
+During this session, you will:
 
 ```objectives
-- [ ] *Define* the working tree
+- [ ] *Define* the working directory/working tree
 - [ ] *List* a subset of files and directories in a working directory according to some criteria
 - [ ] *Define* a git commit
 - [ ] *List* the different versions of a Git project
@@ -33,17 +33,13 @@ You'll need to work on this project in pairs.
 
 - You can assign one person to be "Person 1"
 - You can assign another person to be "Person 2"
+- Person 1 will need to **clone** this repository to their local machine 👉 https://github.com/CodeYourFuture/bbc-food
+- Go to the issues page for this repository 👉 https://github.com/CodeYourFuture/bbc-food/issues
+- You'll need to read the issue and check you understand the acceptance criteria
 
-Person 1 will need to **clone down this repo**. Keep it on your machine. Person 1 you're in charge of reading the instructions in this repo. You'll need to start at `0-working-directory.md`
+## Task
 
-Person 2 will need to clone down another repository (we'll be answering questions about this repo during this workshop)
-
-❗ Whenever Person 1 reads out instructions, they'll be asking Person 2 to run those commands on their machine, in the repo they cloned down to their machine.
-
-Person 1 will be prompted to read something out when they encounter this symbol: 📚 🗣️
-When you encounter ❓ then you can answer the questions. Just update the markdown files as you go along.
-This workshop is designed to be a bit tricky and mysterious on purpose: but hopefully you'll undergo a journey of discovery as you work through these resources!
-
+In pairs, you're going to use Git CLI commands to start working on this project.
 
 ## Key
 
@@ -56,4 +52,4 @@ This workshop is designed to be a bit tricky and mysterious on purpose: but hope
 - 🏃 - Run a command
 
 
-Start here 👉 [Starting point](./0-working-directory.md)
+Start here 👉 [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-cli/0-working-directory.md)
