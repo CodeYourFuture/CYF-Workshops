@@ -19,15 +19,19 @@ main ul {
 #infinite {
   color: var(--ink);
 }
-.problems li.problem:nth-child(6) {
+.problems li.problem:nth-child(2) {
   color: red;
 }
 #boolean {
+  min-height: 1.5em;
+}
+#boolean p {
   opacity: 1;
   transition: opacity 0.3s;
+  display: block;
 }
-#boolean:hover,
-#boolean:focus {
+#boolean:hover p,
+#boolean:focus p {
   display: none;
   opacity: 0;
 }
