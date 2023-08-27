@@ -2,10 +2,12 @@
 
 Today we're going to think about components. We're going to build a page using a design system and we're going to collaborate on a feature branch workflow.
 
+The overall mission is to compose "components" / groupings of HTML elements to re-build this web page: [CYF Components Workshop](https://cyf-workshops.netlify.app/components-1).
+
 ## Learning Objectives
 
 ```objectives
-- [ ] Use a design system to build a component
+- [ ] Use a design system to build a component from a documented pattern
 - [ ] Collaborate on a feature branch workflow to build a page
 ```
 
@@ -44,7 +46,7 @@ Now you're all set up to make changes to together.html.
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+time).
 
-Deployed from this repo is a [mini design system](https://cyf-workshops.netlify.app/components-1). This design system has only three documented components: [card](https://cyf-workshops.netlify.app/components-1/card.html), [header](https://cyf-workshops.netlify.app/components-1/header.html), and [footer](https://cyf-workshops.netlify.app/components-1/footer.html). Each component view has some sample code and some statements about the components.
+Deployed from this repo is a [mini design system](https://cyf-workshops.netlify.app/components-1). This design system has several documented components: [card](https://cyf-workshops.netlify.app/components-1/docs/card), [header](https://cyf-workshops.netlify.app/components-1/docs/header), and [footer](https://cyf-workshops.netlify.app/components-1/docs/footer). Each component view has some sample code and some statements about the components.
 
 Your mission is to find the docs for your component and read them.
 
@@ -56,10 +58,10 @@ Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minu
 
 <!--{{note type="activity" title="Parallel Development 30m">}}-->
 
-Now **implement** your component. Elect a new driver.
+Now **build** your component. Elect a new driver.
 
-1. Find [together.html](together.html) in the /components-1 director.
-1. In the correct portion of the page, make your changes to implement your feature on together.html.
+1. Find [together.html](together.html) in the /components-1 directory. Your mission is to complete this page.
+1. In the correct portion of the page, make your changes to build your feature on together.html.
 1. Driver, commit your changes to your feature branch.
 1. Open a pull request from your branch to main, with your changes.
 1. Remember, docs will help you.

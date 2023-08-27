@@ -6,7 +6,6 @@
     <title>CYF Workshops</title>
     <meta name="description" content="Workshops for CYF classes" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js" defer async></script>
     <style>
       /* Here's our design 
 It's fonts, colours, and spacing.
@@ -120,47 +119,7 @@ And give them their own layouts inside. */
       </a>
       <h1>CYF Workshops</h1>
     </header>
-    <readme-component></readme-component>
-      <script>
-      class ReadmeComponent extends HTMLElement {
-        constructor() {
-          super();
-          this.attachShadow({ mode: "open" });
-        }
-        connectedCallback() {
-          this.fetchReadme();
-        }
-        async fetchReadme() {
-          try {
-            const response = await fetch(
-              "https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme"
-            );
-            if (!response.ok) {
-              console.error("Failed to fetch README: " + response.status);
-              return;
-            }
-            const json = await response.json();
-            const decodedContent = atob(json.content);
-            this.render(decodedContent);
-          } catch (error) {
-            console.error(error);
-          }
-        }
-
-        render(md) {
-          try {
-            let converter = new showdown.Converter();
-            let html = converter.makeHtml(md);
-            this.shadowRoot.innerHTML = `
-              <main>${html}</main>
-            `;
-          } catch (error) {
-            console.error("Failed to convert markdown to HTML: " + error);
-          }
-        }
-      }
-
-      customElements.define("readme-component", ReadmeComponent);
-    </script>
+    <readme-component path="readme"></readme-component>
+    <script type="module" src="readme.js"></script>
   </body>
 </html>
