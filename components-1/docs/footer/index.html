@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Design System: Footer</title>
+    <title>Design System: Header</title>
     <meta name="description" content="A Components workshop" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <script src="assets/app.js" defer></script>
+    <link rel="stylesheet" href="../../assets/styles.css" />
+    <script src="../../assets/app.js" defer></script>
   </head>
   <body>
     <a class="is-invisible" href="#main">Skip to main</a>
@@ -35,7 +35,12 @@
       <h2 class="header__page">Footer</h2>
       <button id="toggle" class="header__action">
         <span class="is-invisible">Toggle Menu.</span>
-        <svg class="header__dots" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <svg
+          class="header__dots"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
           <path
             stroke="currentcolor"
             stroke-linecap="round"
@@ -49,57 +54,69 @@
     <nav class="menu" id="menu" hidden>
       <ul>
         <li>
-          <a
-            href="index.html"
-            >Components Workshop</a
-          >
+          <a href="../../index.html">Components Workshop</a>
         </li>
         <li>
-          <a
-            href="teams.html"
-            >Team Generator</a
-          >
+          <a href="../../teams.html">Team Generator</a>
         </li>
         <li>
-          <a
-            href="card.html"
-            >Card docs</a
-          >
+          <a href="../card">Card docs</a>
         </li>
         <li>
-          <a
-            href="header.html"
-            >Header docs</a
-          >
+          <a href="../header">Header docs</a>
         </li>
         <li>
-          <a
-            href="footer.html"
-            >Footer docs</a
-          >
+          <a href="../footer">Footer docs</a>
+        </li>
+        <li>
+          <a href="../index.html">All docs</a>
         </li>
       </ul>
     </nav>
-    <main tabindex="0" id="main">
-      <a class="card" href="https://component.gallery/components/footer/">
-        <h3 class="card__heading">Footer</h3>
-        <span class="card__emoji">🦶🏼</span>
-      </a>
+    <main tabindex="0" id="main" class="main">
+      <section class="main__deck">
+        <a
+          class="card"
+          href="https://www.uxpin.com/studio/blog/footer-design-basics/"
+        >
+          <h3 class="card__heading">Footer</h3>
+          <span class="card__emoji">🦶</span>
+        </a>
+        <a href="footer.txt" class="card">
+          <h3 class="card__heading">Footer HTML</h3>
+          <object
+            class="card__code"
+            data="footer.txt"
+            type="text/plain"
+            width="400"
+            height="300"
+          ></object>
+        </a>
+        <a href="styles.css" class="card">
+          <h3 class="card__heading">Footer CSS</h3>
+          <object
+            class="card__code"
+            data="styles.css"
+            type="text/css"
+            width="400"
+            height="300"
+          ></object>
+        </a>
+      </section>
       <section class="copy">
-<pre>
-&lt;footer class="footer"&gt;
-    &lt;a class="footer__link" href=""&gt;&lt;/a&gt;  
-&lt;/footer&gt;
-</pre>
-    <h2>Documentation</h2>
-    <h3>Here is the footer documentation for our tiny design system.</h3>
-    <ol>
-        <li>The footer must be given the classes shown.</li>
-        <li>There may only be one footer of this type on the page.</li>
-    </ol>
+        <h2>Documentation</h2>
+        <h3>Here is the footer documentation for our tiny design system.</h3>
+        <ol>
+          <li>Footer must use the footer element</li>
+          <li>The footer must be given the class shown.</li>
+          <li>Footer may have a github link.</li>
+        </ol>
+      </section>
     </main>
     <footer class="footer">
-      <a class="footer__link" href="https://github.com/CodeYourFuture/CYF-Workshops"
+      <a
+        class="footer__link"
+        href="https://github.com/CodeYourFuture/CYF-Workshops"
         ><svg
           focusable="false"
           role="presentation"

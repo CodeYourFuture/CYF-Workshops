@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>CYF Components Workshop</title>
+    <title>Design System: Header</title>
     <meta name="description" content="A Components workshop" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <script src="assets/app.js" defer></script>
+    <link rel="stylesheet" href="../../assets/styles.css" />
+    <script src="../../assets/app.js" defer></script>
   </head>
   <body>
     <a class="is-invisible" href="#main">Skip to main</a>
@@ -32,7 +32,7 @@
           </svg>
         </a>
       </h1>
-      <h2 class="header__page">Components Workshop</h2>
+      <h2 class="header__page">Header</h2>
       <button id="toggle" class="header__action">
         <span class="is-invisible">Toggle Menu.</span>
         <svg
@@ -54,45 +54,64 @@
     <nav class="menu" id="menu" hidden>
       <ul>
         <li>
-          <a href="index.html">Components Workshop</a>
+          <a href="../../index.html">Components Workshop</a>
         </li>
         <li>
-          <a href="teams.html">Team Generator</a>
+          <a href="../../teams.html">Team Generator</a>
         </li>
         <li>
-          <a href="card.html">Card docs</a>
+          <a href="../card">Card docs</a>
         </li>
         <li>
-          <a href="header.html">Header docs</a>
+          <a href="../header">Header docs</a>
         </li>
         <li>
-          <a href="footer.html">Footer docs</a>
+          <a href="../footer">Footer docs</a>
+        </li>
+        <li>
+          <a href="../index.html">All docs</a>
         </li>
       </ul>
     </nav>
     <main tabindex="0" id="main" class="main">
-      <ul class="main__deck">
-        <li>
-          <a class="card" href="docs/header/">
-            <h3 class="card__heading">Header</h3>
-            <span class="card__emoji">📰</span>
-          </a>
-        </li>
-        <li>
-          <a class="card" href="docs/card">
-            <h3 class="card__heading">Cards</h3>
-            <span class="card__emoji">📇</span>
-          </a>
-        </li>
-        <li>
-          <a class="card" href="docs/footer/">
-            <h3 class="card__heading">Footer</h3>
-            <span class="card__emoji">🦶</span>
-          </a>
-        </li>
-      </ul>
-      <section class="main__copy">
-        <readme-component></readme-component>
+      <section class="main__deck">
+        <a
+          class="card"
+          href="https://www.uxpin.com/studio/blog/footer-design-basics/"
+        >
+          <h3 class="card__heading">Header</h3>
+          <span class="card__emoji">💆</span>
+        </a>
+        <a href="header.txt" class="card">
+          <h3 class="card__heading">Header HTML</h3>
+          <object
+            class="card__code"
+            data="header.txt"
+            type="text/plain"
+            width="400"
+            height="300"
+          ></object>
+        </a>
+        <a href="styles.css" class="card">
+          <h3 class="card__heading">Header CSS</h3>
+          <object
+            class="card__code"
+            data="styles.css"
+            type="text/css"
+            width="400"
+            height="300"
+          ></object>
+        </a>
+      </section>
+      <section class="copy">
+        <h2>Documentation</h2>
+        <h3>Here is the header documentation for our tiny design system.</h3>
+        <ol>
+          <li>Header must use the header element</li>
+          <li>The header must be given the classes shown.</li>
+          <li>Header must identify the site it is on.</li>
+          <li>Header must identify the page it is on.</li>
+        </ol>
       </section>
     </main>
     <footer class="footer">
@@ -115,6 +134,5 @@
         <span class="is-invisible">Find us on GitHub</span></a
       >
     </footer>
-    <script type="module" src="../readme.js"></script>
   </body>
 </html>

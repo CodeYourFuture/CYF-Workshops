@@ -70,29 +70,112 @@
         </li>
       </ul>
     </nav>
-    <main tabindex="0" id="main" class="main">
-      <ul class="main__deck">
+    <main tabindex="0" id="main">
+      <ul class="deck">
         <li>
-          <a class="card" href="docs/header/">
-            <h3 class="card__heading">Header</h3>
+          <a
+            class="card"
+            href="https://design-system.service.gov.uk/components/header/"
+          >
+            <h3 class="card__heading">Headers</h3>
             <span class="card__emoji">📰</span>
           </a>
         </li>
         <li>
-          <a class="card" href="docs/card">
+          <a
+            class="card"
+            href="https://getbootstrap.com/docs/4.3/components/navs/"
+          >
+            <h3 class="card__heading">Navs</h3>
+            <span class="card__emoji">🧭 </span>
+          </a>
+        </li>
+        <li>
+          <a
+            class="card"
+            href="https://bulma.io/documentation/components/card/"
+          >
             <h3 class="card__heading">Cards</h3>
             <span class="card__emoji">📇</span>
           </a>
         </li>
-        <li>
-          <a class="card" href="docs/footer/">
-            <h3 class="card__heading">Footer</h3>
-            <span class="card__emoji">🦶</span>
-          </a>
-        </li>
       </ul>
-      <section class="main__copy">
-        <readme-component></readme-component>
+      <section class="copy">
+        <p>
+          When we build visual web pages we always use these building blocks:
+          <em>fonts</em> <em>colours</em>, and <em>spacing</em>. Every site you
+          see uses these building blocks to show the user an interface.
+        </p>
+        <h3>
+          🧩 <a href="https://component.gallery/components/">Components</a>
+        </h3>
+        <p>
+          In fact they use these building blocks to design
+          <a href="https://design-system.service.gov.uk/components/"
+            >components</a
+          >. The components are <em>composed</em> on the page to make a user
+          interface. All web coding is the <em>composition</em> of small, simple
+          pieces into more and more complex systems.
+        </p>
+
+        <p>
+          It is the job of a developer to build the smallest, simplest piece she
+          can. We are always operating within a wafer thin layer of a vastly
+          more complex system, and it's our job to make that layer as clear and
+          <em>simple</em> as possible, so all the other layers can predict what
+          it might do.
+        </p>
+        <h3>Design System</h3>
+        <p>
+          Design systems are libraries of premade components that developers use
+          to compose interfaces. Each design system reflects the priorities of
+          the developers who made them.
+        </p>
+        <p>
+          <a href="https://design-system.service.gov.uk/components/">GDS</a>,
+          the UK government design system, is a good example of a design system
+          made and tested a lot to be accessible, because everyone in the UK has
+          to use it.
+          <a href="https://design-system.w3.org/components/"
+            >W3C Design System</a
+          >
+          is another good example of a design system made to be accessible,
+          because it's made by the people who make the web standards.
+        </p>
+        <p>
+          Notice how even components with similar names and similar goals are
+          constructed differently. All design systems are different, but the
+          underlying format is recognisable. Just like every detective novel is
+          different, but the
+          <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/MysteryTropes"
+            >genre as a whole</a
+          >
+          is recognisable.
+        </p>
+
+        <h3>Collaboration</h3>
+        <p>
+          When we build a house, the roofer cannot begin until the walls are up.
+          But when we build a web application, we can build many parts at the
+          same time. I can build cards while you set up a database. We can even
+          build different parts of the same page at the same time. We do this by
+          isolating our work into separate components.
+        </p>
+        <h3>
+          🧪
+          <a href="https://playset.netlify.app/"
+            >Pattern Recognition, Pattern Definition</a
+          >
+        </h3>
+        <p>
+          <strong>Developers are collaborators</strong>,
+          <a href="https://www.youtube.com/watch?v=nJPERZDfyWc">composers</a>,
+          conductors. Like musicians, developers describe their work in terms of
+          rules for others to understand and use that work. In this way,
+          developers can construct systems by organising many existing pieces
+          into a new symphony. But in order to do this, developers have to
+          constantly recognise, describe, and reproduce <em>patterns</em>.
+        </p>
       </section>
     </main>
     <footer class="footer">
@@ -115,6 +198,5 @@
         <span class="is-invisible">Find us on GitHub</span></a
       >
     </footer>
-    <script type="module" src="../readme.js"></script>
   </body>
 </html>

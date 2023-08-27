@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Design System: Card</title>
+    <title>Design System: Layout</title>
     <meta name="description" content="A Components workshop" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <script src="assets/app.js" defer></script>
+    <link rel="stylesheet" href="../../assets/styles.css" />
+    <script src="../../assets/app.js" defer></script>
   </head>
   <body>
     <a class="is-invisible" href="#main">Skip to main</a>
@@ -32,10 +32,15 @@
           </svg>
         </a>
       </h1>
-      <h2 class="header__page">Card</h2>
+      <h2 class="header__page">Layout</h2>
       <button id="toggle" class="header__action">
         <span class="is-invisible">Toggle Menu.</span>
-        <svg class="header__dots" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <svg
+          class="header__dots"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
           <path
             stroke="currentcolor"
             stroke-linecap="round"
@@ -49,59 +54,58 @@
     <nav class="menu" id="menu" hidden>
       <ul>
         <li>
-          <a
-            href="index.html"
-            >Components Workshop</a
-          >
+          <a href="../../index.html">Components Workshop</a>
         </li>
         <li>
-          <a
-            href="teams.html"
-            >Team Generator</a
-          >
+          <a href="../../teams.html">Team Generator</a>
         </li>
         <li>
-          <a
-            href="card.html"
-            >Card docs</a
-          >
+          <a href="../card">Card docs</a>
         </li>
         <li>
-          <a
-            href="header.html"
-            >Header docs</a
-          >
+          <a href="../header">Header docs</a>
         </li>
         <li>
-          <a
-            href="footer.html"
-            >Footer docs</a
-          >
+          <a href="../footer">Footer docs</a>
+        </li>
+        <li>
+          <a href="../index.html">All docs</a>
         </li>
       </ul>
     </nav>
-    <main tabindex="0" id="main">
-      <a class="card" href="https://www.nngroup.com/articles/cards-component/">
-        <h3 class="card__heading">Card</h3>
-        <span class="card__emoji">📇</span>
-      </a>
+    <main tabindex="0" id="main" class="main">
+      <section class="main__deck">
+        <a
+          class="card"
+          href="https://m3.material.io/foundations/layout/understanding-layout/overview"
+        >
+          <h3 class="card__heading">Layout</h3>
+          <span class="card__emoji">🍱</span>
+        </a>
+        <a href="styles.css" class="card">
+          <h3 class="card__heading">Layout CSS</h3>
+          <object
+            class="card__code"
+            data="styles.css"
+            type="text/css"
+            width="400"
+            height="300"
+          ></object>
+        </a>
+      </section>
       <section class="copy">
-    <pre>
-&lt;a class="card" href=""&gt;
-    &lt;h3 class="card__heading"&gt;Card&lt;/h3&gt;
-    &lt;span class="card__emoji"&gt;📇&lt;/span&gt;
-&lt;/a&gt;
-    </pre>
-
-    <h2>Documentation</h2>
-    <h3>Here is the card documentation for our tiny design system.</h3>
-    <ol>
-        <li>Cards must be given the card classes shown.</li>
-        <li>Cards must contain a header and emoji.</li>
-    </ol>
+        <h2>Documentation</h2>
+        <h3>Here is the layout documentation for our tiny design system.</h3>
+        <ol>
+          <li>Layout is applied to the body</li>
+          <li>Layout expects a header, footer, and main</li>
+        </ol>
+      </section>
     </main>
-     <footer class="footer">
-      <a class="footer__link" href="https://github.com/CodeYourFuture/CYF-Workshops"
+    <footer class="footer">
+      <a
+        class="footer__link"
+        href="https://github.com/CodeYourFuture/CYF-Workshops"
         ><svg
           focusable="false"
           role="presentation"
