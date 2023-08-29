@@ -19,7 +19,7 @@ Before you start, make sure you've installed the [CYF Extension Pack](https://ma
 npm install -g prettier
 ```
 
-<!--{{note type="activity" title="Set up your feature branch 15m">}}-->
+<!--{{<note type="activity" title="Set up your feature branch 15m">}}-->
 
 ### Set up your feature branches
 
@@ -40,7 +40,7 @@ Now you're all set up to make changes to together.html.
 
 <!--{{</note>}}-->
 
-<!--{{note type="activity" title="Find your docs 10m">}}-->
+<!--{{<note type="activity" title="Find your docs 10m">}}-->
 
 ## Find your docs
 
@@ -56,7 +56,7 @@ Your mission is to find the docs for your component and read them.
 
 Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+time).
 
-<!--{{note type="activity" title="Parallel Development 30m">}}-->
+<!--{{<note type="activity" title="Parallel Development 30m">}}-->
 
 Now **build** your component. Elect a new driver.
 
@@ -88,7 +88,7 @@ Now we're going to review each other's work. If a mentor is available, they can 
 
 Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+time).
 
-<!--{{note type="activity" title="Review 30m">}}-->
+<!--{{<note type="activity" title="Review 30m">}}-->
 
 1. Go to the [pull requests](https://github.com/CodeYourFuture/CYF-Workshops/pulls) for this repo.
 1. Either individually or as a group, review each other's PRs.
