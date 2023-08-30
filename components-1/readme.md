@@ -32,8 +32,8 @@ Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minu
 1. Driver, **clone** [this repository](https://github.com/CodeYourFuture/CYF-Workshops/)
 1. Driver, create and checkout a new branch for your team named like this: `feature/cohort-component`, where _cohort_ is your cohort name and _component_ is the component you're building, for example: `feature/nw6-header`
 
-```git
-git -b checkout feature/cohort-component
+```bash
+git switch --create feature/cohort-component
 ```
 
 Now you're all set up to make changes to together.html.
