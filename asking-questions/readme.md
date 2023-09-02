@@ -87,7 +87,7 @@ Set a whole class timer for 30 minutes.
 
 ### Confound yourselves
 
-- Pick a problem from the [bank](https://curriculum.codeyourfuture.io/asking-questions#problem-bank).
+- Pick a problem from the [bank](https://cyf-workshops.netlify.app/asking-questions#problem-bank).
 - As a group, make a prediction about what you think the answer is, and write it down.
 - Test your prediction. (Try it out.)
 - Compare your prediction with the outcome.
