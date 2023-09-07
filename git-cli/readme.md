@@ -18,22 +18,21 @@ During this session, you will:
 - [ ] Identify the metadata for an arbitrary commit in a timeline
 - [ ] Checkout the files and folders in a given commit
 - [ ] Define the staging area
-- [ ] Explain the purpose of the staging area 
+- [ ] Explain the purpose of the staging area
 - [ ] Add changes in the working directory to the staging area using an appropriate Git porcelain command
 - [ ] Explain the difference between `git commit` and `git add`
 - [ ] Create a new feature branch using the Git porcelain commands
-- [ ] Switch between branches in a Git project using Git porcelain commands 
+- [ ] Switch between branches in a Git project using Git porcelain commands
 ```
 
 ## Setup
 
 You'll need to work on this workshop in pairs.
 
-- Assign one person to be "Person 1"
-- Assign another person to be "Person 2"
-- Person 1 will need to **clone** this repository to their local machine 👉 https://github.com/CodeYourFuture/bbc-food
-- Go to the issues page for this repository 👉 https://github.com/CodeYourFuture/bbc-food/issues
-- You'll need to read the issue and check you understand the acceptance criteria
+- Assign one person to be "Person 1".
+- Assign another person to be "Person 2".
+- Person 1 will need to ensure they have a clone of this repo on their local machine**clone** this repository to their local machine.
+
 
 ## Task
 

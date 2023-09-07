@@ -15,7 +15,7 @@ So our first goal is:
 
 🎯 Goal: Check to see what changes (if any) we have in our working directory.
 
-## 🩺 Steps
+## 👣 Steps
 
 1. Go to the docs and check the definition of the `git status` command 👉 https://www.atlassian.com/git/tutorials/inspecting-a-repository
 1. Open the repo you cloned down during setup, and run the command `git status`

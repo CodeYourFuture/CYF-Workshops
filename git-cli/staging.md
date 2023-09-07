@@ -1,7 +1,7 @@
 # Staging changes
 
 
-🎯 Goal: stage changes in our working directory. 
+🎯 Goal: stage changes in our working directory.
 🎯 Goal: check the state of the working directory and the staging area
 
 
@@ -10,7 +10,7 @@
 Let's make a change to the current working directory and then stage that change.
 
 Open up this project in VSCode (if you've not done so already)
-Find a problem with the `lasagne.html` source code and try to fix it in the file editor.
+Find a problem with the `index.html` source code and try to fix it in the file editor.
 
 ## Current mental model 🧠
 
@@ -44,7 +44,7 @@ Use a CLI command to double check the state of your staging area and your workin
 🖊️ Write down what you think `git status` is doing.
 
 
-🎯 Goal: we need to stage the changes to `lasagne.html`. 
+🎯 Goal: we need to stage the changes to `lasagne.html`.
 Or, in other words, we need to add `lasagne.html` to the staging area.
 
 ## `git add`

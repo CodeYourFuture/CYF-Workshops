@@ -15,14 +15,11 @@ d) A message describing a recent change that was applied to a file
 
 Check your answer using an online definition.
 
+## 👣 Steps
 
-Go online and find a Git command you can use to l**ist all the commits** for a particular repository.
 
-Using this command, answer the following questions:
+1. Go online and find a Git command you can use to **list all the commits** for a particular repository.
 
-How many git commits are there in the history of the bbc food project at the moment?
-What is the commit hash of the **initial commit**?
-What time was the most recent commit created?
 
 
 [Next section](./timelines-branches.md)
