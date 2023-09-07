@@ -1,5 +1,3 @@
-# Git workshop
-
 
 This workshop serves several overarching _themes_:
 
@@ -13,18 +11,18 @@ This workshop serves several overarching _themes_:
 During this session, you will:
 
 ```objectives
-- [ ] *Define* the working directory/working tree
-- [ ] *List* a subset of files and directories in a working directory according to some criteria
-- [ ] *Define* a git commit
-- [ ] *List* the different versions of a Git project
-- [ ] *Identify* the metadata for an arbitrary commit in a timeline
-- [ ] *Checkout* the files and folders in a given commit
-- [ ] *Define* the staging area
-- [ ] *Explain* the purpose of the staging area 
-- [ ] *Add* changes in the working directory to the staging area using an appropriate Git porcelain command
-- [ ] *Explain* the difference between `git commit` and `git add`
-- [ ] *Create* a new feature branch using the Git porcelain commands
-- [ ] *Switch* between branches in a Git project using Git porcelain commands 
+- [ ] Define the working directory/working tree
+- [ ] List a subset of files and directories in a working directory according to some criteria
+- [ ] Define a git commit
+- [ ] List the different versions of a Git project
+- [ ] Identify the metadata for an arbitrary commit in a timeline
+- [ ] Checkout the files and folders in a given commit
+- [ ] Define the staging area
+- [ ] Explain the purpose of the staging area 
+- [ ] Add changes in the working directory to the staging area using an appropriate Git porcelain command
+- [ ] Explain the difference between `git commit` and `git add`
+- [ ] Create a new feature branch using the Git porcelain commands
+- [ ] Switch between branches in a Git project using Git porcelain commands 
 ```
 
 ## Setup
