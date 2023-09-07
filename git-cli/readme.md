@@ -50,4 +50,4 @@ In pairs, you will practice Git CLI commands to complete the tasks in this works
 - 🏃 - Run a command
 
 
-Start here 👉 [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-cli/working-directory.md)
+Start here 👉 [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/new-git-cli-workshop/git-cli/working-directory.md)
