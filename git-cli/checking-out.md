@@ -9,15 +9,14 @@ Let's remind ourselves what the commit history looks like:
 
 ## Steps 👣
 
-Let's start by using `git log`.
-
-Run the command `git log` in your `bbc-food` directory.
+1. Let's start by double checking which branch we're on. Find a Git CLI command to double check the branch you're currently on.
 
 We need to create a **branch** so we can start making changes independently from `main`. We'll need an appropriate branch name for the changes.
 
-Now run the command `git checkout -b {YOUR_BRANCH_NAME}`
+We can use the command `git checkout` command.
 
-Now run `git log --oneline` and _check_ the branch was created successfully.
+Use the `git checkout` command to create a new branch.
 
+Now double-check you're on the branch you just created.
 
-[Next section](./4-staging.md)
+[Next section](./staging.md)

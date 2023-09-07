@@ -2,30 +2,20 @@
 
 
 🎯 Goal: stage changes in our working directory. 
+🎯 Goal: check the state of the working directory and the staging area
+
 
 ## Updating the working tree
 
-So, given our **working directory**, **timeline** - we might be asking:
-
-> **How do we actually take a snapshot of our current work**
->
-> Or in other words, **how do we create a commit?**
-
-Let's make a change to the current working directory.
+Let's make a change to the current working directory and then stage that change.
 
 Open up this project in VSCode (if you've not done so already)
 Find a problem with the `lasagne.html` source code and try to fix it in the file editor.
 
 ## Current mental model 🧠
 
-In our current mental model we've discussed...
+We've made a change to the **working directory** and we now need to **stage the change**
 
-- Working tree
-- Commit timeline
-
-And we're trying to take a snapshot of our working tree at the moment.
-
-We're missing one final area in our mental model.
 We need to inspect the **staging area**.
 
 ## Staging area 🔴 🟢
@@ -49,20 +39,18 @@ In order to do this, we store the updated/new/deleted files in the staging area.
 
 ## `git status`
 
-Let's start with a command `git status`.
+Use a CLI command to double check the state of your staging area and your working directory
 
 🖊️ Write down what you think `git status` is doing.
 
-ℹ️ You can run the command `git status --help` in order to work this out.
-👓 Look carefully at the output from this command.
-❓ What do you think it is telling you?
 
-🎯 Goal: we need to stage `lasagne.html`. 
+🎯 Goal: we need to stage the changes to `lasagne.html`. 
 Or, in other words, we need to add `lasagne.html` to the staging area.
 
 ## `git add`
 
-We can use the `git add` command to stage changes to a file.
+We can run `git add` and the name of the file to add the changes we want to stage.
+
 Now run `git status` again.
 
 We now need to store this change in the working directory.

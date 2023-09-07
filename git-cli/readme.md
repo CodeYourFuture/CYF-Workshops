@@ -3,7 +3,7 @@ This workshop serves several overarching _themes_:
 
 - Develop our **mental model** of staging and committing in Git
 - Consolidate existing knowledge of Git
-- Develop use of CLI skills for Git
+- Develop use of your CLI skills for Git
 
 
 ## Learning objectives
@@ -27,17 +27,17 @@ During this session, you will:
 
 ## Setup
 
-You'll need to work on this project in pairs.
+You'll need to work on this workshop in pairs.
 
-- You can assign one person to be "Person 1"
-- You can assign another person to be "Person 2"
+- Assign one person to be "Person 1"
+- Assign another person to be "Person 2"
 - Person 1 will need to **clone** this repository to their local machine 👉 https://github.com/CodeYourFuture/bbc-food
 - Go to the issues page for this repository 👉 https://github.com/CodeYourFuture/bbc-food/issues
 - You'll need to read the issue and check you understand the acceptance criteria
 
 ## Task
 
-In pairs, you're going to use Git CLI commands to start working on this project.
+In pairs, you will practice Git CLI commands to complete the tasks in this workshop.
 
 ## Key
 
@@ -50,4 +50,4 @@ In pairs, you're going to use Git CLI commands to start working on this project.
 - 🏃 - Run a command
 
 
-Start here 👉 [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-cli/0-working-directory.md)
+Start here 👉 [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-cli/working-directory.md)
