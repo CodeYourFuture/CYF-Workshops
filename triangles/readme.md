@@ -16,7 +16,7 @@
 Check out the link to this page giving information about different types of triangles https://www.mathsisfun.com/triangle.htm
 The link tells you how to classify triangles based on their 3 sides
 
-## Interpret requirements
+## Interpret requirements
 
 In this workshop, you'll need to implement a function that takes **the three side lengths of a triangle** and returns a string indicating whether it is **`"equilateral"`**, **`"isoceles"`** or **`"scalene"`**
 
