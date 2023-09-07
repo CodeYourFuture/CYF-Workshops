@@ -7,6 +7,7 @@
 - [ ] Set out some acceptance criteria
 - [ ] Specify some test cases
 - [ ] Implement a function based off some test cases
+- [ ] Interpret documentation on JavaScript logical operators
 ```
 
 ## 🧰 Setup
