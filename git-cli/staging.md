@@ -1,7 +1,7 @@
 # Staging changes
 
 
-🎯 Goal: stage changes in our working directory.
+🎯 Goal: stage changes in our working directory
 🎯 Goal: check the state of the working directory and the staging area
 
 
@@ -9,12 +9,15 @@
 
 Let's make a change to the current working directory and then stage that change.
 
-Open up this project in VSCode (if you've not done so already)
-Find a problem with the `index.html` source code and try to fix it in the file editor.
+Open up this project in VSCode (if you've not done so already).
+Go to `examples/ex-1.js` and try the first exercise in there
 
 ## Current mental model 🧠
 
-We've made a change to the **working directory** and we now need to **stage the change**
+We've made a change to the **working directory**.
+
+Once you've updated `examples/ex-1.js` go to the Version Control tab and double-check you can see your change
+to the Working Tree.
 
 We need to inspect the **staging area**.
 
@@ -37,29 +40,18 @@ Anything we put into the staging area we're saying:
 In order to do this, we store the updated/new/deleted files in the staging area.
 
 
-## `git status`
+Check the state of the Work
 
-Use a CLI command to double check the state of your staging area and your working directory
+Use `git status` command to check the state of your **Working Tree** and your **Staging Area**
 
 🖊️ Write down what you think `git status` is doing.
 
 
-🎯 Goal: we need to stage the changes to `lasagne.html`.
-Or, in other words, we need to add `lasagne.html` to the staging area.
+## Staging changes
 
-## `git add`
+Now let's **stage** this change - use the `git add` command to stage your change to `exercises/ex-1.js`
 
-We can run `git add` and the name of the file to add the changes we want to stage.
+Once again, after you've done this - check to see if it worked.
 
-Now run `git status` again.
-
-We now need to store this change in the working directory.
-What do you see this time?
-
-
-
-Now it's time to commit the change.
-Research the command for doing a git commit.
-
-
+Use `git status` command to check the state of your **Working Tree** and your **Staging Area**
 
