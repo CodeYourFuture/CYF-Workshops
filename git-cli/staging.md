@@ -12,7 +12,7 @@
 Let's make a change to the current working directory and then stage that change.
 
 
-### Steps 👣
+### Steps 👣
 
 1. Open up this project in VSCode (if you've not done so already).
 2. Go to `examples/ex-1.js` and try the first exercise in there
