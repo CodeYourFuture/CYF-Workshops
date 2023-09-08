@@ -56,9 +56,7 @@ Now run `git status` again.
 We now need to store this change in the working directory.
 What do you see this time?
 
-You should hopefully see something like this:
 
-![image](./assets/git-status-after.png)
 
 Now it's time to commit the change.
 Research the command for doing a git commit.

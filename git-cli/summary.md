@@ -8,10 +8,10 @@ We have git **commits** - these are snapshots of some of our files and folders i
 
 And in Git we build up a timeline of commits that looks like something like this:
 
-![timeline-sample](./assets/timeline-sample.png)
+
 
 So in our mental model have 2 areas or states
-- **working directory** 
+- **working directory**
 - and a **timeline of commits**.\
 And we also have the concept of branches...
 

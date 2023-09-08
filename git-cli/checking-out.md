@@ -4,7 +4,6 @@
 
 Let's remind ourselves what the commit history looks like:
 
-![git-log-output](./assets/git-log-output.png)
 
 
 ## Steps 👣
