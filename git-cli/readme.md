@@ -3,9 +3,10 @@
 ## Purpose
 
 Currently, you're using the 🎮 VSCode **interface** to interact with Git.
-However, as with many things in software, we can often use different interface to carry out the same tasks.
+However, we can often use different **interfaces** to carry out the same tasks.
 
-In this workshop, you will use the Git CLI - Command Line **Interface** to interact with Git. In addition, you will:
+In this workshop, you will use the Git CLI - Command Line **Interface** to interact with Git.
+In addition, you will:
 
 - Consolidate existing knowledge of Git
 - Develop your **mental model** of the working tree and the staging area
@@ -14,15 +15,14 @@ In this workshop, you will use the Git CLI - Command Line **Interface** to inter
 
 ## Learning objectives
 
-During this session, you will:
+During this session, with the Git CLI, you will:
 
 ```objectives
-- [ ] Research essential git cli commands for creating a commit
-- [ ] Create a new branch using the git CLI
-- [ ] Switch between branches in a Git project using Git CLI
-- [ ] Stage changes using Git CLI
-- [ ] Inspect the working directory and staging area using the Git CLI
-- [ ] Commit staged changes using the Git CLI
+- [ ] Research essential git commands commands for creating a commit
+- [ ] Inspect the status of the working directory and staging area
+- [ ] Checkout a new branch
+- [ ] Add changes from the working tree to the staging area
+- [ ] Commit staged changes
 ```
 
 ## Setup
