@@ -55,3 +55,5 @@ Once again, after you've done this - check to see if it worked.
 
 Use `git status` command to check the state of your **Working Tree** and your **Staging Area**
 
+
+[Next section](./checkpoint.md)

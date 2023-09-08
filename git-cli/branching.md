@@ -2,20 +2,17 @@
 
 🎯 Goal: Checkout a new branch using the Git CLI
 
-Let's remind ourselves what the commit history looks like:
-
-
+We need to create a **branch** so we can start making changes independently from `main`.
+We can do this with the Git CLI. We'll need an appropriate branch name for the changes.
 
 ## Steps 👣
 
-1. Let's start by double checking which branch we're on. Find a Git CLI command to double check the branch you're currently on.
+1. Run the command `git branch --help` and briefly read the description. What happens if no `--list` option is given to the `git branch` command.
 
-We need to create a **branch** so we can start making changes independently from `main`. We'll need an appropriate branch name for the changes.
+2. Now run the command `git branch` and double check your current branch.
 
-We can use the command `git checkout` command.
+3. Use the `git checkout` command to create a new branch. You can run `git checkout -b git-cli-workshop`
 
-Use the `git checkout` command to create a new branch.
-
-Now double-check you're on the branch you just created.
+4. Now double check you're on a new branch.
 
 [Next section](./staging.md)

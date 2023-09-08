@@ -2,8 +2,6 @@
 
 🎯 Goal: Inspect the existing timeline of commits using the Git CLI
 
-
-
 ## 👣 Steps
 
 
