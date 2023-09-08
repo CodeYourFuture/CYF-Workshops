@@ -16,4 +16,7 @@ Read the docs above to create a commit using the `git commit` command.
 Now you need to check you successfully created a commit. Which command can you use to check this?
 
 
-Once you've committed you can then repeat these steps to solve the other exercises.
+## Next steps 👣
+
+Once you've done your first commit for `exercises/ex-1.js` you can then repeat these steps to solve the other exercises.
+Make sure you frequently swap the role of **driver** and **navigator**.
