@@ -10,7 +10,7 @@ In addition, you will:
 
 - Consolidate existing knowledge of Git
 - Develop your **mental model** of the working tree and the staging area
-- Learn to use basic Git CLI skills
+- Learn to use basic Git CLI commands
 
 
 ## Learning objectives
@@ -22,21 +22,20 @@ During this session, with the Git CLI, you will:
 - [ ] Inspect the status of the working directory and staging area
 - [ ] Checkout a new branch
 - [ ] Add changes from the working tree to the staging area
-- [ ] Commit staged changes
+- [ ] Commit changes in the staging area
 ```
 
 ## Setup
 
-You'll need to work on this workshop in pairs.
+You will need to work in pairs:
 
 - Assign one person to be **driver** (the driver will control the keyboard and do the typing)
 - Assign another person to be **navigator** (the navigator will read out the questions and suggest how to tackle the problems)
-- The **driver** will need to ensure they have a clone of this repo on their local machine **clone** this repository to their local machine.
+The **driver** must ensure they have a clone of this repo on their local machine **clone** this repository to their local machine.
 
 
 ## Task
 
-In pairs, you will practice Git CLI commands to complete the tasks in this workshop.
-After each commit, you should swap roles
+You can follow the link to the readmes for further instructions:
 
 Start here 👉 [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/new-git-cli-workshop/git-cli/branching.md)

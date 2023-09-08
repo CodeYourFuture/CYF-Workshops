@@ -33,7 +33,7 @@ Anything we put into the staging area we're saying:
 
 > "Ok, which updated/new/deleted files would you like to put into your next snapshot?"
 >
-> "I'd like to take a snapshot of the updated `lasagne.html` file in the next commit"
+> "I'd like to take a snapshot of the updated `exercises/ex-1.js` file in the next commit"
 >
 > "OK cool, anything you'd like to put in your next commit, please put it into the staging area"
 
