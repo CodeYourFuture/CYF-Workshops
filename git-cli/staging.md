@@ -2,6 +2,7 @@
 
 
 🎯 Goal: stage changes in our working directory
+
 🎯 Goal: check the state of the working directory and the staging area
 
 
