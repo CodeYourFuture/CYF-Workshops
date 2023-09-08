@@ -1,14 +1,15 @@
 
-This workshop serves several overarching _themes_:
 
+## Purpose
 
-At the moment, you're using the VSCode interface to interact with Git.
+Currently, you're using the 🎮 VSCode **interface** to interact with Git.
+However, as with many things in software, we can often use different interface to carry out the same tasks.
 
+In this workshop, you will use the Git CLI - Command Line **Interface** to interact with Git. In addition, you will:
 
-You can use the version control Tab to view changes
-- Develop our **mental model** of staging and committing in Git
 - Consolidate existing knowledge of Git
-- Develop use of your CLI skills for Git
+- Develop your **mental model** of the working tree and the staging area
+- Learn to use basic Git CLI skills
 
 
 ## Learning objectives
