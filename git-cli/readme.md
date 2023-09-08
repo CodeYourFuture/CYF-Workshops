@@ -1,6 +1,6 @@
 
 
-## Purpose
+## 💡 Purpose
 
 Currently, you're using the 🎮 VSCode **interface** to interact with Git.
 However, we can often use different **interfaces** to carry out the same tasks.
@@ -13,7 +13,7 @@ In addition, you will:
 - Learn to use basic Git CLI commands
 
 
-## Learning objectives
+## 📝 Learning objectives
 
 During this session, with the Git CLI, you will:
 
@@ -25,7 +25,7 @@ During this session, with the Git CLI, you will:
 - [ ] Commit changes in the staging area
 ```
 
-## Setup
+## 🧰 Setup
 
 You will need to work in pairs:
 
@@ -34,7 +34,7 @@ You will need to work in pairs:
 The **driver** must ensure they have a clone of this repo on their local machine **clone** this repository to their local machine.
 
 
-## Task
+## 📜 Instructions
 
 You can follow the link to the readmes for further instructions:
 
