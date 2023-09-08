@@ -7,7 +7,7 @@ Let's use the Git CLI to do this:
 
 ## Steps 👣
 
-1. Run the command `git branch --help` and briefly read the description. What happens if no `--list` option is given to the `git branch` command.
+1. Run the command `git branch --help` and check the description to see what happens when the `--list` option is used with the `git branch` command
 
 2. Now run the command `git branch` and double check your current branch.
 

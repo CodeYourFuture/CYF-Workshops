@@ -14,9 +14,9 @@ We then **commit** our **staged changes**.
 
 So our first goal is:
 
-🎯 Goal: Check to see what changes (if any) we have in our working directory.
+🎯 Goal: Check the **status** of the working tree and the staging area
 
-To understand what is happening in this workshop, you will need to continually **check** the state of the **Working Tree** and the **Staging Area**.
+To understand what is happening in this workshop, you will need to continually check the **status** of the **Working Tree** and the **Staging Area**.
 
 So let's start with a check...
 
