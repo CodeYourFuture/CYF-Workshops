@@ -11,11 +11,12 @@ This workshop serves several overarching _themes_:
 During this session, you will:
 
 ```objectives
-
-- [ ] Discover the essential git cli commands
-- [ ] Create a new branch with git cli commands
-- [ ] Create a new feature branch using the Git porcelain commands
-- [ ] Switch between branches in a Git project using Git porcelain commands
+- [ ] Research essential git cli commands for creating a commit
+- [ ] Create a new branch using the git CLI
+- [ ] Switch between branches in a Git project using Git CLI
+- [ ] Stage changes using Git CLI
+- [ ] Inspect the working directory and staging area using the Git CLI
+- [ ] Commit staged changes using the Git CLI
 ```
 
 ## Setup
@@ -24,7 +25,7 @@ You'll need to work on this workshop in pairs.
 
 - Assign one person to be "Person 1".
 - Assign another person to be "Person 2".
-- Person 1 will need to ensure they have a clone of this repo on their local machine**clone** this repository to their local machine.
+- Person 1 will need to ensure they have a clone of this repo on their local machine **clone** this repository to their local machine.
 
 
 ## Task
