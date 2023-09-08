@@ -1,7 +1,8 @@
 # Committing changes
 
+## Learning objectives
 
-🎯 Goal: commit changes in the staging area
+- [ ] commit changes in the staging area
 
 
 First off, double check the state of your **Working Tree** and your **Staging Area**

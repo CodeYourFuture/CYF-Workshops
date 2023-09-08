@@ -1,6 +1,8 @@
 # Checkpoint 🏁
 
-🎯 Goal: Inspect the existing timeline of commits using the Git CLI
+## Learning objectives
+
+- [ ] Inspect the existing timeline of commits using the Git CLI
 
 ## 👣 Steps
 

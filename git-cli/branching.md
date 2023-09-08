@@ -1,6 +1,8 @@
-# Checking out 🌴
+# Checking out
 
-🎯 Goal: Checkout a new branch using the Git CLI
+## Learning objectives
+
+- [ ] Checkout a new branch using the Git CLI
 
 We need to create **branches** so we can start making changes independently from other branches.
 Let's use the Git CLI to do this:

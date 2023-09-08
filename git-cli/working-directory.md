@@ -1,20 +1,21 @@
 
-## Working Tree 🌴
+# Checking the working tree 🌴
 
+So our first goal is:
+
+## Learning objectives
+
+- [ ] check the **status** of the working tree and the staging area
+
+Let's recall the git commit workflow:
+
+We make **changes** to our source code **in the working tree**.
+We then **stage** our changes.
+We then **commit** our **staged changes**.
 
 The working tree is a key concept in Git.
 It is the directory with the files and folders that we can view and edit.
 When we're making changes to our code in VSCode, we're making changes in the working tree.
-
-Let's remind ourselves about the commit workflow:
-
-We make **changes** to our source code **in the working directory**.
-We then **stage** our changes.
-We then **commit** our **staged changes**.
-
-So our first goal is:
-
-🎯 Goal: Check the **status** of the working tree and the staging area
 
 To understand what is happening in this workshop, you will need to continually check the **status** of the **Working Tree** and the **Staging Area**.
 

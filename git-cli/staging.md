@@ -1,9 +1,10 @@
 # Staging changes
 
 
-🎯 Goal: stage changes in our working directory
+## Learning objectives
 
-🎯 Goal: check the state of the working directory and the staging area
+- [ ] stage changes in our working directory
+- [ ] check the state of the working directory and the staging area
 
 
 ## Updating the working tree
