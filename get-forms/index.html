@@ -8,6 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <form action="https://github.com/search" method="get"></form>
+    <form action="https://github.com/search" method="get">
+    <fieldset>
+      <label for="q">
+        <input type="search" name="q" id="search" />Enter your query
+      </label>
+      <label for="s"><input type="radio" name="s" id="radio">fork</label>
+      <label for="s"><input type="radio" name="s" id="radio">star</label>
+      <select name="o" id="order">
+        <option value="asc">ascending</option>
+        <option value="dec">descending</option>
+      </select>
+      <button>Submit</button>
+    </fieldset>
+    </form>
   </body>
 </html>
