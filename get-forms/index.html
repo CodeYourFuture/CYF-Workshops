@@ -8,6 +8,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <form action="https://github.com/search" method="get"></form>
+    <form action="https://github.com/search" method="get">
+      <ul>
+        <li type="none">
+          <label for="search">Search</label>
+          <input type="text" name="q" />
+
+          <label for="stars">Stars</label>
+          <input type="radio" id="stars" name="s" value="stars" />
+          
+          <label for="forks">forks</label>
+          <input type="radio" id="forks" name="s" value="forks" />
+          
+          <label for="update">update</label>
+          <input type="radio" id="update" name="s" value="updated" />
+          
+          <li type="none">
+            <label>ascending</label>
+            <input type="radio" name="o" value="asc" />
+            <label>descending</label>
+            <input type="radio" name="o" value="desc" />
+          </li>
+        </li>
+        <!-- <li type="none">
+          <label for="sorting">Advanced search</label> -->
+        <!-- <input type="text" name="s" />
+        </li> -->
+        <li class="button" type="none">
+          <button type="submit">SEARCH</button>
+        </li>
+      </ul>
+    </form>
   </body>
 </html>
