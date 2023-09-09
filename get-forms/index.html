@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="My Github Search form" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <form action="https://github.com/search" method="get"></form>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="My Github Search form" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Github Repository Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="https://github.com/search" method="get">
+    <fieldset>
+      <strong><label for="q">Enter your query</label></strong>
+        <input title="" id="query" type="search" name="q">
+      <div class="radio">
+        <label for="s">stars<input type="radio" name="s" id="radioStar"></label>
+        <label for="s">forks<input type="radio" name="s" id="radioFork"></label>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date">
+      </div>
+      <select name="o" id="order">
+        <option value="asc">Ascending</option>
+        <option value="dsc">Descending</option>
+      </select>
+      <input id="submit" type="submit" value="Submit">
+
+      <label for=""></label>
+    </fieldset>
+  </form>
+</body>
+
 </html>
