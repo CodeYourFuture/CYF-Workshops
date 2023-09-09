@@ -6,8 +6,29 @@
     <title></title>
     <meta name="description" content="My Github Search form" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/get-forms/style.css">
   </head>
   <body>
-    <form action="https://github.com/search" method="get"></form>
+  
+<fieldset>
+    <form action="https://github.com/search" method="get">
+    <label for="q">Enter your query</label>
+    <input type="search" name="q"id="search">
+    <select name="a" id="a">
+      <option value="repository">Repository</option>
+      <option value="coding">Coding</option></select>
+      <label for="s">
+        <input type="radio" name="s"id="sort">Fork
+        <input type="radio" name="s" id="sort">Stsr
+        <input type="radio" name="s" id="sort">Fork
+      </label>
+      <select name="o"id="order">
+        <option value="asen">Acsending</option>
+        <option value="dsen">Acsending</option>
+      </select>
+      <input type="submit"value="Submit">
+    
+    </fieldset>
+  </form>
   </body>
 </html>

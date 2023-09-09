@@ -1,0 +1,17 @@
+body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+}
+fieldset{
+height: 15rem;
+
+}
+form{
+height: 15rem;
+height: 15rem;
+display: grid;
+gap: 1em;
+}
