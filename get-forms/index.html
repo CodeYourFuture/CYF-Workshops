@@ -7,41 +7,21 @@
     <meta name="description" content="My Github Search form" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      body {
-          font-family: Arial, sans-serif;
-      }
-
-      h1 {
-          text-align: center;
-      }
-
-      form {
-          max-width: 500px;
-          margin: 0 auto;
-          padding: 20px;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-          background-color: #f9f9f9;
-      }
-
-      label {
-          font-weight: bold;
-      }
-
+     
       input[type="text"],
       select {
           width: 100%;
           padding: 8px;
           margin: 10px;
-          border: 1px solid #ccc;
-          border-radius: 3px;
+          border: 1px solid #d40e0e;
+          border-radius: 5px;
       }
       .txt{
         width: 480px !important;
       }
 
       button[type="submit"] {
-          background-color: #007BFF;
+          background-color: palevioletred;
           color: white;
           padding: 10px 20px;
           border: none;
@@ -57,7 +37,7 @@
   <body>
     <form action="https://github.com/search" method="get">
       <label for="search-query">Search Query:</label>
-      <input class="txt" type="text" id="search-query" name="q" required title="write 'user:' before sreaching">
+      <input class="txt" type="text" id="search-query" name="q" required title="write 'user:' before searching">
 
       <label for="sort-by">Sort By:</label>
       <select id="sort-by" name="s">
