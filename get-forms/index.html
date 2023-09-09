@@ -6,8 +6,74 @@
     <title></title>
     <meta name="description" content="My Github Search form" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+      }
+
+      h1 {
+          text-align: center;
+      }
+
+      form {
+          max-width: 500px;
+          margin: 0 auto;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          background-color: #f9f9f9;
+      }
+
+      label {
+          font-weight: bold;
+      }
+
+      input[type="text"],
+      select {
+          width: 100%;
+          padding: 8px;
+          margin: 10px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+      }
+      .txt{
+        width: 480px !important;
+      }
+
+      button[type="submit"] {
+          background-color: #007BFF;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+      }
+
+      button[type="submit"]:hover {
+          background-color: #0056b3;
+      }
+  </style>
   </head>
   <body>
-    <form action="https://github.com/search" method="get"></form>
+    <form action="https://github.com/search" method="get">
+      <label for="search-query">Search Query:</label>
+      <input class="txt" type="text" id="search-query" name="q" required title="write 'user:' before sreaching">
+
+      <label for="sort-by">Sort By:</label>
+      <select id="sort-by" name="s">
+          <option value="stars">Stars</option>
+          <option value="forks">Forks</option>
+          <option value="updated">Last Updated</option>
+      </select>
+
+      <label for="sort-order">Sort Order:</label>
+      <select id="sort-order" name="o">
+          <option value="desc">Descending</option>
+          <option value="asc">Ascending</option>
+      </select>
+
+      <button type="submit">Search</button>
+
+    </form>
   </body>
 </html>
