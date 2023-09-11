@@ -13,8 +13,8 @@ Let's use the Git CLI to do this:
 
 2. Now run the command `git branch` and double check your current branch.
 
-3. Use the `git checkout` command to create a new branch. You can run `git checkout -b git-cli-workshop`
+3. Run `git checkout -b git-cli-workshop` to create a new branch called `git-cli-workshop`
 
 4. Now double check you're on a new branch.
 
-[Next section](./staging.md)
+[Next section](./recap.md)
