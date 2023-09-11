@@ -31,11 +31,11 @@ You will need to work in pairs:
 
 - Assign one person to be **driver** (the driver will control the keyboard and do the typing)
 - Assign another person to be **navigator** (the navigator will read out the questions and suggest how to tackle the problems)
-The **driver** must ensure they have a clone of this repo on their local machine **clone** this repository to their local machine.
+The **driver** must ensure they have a clone of this repo on their local machine.
 
 
 ## 📜 Instructions
 
 You can follow the link to the readmes for further instructions:
 
-Start here 👉 [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/new-git-cli-workshop/git-cli/branching.md)
+Head to the [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/new-git-cli-workshop/git-cli/branching.md) for more instructions
