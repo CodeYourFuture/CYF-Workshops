@@ -6,8 +6,83 @@
     <title></title>
     <meta name="description" content="My Github Search form" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* Style the form container */
+      h1{
+        text-align: center;
+      }
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* Style the labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="radio"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.size{
+  width: 250px !important;
+}
+
+/* Style the radio button labels */
+input[type="radio"] + label {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* Style the button */
+button[type="submit"] {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+    </style>
   </head>
   <body>
-    <form action="https://github.com/search" method="get"></form>
+    <h1>GitHub Repository Search</h1>
+    
+
+    <form action="https://github.com/search" method="get">
+      <label for="query">Search Query:</label>
+      <input type="text" id="query" name="q" required class="size">
+      <br>
+      <label for="sort">Sort by:</label>
+      stars <input type="radio" id="stars" name="s" value="stars" /> 
+      forks <input type="radio" id="forks" name="s" value="forks" /> 
+      update <input type="radio" id="update" name="s" value="update" /> 
+
+      <label for="sort Order">Sort Order:</label>
+      Descending <input type="radio"  name="o" value="descending"> 
+      Ascending <input type="radio"  name="o" value="ascending"> 
+      <br>
+      <button type="submit">Search</button>
+    </form>
   </body>
 </html>
