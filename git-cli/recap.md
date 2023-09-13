@@ -21,7 +21,7 @@ So let's start with a check...
 
 ## 👣 Steps
 
-1. Run the command `git status --help` and check the name and description of this command (You can press `q` to quit)
+1. Run the command `git status --help` and check the name and description of this command (Press `q` to quit)
 2. Open the repo you cloned down during setup, and run the command `git status`
 3. Discuss the log you get from running the command `git status` - what do you think this tells you at the moment?
 

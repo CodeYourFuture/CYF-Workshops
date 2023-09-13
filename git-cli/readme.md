@@ -27,15 +27,15 @@ During this session, with the Git CLI, you will:
 
 ## 🧰 Setup
 
-You will need to work in pairs:
+Work in pairs:
 
 - Assign one person to be **driver** (the driver will control the keyboard and do the typing)
-- Assign another person to be **navigator** (the navigator will read out the questions and suggest how to tackle the problems)
+- Assign another person to be **navigator** (the navigator will read out the questions and explain how to tackle the problems)
 The **driver** must ensure they have a clone of this repo on their local machine.
 
 
 ## 📜 Instructions
 
-You can follow the link to the readmes for further instructions:
+Follow the link to the readmes for further instructions:
 
 Head to the [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/new-git-cli-workshop/git-cli/branching.md) for more instructions
