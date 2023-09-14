@@ -36,7 +36,7 @@ formatAsSecondsAsString(50) // "50 seconds"
 ```
 
 
-Spend 10 minutes, think about some other test cases you might wish to explore to check this functionality
+Spend 10 minutes, think about some other test cases you can explore to check this functionality
 
 
 ### 🧪 Set up tests
