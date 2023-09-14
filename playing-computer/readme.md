@@ -1,4 +1,4 @@
-# Thinking like a computer
+# 🎮 Playing computer
 
 you will need:
 
