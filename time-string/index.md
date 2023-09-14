@@ -7,7 +7,7 @@
 - [ ] Write tests to check logic for smaller cases
 ```
 
-When programming, you will frequently encounter large problems. As a developer, it's essential that we can break down complex problems into smaller problems. In this workshop, we'll use tests to break down the implementation of `formatAsSecondsAsString`.
+When programming, you will often encounter large problems. Developers must learn to break down complex problems into smaller problems. In this workshop, we'll use tests to break down the implementation of `formatAsSecondsAsString`.
 
 
 Given a time in seconds, 
