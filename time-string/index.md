@@ -44,7 +44,7 @@ Spend 10 minutes, think about some other test cases you can explore to check thi
 (10 mins)
 
 In this directory (`time-string`), create a `package.json` and install Jest as you did in the prep material.
-Once you're set up create a test file, `time-string.test.js`. In there, write your first test.
+Next, create a test file, `time-string.test.js`. In there, write your first test.
 
 
 ### 🩺 First steps
