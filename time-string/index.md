@@ -12,7 +12,7 @@ When programming, you will often encounter large problems. Developers must learn
 
 _Given_ a time in seconds, 
 _When_ `formatAsSecondsAsString` is called with the time
-Then we it should return a well formatted time string.
+_Then_ we it should return a well formatted time string.
 
 For example, if we call `formatAsSecondsAsString` with 390
 then we should get "6 minutes and 30 seconds"
