@@ -38,4 +38,4 @@ The **driver** must ensure they have a clone of this repo on their local machine
 
 Follow the link to the readmes for further instructions:
 
-Head to the [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/new-git-cli-workshop/git-cli/branching.md) for more instructions
+Head to the [Starting point](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-cli/branching.md) for more instructions
