@@ -20,7 +20,7 @@ In this workshop, you'll need to:
 To begin, you'll need some context.
 
 Use this page 👉 https://www.mathsisfun.com/triangle.html to get the names of different triangles depending on their three side lengths.
-_There should be 3 different names - ensure you understand what these names mean._
+_There should be 3 different names. Check with each other that you all understand what these names mean._
 
 
 ## Problem statement
