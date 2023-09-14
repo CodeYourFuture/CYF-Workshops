@@ -11,7 +11,7 @@ When programming, you will often encounter large problems. Developers must learn
 
 
 _Given_ a time in seconds, 
-When `formatAsSecondsAsString` is called with the time
+_When_ `formatAsSecondsAsString` is called with the time
 Then we it should return a well formatted time string.
 
 For example, if we call `formatAsSecondsAsString` with 390
