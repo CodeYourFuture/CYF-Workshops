@@ -10,7 +10,7 @@
 When programming, you will often encounter large problems. Developers must learn to break down complex problems into smaller problems. In this workshop, we'll use tests to break down the implementation of `formatAsSecondsAsString`.
 
 
-Given a time in seconds, 
+_Given_ a time in seconds, 
 When `formatAsSecondsAsString` is called with the time
 Then we it should return a well formatted time string.
 
