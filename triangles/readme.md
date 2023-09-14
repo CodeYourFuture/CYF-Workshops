@@ -31,7 +31,7 @@ In this workshop, you'll need to implement a function that takes **the three sid
 
  
 First, name the function according to the problem statement. The name should be semantic. It should convey what the function does.
-Then you'll need to set out acceptance criteria for your function in the form shown below:
+Then set out acceptance criteria for your function in the format shown below:
 
 _Given_ ...
 _When_ ...
