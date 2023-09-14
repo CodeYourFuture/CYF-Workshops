@@ -30,7 +30,7 @@ In this workshop, you'll need to implement a function that takes **the three sid
 ## Acceptance criteria
 
  
-Firstly, you'll need to name the function based off the problem statement. The name should be semantic. It should convey what the function does.
+First, name the function according to the problem statement. The name should be semantic. It should convey what the function does.
 Then you'll need to set out acceptance criteria for your function in the form shown below:
 
 _Given_ ...
