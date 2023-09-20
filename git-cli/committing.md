@@ -2,7 +2,7 @@
 
 ## Learning objectives
 
-- [ ] commit changes in the staging area
+- [ ] commit changes from the staging area
 
 
 First, double check the state of your **Working Tree** and your **Staging Area**
