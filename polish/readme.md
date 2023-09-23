@@ -1,4 +1,4 @@
-# Polish
+# UI Polish
 
 In this workshop we will take our existing projects and polish them to a higher standard. We will use Lighthouse to evaluate our work and make improvements. We will apply some basic design principles to bring a professional look to our work. (We can talk about polishing code in another workshop.)
 
@@ -55,7 +55,7 @@ Lighthouse should now pick up images with popped aspect ratios. If you have any 
 
 #### ✅ Checklist
 
-- [ ] Fonts are consistent, drawn from a [limited, designed scale](https://typescale.com/)
+- [ ] Fonts are consistent, drawn from a [limited, designed scale](https://typescale.com/) (Read more about type scales)[https://designcode.io/typographic-scales]
 - [ ] Colours are consistent, drawn from a [limited, designed palette](https://coolors.co/palettes/trending)
 - [ ] There are no contrast issues (Lighthouse should have caught this, but run the [Accessibility Insights](https://accessibilityinsights.io/) to check again).
 - [ ] Spacing is consistent, drawn from a [limited, designed scale](https://uxplanet.org/spacing-guide-for-designers-5bd140afe52a)
