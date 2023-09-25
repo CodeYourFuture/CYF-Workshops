@@ -92,7 +92,7 @@ Hey, have you centered everything? 😱 Does your layout look like a messy trian
 
 1. Take a piece of paper and sketch your page layout as it is now
 1. Take a new piece of paper and sketch your page layout as you want it to be
-1. Draw a grid over your sketch (5m)
+1. Draw a grid over your sketch 
 1. Write that grid in your CSS and align your major components to it
 1. If you already have an aligned grid, polish your type, spacing, or readme.
 <!--{{/note}}-->
