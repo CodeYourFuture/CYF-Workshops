@@ -7,3 +7,8 @@
 // c) 67 plus 100
 
 // Write your answers below:
+console.log(67+100);
+console.log(59/7);
+
+
+
