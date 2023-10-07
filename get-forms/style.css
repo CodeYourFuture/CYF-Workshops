@@ -1,0 +1,30 @@
+form {
+    width: 60%;
+    margin: 1rem auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#search-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#search-field div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.275rem;
+
+    font-size: 1.5rem;
+}
+
+#search-field div input {
+    width: 35vw;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
