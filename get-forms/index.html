@@ -11,18 +11,21 @@
     <form action="https://github.com/search" method="get">
       <label for="search">Search</label>
       <input id="search" name="q" value="" type="text" required /><br />
-      <input type="hidden" name="type" value="repositories" />
+      <!-- <input type="hidden" name="type" value="repositories" /> -->
 
       <label for="update">Select:</label>
-      <select name="update" id="search">
-        <option value="desc">Stars</option>
-        <option value="fork">Fork</option>
-        <option value="audi">Update</option>
+      <select id="search" name="s">
+        <option value="stars">Stars</option>
+        <option value="forks">Fork</option>
+        <option value="update">Update</option>
+      </select>
+
+      <select id="search" name="o">
+        <option value="asc">asc</option>
+        <option value="desc">desc</option>
       </select>
 
       <input type="submit" value="Submit" />
-
-      <sub
     </form>
   </body>
 </html>
