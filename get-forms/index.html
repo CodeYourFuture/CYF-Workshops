@@ -25,13 +25,15 @@
       </div>
       <button>Search</button>
     </section>
-    <section>
-      <label for="sorting-list">Sorting by</label>
-      <select name="s" id="sorting-list">
-        <option value="starts" class="sorting-item">Stars</option>
-        <option value="forks" class="sorting-item">Forks</option>
-        <option value="updated" class="sorting-item">Updated</option>
-      </select>
+    <section id="sorting-options">
+      <div id="sorting-types">
+        <label for="sorting-list">Sorting by</label>
+        <select name="s" id="sorting-list">
+          <option value="starts" class="sorting-item">Stars</option>
+          <option value="forks" class="sorting-item">Forks</option>
+          <option value="updated" class="sorting-item">Updated</option>
+        </select>
+      </div>
       <fieldset>
         <legend>Sort order</legend>
         <div><input type="radio" name="o" id="ascending" value="asc">

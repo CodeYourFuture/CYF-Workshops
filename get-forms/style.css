@@ -1,10 +1,15 @@
+body {
+    font-size: 1.5rem;
+    color:#f0efef;
+    background-color: #222222;
+}
+
 form {
     width: 60%;
     margin: 1rem auto;
 }
 
 h2 {
-    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -19,8 +24,10 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 0.275rem;
+}
 
-    font-size: 1.5rem;
+#search-field div label {
+    margin-left: 0.5rem;
 }
 
 #search-field div input {
@@ -28,3 +35,21 @@ h2 {
     height: 2rem;
     border-radius: 0.5rem;
 }
+
+#search-field button {
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: #2476f7;
+    color: #f0efef;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#search-field button:hover {
+    background-color: #1d5cc0;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
