@@ -1,0 +1,33 @@
+label{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+input{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 2px solid black; 
+}
+
+.sort{
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.order{
+    padding: 10px;
+}

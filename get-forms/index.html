@@ -6,6 +6,7 @@
     <title>GitHub Search Form</title>
     <meta name="description" content="My Github Search form" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <form action="https://github.com/search" method="get">
@@ -16,7 +17,7 @@
       </div>
       <div>
         <label for="sort">Sort by</label>
-        <select name="s" id="sort">
+        <select name="s" id="sort" class="sort">
           <option value="stars">Stars</option>
           <option value="fork">Fork</option>
           <option value="updated">Updated</option>
@@ -24,9 +25,9 @@
       </div>
       <div>
         <label for="order1">Ascending</label>
-        <input type="radio" name="o" value="asc" id="order1"/>
+        <input type="radio" name="o" value="asc" id="order1" class="order"/>
         <label for="order2">Descending</label>
-        <input type="radio" name="o" value="dsc" id="order2"/>
+        <input type="radio" name="o" value="dsc" id="order2" class="order"/>
       </div>
     </form>
   </body>
