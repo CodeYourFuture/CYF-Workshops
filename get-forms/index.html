@@ -7,7 +7,21 @@
     <meta name="description" content="My Github Search form" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
+
   <body>
-    <form action="https://github.com/search" method="get"></form>
+    <h1>Search Github</h1>
+    <form action="https://github.com/search" method="get">
+      <label for="gsearch">Search Github:</label>
+      <input type="search" id="gsearch" name="q" />
+      <input type="submit" />
+
+      <h2>Choose an option</h2>
+      <select name="o">
+        <option value="Stars">ascending</option>
+        <option value="Forks">descending</option>
+      </select>
+      <br />
+      <br />
+    </form>
   </body>
 </html>
