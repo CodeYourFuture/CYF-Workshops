@@ -18,6 +18,10 @@ input{
     justify-content: center;
 }
 
+input[type='radio']{
+    transform: scale(2);
+}
+
 button{
     padding: 5px 10px;
     border-radius: 2px solid black; 
@@ -29,5 +33,5 @@ button{
 }
 
 .order{
-    padding: 10px;
+    transform: scale(2);
 }
