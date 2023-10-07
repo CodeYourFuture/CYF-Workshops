@@ -8,21 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <label for="q">Type your search:</label>
+    <form action="https://github.com/search" method="get">
+    <label for="site-search">Search the site:</label>
     <input type="search" id="site-search" name="q" />
-    <label for="s">Sort by type:</label>
+    </label>
+    <label>
     <select name="s" id="sort-by-type">
-      <option value="">Type</option>
+      <option value="">Select Type</option>
       <option value="stars">Stars</option>
       <option value="forks">Forks</option>
       <option value="last updated">Last updated</option>
     </select>
-    <label for="o">Sort by order:</label>
+    </label>
+    <label>
     <select name="o" id="sort-by-order">
-      <option value="">Order</option>
+      <option value="">Select Order</option>
       <option value="asc">Ascending</option>
       <option value="desc">Descending</option>
-    </select>
+    </select> 
+    </label>
    <button>Search</button>
     </form>
   </body>
