@@ -43,12 +43,13 @@ h2 {
   border-radius: 8px;
   background-color: #0052d6;
   color: #f0efef;
+  border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
 #search-field button:hover {
-  background-color: #002e79;
+  background-color: #0039d6;
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
 }
