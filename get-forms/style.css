@@ -53,3 +53,10 @@ h2 {
     transition: all 0.2s ease-in-out;
 }
 
+#sorting-options {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
