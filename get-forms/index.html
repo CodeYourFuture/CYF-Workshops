@@ -8,6 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <form action="https://github.com/search" method="get"></form>
+    <form action="https://github.com/search" method="get">
+      <label for="search">Search</label>
+      <input id="search" name="q" value="" type="text" required /><br />
+      <input type="hidden" name="type" value="repositories" />
+
+      <label for="update">Select:</label>
+      <select name="update" id="search">
+        <option value="desc">Stars</option>
+        <option value="fork">Fork</option>
+        <option value="audi">Update</option>
+      </select>
+
+      <input type="submit" value="Submit" />
+
+      <sub
+    </form>
   </body>
 </html>
