@@ -3,23 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Git forms</title>
+    <title>GitHub forms</title>
     <meta name="description" content="My Github Search form" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
+
   <body>
     <form action="https://github.com/search" method="get">
-      <input type="search" placeholder="search" name="q" />
-      <label>star</label>
-      <select name="s">
-        <option name="stars">stars</option>
-        <option name="forks">forks</option>
-        <option name="updated">updated</option>
+      <label for="search">Search here:</label>
+      <input type="search" id="search" placeholder="search" name="q" />
+
+      <label for="sort-box">Select sort</label>
+      <select name="s" id="sort-box">
+        <option value=""></option>
+        <option value="stars">Stars</option>
+        <option value="forks">forks</option>
+        <option value="updated">updated</option>
       </select>
-      <label>oeder</label>
-      <select name="o">
-        <option name="asc">ascending</option>
-        <option name="desc">descending</option>
+
+      <label for="order">Select Order</label>
+      <select name="o" id="order">
+        <option value=""></option>
+        <option value="asc">ascending</option>
+        <option value="desc">descending</option>
       </select>
     </form>
   </body>
