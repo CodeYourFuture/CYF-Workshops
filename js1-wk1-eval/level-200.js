@@ -12,7 +12,7 @@
 // Part 2: Use the Node REPL to check your answers to Part 1)
 // Part 3: Using Part 2, explain the difference between Math.trunc() and Math.floor() in your own words
 
-Math.trunc()removes the dot and all the numbers to the right of the dot.
+Math.trunc()removes the dot and all the numbers to the right of the dot
 Math.floor()keeps the positive number the same and rounds the negative number one and removes the decimals.
 
 

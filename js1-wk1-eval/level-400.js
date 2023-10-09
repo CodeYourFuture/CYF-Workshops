@@ -4,7 +4,7 @@ Sometimes I sneak into the fridge at night and steal my housemate's cake
 `;
 
 const secret = "cake";
-confession = confession.replaceAll(secret,'x'.repeat(secret.length));
+confession = confession.replaceAll(secret,'x'.repeat(secret.length)); 
 
 
 // a) How many function calls are there in this file? 2 replace, repeat

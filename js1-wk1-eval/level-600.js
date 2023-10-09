@@ -9,5 +9,5 @@
 const dayNumberOfTheYear = 274;
 const daysLeftInTheYear = 365 - dayNumberOfTheYear;
 
-console.log(dayNumberOfTheYear); 
+console.log(dayNumberOfTheYear);  
 console.log(daysLeftInTheYear);   
