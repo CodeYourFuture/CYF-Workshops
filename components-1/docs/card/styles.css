@@ -2,7 +2,7 @@
   background-color: var(--paper);
   box-shadow: 2px 4px 16px var(--shade);
   display: flex;
-  flex-flow: column;
+  flex-flow: column-reverse;
   align-items: center;
   overflow: hidden;
 }
