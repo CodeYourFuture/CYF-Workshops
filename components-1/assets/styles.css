@@ -10,3 +10,25 @@
 @import url(../docs/footer/styles.css);
 @import url(../docs/card/styles.css);
 @import url(../docs/copy/styles.css);
+.footer {
+   align-items: center; 
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    background-color: rgb(116, 116, 226) ;
+}
+.link-area{
+    display: flex;
+    flex-direction: row;
+}
+.footer-img {
+    width: 50px;
+    margin: auto;
+    padding: 1em 0 0;
+    display: flex;
+ 
+
+
+
+}
