@@ -10,3 +10,28 @@
 @import url(../docs/footer/styles.css);
 @import url(../docs/card/styles.css);
 @import url(../docs/copy/styles.css);
+
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template:
+    "logo space page button" var(--finger) /
+    var(--finger) var(--space) 1fr var(--finger);
+  background: linear-gradient(pink, lightgray);
+  padding: 20px 40px;
+}
+.header__heading {
+  grid-area: logo;
+  margin: 0;
+}
+.header__page {
+  grid-area: page;
+  margin: 0 auto auto 0;
+  font-size: 2em;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
