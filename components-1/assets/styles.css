@@ -16,7 +16,7 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
-    background-color: rgb(116, 116, 226) ;
+        background: linear-gradient(rgb(226, 160, 171), lightgray);
 }
 .link-area{
     display: flex;
