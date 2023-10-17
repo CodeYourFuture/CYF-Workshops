@@ -12,8 +12,11 @@ You can also use documentation to look up any functions that are unfamiliar.
 Don't use ChatGPT or any other AI tool to help you.
 
 This workshop can be found here 👉 https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval
+
 In this directory, each file contains a different problem at a particular level.
+
 You can start this project at **Level 100**.
+
 Then go through the levels in ascending order, **level 200**, **300** etc.
 
 ➡️ [Go to Level 100](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/js1-wk1-eval/level-100.js)
