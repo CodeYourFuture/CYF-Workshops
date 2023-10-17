@@ -11,16 +11,5 @@ to help you with the questions
 You can also use documentation to look up any functions that are unfamiliar
 Don't use ChatGPT or any other AI tool to help you.
 
-## Evaluate
-
-After each task, use the poll to give your feedback on how you found the task.
-Be as honest as possible.
-Try your best - if you don't understand then this is still useful feedback.
-
-Here is how you can categorise the task:
-
-- Knew what to do straight away
-- Made sense after checking the docs
-- Made sense after support from volunteers
-- Partially understood - but still not confident
-- Had no idea what to do
+Each file contains a different problem at a particular level.
+You can start this project at **Level 100** ➡️ [Go to Level 100](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/js1-wk1-eval/level-100.js)
