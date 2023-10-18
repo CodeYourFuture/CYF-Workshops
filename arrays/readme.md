@@ -1,5 +1,3 @@
-# Arrays review
-
 ## Instructions
 
 This workshop aims to _check your understanding_.
