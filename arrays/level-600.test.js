@@ -1,12 +1,13 @@
 // list is an array that holds a mix of data types
 // we need to collect just the numbers and not the strings
 // before running the tests, make a prediction and explanation about what you expect the function to return
+// now fix the implementation of collectNumbers so it passes the tests below
 
 function collectNumbers(list) {
-  const numbersOnly = [];
+  let numbersOnly = [];
   for (const item of list) {
-    if (item === "string") {
-      numbersOnly.push(item);
+    if (item === "number") {
+      numbersOnly.concat(item);
     }
   }
   return numbersOnly;

@@ -3,7 +3,8 @@
 // the head of an array is the first element of an array
 // the tail of an array is the last element of an array
 
-// predict and explain what will get printed to the terminal
+// predict and explain what will get printed to then terminal
+// Look up documentation for shift and pop on MDN to help you with this question
 
 const alphabet = [
   "a",
