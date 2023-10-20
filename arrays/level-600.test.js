@@ -1,7 +1,11 @@
 // list is an array that holds a mix of data types
 // we need to collect just the numbers and not the strings
+
 // before running the tests, make a prediction and explanation about what you expect the function to return
-// now fix the implementation of collectNumbers so it passes the tests below
+
+// now run the tests
+// interpret the test feedback
+// fix the implementation of collectNumbers so it passes any tests below
 
 function collectNumbers(list) {
   let numbersOnly = [];
