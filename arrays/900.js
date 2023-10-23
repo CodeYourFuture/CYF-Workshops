@@ -1,3 +1,9 @@
+// Below, we have two functions which have the same aim.
+// Both functions take a word as a parameter.
+// If the function has been called with that word before (regardless of case), the previous version of the word is returned.
+// So if you called the function with "hello", then "HELLO", the second call will return "hello".
+// If the word has not been used before, it will just be returned as-is.
+
 // One of these functions has side-effects.
 // When you call it, it does something other than just returning a value based only on its parameters.
 //
@@ -11,7 +17,7 @@
 
 const previousWords = [];
 
-function funcOne(word) {
+function getPreviousCaseOfWordOne(word) {
     for (const previousWord of previousWords) {
         if (previousWord.toLowerCase() === word.toLowerCase()) {
             return previousWord;
@@ -21,7 +27,7 @@ function funcOne(word) {
     return word;
 }
 
-function funcTwo(word, words) {
+function getPreviousCaseOfWordTwo(word, words) {
     for (const previousWord of words) {
         if (previousWord.toLowerCase() === word.toLowerCase()) {
             return previousWord;
