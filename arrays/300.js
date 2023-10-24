@@ -15,4 +15,5 @@ function getTail(arr) {
 console.log(`The first letter of the alphabet is ${getHead(alphabet)}`);
 console.log(`The last letter of the alphabet is ${getTail(alphabet)}`);
 console.log(alphabet.length);
-// explain why alphabet length is now 24
+// Explain why alphabet length is now 24
+// How could we change the functions we defined to return the same values, but not change the length of alphabet?
