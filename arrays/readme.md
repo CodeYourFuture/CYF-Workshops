@@ -19,4 +19,4 @@ In this workshop, each file contains a different problem at a particular level.
 
 You should start this project at **Level 100** and then move through the levels in ascending order, **level 200**, **300** etc.
 
-➡️ [Go to Level 100](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/arrays/level-100.js)
+➡️ [Go to Level 100](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/arrays/100.js)
