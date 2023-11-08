@@ -1,0 +1,19 @@
+.card {
+  background-color: var(--paper);
+  box-shadow: 2px 4px 16px var(--shade);
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+  overflow: hidden;
+}
+.card:hover,
+.card:focus {
+  box-shadow: 1px 1px 2px var(--shade);
+}
+.card__emoji {
+  font-size: clamp(64px, calc(64px + 5vw), 144px);
+}
+
+.card__code {
+  overflow: scroll;
+}

@@ -1,0 +1,46 @@
+/* Our base rules for the whole site */
+body {
+  font: 100%/1.5 var(--copy), system-ui, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+/* Rules for interactive elements like links and buttons. 
+What happens when you change the order of these rules around? */
+a,
+a:any-link,
+button {
+  color: currentColor;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+:focus {
+  outline: none;
+}
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  color: var(--brand);
+}
+a:focus,
+button:focus {
+  outline: 2px dashed var(--brand);
+}
+button {
+  grid-area: button;
+  appearance: none;
+  border: none;
+  background: transparent;
+}
+
+/* states */
+
+.is-invisible {
+  position: absolute;
+  left: -100vw;
+}
+.is-invisible:focus {
+  left: 0;
+}
