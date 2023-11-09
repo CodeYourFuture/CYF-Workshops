@@ -24,12 +24,12 @@
     </nav>
     <main tabindex="0" id="main" class="main">
       <ul class="main__deck" id="cards"></ul>
-      <script type="module">
+      <script type="module" name="Cards">
         import components from "../../data/components.js";
-        import Card from "./card.js";
-        const cardData = components.find((data) => data.component === "card");
+        import Card from "../card/card.js";
+        const cardData = components.find((data) => data.component === "footer");
         const deck = document.getElementById("cards");
-        const cards = ["emoji", "js", "css"].map((type) =>
+        const cards = ["emoji", "css", "txt"].map((type) =>
           Card(cardData, type)
         );
         deck.append(...cards);
@@ -64,13 +64,13 @@
       import Header from "./../header/header.js";
       const getHeaderLocation = document.getElementById("main");
       const headerLink = "/";
-      const headerTitle = "Card Component";
-      getHeaderLocation.after(Header(headerLink, headerTitle));
+      const headerTitle = "Footer Component";
+      getHeaderLocation.before(Header(headerLink, headerTitle));
     </script>
     <script type="module">
       import components from "../../data/components.js";
       import MenuItem from "./../menu/menu-item.js";
-      const path = "./";
+      const path = "../";
       const menuList = document.querySelector("#menu > ul");
       const menuItems = components.map((item) => MenuItem(item, path));
       menuList.append(...menuItems);

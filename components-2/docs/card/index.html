@@ -71,8 +71,9 @@
     <script type="module" name="MenuItems">
       import components from "../../data/components.js";
       import MenuItem from "./../menu/menu-item.js";
+      const path = "../";
       const menuList = document.querySelector("#menu > ul");
-      const items = components.map((item) => MenuItem(item));
+      const items = components.map((item) => MenuItem(item, path));
       menuList.append(...items);
     </script>
     <script type="module" name="Footer">

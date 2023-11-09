@@ -3,7 +3,7 @@ const Header = (link, title) => {
   header.classList.add("header");
   header.innerHTML = `
     <h1 class="header__heading">
-      <a class="header__link" href="${link}">
+      <a class="header__link" href="${link ?? `../components-2`}">
         <span class="is-invisible">Code Your Future</span>
         <svg
           class="header__logo"

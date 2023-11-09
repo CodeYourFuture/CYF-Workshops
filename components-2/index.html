@@ -68,8 +68,9 @@
     <script type="module" name="Cards">
       import components from "./data/components.js";
       import Card from "./docs/card/card.js";
+      const path = "docs/";
       const deck = document.getElementById("cards");
-      const cards = components.map((item) => Card(item, "emoji"));
+      const cards = components.map((item) => Card(item, "emoji", path));
       deck.append(...cards);
     </script>
     <script type="module" name="Footer">
