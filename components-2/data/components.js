@@ -2,47 +2,51 @@ const components = [
   {
     component: "base",
     emoji: "👟",
-    examples: [],
+    resource: "https://smacss.com/book/type-base/",
   },
   {
     component: "card",
     emoji: "📇",
-    examples: ["js", "css", "html"],
+    resource: "https://www.nngroup.com/articles/cards-component/",
   },
   {
     component: "footer",
     emoji: "🦶",
-    examples: [],
+    resource: "https://www.uxpin.com/studio/blog/footer-design-basics/",
   },
   {
     component: "header",
     emoji: "💆",
-    examples: [],
+    resource:
+      "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/general-principles.html",
   },
   {
     component: "layout",
     emoji: "🍱",
-    examples: [],
+    resource: "https://gridbyexample.com/",
   },
   {
     component: "main",
     emoji: "📰",
-    examples: [],
+    resource:
+      "https://www.a11yproject.com/posts/how-to-use-the-tabindex-attribute/",
   },
   {
     component: "menu",
     emoji: "🗄️",
-    examples: [],
+    resource:
+      "https://www.w3.org/community/webed/wiki/Creating_multiple_pages_with_navigation_menus",
   },
   {
     component: "reset",
     emoji: "🗑️",
-    examples: [],
+    resource: "https://www.joshwcomeau.com/css/custom-css-reset/",
   },
   {
     component: "theme",
     emoji: "🎨",
-    examples: [],
+    resource:
+      "https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676",
   },
 ];
 
