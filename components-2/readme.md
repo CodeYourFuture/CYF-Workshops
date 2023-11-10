@@ -94,7 +94,7 @@ Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minu
 ### Each team, choose a driver
 
 1. Driver, ask everyone in your team to confirm you are in the right working branch.
-1. Driver, from this branch, create and checkout a new branch for your team named like this: `feature/component`, where _cohort_ is your cohort name and _component_ is the component you're building, for example: `feature/header`
+1. Driver, from this branch, create and checkout a new branch for your team named like this: `feature/cohort-component`, where _cohort_ is your cohort name and _component_ is the component you're building, for example: `feature/nw6-header`
 
 ```bash
 git switch --create feature/cohort-component
