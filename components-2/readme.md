@@ -110,12 +110,11 @@ Your mission is to find the docs for each component with an associated script fi
 
 <!--{{</note>}}-->
 
+<!--{{<note type="activity" title="Parallel Development 30m">}}-->
+
 ### Together separately
 
 Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+time).
-
-<!--{{<note type="activity" title="Parallel Development 30m">}}-->
-
 Now **build** your component. Elect a new driver.
 
 1. Find [together.html](together.html) in the /components-2 directory. Your mission is to complete this page.
