@@ -144,7 +144,9 @@ Now we're going to review each other's work and merge to our cohort branch.
 
 <!--{{<note type="warning" title="Your working branch is your cohort name">}}-->
 
-Your COHORT branch is your cohort name. You're working in your COHORT branch and NOT in main. Open your pull request to your COHORT branch. Don't open PRs to main.
+Your COHORT branch is your cohort name. You're working in your COHORT branch and NOT in main. Open your pull request to your COHORT branch.
+
+Don't open PRs to main. If you do open a PR to main and it is merged then it would break the exercise for other trainees.
 
 <!--{{</note>}}-->
 
