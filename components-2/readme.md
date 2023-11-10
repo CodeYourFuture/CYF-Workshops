@@ -36,7 +36,7 @@ Everyone should do this so everyone is set up correctly.
 
 1. You will be working on a special branch called [FOR-USE-IN-CLASS](https://github.com/CodeYourFuture/CYF-Workshops/tree/FOR-USE-IN-CLASS).
 1. First, **clone** [the workshops repository](https://github.com/CodeYourFuture/CYF-Workshops/)
-Checkout `git switch FOR-USE-IN-CLASS`
+   Checkout `git switch FOR-USE-IN-CLASS`
 1. Your cohort has a named _sub branch_. Everyone, check that out next with `git switch --create COHORT` (eg `NW6`). This is your working branch:
 
 ```mermaid
@@ -81,7 +81,7 @@ Your COHORT branch is your cohort name. It might be NW6, WM5, GL7... You'll be m
 
 <!--{{</note>}}-->
 
-Next, divide the class into four teams: header, footer, card, menu. Use the [team generator](teams.html) to help you do this.
+Next, divide the class into four teams: header, footer, card, menu. Use the [team generator](https://cyf-workshops.netlify.app/components-2/teams.html) to help you do this.
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+time).
 
@@ -102,11 +102,15 @@ Now you're all set up to make changes to together.html.
 
 ## Find your docs
 
-Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+time).
+Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
 Deployed from this repo is a [mini design system](https://cyf-workshops.netlify.app/components-2). This design system has several documented components, and some also have javascript files.
 
-Your mission is to find the docs for each component with an associated script file, and read them. Discuss your findings. Look at the pages on the website with Devtools. Compare the Inspect view with the source code you can see in the files. How are they different? How are HTML and the DOM different?
+Your mission is to find the docs for each component with an associated script file, and read them. Discuss your findings. Here are some things to consider:
+
+Look at the pages on the website with Devtools. Compare the Inspect view with the source code you can see in the files. How are they different? How are HTML and the DOM different?
+
+[What is a module](https://www.freecodecamp.org/news/javascript-modules-beginners-guide/)? What does this code do `<script type="module">import Header from "./docs/header/header.js";</script>` ?
 
 <!--{{</note>}}-->
 
@@ -114,7 +118,7 @@ Your mission is to find the docs for each component with an associated script fi
 
 ### Together separately
 
-Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+time).
+Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+timer).
 Now **build** your component. Elect a new driver.
 
 1. Find [together.html](together.html) in the /components-2 directory. Your mission is to complete this page.
@@ -127,6 +131,8 @@ Now **build** your component. Elect a new driver.
 ```mermaid
 gitGraph
     commit id: "start"
+    branch FOR-USE-IN-CLASS
+    branch COHORT
     branch feature/component
     commit id: "import component function"
     commit id: "import data"
@@ -149,14 +155,14 @@ Don't open PRs to main. If you do open a PR to main and it is merged then it wou
 
 <!--{{</note>}}-->
 
-Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+time).
+Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+timer).
 
 <!--{{<note type="activity" title="Review 30m">}}-->
 
 1. Go to the [pull requests](https://github.com/CodeYourFuture/CYF-Workshops/pulls) for this repo.
 1. Either individually or as a group, review each other's PRs.
 1. Once you're all happy with the PR, merge it.
-1. Did it work? Why/why not? Discuss.
+1. Did it work? Why/why not? What does "work" mean for this workshop? Discuss.
 
 <!--{{</note>}}-->
 
