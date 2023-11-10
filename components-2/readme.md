@@ -77,7 +77,7 @@ Check you are in the right place with GitLens!
 
 <!--{{<note type="tip" title="Your working branch is your cohort name">}}-->
 
-Your COHORT branch is your cohort name. It might be NW6, WM5, GL7...You're working in your COHORT branch and NOT in main.
+Your COHORT branch is your cohort name. It might be NW6, WM5, GL7... You'll be making branches starting from your COHORT branch and NOT starting from main.
 
 <!--{{</note>}}-->
 
