@@ -37,7 +37,13 @@ Everyone should do this so everyone is set up correctly.
 1. You will be working on a special branch called [FOR-USE-IN-CLASS](https://github.com/CodeYourFuture/CYF-Workshops/tree/FOR-USE-IN-CLASS).
 1. First, **clone** [the workshops repository](https://github.com/CodeYourFuture/CYF-Workshops/)
    Checkout `git switch FOR-USE-IN-CLASS`
-1. Your cohort has a named _sub branch_. Everyone, check that out next with `git switch --create COHORT` (eg `NW6`). This is your working branch:
+1. Your cohort has a named _sub branch_. Everyone, check that out next with `git switch --create COHORT` (eg `NW6`). This is your working branch.
+
+Check you are in the right place with GitLens!
+
+<!--{{</note>}}-->
+
+### Visualise this Git workflow
 
 ```mermaid
 gitGraph
@@ -71,17 +77,13 @@ gitGraph
     merge feature/menu
 ```
 
-<!--{{</note>}}-->
-
-Check you are in the right place with GitLens!
-
 <!--{{<note type="tip" title="Your working branch is your cohort name">}}-->
 
 Your COHORT branch is your cohort name. It might be NW6, WM5, GL7... You'll be making branches starting from your COHORT branch and NOT starting from main.
 
 <!--{{</note>}}-->
 
-## Get set up to work in teams
+### Get set up to work in teams
 
 Next, divide the class into four teams: header, footer, card, menu. Use the [team generator](https://cyf-workshops.netlify.app/components-2/teams.html) to help you do this.
 
@@ -102,7 +104,7 @@ Now you're all set up to make changes to together.html.
 
 <!--{{</note>}}-->
 
-## Find your docs
+### Find your docs
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
