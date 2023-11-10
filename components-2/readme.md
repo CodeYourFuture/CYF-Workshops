@@ -81,7 +81,7 @@ Your COHORT branch is your cohort name. It might be NW6, WM5, GL7... You'll be m
 
 <!--{{</note>}}-->
 
-Next, divide the class into four teams. Use the [team generator](teams.html) to help you do this.
+Next, divide the class into four teams: header, footer, card, menu. Use the [team generator](teams.html) to help you do this.
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+time).
 
