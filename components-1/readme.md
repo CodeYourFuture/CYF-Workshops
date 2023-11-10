@@ -25,7 +25,7 @@ npm install -g prettier
 
 Divide the class into three teams. Use the [team generator](https://cyf-workshops.netlify.app/components-1/teams.html) to help you do this.
 
-Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+time).
+Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
 ### Each team, choose a driver
 
@@ -44,7 +44,7 @@ Now you're all set up to make changes to together.html.
 
 ## Find your docs
 
-Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+time).
+Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
 Deployed from this repo is a [mini design system](https://cyf-workshops.netlify.app/components-1). This design system has several documented components: [card](https://cyf-workshops.netlify.app/components-1/docs/card), [header](https://cyf-workshops.netlify.app/components-1/docs/header), and [footer](https://cyf-workshops.netlify.app/components-1/docs/footer). Each component view has some sample code and some statements about the components.
 
@@ -54,7 +54,7 @@ Your mission is to find the docs for your component and read them.
 
 ### Together separately
 
-Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+time).
+Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+timer).
 
 <!--{{<note type="activity" title="Parallel Development 30m">}}-->
 
@@ -86,7 +86,7 @@ Now we're going to review each other's work. If a mentor is available, they can 
 
 **Note to mentor**: please revert together.html to the initial commit after you're done so the next class can use it. (Or if your group has time for it, you can merge on a fork instead.)
 
-Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+time).
+Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minute+timer).
 
 <!--{{<note type="activity" title="Review 30m">}}-->
 
