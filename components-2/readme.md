@@ -71,9 +71,9 @@ gitGraph
     merge feature/menu
 ```
 
-Check you are in the right place with GitLens!
-
 <!--{{</note>}}-->
+
+Check you are in the right place with GitLens!
 
 <!--{{<note type="tip" title="Your working branch is your cohort name">}}-->
 
@@ -82,6 +82,8 @@ Your COHORT branch is your cohort name. It might be NW6, WM5, GL7... You'll be m
 <!--{{</note>}}-->
 
 Next, divide the class into four teams: header, footer, card, menu. Use the [team generator](https://cyf-workshops.netlify.app/components-2/teams.html) to help you do this.
+
+<!--{{<note type="activity" title="Find your docs 10m">}}-->
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+time).
 
