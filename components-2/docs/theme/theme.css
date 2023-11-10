@@ -1,0 +1,20 @@
+/* Here's our design 
+It's fonts, colours, and spacing.
+Every design is made of these basic building blocks.
+Change the values to make a completely new look */
+
+:root {
+  /* fonts */
+  --copy: "Lato";
+  /* colours */
+  --paper: hsla(260, 35%, 90%, 0.95);
+  --ink: hsla(270, 8%, 20%, 0.98);
+  --brand: hsla(0, 100%, 67%, 0.98);
+  --shade: hsla(270, 8%, 20%, 0.1);
+  /* spacing */
+  --space: 2rem;
+  --box: 18rem;
+  --container: clamp(var(--box), calc(100vw - calc(var(--space) * 2)), 74rem);
+  --finger: 48px;
+  --line-length: 60ch;
+}
