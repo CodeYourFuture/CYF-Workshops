@@ -14,7 +14,7 @@ And in particular, these workshops:
 
 If you missed these workshops in your cohort, it's a good idea to try to do them in the week (online) first. Record your session for people that can't attend. Everyone should try to do the workshops first, either in groups or solo if necessary.
 
-The overall mission is to compose "components" / groupings of HTML elements to build a page in [together.html](https://cyf-workshops.netlify.app/components-2/together.html).
+Similar to the previous workshop, the overall mission is to compose "components" / groupings of HTML elements to build a page in [together.html](https://cyf-workshops.netlify.app/components-2/together.html).
 
 But this time, we're going to use JavaScript functions to build our components.
 
