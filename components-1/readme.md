@@ -23,7 +23,7 @@ npm install -g prettier
 
 ### Set up your feature branches
 
-Divide the class into three teams. Use the [team generator](https://cyf-workshops.netlify.app/components-1/teams.html) to help you do this.
+Divide the class into three teams: header, footer, card. Use the [team generator](https://cyf-workshops.netlify.app/components-1/teams.html) to help you do this.
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
