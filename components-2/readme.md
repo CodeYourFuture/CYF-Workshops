@@ -37,7 +37,7 @@ Everyone should do this so everyone is set up correctly.
 1. You will be working on a special branch called [FOR-USE-IN-CLASS](https://github.com/CodeYourFuture/CYF-Workshops/tree/FOR-USE-IN-CLASS).
 1. First, **clone** [the workshops repository](https://github.com/CodeYourFuture/CYF-Workshops/)
 Checkout `git switch FOR-USE-IN-CLASS`
-1. Your cohort has a named _sub branch_. Everyone, check that out next with `git checkout COHORT` (eg `NW6`). This is your working branch:
+1. Your cohort has a named _sub branch_. Everyone, check that out next with `git switch --create COHORT` (eg `NW6`). This is your working branch:
 
 ```mermaid
 gitGraph
