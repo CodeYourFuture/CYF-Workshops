@@ -81,7 +81,9 @@ Let's look at how asking questions helps you update your mental model with an ex
 
  <!--{{</note>}}-->
 
-### Let's just set some ground rules here:
+### Exercise ground rules
+
+Before we get to the next exercise, let's just set some ground rules here:
 
 1. The goal is not to complete the exercise; the goal is to _learn_
 1. The smart thing to do is to focus on the questions you cannot (yet) answer
@@ -89,7 +91,7 @@ Let's look at how asking questions helps you update your mental model with an ex
 <!--{{<note type="activity" title="Framing questions systematically, 30m" >}}-->
 
 Split into groups of 2-5 people.
-Set a whole class timer for 30 minutes.
+Set a whole class timer for [30 minutes](https://www.google.com/search?q=timer+for+30+minutes).
 
 ### Confound yourselves
 
