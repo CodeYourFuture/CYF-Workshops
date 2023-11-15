@@ -105,7 +105,7 @@ What happened? Is there a gap in your understanding?
 Keep doing this until you find a problem you can't solve, then write up your mental model using this format:
 
 1. What I _did_
-1. What I _expected_. Make sure you put your prediction here
+1. What I _expected_. Make sure you include your prediction here
 1. What actually _happened_
 
 Include as much context as you can, including links, line numbers, sample code, etc. Use code blocks to mark up your code. If you use screenshots, they should only show the _visual render_ (**never** screenshot code - paste code as text).
