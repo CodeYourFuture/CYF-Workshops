@@ -17,7 +17,9 @@ It's also an efficient way to share our current understanding with others.
 
 ## Expectation vs reality
 
-When we are surprised by an outcome it usually means we had a mental model of the world that didn't predict the world accurately. To develop our understanding of coding, we will:
+When we are surprised by an outcome it usually means we had a mental model of the world that didn't predict the world accurately. Don't panic when this happens, it's completely expected for even experienced developers to run into surprises. We use these gaps as signs that we need to _update_ our mental models.
+
+To develop our understanding of coding, we will:
 
 ### Predict & Explain
 
@@ -116,7 +118,6 @@ Post your question in #cyf-ask-tech-stuff.
 1. 🖼️ Screenshots of UI 👍
 1. 📝 `Code blocks` 👍
 1. 📷 ~~Screenshots of code~~ 🙅
-
 
 ## 📚 Further reading
 
