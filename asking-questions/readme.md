@@ -102,18 +102,15 @@ Set a whole class timer for [30 minutes](https://www.google.com/search?q=timer+f
 
 What happened? Is there a gap in your understanding?
 
-- Keep doing this until you find a problem you can't solve.
-- When you find a problem you can't solve, write it up using the format:
+Keep doing this until you find a problem you can't solve, then write up your mental model using this format:
 
 1. What I _did_
-1. What I _expected_
+1. What I _expected_. Make sure you put your prediction here
 1. What actually _happened_
 
-Put your prediction in the "expected" section.
+Include as much context as you can, including links, line numbers, sample code, etc. Use code blocks to mark up your code. If you use screenshots, they should only show the _visual render_ (**never** screenshot code - paste code as text).
 
-Include as much context as you can, including links, line numbers, sample code, etc. Use code blocks to mark up your code. If you use screenshots, they should only show the _visual render_ (never screenshot code - paste code as text).
-
-Post your question in #cyf-ask-tech-stuff.
+Now post your write up of the question in [#cyf-ask-tech-stuff](https://codeyourfuture.slack.com/archives/C59R2722F).
 
 <!--{{</note>}}-->
 
