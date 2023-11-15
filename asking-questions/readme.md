@@ -97,7 +97,7 @@ Set a whole class timer for [30 minutes](https://www.google.com/search?q=timer+f
 
 - Pick a problem from the [bank](https://cyf-workshops.netlify.app/asking-questions#problem-bank).
 - As a group, make a prediction about what you think the answer is, and write it down.
-- Test your prediction. (Try it out.)
+- Test your prediction. Try it out using the dev tools.
 - Compare your prediction with the outcome.
 
 What happened? Is there a gap in your understanding?
