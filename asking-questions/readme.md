@@ -24,7 +24,7 @@ To develop our understanding of coding, we will:
 ### Predict & Explain
 
 1. Make a _prediction_ by _explaining_ what the outcome will be
-1. Play computer - "run" the model and _predict_ (say before) what the outcome will be
+1. Play computer - "run" the model in our heads and _predict_ (say before) what the outcome will be
 
 ### Try
 
