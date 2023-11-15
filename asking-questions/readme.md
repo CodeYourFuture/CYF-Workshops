@@ -55,7 +55,11 @@ E --> A
 
 ## Updating the _right_ model
 
-When we ask questions, we need to share our perspective with others so together we can test the right thing, focus on the mis-understanding or mistake, and get quickly to a shared understanding of your specific problem. Let's look at an example.
+If you stuck and can't explain the gap in your mental model, then it's time to ask a question!
+
+When we ask questions, it's important that we share our current mental model as part of your question so that other people can test the right thing, focus on the mis-understanding. Then together you can get quickly to a shared understanding of your specific problem.
+
+Let's look at how asking questions helps you update your mental model with an example.
 
 <!--{{<note type="activity" title="Inversion, 5m" >}}-->
 
