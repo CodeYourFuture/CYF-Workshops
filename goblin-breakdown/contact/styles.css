@@ -1,0 +1,23 @@
+body {
+  font: 3em/1.5 Monaco, monospace;
+  text-align: center;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  color: white;
+  background: no-repeat
+    linear-gradient(
+      30deg,
+      #000080 0%,
+      #72007f 16%,
+      #bc0070 33%,
+      #ff2447 50%,
+      #ff8a0c 66%,
+      #ffc800 83%,
+      #ffff00 100%
+    );
+}
+address {
+  font-style: normal;
+  white-space: pre;
+}
