@@ -71,7 +71,7 @@ Reflect on this process of breaking down the problem and planning your solution.
 - What are the risks of having an AI break down a problem? How can you mitigate those risks?
 - What are the benefits of planning your solution?
 - Why does CYF want to make you write such small functions?
-- What would be easier about implementing the solution to the problem, having done all of these steps, than if you hadn't?
+- How could doing these steps make writing your code easier?
 <!--{{</note>}}-->
 
 ## Acceptance Criteria
