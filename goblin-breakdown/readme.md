@@ -37,7 +37,7 @@ You should already be set up but just in case, you need to open this repository 
 
 ## 👣 2. Break down coding problems
 
-Let's try breaking down a coding problem. Let's do a sample problem together. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=15+minute+timer).
+Let's try breaking down a coding problem. Let's do a sample problem together. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
 <!--{{<note type="activity" title="Planning a Solution 10m">}}>-->
 
@@ -46,7 +46,7 @@ Let's try breaking down a coding problem. Let's do a sample problem together. Se
 > Format a UK address and UK phone number from a JSON object and show it as HTML on the page
 
 1. Paste the above problem into Goblin and press the 🪄 wand button.
-1. Goblin will give you some steps. In the `contact` folder, paste each of the steps into `index.js` as comments. There are some samples given but your Goblin might be a bit different.
+1. Goblin will give you some steps. In the `contact` folder, paste each of the steps into `index.js` as comments. There are some samples given but your Goblin might be a bit different. Feel free to delete the existing examples.
 1. You likely have around five steps. Under each comment, write the name of the function you will write to achieve the step. Two are given as an example. Don't write the function out, just the name and leave the function empty.
 1. Now you have planned your code! _If you have time_, start writing the functions.
 
@@ -71,6 +71,7 @@ Reflect on this process of breaking down the problem and planning your solution.
 - What are the risks of having an AI break down a problem? How can you mitigate those risks?
 - What are the benefits of planning your solution?
 - Why does CYF want to make you write such small functions?
+- What would be easier about implementing the solution to the problem, having done all of these steps, than if you hadn't?
 <!--{{</note>}}-->
 
 ## Acceptance Criteria
