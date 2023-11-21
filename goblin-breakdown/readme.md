@@ -2,11 +2,7 @@
 
 Use AI to break down coding problems into smaller pieces.
 
-<!--{{<note type="tip" title="Prompt">}}>-->
-
-If Goblin is offline, use any LLM with the pre-prompt "Break down this task into single responsibility functions".
-
-<!--{{</note>}}-->
+<!--{{<note type="tip" title="Prompt">}}>--> If Goblin is offline, use any LLM with the pre-prompt "Break down this task into single responsibility functions". <!--{{</note>}}-->
 
 ## Learning Objectives
 
@@ -24,11 +20,9 @@ This time we're going to use AI to help us. [Goblin](https://goblin.tools) is a 
 
 ### 🧰 1. Setup
 
-You should already be set up but just in case, you need to open this repository in VS Code.
+You should already be set up but just in case, you need to open this repository in VS Code. Set a whole class [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 
 <!--{{<note type="activity" title="Getting Set Up">}}>-->
-
-1.  Set a whole class [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 1.  Fork this repository to your own GitHub account if you have not already.
 1.  Clone the repository to your machine.
 1.  Open in VS Code and go to the `goblin-breakdown` folder.
@@ -42,8 +36,6 @@ Let's try breaking down a coding problem. Let's do a sample problem together. Se
 
 <!--{{<note type="activity" title="Planning a Solution 10m">}}>-->
 
-### 🧱 3. Plan a solution
-
 > Format a UK address and UK phone number from a JSON object and show it as HTML on the page
 
 1. Paste the above problem into Goblin and press the 🪄 wand button.
@@ -53,13 +45,9 @@ Let's try breaking down a coding problem. Let's do a sample problem together. Se
 
 <!--{{</note>}}-->
 
-<!--{{<note type="tip" title="Sample Solution">}}>-->
+<!--{{<note type="tip" title="Sample Solution">}}>--> There isn't a "right answer" to this workshop. If you want to see a basic solution, look in the `contact` folder for the file `completed.js`. <!--{{</note>}}-->
 
-There isn't a "right answer" to this workshop. If you want to see a basic solution, look in the `contact` folder for the file `completed.js`.
-
-<!--{{</note>}}-->
-
-### 🧠 4. How can you use this?
+### 🧠 3. How can you use this?
 
 Set a whole [class timer for 10 minutes](https://www.google.com/search?q=15+minute+timer).
 
