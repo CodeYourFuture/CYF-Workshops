@@ -32,6 +32,7 @@ You should already be set up but just in case, you need to open this repository 
 1.  Fork this repository to your own GitHub account if you have not already.
 1.  Clone the repository to your machine.
 1.  Open in VS Code and go to the `goblin-breakdown` folder.
+1.  Look at the `contact` folder. It contains a file called `index.js`. This is where you will write your code. Look at `data.json` to see an example of the data returned from the API.
 
 <!--{{</note>}}-->
 
@@ -54,7 +55,7 @@ Let's try breaking down a coding problem. Let's do a sample problem together. Se
 
 <!--{{<note type="tip" title="Sample Solution">}}>-->
 
-There isn't a "right answer" to this workshop, but if you want to see a basic solution, look in the `contact` folder for the file `completed.js`.
+There isn't a "right answer" to this workshop. If you want to see a basic solution, look in the `contact` folder for the file `completed.js`.
 
 <!--{{</note>}}-->
 
