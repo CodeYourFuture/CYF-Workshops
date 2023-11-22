@@ -2,7 +2,7 @@
 
 Use AI to break down coding problems into smaller pieces.
 
-<!--{{<note type="tip" title="Prompt">}}>--> If Goblin is offline, use any LLM with the pre-prompt "Break down this task into single responsibility functions". <!--{{</note>}}-->
+<!--{{<note type="tip" title="Prompt">}}--> If Goblin is offline, use any LLM with the pre-prompt "Break down this task into single responsibility functions". <!--{{</note>}}-->
 
 ## Learning Objectives
 
