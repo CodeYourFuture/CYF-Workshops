@@ -22,7 +22,7 @@ This time we're going to use AI to help us. [Goblin](https://goblin.tools) is a 
 
 You should already be set up but just in case, you need to open this repository in VS Code. Set a whole class [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 
-<!--{{<note type="activity" title="Getting Set Up">}}>-->
+<!--{{<note type="activity" title="Getting Set Up">}}-->
 1.  Fork this repository to your own GitHub account if you have not already.
 1.  Clone the repository to your machine.
 1.  Open in VS Code and go to the `goblin-breakdown` folder.
@@ -34,7 +34,7 @@ You should already be set up but just in case, you need to open this repository 
 
 Let's try breaking down a coding problem. Let's do a sample problem together. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
-<!--{{<note type="activity" title="Planning a Solution 10m">}}>-->
+<!--{{<note type="activity" title="Planning a Solution 10m">}}-->
 
 > Format a UK address and UK phone number from a JSON object and show it as HTML on the page
 
@@ -45,13 +45,13 @@ Let's try breaking down a coding problem. Let's do a sample problem together. Se
 
 <!--{{</note>}}-->
 
-<!--{{<note type="tip" title="Sample Solution">}}>--> There isn't a "right answer" to this workshop. If you want to see a basic solution, look in the `contact` folder for the file `completed.js`. <!--{{</note>}}-->
+<!--{{<note type="tip" title="Sample Solution">}}--> There isn't a "right answer" to this workshop. If you want to see a basic solution, look in the `contact` folder for the file `completed.js`. <!--{{</note>}}-->
 
 ### 🧠 3. How can you use this?
 
 Set a whole [class timer for 10 minutes](https://www.google.com/search?q=15+minute+timer).
 
-<!--{{<note type="activity" title="Reflect and Discuss 10m">}}>-->
+<!--{{<note type="activity" title="Reflect and Discuss 10m">}}-->
 
 Reflect on this process of breaking down the problem and planning your solution. Discuss with your pair or group.
 
