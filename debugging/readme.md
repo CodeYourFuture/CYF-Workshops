@@ -55,16 +55,16 @@ E --> A
 
 ## Setup
 
-![https://code.visualstudio.com/docs/editor/debugging](https://code.visualstudio.com/assets/docs/editor/debugging/debugging_hero.png)
-
 Get into pairs. Each pair consists of two roles:
 
-**Computer:** Execute the code mentally, predicting the outcome.
-**Debugger:** Use the VSCode debugger to step through the code.
+1. **Computer:** Execute the code mentally, predicting the outcome.
+1. **Debugger:** Use the VSCode debugger to step through the code.
 
 You will swap roles after each exercise.
 
 Set a whole class timer for [10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
+
+![https://code.visualstudio.com/docs/editor/debugging](https://code.visualstudio.com/assets/docs/editor/debugging/debugging_hero.png)
 
 ## Stepping
 
