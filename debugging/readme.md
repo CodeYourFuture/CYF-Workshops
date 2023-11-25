@@ -86,8 +86,10 @@ console.log(sumArray([1, 2, 3]));
 #### Debugger:
 
 1. Open `sumArray.js` in VSCode.
+1. Choose 'Run > Start Debugging' from the menu.
 1. Set a breakpoint at `total += numbers[i];`.
-1. Start debugging and use the Step Over button at each iteration.
+1. Step into your function.
+1. Step Over through iteration until your loop is complete.
 1. Monitor `total` and `i` in the Variables section.
 
 #### Computer:
