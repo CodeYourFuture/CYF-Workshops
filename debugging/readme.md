@@ -27,7 +27,7 @@ It really helps us with debugging. Today we will use a debugger and our scientif
 
 ### Test
 
-1. Step through the code to see what actually happens
+1. Run the code to see what actually happens
 
 ### Compare and Update
 
