@@ -83,6 +83,11 @@ const sumArray = (numbers) => {
 console.log(sumArray([1, 2, 3]));
 ```
 
+#### Computer:
+
+1. Write down predictions for `total` and `i` values before each loop iteration.
+1. Compare predictions after each Debugger's step.
+
 #### Debugger:
 
 1. Open `sumArray.js` in VSCode.
@@ -91,11 +96,6 @@ console.log(sumArray([1, 2, 3]));
 1. Step into your function.
 1. Step Over through iteration until your loop is complete.
 1. Monitor `total` and `i` in the Variables section.
-
-#### Computer:
-
-1. Write down predictions for `total` and `i` values before each loop iteration.
-1. Compare predictions after each Debugger's step.
 
 <!--{{</note>}}-->
 
