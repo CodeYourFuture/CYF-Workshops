@@ -17,12 +17,14 @@ It's also an efficient way to share our current understanding with others.
 
 ## Expectation vs reality
 
-When we are surprised by an outcome it usually means we had a mental model of the world that didn't predict the world accurately. To develop our understanding of coding, we will:
+When we are surprised by an outcome it usually means we had a mental model of the world that didn't predict the world accurately. Don't panic when this happens, it's completely expected for even experienced developers to run into surprises. We use these gaps as signs that we need to _update_ our mental models.
+
+To develop our understanding of coding, we will:
 
 ### Predict & Explain
 
 1. Make a _prediction_ by _explaining_ what the outcome will be
-1. Play computer - "run" the model and _predict_ (say before) what the outcome will be
+1. Play computer - "run" the model in our heads and _predict_ (say before) what the outcome will be
 
 ### Try
 
@@ -53,7 +55,11 @@ E --> A
 
 ## Updating the _right_ model
 
-When we ask questions, we need to share our perspective with others so together we can test the right thing, focus on the mis-understanding or mistake, and get quickly to a shared understanding of your specific problem. Let's look at an example.
+If you stuck and can't explain the gap in your mental model, then it's time to ask a question!
+
+When we ask questions, it's important that we share our current mental model as part of your question so that other people can test the right thing, focus on the mis-understanding. Then together you can get quickly to a shared understanding of your specific problem.
+
+Let's look at how asking questions helps you update your mental model with an example.
 
 <!--{{<note type="activity" title="Inversion, 5m" >}}-->
 
@@ -71,11 +77,13 @@ When we ask questions, we need to share our perspective with others so together 
 1.  Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2.  Popcorn around the room and each person give a reason the previous question was bad until the timer goes off. For example:
 
-    > What is _it_? What are you trying to do? In what way is it not working? Be specific! Share what you see. Do you have a link? What do you want it to do?
+> What is _it_? What are you trying to do? In what way is it not working? Be specific! Share what you see. Do you have a link? What do you want it to do?
 
  <!--{{</note>}}-->
 
-### Let's just set some ground rules here:
+### Exercise ground rules
+
+Before we get to the next exercise, let's just set some ground rules here:
 
 1. The goal is not to complete the exercise; the goal is to _learn_
 1. The smart thing to do is to focus on the questions you cannot (yet) answer
@@ -83,29 +91,26 @@ When we ask questions, we need to share our perspective with others so together 
 <!--{{<note type="activity" title="Framing questions systematically, 30m" >}}-->
 
 Split into groups of 2-5 people.
-Set a whole class timer for 30 minutes.
+Set a whole class timer for [30 minutes](https://www.google.com/search?q=timer+for+30+minutes).
 
 ### Confound yourselves
 
 - Pick a problem from the [bank](https://cyf-workshops.netlify.app/asking-questions#problem-bank).
 - As a group, make a prediction about what you think the answer is, and write it down.
-- Test your prediction. (Try it out.)
+- Test your prediction. Try it out using the dev tools.
 - Compare your prediction with the outcome.
 
 What happened? Is there a gap in your understanding?
 
-- Keep doing this until you find a problem you can't solve.
-- When you find a problem you can't solve, write it up using the format:
+Keep doing this until you find a problem you can't solve, then write up your mental model using this format:
 
 1. What I _did_
-1. What I _expected_
+1. What I _expected_. Make sure you include your prediction here
 1. What actually _happened_
 
-Put your prediction in the "expected" section.
+Include as much context as you can, including links, line numbers, sample code, etc. Use code blocks to mark up your code. If you use screenshots, they should only show the _visual render_ (**never** screenshot code - paste code as text).
 
-Include as much context as you can, including links, line numbers, sample code, etc. Use code blocks to mark up your code. If you use screenshots, they should only show the _visual render_ (never screenshot code - paste code as text).
-
-Post your question in #cyf-ask-tech-stuff.
+Now post your write up of the question in [#cyf-ask-tech-stuff](https://codeyourfuture.slack.com/archives/C59R2722F).
 
 <!--{{</note>}}-->
 
@@ -116,7 +121,6 @@ Post your question in #cyf-ask-tech-stuff.
 1. 🖼️ Screenshots of UI 👍
 1. 📝 `Code blocks` 👍
 1. 📷 ~~Screenshots of code~~ 🙅
-
 
 ## 📚 Further reading
 

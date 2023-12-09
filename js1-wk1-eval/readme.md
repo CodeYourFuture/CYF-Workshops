@@ -1,26 +1,21 @@
 # JS1 week 1 evaluation
 
-## Instructions
+## 🎓 Instructions
 
-The aim of this workshop is to check your understanding.
+This workshop aims to _check your understanding_.
 
 Each task will explain whether or not you should run the code.
 
-For each task, you can use https://curriculum.codeyourfuture.io/js1/sprints/1/prep/
-to help you with the questions
-You can also use documentation to look up any functions that are unfamiliar
-Don't use ChatGPT or any other AI tool to help you.
+- For each task, you can use [JS1 week 1 prep](https://curriculum.codeyourfuture.io/js1/sprints/1/prep/) to help you with the questions.
+- You can also use documentation to look up any functions that are unfamiliar.
+- Don't use ChatGPT or any other AI tool to help you.
 
-## Evaluate
+## 🧰 Setup
+ 👉 This workshop lives on [CYF-Workshops on GitHub](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval)
 
-After each task, use the poll to give your feedback on how you found the task.
-Be as honest as possible.
-Try your best - if you don't understand then this is still useful feedback.
+1. Get into pairs or groups of up to three.
+2. Make sure you have [a clone of the CYF-Workshops](https://github.com/CodeYourFuture/CYF-Workshops) repository on your local machine
 
-Here is how you can categorise the task:
+Each file contains a different problem at a particular level. Start this project at **Level 100** and then move up through the levels: **level 200**, **300** ...
 
-- Knew what to do straight away
-- Made sense after checking the docs
-- Made sense after support from volunteers
-- Partially understood - but still not confident
-- Had no idea what to do
+🏁 [Go to Level 100](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/js1-wk1-eval/level-100.js)
