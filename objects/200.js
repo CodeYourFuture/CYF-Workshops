@@ -1,12 +1,14 @@
-// Predict and explain...
+// Predict and explain... 
+// Will Get an error because there is no value assigned to the key location. and assign value to Id_number Syntax is wrong.
 // What will happen when this program is run?
+// Will receive an error.
 // Check your prediction and explanation by running the program.
 // Fix anything that needs fixing.
 
 const person = {
     "name": "Jemima",
-    "location",
-    "id_number" = 9,
+    "location": "Glasgow",
+    "id_number": 9,
 };
 
 console.assert(person.name === "Jemima");
