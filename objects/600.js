@@ -5,12 +5,15 @@
 
 const person = {
     "name": "Manu",
-    "favourite_ice_cream": "vanilla",
-    "favourite_topping": "marshmallows",
-};
+    "favourite_ice_cream":"vanilla",
+    favourite_topping : "marshallows",
 
-function assertFieldEquals(object, field, targetValue) {
-    console.assert(object.field === targetValue);
+    
 }
+function assertfieldEquals(object ,field ,targetValue){
+    console.assert(object.field === targetValue);
+    console.log(object.field === targetValue);
+    
+}
+assertfieldEquals(person.favourite_ice_cream, "vanilla2");
 
-assertFieldEquals(person, "favourite_ice_cream", "vanilla");

@@ -5,10 +5,12 @@
 
 const person = {
     "name": "Jemima",
-    "location",
-    "id_number" = 9,
+    location: "Glasgow",
+    "id_number" : 9,
 };
 
-console.assert(person.name === "Jemima");
-console.assert(person.location === "Glasgow");
-console.assert(person.id_number === 9);
+console.assert(person.name === "Jemima");// true
+console.assert(person.location === "Glasgow"); //
+console.assert(person.id_number === 9); // true 
+// remove the "" from location and  write the the name of value is Glasgow. 
+// line 9 i reove the equal sign and add colan 

@@ -17,7 +17,8 @@ function printSaladRecipe(forPerson) {
     };
 
     if (forPerson.eatsMeat) {
-        saladRecipe.push("chicken");
+        saladRecipe.ingredients.push("chicken");
+        // we add ingrendients to satladcipe
         saladRecipe.steps.push("Mix in the chicken");
     }
 
