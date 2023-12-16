@@ -530,7 +530,7 @@ Oh by the way, if you want to get the current timestamp, use the JavaScript `Dat
 
 ### Step 9 - Displaying your blog posts
 
-So now we're saving the blog posts to the server, it's time to display them in the broswer!
+So now we're saving the blog posts to the server, it's time to display them in the browser!
 
 Look inside `public/script.js`. There's a whole bunch of JavaScript code in there. Don't worry about what all the code means, just know that it's responsible for sending a request to GET old blog posts and display them on the page underneath "Recent Posts".
 
@@ -551,7 +551,4 @@ For a really good workout, redo this workshop using
 
 ## Acceptance Criteria
 
-- I have provided clear success criteria
-- These might be related to the objectives and the requirements
-- I have given some simple, clear ways for trainees to evaluate their work
-- I have run Lighthouse and my Accessibility score is 100
+- I have created an Express server
