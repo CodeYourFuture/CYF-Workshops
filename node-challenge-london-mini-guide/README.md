@@ -82,4 +82,9 @@ Data source: https://www.yell.com/
 
 Data has been collected using a technique called `web scraping`.
 
-If you are curious about this check [this repository](https://github.com/ahmad-ali14/web-scraping---get-all-businesses-data-in-any-city) or [this Youtube video](https://github.com/ahmad-ali14/web-scraping---get-all-businesses-data-in-any-city). This is completely optional.
+Optionally, to know more about web scraping, check out these resources:
+
+- Media, T. (2018). Intro To Web Scraping With Node.js & Cheerio [YouTube Video]. In YouTube. <https://www.youtube.com/watch?v=LoziivfAAjE>
+- Typecraft. (2022). Web Scraping like a GOD with Javascript [YouTube Video]. In YouTube. <https://www.youtube.com/watch?v=ssRo5nVOvrQ>
+
+‌
