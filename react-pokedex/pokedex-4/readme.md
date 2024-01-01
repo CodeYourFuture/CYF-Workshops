@@ -47,9 +47,9 @@ In this exercise, we will create a new component to display a Pokemon informatio
 <!--{{<note type="activity" title="Exercise 2 (10m)">}}-->
 
 1. Create a new component `PokemonInfo`.
-   > 2. In `src/App.js`, create a new route which maps the path `/pokemon/:name` to the previously created component `PokemonInfo` (hint: `<Route path="/pokemon/:name" element={<PokemonInfo />} />`).
-   > 3. In the `render` method of `PokemonInfo` component, display the name of the Pokemon which is passed in the URL parameter (hint: use the hook `useParams()` and extract `name` from the object it returns ).
-   > 4. Open the `pokedex` in your browser and try several URLs (such as `http://localhost:3000/pokemon/Pikachu` and see if the Pokemon name is displayed accordingly on your screen.
+2. In `src/App.js`, create a new route which maps the path `/pokemon/:name` to the previously created component `PokemonInfo` (hint: `<Route path="/pokemon/:name" element={<PokemonInfo />} />`).
+3. In the `render` method of `PokemonInfo` component, display the name of the Pokemon which is passed in the URL parameter (hint: use the hook `useParams()` and extract `name` from the object it returns ).
+4. Open the `pokedex` in your browser and try several URLs (such as `http://localhost:3000/pokemon/Pikachu` and see if the Pokemon name is displayed accordingly on your screen.
 
 <!--{{</note>}}-->
 
