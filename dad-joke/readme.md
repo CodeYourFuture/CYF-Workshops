@@ -16,24 +16,36 @@ This simple app fetches jokes from an API and displays them. Here are some ways 
 >    When the user clicks the "Get Joke" button
 >    Then an error message will display instead of a joke
 
-## Tasks
+## 🐛 Debug
 
-Commit after each task
+❗ Commit after completing each task ❗
 
-1. Break code into separate files - HTML, JS, CSS
-2. Fix functionality for Acceptance Criteria 1 only
+1. Separate code into separate files - HTML, JS, CSS
+2. Fix functionality for acceptance criterion 1 only
 
-3. Fix functionality for Acceptance Criteria 2 only
-   Navigator:
+Navigator:
 
-- Describe the current behaviour in the user interface
--
+- Describe out loud the current behaviour in the user interface
+- Describe what you should expect to see given the acceptance criterion
+- Step through the code to make sense of where the bug is coming from
 
-4. Check all Acceptance criteria are working
+3. Fix functionality for acceptance criterion 2 only
+
+Navigator:
+
+- Describe out loud the current behaviour in the user interface
+- Describe what you should expect to see given the acceptance criterion
+- Step through the code to make sense of where the bug is coming from
+
+4. Check all acceptance criteria are working ( including 3 )
 5. Add a loading indicator that displays until the joke is fetched
 
-### Add Styling
+## Refactor 🧹
 
-1. Add some CSS styling to style.css file to make the app look nicer
+1. Refactor `getJokes` to use async/await
+
+## Add Styling
+
+1. Add some CSS styling to a style.css file to make the app look nicer
 1. Style the button, heading, and joke container
-1. Add transitions/animations for loading indicator
+1. Add transitions/animations for loading indicator if time
