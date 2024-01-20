@@ -12,9 +12,9 @@ This simple app fetches jokes from an API and displays them. Here are some ways 
 >    When the user clicks the "Get New Joke" button
 >    Then a new random joke will be fetched and replace the existing one
 
-> 3. Given there is a network connectivity issue
->    When the user clicks the "Get Joke" button
->    Then an error message will display instead of a joke
+> 3. Given there is a slow network
+>    When the page first loads
+>    Then a loading message will be displayed...
 
 ## 🐛 Debug
 
@@ -38,14 +38,11 @@ Navigator:
 - Step through the code to make sense of where the bug is coming from
 
 4. Check all acceptance criteria are working ( including 3 )
-5. Add a loading indicator that displays until the joke is fetched
 
 ## Refactor 🧹
 
 1. Refactor `getJokes` to use async/await
 
-## Add Styling
+## Challenge 💪
 
-1. Add some CSS styling to a style.css file to make the app look nicer
-1. Style the button, heading, and joke container
-1. Add transitions/animations for loading indicator if time
+1. Try implementing a loading spinner using CSS
