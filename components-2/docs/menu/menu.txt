@@ -1,0 +1,19 @@
+<nav class="menu" id="menu" hidden>
+  <ul>
+    <li>
+      <a href="index.html">Components Workshop</a>
+    </li>
+    <li>
+      <a href="teams.html">Team Generator</a>
+    </li>
+    <li>
+      <a href="card.html">Card docs</a>
+    </li>
+    <li>
+      <a href="header.html">Header docs</a>
+    </li>
+    <li>
+      <a href="footer.html">Footer docs</a>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,8 @@
+.footer {
+  grid-area: footer;
+  display: grid;
+  grid-template: "github space" var(--finger) / var(--finger) 1fr;
+}
+.footer__link {
+  grid-area: github;
+}
