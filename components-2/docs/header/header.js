@@ -1,6 +1,7 @@
 const Header = (link, title) => {
   const header = document.createElement("header");
   header.classList.add("header");
+  
   header.innerHTML = `
     <h1 class="header__heading">
       <a class="header__link" href="${link ?? `../components-2`}">
@@ -19,7 +20,7 @@ const Header = (link, title) => {
         </svg>
       </a>
     </h1>
-    <h2 class="header__page">${title}</h2>
+    <h2 class="header__page">"Header Component"</h2>
     <button id="toggle" class="header__action">
       <span class="is-invisible">Toggle Menu.</span>
       <svg
@@ -38,7 +39,12 @@ const Header = (link, title) => {
       </svg>
     </button>
  `;
+ 
   return header;
 };
 
+
+
 export default Header;
+
+

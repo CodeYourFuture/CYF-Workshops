@@ -7,13 +7,18 @@
     <meta name="description" content="Together, separately" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/styles.css" />
-    <script src="assets/app.js" defer></script>
   </head>
   <body>
     <a class="is-invisible" href="#main">Skip to main</a>
     <!--=======================
      THE HEADER COMPONENT GOES HERE
+  
     =======================-->
+<script  type="module">import Header from "./docs/header/header.js";
+document.body.append(Header());
+</script>
+    <script src="assets/app.js" defer></script>
+
     <nav class="menu" id="menu" hidden>
       <ul>
         <li>
