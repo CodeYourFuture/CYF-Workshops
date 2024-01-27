@@ -30,4 +30,11 @@ const Card = ({ component, emoji, resource }, type, path) => {
   return card;
 };
 
+
+
+
+
+
+
 export default Card;
+
