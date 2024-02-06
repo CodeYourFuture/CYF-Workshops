@@ -24,7 +24,7 @@ You should already be set up but just in case, you need to open [the Goblin work
 
 <!--{{<note type="activity" title="Getting Set Up">}}-->
 
-1.  Fork [this repository](https://github.com/CodeYourFuture/CYF-Workshops/tree/70eb059959269ac4377fcf229f776cea0771655a/goblin-breakdown) to your own GitHub account if you have not already.
+1.  Fork the [CYF-Workshops repo](https://github.com/CodeYourFuture/CYF-Workshops) to your own GitHub account if you have not already.
 1.  Clone the repository to your machine.
 1.  Open in VS Code and go to the `goblin-breakdown` folder.
 1.  Look at the `contact` folder. It contains a file called `index.js`. This is where you will write your code. Look at `data.json` to see an example of the data returned from the API.
