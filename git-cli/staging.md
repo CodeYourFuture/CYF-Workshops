@@ -15,7 +15,7 @@ Let's make a change to the current working directory and then stage that change.
 ### Steps 👣
 
 1. Open this project in VSCode.
-2. Go to `examples/ex-1.js` and try the first exercise.
+2. Go to `exercises/ex-1.js` and try the first exercise.
 
 You will have made a change to the **working tree**.
 
@@ -29,6 +29,8 @@ We need to tell Git which changes we want to include in our next commit.
 We do this by promoting these changes files to the **staging area**.
 
 🔑 **Staging area** is the space to prepare (stage) the changes that will be in the next commit.
+
+This is useful because we don't always want to commit all of our changes at the same time.
 
 
 ### Steps 👣

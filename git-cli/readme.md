@@ -22,7 +22,7 @@ During this session, with the Git CLI, you will:
 - [ ] Inspect the status of the working directory and staging area
 - [ ] Checkout a new branch
 - [ ] Add changes from the working tree to the staging area
-- [ ] Commit changes in the staging area
+- [ ] Commit changes from the staging area
 ```
 
 ## 🧰 Setup
@@ -30,7 +30,8 @@ During this session, with the Git CLI, you will:
 Work in pairs:
 
 - Assign one person to be **driver** (the driver will control the keyboard and do the typing)
-- Assign another person to be **navigator** (the navigator will read out the questions and explain how to tackle the problems)
+- Assign another person to be **navigator** (the navigator will read out the questions and explain how to tackle the problems).
+
 The **driver** must ensure they have a clone of this repo on their local machine.
 
 
