@@ -20,7 +20,7 @@ This time we're going to use AI to help us. [Goblin](https://goblin.tools) is a 
 
 ### 🧰 1. Setup
 
-You should already be set up but just in case, you need to open [this repository](https://github.com/CodeYourFuture/CYF-Workshops/tree/70eb059959269ac4377fcf229f776cea0771655a/goblin-breakdown) in VS Code. Set a whole class [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
+You should already be set up but just in case, you need to open [the Goblin workshop](https://github.com/CodeYourFuture/CYF-Workshops/tree/70eb059959269ac4377fcf229f776cea0771655a/goblin-breakdown) in VS Code. Set a whole class [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 
 <!--{{<note type="activity" title="Getting Set Up">}}-->
 
