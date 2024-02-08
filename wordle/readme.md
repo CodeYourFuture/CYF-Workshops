@@ -24,7 +24,6 @@ This is a workshop where we, as a class, build a Wordle CLI clone in Node JS.
     - Step 4 (getGuess) can be done in groups - but it might be useful for a volunteer to suggest which NPM dependency we could use
     - Step 5 (showWordWithHighlights) can be done in groups - again, we can suggest which NPM dependency to use
     - Step 6 (improving the user experience) could possibly be done as a class together
-- Back to the slides (https://barath-cyf.netlify.app/wordle/), we can wrap up the session by suggesting some stretch ideas, and again emphasizing the power of trainee ideas
 
 ## Acceptance Criteria
 
