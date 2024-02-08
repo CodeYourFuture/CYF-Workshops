@@ -5,7 +5,7 @@ This is a workshop where we, as a class, build a Wordle CLI clone in Node JS.
 ## Learning Objectives
 
 ```objectives
-- [ ] Give trainees the experience of building a fully playable game from scratch, starting with nothing but an idea
+- [ ] Build a fully playable game from scratch, starting with nothing but an idea
 - [ ] Give trainees some understanding of how to find and use NPM dependencies in a project
 - [ ] Walk trainees through the process of breaking down a high-level idea into smaller, less intimidating bits of functionality
 - [ ] Inspire trainees to take their own ideas and build something cool with whatever skills they have
