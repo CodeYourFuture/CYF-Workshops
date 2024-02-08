@@ -481,7 +481,6 @@ fs.readFile("path/to/file")
 
 - Argument 1: the location of the file you want to read from
 
-You'll notice that `fs.readFile`'s callback function takes a second argument. That argument is the file you're _reading_.
 
 Let's read the data from the `posts.json` file. Make sure you've `require`d the `fs` core Node module at the top of your server file somewhere.
 
