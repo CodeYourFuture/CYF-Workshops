@@ -462,7 +462,6 @@ fs.writeFile("path/to/file", yourData)
 
 - Argument 1: `"path/to/file"` the location of the file you want to write to
 - Argument 2: `yourData` the data you want to write
-- Argument 3: `(error) =>` the callback function
 
 The 'path/to/file' will be replaced with the actual path to the file you want to write to. If it doesn't exist, `fs.writeFile` cleverly creates one for you. But we already have `posts.json`, so not to worry.
 
