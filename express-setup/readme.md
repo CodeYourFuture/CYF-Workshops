@@ -452,7 +452,10 @@ const fs = require("fs").promises;
 The method we need to write to your hard drive is `fs.writeFile`.
 
 ```js
-fs.writeFile("path/to/file", yourData, (error) => {
+fs.writeFile("path/to/file", yourData)
+  .then(() => {
+    console.log("successfully written to the file");
+  })
   // do something
 });
 ```
