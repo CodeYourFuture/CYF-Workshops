@@ -28,6 +28,28 @@ This is a workshop where we, as a class, build a Wordle CLI clone in Node JS.
 
 ## Acceptance Criteria
 
-- I have a working Wordle CLI game which I can play
+_Given_ the user starts a new Wordle game
+_When_ the app is initialized
+_Then_ a random 5 letter word should be selected as the target word
+
+_Given_ the target word has been selected
+_When_ the user enters a 5 letter guess
+_Then_ the guess should be validated
+_And_ each letter should be marked as green, yellow or gray based on whether it matches the target word
+
+_Given_ a valid 5 letter guess has been entered
+_When_ the guess does not match the target word
+_Then_ each letter should be marked as follows:
+- Green if the letter is in the correct position
+- Yellow if the letter is in the target but not in the correct position
+- Gray if the letter is not in the target word
+
+_Given_ a guess has been submitted
+_When_ the guess matches the target word
+_Then_ a message should indicate the user has won the game
+
+_Given_ guesses have been submitted
+_When_ the user reaches 6 guesses without matching the target word
+_Then_ a message should indicate the user has lost and show the target word
 - I understand the code I have written
 - I understand what a dependency is in Node and how to install and use them
