@@ -50,4 +50,3 @@ _Given_ guesses have been submitted
 _When_ the user reaches 6 guesses without matching the target word
 _Then_ a message should indicate the user has lost and show the target word
 - I understand the code I have written
-- I understand what a dependency is in Node and how to install and use them
