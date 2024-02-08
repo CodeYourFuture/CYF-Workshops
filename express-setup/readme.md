@@ -117,7 +117,7 @@ Express should now be installed. Check your `package.json` file to make sure it 
 
 # Step 3 - Building the server
 
-The first thing we need to do is build our server. You will always need to build a server when writing back-end code. A server can be built in pure Node.js, but Express gives us simpler syntax to work with.
+The first step is to build our server. You will always need to build a server when writing back-end code. A server can be built with in-built Node.js libraries, but Express gives us simpler syntax to work with.
 
 ## 1. Create a `server.js` file
 
