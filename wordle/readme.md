@@ -14,7 +14,6 @@ This is a workshop where we, as a class, build a Wordle CLI clone in Node JS.
 ## Requirements
 
 - Split the cohort into groups of 3 to 4 people
-- Introduction slides: https://barath-cyf.netlify.app/wordle/
 - We start with an energiser where we play an actual game of Wordle (https://www.nytimes.com/games/wordle/index.html) - sourcing guesses from the class, and hopefully learning how the game works in the process
 - Ensure the class understands the rules of the game first
 - Then we start building out our Wordle CLI clone from scratch
