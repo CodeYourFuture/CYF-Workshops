@@ -8,7 +8,7 @@ This is a workshop where we, as a class, build a Wordle CLI clone in Node JS.
 - [ ] Build a fully playable game from scratch, starting with nothing but an idea
 - [ ] Locate and make use of NPM dependencies in a project
 - [ ] Step through the process of breaking down a high-level idea into smaller, manageable units of functionality
-- [ ] Inspire trainees to take their own ideas and build something cool with whatever skills they have
+- [ ] Get inspired to take ideas and build something cool
 ```
 
 ## Requirements
