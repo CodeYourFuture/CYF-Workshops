@@ -24,7 +24,7 @@ git clone https://github.com/YOUR-USERNAME/express-workshop
 
 # Step 1 - Setting up your project
 
-When creating a Node.js project, you will usually be installing a lot of different packages along the way. To share your project with others, you need to list those packages, so others can install the same set.
+When creating a Node.js project, you will usually install many different packages along the way. To share your project with others, you need to list those packages, so others can install the same set of packages.
 
 In Node.js, this 'list' file is called a `package.json`. The 'things you've installed' are called **dependencies**. Your dependencies come in little packages, each one labelled and numbered by your Node Package Manager, `npm`. They are the software your software _depends upon_ to work.
 
