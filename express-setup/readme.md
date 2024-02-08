@@ -468,7 +468,10 @@ The 'path/to/file' will be replaced with the actual path to the file you want to
 To read data that's already there, you would use `fs.readFile`. The way to use `fs.readFile` is very similar to `fs.writeFile`:
 
 ```js
-fs.readFile("path/to/file", (error, file) => {
+fs.readFile("path/to/file")
+  .then(file => {
+    console.log(file);
+  })
   // do something
 });
 ```
