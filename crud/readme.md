@@ -63,7 +63,7 @@ In `server.js`, create a `GET /albums/:albumId` endpoint that returns a single a
 ```js
 app.get("/albums/:albumId", (req, res) => {
   const albumId = req.params.albumId;
-  const album = albumsData.find((album) => album.albumId === albumId);
+ // now find the given album from the `albumsData` using the `albumId`
   res.send(album);
 });
 ```
