@@ -72,6 +72,7 @@ app.get("/albums/:albumId", (req, res) => {
 
 1. Save your changes
 1. Make a GET request to `http://localhost:3000/albums/10`
+1. Try changing the id in the URL and calling the endpoint again. What do you see?
 
 ### 3. `POST /albums should save a new album`
 
