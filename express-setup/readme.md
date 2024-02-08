@@ -171,7 +171,7 @@ Type the following command in your terminal:
 node server.js
 ```
 
-If you see this, congratulations! You have built yourself a server!
+If you see this, congratulations! You have built a server!
 
 ![success](https://raw.githubusercontent.com/node-girls/workshop-cms/master/readme-images/step2-server02.png)
 
