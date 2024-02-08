@@ -488,7 +488,10 @@ Let's read the data from the `posts.json` file. Make sure you've `require`d the 
 Add this code to your server (put it anywhere after the `require`s for now):
 
 ```js
-fs.readFile(__dirname + "/data/posts.json", (error, file) => {
+fs.readFile(__dirname + "/data/posts.json")
+  .then(file => {
+    console.log(file);
+  })
   console.log(file);
 });
 ```
