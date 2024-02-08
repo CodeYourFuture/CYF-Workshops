@@ -477,7 +477,6 @@ fs.readFile("path/to/file")
 ```
 
 - Argument 1: the location of the file you want to read from
-- Argument 2: the callback function
 
 You'll notice that `fs.readFile`'s callback function takes a second argument. That argument is the file you're _reading_.
 
