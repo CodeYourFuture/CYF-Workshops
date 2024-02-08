@@ -512,7 +512,7 @@ console.log(file.toString());
 
 `file` is in JSON format right now. To access the blog post message inside `file`, we need to parse it from JSON back to a JavaScipt object.
 
-Add this next bit of code to your `fs.readFile`'s callback function:
+Add this next bit of code to the `.then` callback for `fs.readFile`'s:
 
 ```js
 const parsedFile = JSON.parse(file);
