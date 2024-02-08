@@ -446,7 +446,7 @@ Built-in Node modules - **core Node modules** - are rather like the built-in Exp
 To use `fs`, require it at the top of your server file:
 
 ```js
-const fs = require("fs");
+const fs = require("fs").promises;
 ```
 
 The method we need to write to your hard drive is `fs.writeFile`.
