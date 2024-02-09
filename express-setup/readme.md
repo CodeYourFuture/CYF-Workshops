@@ -264,7 +264,22 @@ An endpoint is the part of the URL which comes after `/`. For example:
 
 ### What is a URL?
 
-![URL structure](../assets/http1-url-structure.png "URL")
+```mermaid
+sequenceDiagram
+    participant U as URL
+    participant P as Protocol
+    participant H as Host
+    participant Po as Port
+    participant R as Resource Path
+    Note over R: (Endpoint)
+    participant Q as Query Params
+
+    U->>P: http://
+    U->>H: www.domain.com
+    U->>Po: :1234
+    U->>R: /path/to/resource
+    U->>Q: ?a=b&x=y
+```
 
 ## 1. Create your own endpoints and send different responses
 
