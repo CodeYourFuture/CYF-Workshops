@@ -43,7 +43,20 @@ npm init
 This command will initialise a step-by-step process for creating the
 `package.json`. You should see something like this:
 
-![starting npm init](https://raw.githubusercontent.com/node-girls/workshop-cms/master/readme-images/step1-npm-init01.png)
+```zsh
+-> % npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (express-setup)
+```
 
 It will ask you a bunch of questions.
 
