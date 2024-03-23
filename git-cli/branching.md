@@ -13,7 +13,7 @@ Let's use the Git CLI to do this:
 
 2. Now run the command `git branch` and double check your current branch.
 
-3. Run `git checkout -b git-cli-workshop` to create a new branch called `git-cli-workshop`
+3. Run `git switch --create git-cli-workshop` to create a new branch called `git-cli-workshop` and switch to it.
 
 4. Now double check you're on a new branch.
 
