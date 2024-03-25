@@ -1,8 +1,8 @@
 const express = require("express");
 const albumsData = require("./albums.json");
 const app = express();
-
 app.use(express.json());
+
 app.get("/albums", (req, res) => {
   console.log(albumsData);
   res.send(albumsData);
@@ -18,8 +18,10 @@ app.post("/albums", (req, res) => {
   res.send("new album added");
 });
 app.delete("/albums/:albumID", (req, res) => {
-  const deleteId = albumsData.find((id) => id.albumId === id);
-  res.send(deleteId);
+  const idAlbum = req.params.albumID;
+  console.log(idAlbum);
+  const deleteId = albumsData.find((object) => object.id === idAlbum);
+  res.send(`delete id `);
 });
 
 app.listen(3000, () => {
