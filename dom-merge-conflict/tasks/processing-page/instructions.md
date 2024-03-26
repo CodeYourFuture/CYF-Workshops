@@ -33,4 +33,4 @@ Create and switch to a new branch named `change-promise-logic`:
 git switch -c change-promise-logic
 ```
 
-Unskip the tests describing promises running concurrently. Update the component so that promises that are independent to each other are run concurrently.
+Unskip the tests describing promises running concurrently. Update the component so that the operations that are independent of each other run concurrently.
