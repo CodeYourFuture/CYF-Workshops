@@ -10,7 +10,7 @@ Create and switch to a new branch named `split-app-components`:
 git switch -c split-app-components
 ```
 
-Split the header and main content into two seperate files. Use the new functions to refactor the App function.
+Split the header, main into separate components. You should end up with an `app.js` file, a `header.js` file, and a `main.js` file in your `src` directory.
 
 ## Task for Person 2
 
