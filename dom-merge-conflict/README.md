@@ -25,7 +25,7 @@ This workshop contains a collection of DOM components. For this workshop, you wi
 - Get into pairs
 - Before starting, ensure you create a fork of this repository on Github to use as a pair. Each person in the pair must clone down the fork of this repository from Github and navigate to the project directory
 
-## Intructions
+## Instructions
 
 ### 1. Start Branching from `main`
 
