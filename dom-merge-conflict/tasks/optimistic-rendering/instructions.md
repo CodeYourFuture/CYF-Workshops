@@ -1,6 +1,6 @@
 # Optimistic rendering
 
-This component is currently a like button, that updates once the promise from updateVote() is resolved and gives and error when it is rejected.
+This component is currently a like button, that updates once the promise from updateVote() is resolved and gives an error when it is rejected.
 
 ## Task for Person 1
 
