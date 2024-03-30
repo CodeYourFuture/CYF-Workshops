@@ -13,12 +13,14 @@ Welcome, SQL warriors! Today, we'll be putting your database knowledge to the te
 - **Quiz Leader:** The quizmaster needs to prepare the questions, guide the quiz, and keep the energy high. Sample questions are provided below, but you should set your own.
 - **Timekeeper:** Keep track of time for each round to ensure the quiz runs smoothly.
 - **Assemble Your Team:** Get into groups of 3-4. Teamwork makes the dream work
-- **Paper & Pen (or Digital Tools):** Prepare yourselves to write queries and discuss strategies.
+- **Paper & Pen:** Prepare yourselves to write queries and discuss strategies WITHOUT using a computer.
 - **A Dash of Fun & Friendly Competition:** Embrace the challenge with a positive and collaborative spirit!
 
 ## The Challenge
 
 This workshop will be divided into rounds, each presenting a unique SQL query challenge. The scenarios will target various SQL functionalities, so get ready to flex your SQL muscles.
+
+You will write your answers on paper not on a computer. Close your laptops. You may use printed [SQL CheatSheets](https://learnsql.com/blog/sql-basics-cheat-sheet/) to help you.
 
 - **Round 1: Data Retrieval:** Test your fundamental SELECT statement skills, filtering and retrieving specific data from a database table.
 - **Round 2: Joining the Party:** Level up the difficulty with JOINs, combining data from multiple tables to unlock hidden insights.
