@@ -252,6 +252,7 @@ Include as much context as you can, including links, line numbers, sample code, 
 1. 🎯 Objectives - what are you actually trying to do? 👍
 1. 🖼️ Screenshots of UI if relevant 👍
 1. 📝 `Code blocks` 👍
+    - In Slack, proper [code snippets](https://slack.com/intl/en-gb/help/articles/204145658-Create-or-paste-code-snippets-in-Slack) get syntax highlighting and can be collapsed vertically - remember to 🧵 use threads too
 1. 🪸 Environment details 👍
 1. 📷 ~~Screenshots of code~~ 🙅
 
