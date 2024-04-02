@@ -26,7 +26,10 @@ It's also an efficient way to share our current understanding with others. Now w
 
 Over and over, especially during The Launch, we see trainees writing panicked, incoherent questions with no context, pasting error messages they clearly have not read, and not even sharing the link to the code they're working on.
 
-Outside our community, developers will ignore or delete your posts if you do this. At home with us, well-meaning mentors often try to help you, but they _can't_ because you haven't given them the information they need. It feels so frustrating, and people can get really upset. We want to help you avoid this as you prepare to work in a professional environment.
+Outside our community, developers will ignore or delete your posts if you do this. At home with us, well-meaning mentors often try to help you, but they _can't_ because you haven't given them the information they need. It feels so frustrating, and people can get really upset. We want to help you avoid this as you prepare to work in a professional environment. Your colleagues will _enjoy_ answering your questions if you give them the information they need; most developers really like solving well-constructed puzzles.
+
+😎 Useful questions -> colleagues _enjoy_ answering -> get solutions promptly -> make lots of progress -> good performance
+😰 Not useful questions -> colleagues _avoid_ answering -> don't get solutions -> take much longer -> performance appears poor
 
 ### Steps to Reproduce
 
@@ -118,7 +121,7 @@ npm ERR!     /Users/student/.npm/_logs/2024-02-26T19_28_05_701Z-debug-0.log
 
 #### Mentor
 
-What happened when you followed the instructions in the error message?
+What happened when you followed the suggestion in the error message?
 
 #### Trainee
 
@@ -132,6 +135,13 @@ What happened when you followed the instructions in the error message?
 1. Popcorn around the room and find the instruction in the error message.
 
 <!--{{</note>}}>-->
+
+Error messages aren't always correct, but they are a valuable clue.
+
+1. Read the error message
+1. Identify suggestions
+1. Find out what they would do (this also means being able to form a hypothesis to test)
+1. Then (maybe) do them.
 
 ### Environment Details
 
@@ -252,7 +262,7 @@ Include as much context as you can, including links, line numbers, sample code, 
 1. 🎯 Objectives - what are you actually trying to do? 👍
 1. 🖼️ Screenshots of UI if relevant 👍
 1. 📝 `Code blocks` 👍
-    - In Slack, proper [code snippets](https://slack.com/intl/en-gb/help/articles/204145658-Create-or-paste-code-snippets-in-Slack) get syntax highlighting and can be collapsed vertically - remember to 🧵 use threads too
+   - In Slack, proper [code snippets](https://slack.com/intl/en-gb/help/articles/204145658-Create-or-paste-code-snippets-in-Slack) get syntax highlighting and can be collapsed vertically - remember to 🧵 use threads too
 1. 🪸 Environment details 👍
 1. 📷 ~~Screenshots of code~~ 🙅
 
@@ -262,3 +272,7 @@ Include as much context as you can, including links, line numbers, sample code, 
 - [The programming duck](https://rubberduckdebugging.com/)
 - [Asking Questions](https://curriculum.codeyourfuture.io/guides/asking-questions/)
 - [Reading Error Messages](https://www.codementor.io/@erikpukinskis/how-to-read-an-error-message-6sebm8ik3)
+- [Writing the perfect question](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)
+- [Smart Questions](http://catb.org/esr/faqs/smart-questions.html) NOTE: this is an old-fashioned text so it's very blunt. It is also really honest and maybe that is helpful for some people.
+
+![Bug fixing friends](https://imgs.xkcd.com/comics/bug_thread.png)
