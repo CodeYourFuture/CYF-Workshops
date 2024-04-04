@@ -1,4 +1,4 @@
-## Full Stack Assessment Database Workshop: Initialize, Remove, Re-initialize, and Backup!
+# Full Stack Assessment Database Workshop: Initialize, Remove, Re-initialize, and Backup!
 
 This workshop will guide you through setting up, removing, re-initializing, and most importantly, backing up your database for the Full Stack Assessment.
 
@@ -50,7 +50,7 @@ psql -d videorec < db/initdb.sql
 </details>
 <!-- {{</note>}}>-->
 <hr/>
-<!--{{<note type="tip" title"Connectivity">}}-->
+<!--{{<note type="tip" title="Connectivity">}}-->
 
 Depending how postgresql was installed for you, you might need to add some connectivity details to both createdb and psql: `psql -h localhost -U username -d videorec < db/initdb.sql` In this example you ask postgres to connect to your local database through localhost and use username as the user.
 
