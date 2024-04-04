@@ -10,7 +10,7 @@ Welcome, SQL warriors! Today, we'll be putting your database knowledge to the te
 
 ## Requirements
 
-- **Quiz Leader:** The quizmaster needs to prepare the questions, guide the quiz, and keep the energy high. Sample questions are provided below, but you should set your own.
+- **Quiz Leader:** The quizmaster needs to prepare the questions, guide the quiz, and keep the energy high. Sample questions are provided below, but you should set your own. Anyone: trainee or volunteer can take this role. Prepare your quiz questions and answers in advance. 
 - **Timekeeper:** Keep track of time for each round to ensure the quiz runs smoothly.
 - **Assemble Your Team:** Get into groups of 3-4. Teamwork makes the dream work
 - **Paper & Pen:** Prepare yourselves to write queries and discuss strategies WITHOUT using a computer.
