@@ -24,9 +24,11 @@ It's also an efficient way to share our current understanding with others. Now w
 
 ## Exchanging incomplete information sets 30m
 
-Over and over, especially during The Launch, we see trainees writing panicked, incoherent questions with no context, pasting error messages they clearly have not read, and not even sharing the link to the code they're working on.
+<details>
+<summary>Context</summary>Over and over, especially during The Launch, we see trainees writing panicked, incoherent questions with no context, pasting error messages they clearly have not read, and not even sharing the link to the code they're working on.
 
 Outside our community, developers will ignore or delete your posts if you do this. At home with us, well-meaning mentors often try to help you, but they _can't_ because you haven't given them the information they need. It feels so frustrating, and people can get really upset. We want to help you avoid this as you prepare to work in a professional environment. Your colleagues will _enjoy_ answering your questions if you give them the information they need; most developers really like solving well-constructed puzzles.
+</details>
 
 😎 Useful questions -> colleagues _enjoy_ answering -> get solutions promptly -> make lots of progress -> good performance
 😰 Not useful questions -> colleagues _avoid_ answering -> don't get solutions -> take much longer -> performance appears poor
@@ -50,7 +52,7 @@ Here's an example of steps to reproduce:
 1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 2. Popcorn around the room and each person give an example of a bad way to ask a question until the timer goes off. For example:
 
-> I was on the site, and then I clicked something, and it didn't work!
+"I was on the site, and then I clicked something, and it didn't work!"
 
 <!--{{</note>}}-->
 
@@ -61,7 +63,7 @@ Here's an example of steps to reproduce:
 1.  Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2.  Popcorn around the room and each person give a reason the previous question was bad until the timer goes off. For example:
 
-> What site are you on? What are you trying to do? How can I read your post and re-create the circumstances. Be specific! Share what you see.
+"What site are you on? What are you trying to do? How can I read your post and re-create the circumstances. Be specific! Share what you see."
 
  <!--{{</note>}}-->
 
@@ -73,7 +75,7 @@ When you're writing a bug report, you need to be able to explain what you expect
 
 Here's an example of expected behavior:
 
-> I expected to be able to log in with my GitHub account and be redirected to the logged-in view of my dashboard on my site.
+"I expected to be able to log in with my GitHub account and be redirected to the logged-in view of my dashboard on my site."
 
 ### Actual behavior
 
@@ -81,7 +83,7 @@ _What actually happened_
 
 Here's an example of actual behavior:
 
-> Instead, I was redirected back to the login page with an error message that says `To confirm your identity, sign in with the same account you used originally.`
+"Instead, I was redirected back to the login page with an error message that says `To confirm your identity, sign in with the same account you used originally.`"
 
 <!--{{<note type="activity" title="Spot the difference, 5m" >}}-->
 
@@ -125,7 +127,7 @@ What happened when you followed the suggestion in the error message?
 
 #### Trainee
 
-...What instructions?
+...What suggestion?
 
 </details>
 
@@ -157,14 +159,14 @@ Let's improve a bug report together to understand why details like this matter.
 
 ## Iterative improvement of a bug report 15m
 
-## 🐛 Bug Report Fail
+### 🐛 Bug Report Fail
 
 > Bug: I can't create any files in my project
 > I'm trying to create files in my repo but it just errors. I don't know what's wrong. Please help me!
 
 This is a terrible bug report. Popcorn around the room and name four problems with it.
 
-## 🐛 Bug Report Improvement 1
+### 🐛 Bug Report Improvement 1
 
 <details>
 <summary>Bug: cannot create new files on the command line</summary>
@@ -176,12 +178,10 @@ This is a terrible bug report. Popcorn around the room and name four problems wi
 1. Get error that says I can't create the file.
 
 #### Expected behaviour
-
-- I expected to create a new file in the terminal
+I expected to create a new file in the terminal
 
 #### Actual behaviour
-
-- Instead, I got an error message
+Instead, I got an error message
 </details>
 
 OK now we have some more information given. We've got some steps to reproduce and some expected and actual behaviour. But it's still not great.
@@ -223,7 +223,7 @@ Our bug reporter has worked hard on improving their bug report. But there is one
 
 <!--{{</note>}}-->
 
-## 🐛 Bug Report Final Form
+### 🐛 Bug Report Final Form
 
 See how much easier is to fix in the final form? What is the bug in this report?
 
