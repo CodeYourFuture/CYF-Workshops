@@ -6,11 +6,11 @@ This exercise is designed to develop your pair programming skills and to get you
 
 ## Server
 
-[The Server Challenge](./SERVER.md)
+[The Server Challenge](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/node-challenge-london-mini-guide/SERVER.md)
 
 ## Client
 
-[The Client Challenge](./CLIENT.md)
+[The Client Challenge](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/node-challenge-london-mini-guide/CLIENT.md)
 
 ## Time to Complete
 
