@@ -1,5 +1,5 @@
 title = "CYF Workshops"
-baseURL = "https://projects.codeyourfuture.io/"
+baseURL = "https://workshops.codeyourfuture.io/"
 
 [module]
   [[module.imports]]

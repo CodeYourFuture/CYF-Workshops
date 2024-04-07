@@ -75,10 +75,10 @@ time=0
 name="goblin-breakdown"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/goblin-breakdown"
 time=0
-[[blocks]]
-name="js1-week-2"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-week-2"
-time=0
+# [[blocks]]
+# name="js1-week-2"
+# src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-week-2"
+# time=0
 [[blocks]]
 name="js1-wk1-eval"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
@@ -86,10 +86,6 @@ time=0
 [[blocks]]
 name="node-challenge-london-mini-guide"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-challenge-london-mini-guide"
-time=0
-[[blocks]]
-name="node_modules"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node_modules"
 time=0
 [[blocks]]
 name="objects"
