@@ -2,7 +2,7 @@
 
 Today we're going to think about components. We're going to build a page using a design system and we're going to collaborate on a feature branch workflow.
 
-The overall mission is to compose "components" / groupings of HTML elements to re-build this web page: [CYF Components Workshop](https://cyf-workshops.netlify.app/components-1).
+The overall mission is to compose "components" / groupings of HTML elements to re-build this web page: [CYF Components Workshop](https://cyf-workshop.netlify.app/components-1).
 
 ## Learning Objectives
 
@@ -23,7 +23,7 @@ npm install -g prettier
 
 ### Set up your feature branches
 
-Divide the class into three teams: header, footer, card. Use the [team generator](https://cyf-workshops.netlify.app/components-1/teams.html) to help you do this.
+Divide the class into three teams: header, footer, card. Use the [team generator](https://cyf-workshop.netlify.app/components-1/teams.html) to help you do this.
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
@@ -46,7 +46,7 @@ Now you're all set up to make changes to together.html.
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+timer).
 
-Deployed from this repo is a [mini design system](https://cyf-workshops.netlify.app/components-1). This design system has several documented components: [card](https://cyf-workshops.netlify.app/components-1/docs/card), [header](https://cyf-workshops.netlify.app/components-1/docs/header), and [footer](https://cyf-workshops.netlify.app/components-1/docs/footer). Each component view has some sample code and some statements about the components.
+Deployed from this repo is a [mini design system](https://cyf-workshop.netlify.app/components-1). This design system has several documented components: [card](https://cyf-workshop.netlify.app/components-1/docs/card), [header](https://cyf-workshop.netlify.app/components-1/docs/header), and [footer](https://cyf-workshop.netlify.app/components-1/docs/footer). Each component view has some sample code and some statements about the components.
 
 Your mission is to find the docs for your component and read them.
 
@@ -60,7 +60,7 @@ Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minu
 
 Now **build** your component. Elect a new driver.
 
-1. Find [together.html](https://cyf-workshops.netlify.app/components-1/together.html) in the /components-1 directory. Your mission is to complete this page.
+1. Find [together.html](https://cyf-workshop.netlify.app/components-1/together.html) in the /components-1 directory. Your mission is to complete this page.
 1. In the correct portion of the page, make your changes to build your feature on together.html.
 1. Driver, commit your changes to your feature branch.
 1. Open a pull request from your branch to main, with your changes.

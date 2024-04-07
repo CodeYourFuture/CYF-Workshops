@@ -14,7 +14,7 @@ And in particular, these workshops:
 
 If you missed these workshops in your cohort, it's a good idea to try to do them in the week (online) first. Record your session for people that can't attend. Everyone should try to do the workshops first, either in groups or solo if necessary.
 
-The overall mission is to compose "components" / groupings of HTML elements to build a page in [together.html](https://cyf-workshops.netlify.app/components-2/together.html).
+The overall mission is to compose "components" / groupings of HTML elements to build a page in [together.html](https://cyf-workshop.netlify.app/components-2/together.html).
 
 But this time, we're going to use JavaScript functions to build our components.
 
@@ -85,7 +85,7 @@ Your COHORT branch is your cohort name. It might be NW6, WM5, GL7... You'll be m
 
 ### Get set up to work in teams
 
-Next, divide the class into four teams: header, footer, card, menu. Use the [team generator](https://cyf-workshops.netlify.app/components-2/teams.html) to help you do this.
+Next, divide the class into four teams: header, footer, card, menu. Use the [team generator](https://cyf-workshop.netlify.app/components-2/teams.html) to help you do this.
 
 Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minute+time).
 
@@ -110,7 +110,7 @@ Set a whole class [timer for 10 minutes](https://www.google.com/search?q=10+minu
 
 <!--{{<note type="activity" title="Find your docs 10m">}}-->
 
-Deployed from this repo is a [mini design system](https://cyf-workshops.netlify.app/components-2). This design system has several documented components, and some also have JavaScript files.
+Deployed from this repo is a [mini design system](https://cyf-workshop.netlify.app/components-2). This design system has several documented components, and some also have JavaScript files.
 
 Your mission is to find the docs for each component with an associated script file, and read them. Discuss your findings. Here are some things to consider:
 
@@ -128,7 +128,7 @@ Set a whole class [timer for 30 minutes](https://www.google.com/search?q=30+minu
 
 Now **build** your component. Elect a new driver.
 
-1. Find [together.html](https://cyf-workshops.netlify.app/components-2/together.html) in the /components-2 directory. Your mission is to complete this page.
+1. Find [together.html](https://cyf-workshop.netlify.app/components-2/together.html) in the /components-2 directory. Your mission is to complete this page.
 1. In the correct portion of the page, make your changes to build _your feature_ on together.html.
 1. Driver, commit your changes to your feature branch.
 1. Open a pull request from your branch to the COHORT branch, with your changes. Ask for help!

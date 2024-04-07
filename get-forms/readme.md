@@ -2,7 +2,7 @@
 
 This workshop is about writing forms in HTML.
 
-Note: this workshop is deployed to Netlify at [https://cyf-workshops.netlify.app/get-forms](https://cyf-workshops.netlify.app/get-forms) and branch previews are turned on. Any PRs opened to `main` will be deployed automatically and can be looked at via the bot link on that PR.
+Note: this workshop is deployed to Netlify at [https://cyf-workshop.netlify.app/get-forms](https://cyf-workshop.netlify.app/get-forms) and branch previews are turned on. Any PRs opened to `main` will be deployed automatically and can be looked at via the bot link on that PR.
 
 ## Learning Objectives
 
