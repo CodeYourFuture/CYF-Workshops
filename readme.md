@@ -14,6 +14,11 @@ Please only submit workshops you actually plan to use in a currently running coh
 
 ## Deployments
 
-This entire repo is deployed to Netlify, so any index.html you upload to your folder will create a webpage you can use in your workshop.
+1. This repo has a micro front end that will [render your workshops in the curriculum theme](https://cyf-workshops.netlify.app/). Look through workshops and decide which to use with your cohort. 
 
-Pull requests will automatically generate disposable branch previews and a bot will link these on the PR. This will work for trainees if that is useful for your activity.
+2. This entire repo is also deployed to Netlify under the name `cyf-workshop`, so any index.html you upload to your folder will create a webpage you can use in your workshop. 
+
+For example:
+https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions deploys itself here: https://cyf-workshop.netlify.app/asking-questions/
+
+Pull requests against this repo will automatically generate disposable branch previews and a bot will link these on the PR. This will work for trainees, if that is useful for your activity.
