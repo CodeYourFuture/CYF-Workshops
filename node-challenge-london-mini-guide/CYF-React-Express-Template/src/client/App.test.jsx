@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-
 import App from "./App";
+import stratFort from "../server/data/stratFort.json";
 
 describe("App", () => {
   it("renders a title", () => {

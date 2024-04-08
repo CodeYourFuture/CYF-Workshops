@@ -36,7 +36,7 @@ Before you begin your changes, make a new branch and name it `polish-workshop`. 
 
 Start with Lighthouse. It's your best friend when building a quality UI. Of course it is possible to build a good front end that doesn't score well on Lighthouse, and a [bad front end that scores perfectly](https://www.matuzo.at/blog/building-the-most-inaccessible-site-possible-with-a-perfect-lighthouse-score/), but use your brain, please.
 
-<!--{{note type="activity" title="Audit your design 🍅"}}>-->
+<!--{{<note type="activity" title="Audit your design 🍅">}} -->
 
 ### Run Lighthouse and revise until you get four green lights
 
@@ -66,7 +66,7 @@ Get out of your own way a bit here. If you are only looking for Cloud roles or s
 
 What you must do is make your UI look _intentional_. It's fine to be experimental, it's fine to be basic, it's fine to use a design system, but it's not fine to have a UI that looks like you're not in control of it.
 
-<!--{{note type="activity" title="Rationalise your design 🍅"}}>-->
+<!--{{<note type="activity" title="Rationalise your design 🍅">}}-->
 
 ## Rationalise
 
@@ -77,7 +77,7 @@ What you must do is make your UI look _intentional_. It's fine to be experimenta
 
 If you already have a colour palette, do your type or spacing.
 
-<!--{{/note}}-->
+<!--{{</note>}}-->
 
 ### 📐 3. Gutters
 
@@ -86,7 +86,7 @@ Hey, have you centered everything? 😱 Does your layout look like a messy trian
 - [ ] Gutters are consistent, drawn from a [limited, designed scale](https://type-scale.com/)
 - [ ] Components are laid on a grid, with consistent gutters
 
-<!--{{note type="activity" title="Line up your components 🍅"}}>-->
+<!--{{<note type="activity" title="Line up your components 🍅">}}-->
 
 ## Line up your components
 
@@ -95,7 +95,8 @@ Hey, have you centered everything? 😱 Does your layout look like a messy trian
 1. Draw a grid over your sketch 
 1. Write that grid in your CSS and align your major components to it
 1. If you already have an aligned grid, polish your type, spacing, or readme.
-<!--{{/note}}-->
+
+<!--{{</note>}}-->
 
 ### 4. Spellcheck S.P.A.G
 
@@ -119,7 +120,7 @@ There's nothing worse than claiming to have great attention to detail and then l
 
 You've been working largely solo today, but now you will need a partner. Split into pairs and swap your sites. The great thing about reviewing someone else's work is that it gives you some insight into how your own work may be viewed from the outside.
 
-<!--{{note type="activity" title="Review 🍅"}}>-->
+<!--{{<note type="activity" title="Review 🍅">}}-->
 
 1. Open a pull request from your branch to your trunk (main)
 1. In your PR, write what you've done so far and what you plan to work on later. Ask for some specific advice on something you're not sure about.

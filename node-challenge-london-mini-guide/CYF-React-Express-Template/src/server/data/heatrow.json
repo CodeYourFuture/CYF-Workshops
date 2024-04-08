@@ -1,0 +1,271 @@
+{
+  "pharmacies": [
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 6018 ",
+      "address": "Terminal 2 Satellite Airside Gate B, Hounslow, TW6 1EF"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 8709 ",
+      "address": "Terminal 2 Landside Arrivals, Hounslow, TW6 1EF"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8759 3866 ",
+      "address": "Terminal 2 Airside Upper, Hounslow, TW6 1EF"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 1891 ",
+      "address": "Unit E3 Airside Terminal Three Depa, Hounslow, TW6 1QG"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 1817 ",
+      "address": "3 Terminal Three Landside Departure, Hounslow, TW6 1QG"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8564 9666 ",
+      "address": "Unit RU050 Terminal 4 Arrivals, Hounslow, TW6 3XA"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 7124 ",
+      "address": "Unit RU4049 Terminal 4 Departures, Hounslow, TW6 3XA"
+    },
+    {
+      "name": "Imaan Pharmacy",
+      "website": "http://www.alliedpharmacies.com/groups-list.html",
+      "phone": "",
+      "address": "115-117 Bath Road, HOUNSLOW, TW3 3BT"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8890 3053 ",
+      "address": "380 Staines Rd, Feltham, TW14 8BT"
+    },
+    {
+      "name": "Edwards & Taylor Chemist",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/tw14%208bn",
+      "phone": "020 8890 2236 ",
+      "address": "491 Staines Rd, Bedfont, Feltham, TW14 8BN"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8283 7737 ",
+      "address": "SatelliteC Terminal 5 Airside, Hounslow, TW6 2GA"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8283 7885 ",
+      "address": "Unit 12-13 Terminal 5 Departures, Hounslow, TW6 2GA"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8283 8515 ",
+      "address": "Unit RU032 Terminal 5 Arrivals, Hounslow, TW6 2RQ"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8321 3475 ",
+      "address": "Unit 4010 Terminal 5 Airside, Hounslow, TW6 2GA"
+    },
+    {
+      "name": "Tesco Pharmacy",
+      "website": "https://www.tesco.com/store-locator/uk/?2538&sc_cmp=ref*yg*stc*pharmacy2538&utm_source=yext_local_directory&utm_campaign=local_pharmacy_england&utm_medium=referral",
+      "phone": "020 3801 3745 ",
+      "address": "Dukes Green Avenue, Feltham, TW14 0LH"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8321 3473 ",
+      "address": "Unit 3044 Terminal 5 Landside, Hounslow, TW6 2RQ"
+    },
+    {
+      "name": "Boots The Chemist (Level 2)",
+      "phone": "020 8384 1006 ",
+      "address": "Wellington Road, Stanwell, HOUNSLOW, TW6 2GA"
+    },
+    {
+      "name": "Boots The Chemist (Level 3)",
+      "phone": "020 8384 1006 ",
+      "address": "Wellington Road, Stanwell, HOUNSLOW, TW6 2GA"
+    },
+    {
+      "name": "Boots The Chemist (Terminal 5B)",
+      "website": "http://www.boots.com",
+      "phone": "020 8384 1006 ",
+      "address": "Wellington Road, Stanwell, HOUNSLOW, TW6 2GA"
+    },
+    {
+      "name": "Boots The Chemist (Terminal 5C)",
+      "website": "http://www.boots.com",
+      "phone": "020 8284 1006 ",
+      "address": "Wellington Road, Stanwell, HOUNSLOW, TW6 2GA"
+    },
+    {
+      "name": "Dunns Chemist",
+      "website": "http://www.nhs.uk",
+      "phone": "020 8759 0553 ",
+      "address": "740 Bath Rd, Cranford, Hounslow, TW5 9TY"
+    },
+    {
+      "name": "Herman Pharmacy",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/tw2%206ht",
+      "phone": "01784 247013 ",
+      "address": "St Davids Health Centre, Hadrian Way, Staines-Upon-Thames, TW19 7HT"
+    },
+    {
+      "name": "Herman Pharmacy",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/tw19%207qu",
+      "phone": "01784 252411 ",
+      "address": "7 Trident House Clare Rd, Stanwell, Staines-Upon-Thames, TW19 7QU"
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Hatton Medical Practice",
+      "website": "https://www.hattonmedicalpractice.com",
+      "phone": "020 8890 8311 ",
+      "address": "186 Hatton Rd, Feltham, TW14 9PY"
+    },
+    {
+      "name": "Medicspot Clinic Hayes Harlington",
+      "website": "https://www.medicspot.co.uk/clinics/england/london/hillingdon/hayes/hayes-harlington-clinic?utm_source=listings&utm_medium=local&utm_campaign=london&utm_content=hayes%20harlington",
+      "phone": "020 8057 8540 ",
+      "address": "218-220 High St, Harlington, Hayes, UB3 5DS"
+    },
+    {
+      "name": "Glendale Medical Centre",
+      "website": "http://www.glendalemedicalcentre.org.uk",
+      "phone": "020 8897 8288 ",
+      "address": "155 High St, Harlington, Hayes, UB3 5DA"
+    },
+    {
+      "name": "Heathrow Medical Centre",
+      "website": "http://www.heathrowmedicalcentre.co.uk",
+      "phone": "020 8754 1555 ",
+      "address": "1 St Peter's Way, Hayes, UB3 5AB"
+    },
+    {
+      "name": "Dr Oberai & Partners",
+      "website": "http://www.stdavidsgrouppractice.co.uk",
+      "phone": "01784 883933 ",
+      "address": "St. Davids Health Centre, Hadrian Way, Staines-Upon-Thames, TW19 7HT"
+    },
+    {
+      "name": "Bedfont Practice",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/tw14%208ag",
+      "phone": "020 8890 2245 ",
+      "address": "Imperial Rd, Feltham, TW14 8AG"
+    },
+    {
+      "name": "Dr Ronan Moran",
+      "website": "http://www.pentelowpractice.org",
+      "phone": "020 8890 2029 ",
+      "address": "26 Pentelow Gardens, Bedfont, Feltham, TW14 9EF"
+    },
+    {
+      "name": "Dr A Sheikh - Ashford Health Centre",
+      "website": "http://www.greenbrook.nhs.uk",
+      "phone": "01784 884000 ",
+      "address": "Ashford Hospital London Rd, Ashford, TW15 3FE"
+    },
+    {
+      "name": "Private GP",
+      "website": "http://www.yourgeneralpractitioner.co.uk",
+      "phone": "07938 095700 ",
+      "address": "Ashford Hospital London Rd, Ashford, TW15 3AA"
+    },
+    {
+      "name": "North Hyde Practice",
+      "website": "https://www.nhs.uk/pages/home.aspx",
+      "phone": "020 8573 8560 ",
+      "address": "167-169 North Hyde Road, HAYES, UB3 4NS"
+    },
+    {
+      "name": "Dr S.K Sen",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/tw13%205ad",
+      "phone": "020 8890 2208 ",
+      "address": "12 Hanworth Rd, Feltham, TW13 5AD"
+    },
+    {
+      "name": "Medicspot Clinic Hayes Station Road",
+      "website": "https://www.medicspot.co.uk/clinics/england/london/hillingdon/hayes/hayes-station-road-clinic?utm_source=listings&utm_medium=local&utm_campaign=rest%20of%20england&utm_content=hayes%20station%20road",
+      "phone": "020 3637 8398 ",
+      "address": "6 Northfield Parade Station Road, Hayes, UB3 4JA"
+    },
+    {
+      "name": "Queens Park Medical Practice",
+      "website": "http://www.queensparkmedical.co.uk",
+      "phone": "020 8630 1505 ",
+      "address": "3rd Floor Feltham Centre, For Health The Centre, Feltham, TW13 4GU"
+    },
+    {
+      "name": "Studholme Medical Centre",
+      "website": "http://www.studholmemc.co.uk",
+      "phone": "01784 420700 ",
+      "address": "50 Church Rd, Ashford, TW15 2TU"
+    },
+    {
+      "name": "Gill Medical Practice",
+      "website": "http://www.gillmedicalpractice.co.uk",
+      "phone": "020 8630 1880 ",
+      "address": "32 Harlington Rd East, Feltham, TW14 0AB"
+    },
+    {
+      "name": "Hayes Medical Centre",
+      "website": "http://www.hayesmedicalcentre.co.uk",
+      "phone": "020 8573 2037 ",
+      "address": "Medical Centre, 157 Old Station Rd, Hayes, UB3 4NA"
+    },
+    {
+      "name": "The Practice Feltham",
+      "website": "http://www.thepracticeplc.com",
+      "phone": "020 8104 0840 ",
+      "address": "3rd Floor Feltham Centre, The High St, Feltham, TW13 4GU"
+    },
+    {
+      "name": "Carlton Surgery",
+      "website": "http://www.carltonsurgery.co.uk",
+      "phone": "020 8890 3930 ",
+      "address": "The Surgery 112 Hounslow Rd, Feltham, TW14 0AX"
+    },
+    {
+      "name": "Hayes Town Medical Centre",
+      "website": "http://www.hayestownmedicalcentre.co.uk",
+      "phone": "01895 486020 ",
+      "address": "52 Station Rd, Hayes, UB3 4DS"
+    },
+    {
+      "name": "Dr G Tanvir - North Hyde Practice",
+      "website": "http://www.northhydepractice.nhs.uk",
+      "phone": "020 8573 8560 ",
+      "address": "167 North Hyde Rd, Hayes, UB3 4NS"
+    },
+    {
+      "name": "Dr R K Singh - Clifford Road Surgery",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/tw4%207lr",
+      "phone": "020 8577 5304 ",
+      "address": "65 Clifford Rd, Hounslow, TW4 7LR"
+    },
+    {
+      "name": "&quo..."
+    }
+  ]
+}
