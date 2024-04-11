@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev:client": "vite --open",
-    "dev:server": "node src/server/index.js",
+    "dev:server": "node --watch src/server/index.js",
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\" \"npm run test\"",
     "build:client": "vite build --outDir dist/client",
     "build:server": "vite build --outDir dist/server src/server/index.js",
