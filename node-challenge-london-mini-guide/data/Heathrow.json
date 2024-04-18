@@ -1,0 +1,587 @@
+{
+  "pharmacies": [
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 6018 ",
+      "address": "Terminal 2 Satellite Airside Gate B, Hounslow, TW6 1EF"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 8709 ",
+      "address": "Terminal 2 Landside Arrivals, Hounslow, TW6 1EF"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8759 3866 ",
+      "address": "Terminal 2 Airside Upper, Hounslow, TW6 1EF"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 1891 ",
+      "address": "Unit E3 Airside Terminal Three Depa, Hounslow, TW6 1QG"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 1817 ",
+      "address": "3 Terminal Three Landside Departure, Hounslow, TW6 1QG"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8564 9666 ",
+      "address": "Unit RU050 Terminal 4 Arrivals, Hounslow, TW6 3XA"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8897 7124 ",
+      "address": "Unit RU4049 Terminal 4 Departures, Hounslow, TW6 3XA"
+    },
+    {
+      "name": "Imaan Pharmacy",
+      "website": "http://www.alliedpharmacies.com/groups-list.html",
+      "phone": "",
+      "address": "115-117 Bath Road, HOUNSLOW, TW3 3BT"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8890 3053 ",
+      "address": "380 Staines Rd, Feltham, TW14 8BT"
+    },
+    {
+      "name": "Edwards & Taylor Chemist",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/tw14%208bn",
+      "phone": "020 8890 2236 ",
+      "address": "491 Staines Rd, Bedfont, Feltham, TW14 8BN"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8283 7737 ",
+      "address": "SatelliteC Terminal 5 Airside, Hounslow, TW6 2GA"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8283 7885 ",
+      "address": "Unit 12-13 Terminal 5 Departures, Hounslow, TW6 2GA"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8283 8515 ",
+      "address": "Unit RU032 Terminal 5 Arrivals, Hounslow, TW6 2RQ"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8321 3475 ",
+      "address": "Unit 4010 Terminal 5 Airside, Hounslow, TW6 2GA"
+    },
+    {
+      "name": "Tesco Pharmacy",
+      "website": "https://www.tesco.com/store-locator/uk/?2538&sc_cmp=ref*yg*stc*pharmacy2538&utm_source=yext_local_directory&utm_campaign=local_pharmacy_england&utm_medium=referral",
+      "phone": "020 3801 3745 ",
+      "address": "Dukes Green Avenue, Feltham, TW14 0LH"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8321 3473 ",
+      "address": "Unit 3044 Terminal 5 Landside, Hounslow, TW6 2RQ"
+    },
+    {
+      "name": "Boots The Chemist (Level 2)",
+      "phone": "020 8384 1006 ",
+      "address": "Wellington Road, Stanwell, HOUNSLOW, TW6 2GA"
+    },
+    {
+      "name": "Boots The Chemist (Level 3)",
+      "phone": "020 8384 1006 ",
+      "address": "Wellington Road, Stanwell, HOUNSLOW, TW6 2GA"
+    },
+    {
+      "name": "Boots The Chemist (Terminal 5B)",
+      "website": "http://www.boots.com",
+      "phone": "020 8384 1006 ",
+      "address": "Wellington Road, Stanwell, HOUNSLOW, TW6 2GA"
+    },
+    {
+      "name": "Boots The Chemist (Terminal 5C)",
+      "website": "http://www.boots.com",
+      "phone": "020 8284 1006 ",
+      "address": "Wellington Road, Stanwell, HOUNSLOW, TW6 2GA"
+    },
+    {
+      "name": "Dunns Chemist",
+      "website": "http://www.nhs.uk",
+      "phone": "020 8759 0553 ",
+      "address": "740 Bath Rd, Cranford, Hounslow, TW5 9TY"
+    },
+    {
+      "name": "Herman Pharmacy",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/tw2%206ht",
+      "phone": "01784 247013 ",
+      "address": "St Davids Health Centre, Hadrian Way, Staines-Upon-Thames, TW19 7HT"
+    },
+    {
+      "name": "Herman Pharmacy",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/tw19%207qu",
+      "phone": "01784 252411 ",
+      "address": "7 Trident House Clare Rd, Stanwell, Staines-Upon-Thames, TW19 7QU"
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Hatton Medical Practice",
+      "website": "https://www.hattonmedicalpractice.com",
+      "phone": "020 8890 8311 ",
+      "address": "186 Hatton Rd, Feltham, TW14 9PY"
+    },
+    {
+      "name": "Medicspot Clinic Hayes Harlington",
+      "website": "https://www.medicspot.co.uk/clinics/england/london/hillingdon/hayes/hayes-harlington-clinic?utm_source=listings&utm_medium=local&utm_campaign=london&utm_content=hayes%20harlington",
+      "phone": "020 8057 8540 ",
+      "address": "218-220 High St, Harlington, Hayes, UB3 5DS"
+    },
+    {
+      "name": "Glendale Medical Centre",
+      "website": "http://www.glendalemedicalcentre.org.uk",
+      "phone": "020 8897 8288 ",
+      "address": "155 High St, Harlington, Hayes, UB3 5DA"
+    },
+    {
+      "name": "Heathrow Medical Centre",
+      "website": "http://www.heathrowmedicalcentre.co.uk",
+      "phone": "020 8754 1555 ",
+      "address": "1 St Peter's Way, Hayes, UB3 5AB"
+    },
+    {
+      "name": "Dr Oberai & Partners",
+      "website": "http://www.stdavidsgrouppractice.co.uk",
+      "phone": "01784 883933 ",
+      "address": "St. Davids Health Centre, Hadrian Way, Staines-Upon-Thames, TW19 7HT"
+    },
+    {
+      "name": "Bedfont Practice",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/tw14%208ag",
+      "phone": "020 8890 2245 ",
+      "address": "Imperial Rd, Feltham, TW14 8AG"
+    },
+    {
+      "name": "Dr Ronan Moran",
+      "website": "http://www.pentelowpractice.org",
+      "phone": "020 8890 2029 ",
+      "address": "26 Pentelow Gardens, Bedfont, Feltham, TW14 9EF"
+    },
+    {
+      "name": "Dr A Sheikh - Ashford Health Centre",
+      "website": "http://www.greenbrook.nhs.uk",
+      "phone": "01784 884000 ",
+      "address": "Ashford Hospital London Rd, Ashford, TW15 3FE"
+    },
+    {
+      "name": "Private GP",
+      "website": "http://www.yourgeneralpractitioner.co.uk",
+      "phone": "07938 095700 ",
+      "address": "Ashford Hospital London Rd, Ashford, TW15 3AA"
+    },
+    {
+      "name": "North Hyde Practice",
+      "website": "https://www.nhs.uk/pages/home.aspx",
+      "phone": "020 8573 8560 ",
+      "address": "167-169 North Hyde Road, HAYES, UB3 4NS"
+    },
+    {
+      "name": "Dr S.K Sen",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/tw13%205ad",
+      "phone": "020 8890 2208 ",
+      "address": "12 Hanworth Rd, Feltham, TW13 5AD"
+    },
+    {
+      "name": "Medicspot Clinic Hayes Station Road",
+      "website": "https://www.medicspot.co.uk/clinics/england/london/hillingdon/hayes/hayes-station-road-clinic?utm_source=listings&utm_medium=local&utm_campaign=rest%20of%20england&utm_content=hayes%20station%20road",
+      "phone": "020 3637 8398 ",
+      "address": "6 Northfield Parade Station Road, Hayes, UB3 4JA"
+    },
+    {
+      "name": "Queens Park Medical Practice",
+      "website": "http://www.queensparkmedical.co.uk",
+      "phone": "020 8630 1505 ",
+      "address": "3rd Floor Feltham Centre, For Health The Centre, Feltham, TW13 4GU"
+    },
+    {
+      "name": "Studholme Medical Centre",
+      "website": "http://www.studholmemc.co.uk",
+      "phone": "01784 420700 ",
+      "address": "50 Church Rd, Ashford, TW15 2TU"
+    },
+    {
+      "name": "Gill Medical Practice",
+      "website": "http://www.gillmedicalpractice.co.uk",
+      "phone": "020 8630 1880 ",
+      "address": "32 Harlington Rd East, Feltham, TW14 0AB"
+    },
+    {
+      "name": "Hayes Medical Centre",
+      "website": "http://www.hayesmedicalcentre.co.uk",
+      "phone": "020 8573 2037 ",
+      "address": "Medical Centre, 157 Old Station Rd, Hayes, UB3 4NA"
+    },
+    {
+      "name": "The Practice Feltham",
+      "website": "http://www.thepracticeplc.com",
+      "phone": "020 8104 0840 ",
+      "address": "3rd Floor Feltham Centre, The High St, Feltham, TW13 4GU"
+    },
+    {
+      "name": "Carlton Surgery",
+      "website": "http://www.carltonsurgery.co.uk",
+      "phone": "020 8890 3930 ",
+      "address": "The Surgery 112 Hounslow Rd, Feltham, TW14 0AX"
+    },
+    {
+      "name": "Hayes Town Medical Centre",
+      "website": "http://www.hayestownmedicalcentre.co.uk",
+      "phone": "01895 486020 ",
+      "address": "52 Station Rd, Hayes, UB3 4DS"
+    },
+    {
+      "name": "Dr G Tanvir - North Hyde Practice",
+      "website": "http://www.northhydepractice.nhs.uk",
+      "phone": "020 8573 8560 ",
+      "address": "167 North Hyde Rd, Hayes, UB3 4NS"
+    },
+    {
+      "name": "Dr R K Singh - Clifford Road Surgery",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/tw4%207lr",
+      "phone": "020 8577 5304 ",
+      "address": "65 Clifford Rd, Hounslow, TW4 7LR"
+    },
+    {
+      "name": "The M W H Practice",
+      "website": "http://www.mwhpractice.co.uk",
+      "phone": "020 3006 7425 ",
+      "address": "1 Vincent Rd, Hounslow, TW4 7LH"
+    },
+    {
+      "name": "Orchard Medical Practice",
+      "website": "http://www.theorchardpracticehayes.co.uk",
+      "phone": "01895 486052 ",
+      "address": "Hesa Health Centre, 52, Station Rd, Hayes, UB3 4DD"
+    },
+    {
+      "name": "Hounslow Medical Centre",
+      "website": "http://www.hounslowmedicalcentre.co.uk",
+      "phone": "020 8630 1011 ",
+      "address": "Medical Centre 134 Bath Rd, Hounslow, TW3 3ET"
+    },
+    {
+      "name": "Dr Saghananthan",
+      "website": "http://www.manorhousehealthcare.co.uk",
+      "phone": "020 8630 3747 ",
+      "address": "Feltham Health Centre, The Centre, High St, Feltham, TW13 4GU"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "Islamia Islamic Centre",
+      "website": "http://www.facebook.com/islamiaislamiccentre",
+      "phone": "07875 547871 ",
+      "address": "2 West End Lane, Harlington, Hayes, UB3 5LT"
+    },
+    {
+      "name": "Heathrow Primary School",
+      "website": "http://www.heathrowprimaryschool.co.uk",
+      "phone": "020 8759 1628 ",
+      "address": "Harmondsworth Lane, Sipson, West Drayton, UB7 0JQ"
+    },
+    {
+      "name": "Bedfont Primary School",
+      "website": "http://www.bedfontprimary.co.uk/",
+      "phone": "020 8890 4755 ",
+      "address": "Hatton Rd, Bedfont, Feltham, TW14 9QZ"
+    },
+    {
+      "name": "William Byrd Primary Academy",
+      "website": "http://www.williambyrd.school",
+      "phone": "01895 462394 ",
+      "address": "Victoria Lane, Harlington, Hayes, UB3 5EW"
+    },
+    {
+      "name": "Cranford Community College",
+      "website": "http://www.cranford.hounslow.sch.uk/",
+      "phone": "020 8897 2001 ",
+      "address": "High St, Cranford, Hounslow, TW5 9PD"
+    },
+    {
+      "name": "Harmondsworth Primary School",
+      "website": "http://www.harmondsworthprimary.org",
+      "phone": "020 8759 1718 ",
+      "address": "School Rd, West Drayton, UB7 0AU"
+    },
+    {
+      "name": "Cranford Primary School",
+      "website": "http://www.cranfordprimary.com/",
+      "phone": "020 8759 0305 ",
+      "address": "Berkeley Avenue, Hounslow, TW4 6LB"
+    },
+    {
+      "name": "Cherry Lane Primary School",
+      "website": "http://www.cherrylane.hillingdon.sch.uk/",
+      "phone": "01895 444480 ",
+      "address": "Sipson Rd, West Drayton, UB7 9DL"
+    },
+    {
+      "name": "Town Farm Primary School & Nursery",
+      "website": "http://www.town-farm.surrey.sch.uk/",
+      "phone": "01784 254380 ",
+      "address": "St Mary's Crescent, Stanwell, Staines-Upon-Thames, TW19 7HU"
+    },
+    {
+      "name": "Fairholme Primary School",
+      "website": "http://www.fairholme.hounslow.sch.uk/",
+      "phone": "020 8890 2584 ",
+      "address": "Peacock Avenue, Bedfont, Feltham, TW14 8ET"
+    },
+    {
+      "name": "Dr Succar's School of Clinical Iridology & Applied Nutrition",
+      "phone": "020 8581 0963 ",
+      "address": "7 Repton Avenue, Hayes, UB3 4AF"
+    },
+    {
+      "name": "Harlington Community School",
+      "website": "http://www.harlington.hillingdon.sch.uk",
+      "phone": "020 8569 1610 ",
+      "address": "Pinkwell Lane, Hayes, UB3 1PB"
+    },
+    {
+      "name": "Stanwell Fields Cofe Primary School",
+      "website": "http://www.stanwellfields.surrey.sch.uk",
+      "phone": "01784 258082 ",
+      "address": "Clare Rd, Stanwell, Staines-Upon-Thames, TW19 7DB"
+    },
+    {
+      "name": "Rivers Academy West London",
+      "website": "http://www.rivers-aspirations.org/",
+      "phone": "020 8890 0245 ",
+      "address": "Tachbrook Rd, Feltham, TW14 9PE"
+    },
+    {
+      "name": "Pinkwell Primary School",
+      "website": "http://www.pinkwellschool.org",
+      "phone": "020 8573 2199 ",
+      "address": "Pinkwell Lane, Hayes, UB3 1PG"
+    },
+    {
+      "name": "The Cedars Primary School",
+      "website": "http://www.cedars.hounslow.sch.uk",
+      "phone": "020 8230 0015 ",
+      "address": "High St, Cranford, Hounslow, TW5 9RU"
+    },
+    {
+      "name": "St. Martin's C of E Primary School",
+      "website": "http://www.stmartinsprimaryschool.com",
+      "phone": "01895 462350 ",
+      "address": "Rowan Rd, West Drayton, UB7 7UF"
+    },
+    {
+      "name": "Southville Junior School",
+      "website": "http://www.southvillejnrs.hounslow.sch.uk",
+      "phone": "020 8890 3731 ",
+      "address": "Bedfont Lane, Feltham, TW14 9NP"
+    },
+    {
+      "name": "Southville Primary School",
+      "website": "http://www.southville.hounslow.sch.uk",
+      "phone": "020 8890 6745 ",
+      "address": "Bedfont Lane, Feltham, TW14 9NP"
+    },
+    {
+      "name": "Beavers Community Primary School",
+      "website": "http://www.beaversprimaryschool.co.uk",
+      "phone": "020 8570 9347 ",
+      "address": "Arundel Rd, Hounslow, TW4 6HR"
+    },
+    {
+      "name": "West London College of Business & Management Sciences",
+      "website": "http://www.wlcb.co.uk",
+      "phone": "020 8538 0224 ",
+      "address": "Vista Office Centre, 50, Salisbury Rd, Hounslow, TW4 6JQ"
+    },
+    {
+      "name": "Edward Pauling Primary School",
+      "website": "http://www.edwardpauling.hounslow.sch.uk",
+      "phone": "020 8831 0841 ",
+      "address": "Redford Close, Feltham, TW13 4TQ"
+    },
+    {
+      "name": "Vista Study Centre",
+      "phone": "020 8538 0222 ",
+      "address": "5th floor, Vista Business Centre, 50, Salisbury Rd, Hounslow, TW4 6JQ"
+    },
+    {
+      "name": "Thomas Knyvett College",
+      "website": "http://thomasknyvett.org/",
+      "phone": "01784 243824 ",
+      "address": "Stanwell Rd, Ashford, TW15 3DU"
+    },
+    {
+      "name": "Brooklands College",
+      "website": "http://www.brooklands.ac.uk",
+      "phone": "01932 797700 ",
+      "address": "Stanwell Rd, Ashford, TW15 3DU"
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "Journey Of",
+      "website": "#",
+      "phone": "07958 564111 ",
+      "address": "36 Blyth Rd, Hayes, UB3 1AL"
+    },
+    {
+      "name": "N H S Hounslow C C G",
+      "phone": "0208538 2400 ",
+      "address": "Civic Centre, Lampton Road, Hounslow, TW3 4DN"
+    },
+    {
+      "name": "Ashford & St. Peter's Hospitals NHS Foundation Trust",
+      "website": "http://www.asph.nhs.uk",
+      "phone": "01932 872000 ",
+      "address": "Guildford Rd, Chertsey, KT16 0PZ"
+    },
+    {
+      "name": "Hillingdon Hospital",
+      "website": "http://www.thh.nhs.uk",
+      "phone": "01895 238282 ",
+      "address": "Pield Heath Rd, Uxbridge, UB8 3NN"
+    },
+    {
+      "name": "BMI the Princess Margaret Hospital",
+      "website": "http://www.bmihealthcare.co.uk/hospitals/bmi-the-princess-margaret-hospital",
+      "phone": "01753 743434 ",
+      "address": "38-42 Osborne Rd, Windsor, SL4 3SJ"
+    },
+    {
+      "name": "Ealing Hospital Nhs Trust",
+      "website": "http://www.lnwh.nhs.uk",
+      "phone": "020 8967 5000 ",
+      "address": "Ealing Hospital Uxbridge Rd, Southall, UB1 3HW"
+    },
+    {
+      "name": "Haematology Hospital",
+      "phone": "020 8967 5432 ",
+      "address": "Ealing Hospital, Uxbridge Rd, Southall, UB1 3HW"
+    },
+    {
+      "name": "Teddington Memorial Hospital",
+      "website": "http://www.hrch.nhs.uk",
+      "phone": "020 8714 4000 ",
+      "address": "Hampton Rd, Teddington, TW11 0JL"
+    },
+    {
+      "name": "Moorfields Ealing Outreach Within Ealing Hospital",
+      "phone": "0208967 5648 ",
+      "address": "Uxbridge Road, Southall, UB1 3HW"
+    },
+    {
+      "name": "London Interventional Clinic",
+      "website": "http://www.londoninterventionalclinic.co.uk",
+      "phone": "020 8185 7273 ",
+      "address": "20 The Green, Twickenham, TW2 5AB"
+    },
+    {
+      "name": "West London Mental Health NHS Trust",
+      "website": "http://www.wlmht.nhs.uk",
+      "phone": "020 8354 8354 ",
+      "address": "Uxbridge Rd, Southall, UB1 3EU"
+    },
+    {
+      "name": "Uxbridge Health Centre",
+      "phone": "01895 488850 ",
+      "address": "Chippendale Waye, Uxbridge, UB8 1QJ"
+    },
+    {
+      "name": "Spire Thames Valley Hospital",
+      "phone": "01753 665404 ",
+      "address": "Wexham Street, Slough, SL3 6NH"
+    },
+    {
+      "name": "Upton Hospital",
+      "website": "https://www.nhs.uk/",
+      "phone": "01753 821441 ",
+      "address": "Albert St, Slough, SL1 2BJ"
+    },
+    {
+      "name": "Lakeside Mental Health Unit",
+      "phone": "020 8483 1400 ",
+      "address": "Twickenham Rd, Isleworth, TW7 6AF"
+    },
+    {
+      "name": "Wexham Park Hospital",
+      "website": "http://www.heatherwoodandwexham.nhs.uk",
+      "phone": "01753 633000 ",
+      "address": "Wexham St, Wexham, Slough, SL2 4HL"
+    },
+    {
+      "name": "Cassel Hospital",
+      "website": "http://www.wlmht.nhs.uk",
+      "phone": "020 8483 2900 ",
+      "address": "1 Ham Common, Richmond, TW10 7JF"
+    },
+    {
+      "name": "Weybridge Hospital & Primary Care Centre",
+      "website": "http://www.nhs.uk",
+      "phone": "01932 852931 ",
+      "address": "22 Church St, Weybridge, KT13 8DY"
+    },
+    {
+      "name": "King Edward VII Hospital",
+      "website": "http://www.nhs.uk",
+      "phone": "01753 860441 ",
+      "address": "St. Leonards Rd, Windsor, SL4 3DP"
+    },
+    {
+      "name": "Spire Thames Valley Hospital",
+      "website": "http://www.spirehealthcare.com",
+      "phone": "01753 662241 ",
+      "address": "Wexham St, Slough, SL3 6NH"
+    },
+    {
+      "name": "Molesey Hospital",
+      "website": "http://www.nhs.uk",
+      "phone": "020 8941 4481 ",
+      "address": "High St, West Molesey, KT8 2LU"
+    },
+    {
+      "name": "Molesey Community Hospital",
+      "phone": "0208783 3087 ",
+      "address": "High Street, West Molesey, KT8 2LU"
+    },
+    {
+      "name": "Casualty Plus Ltd",
+      "website": "http://www.casualtyplus.co.uk",
+      "phone": "0845 6777999 ",
+      "address": "The West London Hospital, 1010, Great West Rd, Brentford, TW8 9BA"
+    },
+    {
+      "name": "Cardinal Clinic",
+      "website": "/customerneeds/sendenquiry/sendtoone/100040393443000020?searchedLocation=Heathrow",
+      "phone": "0113 887 6558 ",
+      "address": "Oakley Green Rd, Oakley Green, Windsor, SL4 5UL"
+    },
+    {
+      "name": "Walton Community Hospital",
+      "website": "http://www.virgincare.co.uk",
+      "phone": "01932 414105 ",
+      "address": "Rodney Rd, Walton-On-Thames, KT12 3LD"
+    }
+  ]
+}
