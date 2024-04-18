@@ -4,10 +4,9 @@
 This workshop will guide you through the following:
 
 - setting up your development environment
-- initialsing a local database
+- initialising a local database
 - removing, re-initializing, and most importantly, backing up your database for the Full Stack Product.
 
-In particular, it will guide you in implementing some of the setup issues from week 1 of the Full Stack Product.
 
 ### Learning Objectives
 
@@ -23,7 +22,7 @@ In particular, it will guide you in implementing some of the setup issues from w
 
 - Check you've [split into a team for the Full Stack Project](https://curriculum.codeyourfuture.io/databases/product/prep/#setup-project-teams)
 - Clone your team's fork of the Full Stack Project Assessment repository to your local machine.
-- Locate the **⚙️ User story: Video recommendation listing** issue on the [Project Kanban board](https://github.com/orgs/CodeYourFuture/projects/169/views/2)
+- Locate the **User story: Video recommendation listing** issue on the [Project Kanban board](https://github.com/orgs/CodeYourFuture/projects/169/views/2)
 - From the **User story: Video recommendation listing** issue, locate the **Setup your local development environment** and **Setup your local database** issues 
 - Have a code editor or terminal ready.
 
