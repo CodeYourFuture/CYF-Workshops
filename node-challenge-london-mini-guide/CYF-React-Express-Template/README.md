@@ -13,3 +13,6 @@ Write your Express server in `server/server.js` and your React app in `client/Ap
 ### Resources
 
 https://kentcdodds.com/blog/common-mistakes-with-react-testing-library
+
+## I make City mini guid
+20/04/2024
