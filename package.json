@@ -3,6 +3,7 @@
   "description": "This is a shared repository of workshops developed by CYF volunteers. All these workshops are open source and free to use. Workshops are group activities generally run on CYF class days, or sometimes in midweek sessions.",
   "version": "1.0.0",
   "main": "readme.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
