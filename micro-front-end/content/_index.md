@@ -92,14 +92,6 @@ name="node-challenge-london-mini-guide"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-challenge-london-mini-guide"
 time=0
 [[blocks]]
-name="node-review"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-review"
-time=0
-[[blocks]]
-name="node_modules"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node_modules"
-time=0
-[[blocks]]
 name="objects"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/objects"
 time=0
