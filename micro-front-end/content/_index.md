@@ -18,7 +18,7 @@ time=0
 [[blocks]]
 name="collective-job-hunting"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/collective-job-hunting"
-time=0
+time=30
 [[blocks]]
 name="components-1"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/components-1"
