@@ -2,6 +2,7 @@
 title="Workshops"
 emoji="🧰"
 layout='prep'
+type="_default"
 [[blocks]]
 name="arrays"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/arrays"
