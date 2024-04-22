@@ -1,9 +1,9 @@
-## Collective Job Hunting 💼
+# Collective Job Hunting 💼
 
 Our goal in this workshop is to look for jobs together as a community. By working together, we can motivate and support each other in our collective goal of finding new jobs in tech. In this workshop, we will focus on the following objectives:
 
 
-### Learning Objectives
+## Learning Objectives
 
 ```objectives
 - [ ] Search for jobs using different online platforms
@@ -13,10 +13,10 @@ Our goal in this workshop is to look for jobs together as a community. By workin
 - [ ] Check the suitability of the found job roles
 ```
 
-### Set up ⚙️
+## Set up ⚙️
 - Split up into groups of no more than 5
 
-### Job hunting 🔍
+## Job hunting 🔍
 
 - Set a whole class timer for 25 mins ⏱️
 - Split the group up into teams of no more than 5 people
