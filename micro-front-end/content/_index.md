@@ -16,6 +16,10 @@ name="breakdown"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/breakdown"
 time=0
 [[blocks]]
+name="collective-job-hunting"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/collective-job-hunting"
+time=30
+[[blocks]]
 name="components-1"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/components-1"
 time=0
@@ -75,10 +79,6 @@ time=0
 name="goblin-breakdown"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/goblin-breakdown"
 time=0
-# [[blocks]]
-# name="js1-week-2"
-# src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-week-2"
-# time=0
 [[blocks]]
 name="js1-wk1-eval"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
@@ -90,6 +90,10 @@ time=0
 [[blocks]]
 name="objects"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/objects"
+time=0
+[[blocks]]
+name="pitch-camp"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/pitch-camp"
 time=0
 [[blocks]]
 name="playing-computer"
