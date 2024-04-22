@@ -162,5 +162,4 @@ time=0
 name="wordle"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/wordle"
 time=0
-type="_default"
 +++
