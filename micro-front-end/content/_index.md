@@ -2,7 +2,6 @@
 title="Workshops"
 emoji="🧰"
 layout='prep'
-type="_default"
 [[blocks]]
 name="arrays"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/arrays"
@@ -14,6 +13,10 @@ time=0
 [[blocks]]
 name="breakdown"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/breakdown"
+time=0
+[[blocks]]
+name="collective-job-hunting"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/collective-job-hunting"
 time=0
 [[blocks]]
 name="components-1"
@@ -75,10 +78,10 @@ time=0
 name="goblin-breakdown"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/goblin-breakdown"
 time=0
-# [[blocks]]
-# name="js1-week-2"
-# src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-week-2"
-# time=0
+[[blocks]]
+name="js1-week-2"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-week-2"
+time=0
 [[blocks]]
 name="js1-wk1-eval"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
@@ -88,8 +91,20 @@ name="node-challenge-london-mini-guide"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-challenge-london-mini-guide"
 time=0
 [[blocks]]
+name="node-review"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-review"
+time=0
+[[blocks]]
+name="node_modules"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node_modules"
+time=0
+[[blocks]]
 name="objects"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/objects"
+time=0
+[[blocks]]
+name="pitch-camp"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/pitch-camp"
 time=0
 [[blocks]]
 name="playing-computer"
@@ -147,4 +162,5 @@ time=0
 name="wordle"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/wordle"
 time=0
+type="_default"
 +++
