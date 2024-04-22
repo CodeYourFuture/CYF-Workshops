@@ -80,10 +80,6 @@ name="goblin-breakdown"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/goblin-breakdown"
 time=0
 [[blocks]]
-name="js1-week-2"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-week-2"
-time=0
-[[blocks]]
 name="js1-wk1-eval"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
 time=0
