@@ -1,10 +1,14 @@
 # Technical Writing One
 
-Participants: [Pre-class prep, 1 hour](https://developers.google.com/tech-writing/one)
+### Participants:
+
+[Pre-class prep, 1 hour](https://developers.google.com/tech-writing/one)
 
 If you haven't done the prep, you can't do this workshop, so go and find something else to get on with.
 
-Facilitators: [Pre-class prep, 1 hour](https://developers.google.com/tech-writing/for-instructors/one/instructors-guide)
+### Facilitators:
+
+[Facilitator prep, 1 hour](https://developers.google.com/tech-writing/for-instructors/one/instructors-guide)
 
 You need to do the prep before you can run this workshop. Join the [google group](https://developers.google.com/tech-writing/for-instructors/one/instructors-guide#gaining-access-to-the-slide-decks) and get access to [the materials](https://docs.google.com/presentation/d/1XuObj6nQXglpUwaKkCk01hzzvocL7ngxwVP0851IjO8/edit?usp=sharing) by Wednesday before the workshop.
 
@@ -26,7 +30,7 @@ In this workshop you will practice writing and reviewing technical documentation
 
 #### Note on AI
 
-Throughout the course, we use Generative AI to help us write and review technical writing. This can be a practical way to get started, but it's important to understand the basic principles and develop your own judgment and clarity. AI frequently generates the _appearance_ of meaning without the substance. This can trick you into thinking your documentation "looks" good when it doesn't actually convey meaning or help anyone understand anything. Don't be Joey:
+Throughout the course, we use Generative AI to help us write and review technical writing. This can be a practical way to get started, but it's important to understand the basic principles and develop your own judgment and clarity. AI frequently generates the _appearance_ of meaning without the substance. This can trick you into thinking your documentation looks good when it doesn't actually convey meaning or help anyone understand anything. Don't be Joey:
 
 ![Joey improves his writing](./aortic.webp)
 
