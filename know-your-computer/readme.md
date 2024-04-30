@@ -12,19 +12,23 @@ You must use the terminal and Linux commands to complete each challenge. You mus
 
  - Create a folder called my-shopping inside your Documents folder
  - Then create a file called my-list.txt inside my-shopping folder
- - Write the following items to my-list.txt
+ - Write the following items to my-list.txt file:
+ ```
    1. Tea
    2. Pasta
    3. Coffee
    4. Milk
+ ```
 - Create a new folder called my-new-shopping inside your Documents folder
-- Now move my-list.txt that is already inside my-shopping folder into my-new-shopping folder so that it does not exist anymore my-shopping folder
-- Make a copy of the my-list.txt that is inside my-new-shopping folder back to my-shopping folder
-- Now add
-   5. Sugar to the my-list.txt that is inside my-new-shopping.
-
+- Now move my-list.txt file that is already inside my-shopping folder into my-new-shopping folder so that it does not exist anymore in my-shopping folder
+- Make a copy of the my-list.txt file that is inside my-new-shopping folder back to my-shopping folder
+- Now add:
+```
+   5. Sugar 
+```
+to the my-list.txt file that is inside my-new-shopping.
 ## Resources
 To help with this here are resources you can refer to:
 [freecodecamp.com](https://www.freecodecamp.org/news/the-linux-commands-handbook/),
 [Guru99](https://www.guru99.com/linux-commands-cheat-sheet.html),
-[CLI-Treasure-Hunt](https://github.com/CodeYourFuture/CLI-Treasure-Hunt)
+[CLI-Treasure-Hunt](https://github.com/CodeYourFuture/CLI-Treasure-Hunt).
