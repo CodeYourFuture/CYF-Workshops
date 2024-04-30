@@ -1,12 +1,15 @@
 # Know Your Computer
 
-"Know-Your-Computer" focuses on how to perform regular tasks on your computer with the use of the terminal using basic linux commands. This will help reduce the complexity and fear of using the terminal. 
+"Know Your Computer" focuses on how to perform regular tasks on your computer. In this workshop you will use basic Linux commands in the terminal. The goal is to reduce your fear of using the terminal. 
 
 ## Pre-requisite
-To be able to do this workshop you will require a laptop that has a linux shell running on it. If you already have a Mac or an Ubuntu operating system or any other linux distribution running on your laptop, then you are fine. If your laptop is running on Windows operating system, it is recommended that you download and install git bash for windows using this [link](https://git-scm.com/downloads).
+To be able to do this workshop you will need a computer with a Linux shell running on it. If you already have a Mac or an Ubuntu operating system or any other Linux distribution running on your laptop, then you are fine. If your laptop is running on Windows operating system, download and install [Git Bash for Windows](https://git-scm.com/downloads).
+Code Your Future does not support Windows, so you must install or dual boot Linux to take our course. But to do this workshop, you can just use Git Bash.
 Once installed, open git bash and you should be able to perform the tasks below. 
 
 ## Tasks
+You must use the terminal and Linux commands to complete each challenge. You must not use your GUI! Hands off the mouse! 🖱️ 
+
  - Create a folder called my-shopping inside your Documents folder
  - Then create a file called my-list.txt inside my-shopping folder
  - Write the following items to my-list.txt
@@ -22,5 +25,6 @@ Once installed, open git bash and you should be able to perform the tasks below.
 
 ## Resources
 To help with this here are resources you can refer to:
-[freecodecamp.com](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
-[Guru99](https://www.guru99.com/linux-commands-cheat-sheet.html)
+[freecodecamp.com](https://www.freecodecamp.org/news/the-linux-commands-handbook/),
+[Guru99](https://www.guru99.com/linux-commands-cheat-sheet.html),
+[CLI-Treasure-Hunt](https://github.com/CodeYourFuture/CLI-Treasure-Hunt)
