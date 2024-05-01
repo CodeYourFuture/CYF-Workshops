@@ -10,8 +10,8 @@ Once installed, open git bash and you should be able to perform the tasks below.
 ## Tasks
 You must use the terminal and Linux commands to complete each challenge. You must not use your GUI! Hands off the mouse! 🖱️ 
 
- - Create a folder called my-shopping inside your Documents folder
- - Then create a file called my-list.txt inside my-shopping folder
+ - Create a folder called my-shopping inside your Documents folder.
+ - Then create a file called my-list.txt inside my-shopping folder.
  - Write the following items to my-list.txt file:
  ```
    1. Tea
@@ -19,14 +19,14 @@ You must use the terminal and Linux commands to complete each challenge. You mus
    3. Coffee
    4. Milk
  ```
-- Create a new folder called my-new-shopping inside your Documents folder
-- Now move my-list.txt file that is already inside my-shopping folder into my-new-shopping folder so that it does not exist anymore in my-shopping folder
-- Make a copy of the my-list.txt file that is inside my-new-shopping folder back to my-shopping folder
-- Now add:
+- Create a new folder called my-new-shopping inside your Documents folder.
+- Now move my-list.txt file that is already inside my-shopping folder into my-new-shopping folder so that it does not exist anymore in my-shopping folder.
+- Make a copy of the my-list.txt file that is inside my-new-shopping folder back to my-shopping folder.
+- Now add the following line to the my-list.txt file that is inside my-new-shopping:
 ```
    5. Sugar 
 ```
-to the my-list.txt file that is inside my-new-shopping.
+- Display the content of my-list.txt file inside my-shopping and the one inside my-new-shopping. my-list.txt file in my-shopping folder must have 4 items while the one inside my-new-shopping folder must have 5 items.  
 ## Resources
 To help with this here are resources you can refer to:
 [freecodecamp.com](https://www.freecodecamp.org/news/the-linux-commands-handbook/),
