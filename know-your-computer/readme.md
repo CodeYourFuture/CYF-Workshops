@@ -20,8 +20,8 @@ You must use the terminal and Linux commands to complete each challenge. You mus
    4. Milk
  ```
 - Create a new folder called `my-new-shopping` inside your Documents folder.
-- Now move `my-list.txt` file that is already inside `my-shopping` folder into `my-new-shopping` folder so that it does not exist anymore in `my-shopping` folder.
-- Make a copy of the `my-list.txt` file that is inside `my-new-shopping` folder back to `my-shopping` folder.
+- Now move `my-list.txt` from your `my-shopping` folder to your `my-new-shopping` folder. Your `my-shopping` folder should be empty after this step.
+- Copy `my-list.txt` from your `my-new-shopping` folder back to your `my-shopping` folder. After this step, **both** folders should contain a file called `my-list.txt`.
 - Now add the following line to `my-list.txt` file that is inside `my-new-shopping` folder:
 ```
    5. Sugar 
