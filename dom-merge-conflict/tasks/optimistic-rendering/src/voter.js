@@ -3,6 +3,11 @@ export function Voter(updateVote) {
 
   const button = document.createElement("button");
   button.textContent = "Like";
+  
+  const btnImg = document.createElement("img");
+  btnImg.src = "/media/like";
+  btnImg.alt = "Liked";
+
 
   const errorMessage = document.createElement("p");
 
