@@ -3,6 +3,7 @@ export function Voter(updateVote) {
 
   const button = document.createElement("button");
   button.textContent = "Like";
+  button.src = "/media/like";
 
   const errorMessage = document.createElement("p");
 
