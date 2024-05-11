@@ -1,23 +1,21 @@
 export function Voter(updateVote) {
   const container = document.createElement("div");
 
-  const button = document.createElement("button");
-  button.textContent = "Like";
+  const img = document.createElement("img");
+  img.src = "/media/like";
+  img.alt = "Like";
 
   const errorMessage = document.createElement("p");
 
-  container.appendChild(button);
+  container.appendChild(img);
 
-  button.addEventListener("click", () => {
+  img.addEventListener("click", () => {
     errorMessage.remove();
 
     updateVote()
       .then(() => {
-        const message = document.createElement("p");
-        message.textContent = "Liked";
-
-        container.appendChild(message);
-        button.remove();
+        img.src = "/media/liked";
+        img.alt = "Liked";
       })
       .catch(() => {
         errorMessage.textContent =
