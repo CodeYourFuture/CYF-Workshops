@@ -84,6 +84,10 @@ name="js1-wk1-eval"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
 time=0
 [[blocks]]
+name="LLM writing 1"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/llm-writing-1"
+time=0
+[[blocks]]
 name="node-challenge-london-mini-guide"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-challenge-london-mini-guide"
 time=0
