@@ -87,7 +87,11 @@ Let's **revise** this. Write your revised assignment in the worksheet below.
 4. 📌Set the initial task (3 and 4 can be in either order)
 5. 🧪Make it testable. How will the _learner_ assess their understanding?
 
-![alt_text](images/image2.png "image_tooltip")
+```mermaid
+flowchart LR
+A[📍 Learner] <-->|🕵🏾 connect| B[Teacher]
+B -->|👣 extend| C([📍 Concept])
+```
 
 ---
 
