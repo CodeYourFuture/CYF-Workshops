@@ -160,7 +160,7 @@ Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6
 
 JWTs don’t use sessions, have no problem with native apps, and actually don’t even need special CSRF protections, and they work very well with CORS.
 
-![](https://syllabus.migracode.org/~gitbook/image?url=https%3A%2F%2F4042228299-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MRebciU3NcuLgsX3ijf%252F-M_fudhy4USUCWLna3Z3%252F-M_fzPUSLWGbzh4on2EB%252Fimage.png%3Falt%3Dmedia%26token%3Dff18ec75-67a7-4152-82f2-32fbde34cd4d&width=768&dpr=4&quality=100&sign=d2c28d2a&sv=1)
+![](./jwt-auth.avif)
 
 With JWT you register yourself with an app, much the same way you would with an old-school app, and you login with your credentials (e.g. username/password). But instead of making a session and setting a cookie, the server will send you a JSON Web Token instead. Now you can use that token to do whatever you want to do with the server (that you have authorization to do).
 
@@ -514,11 +514,11 @@ app.use("/user", user);
 
 We will create a new POST request to `localhost:4000/user/sign-up` URL with a body in JSON format with three key-value pairs which we need for your registration. It will look like the following
 
-![](https://syllabus.migracode.org/~gitbook/image?url=https%3A%2F%2F4042228299-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MRebciU3NcuLgsX3ijf%252F-M_izuZD0GIYdC3WO30G%252F-M_j0KEPfxKyuUn1AFea%252Fimage.png%3Falt%3Dmedia%26token%3Df48f5e9f-b76b-457d-a9d8-1fdd43b010c9&width=768&dpr=4&quality=100&sign=a88c0720&sv=1)
+![](./postman.png)
 
 Once you hit the send button, it will send a request to our server and make sure that the server is running and you are able to see this in your terminal
 
-![](https://syllabus.migracode.org/~gitbook/image?url=https%3A%2F%2F4042228299-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MRebciU3NcuLgsX3ijf%252F-M_izuZD0GIYdC3WO30G%252F-M_j1KjkK91tJjRTJuV1%252Fimage.png%3Falt%3Dmedia%26token%3D741cd407-a145-4f19-a9fa-aa2a9bb0e126&width=768&dpr=4&quality=100&sign=a8ddf6d9&sv=1)
+![](./nodemon.png)
 
 Once the request is sent with a name, email and password, we will receive a response back from our server which will look something like this in Postman
 
@@ -694,11 +694,11 @@ We will create a new POST request to the `localhost:4000/user/auth` URL with a A
 
 Once you hit the send button, it will send a request to our server and make sure that the server is running and you are able to see this in your terminal
 
-![](https://syllabus.migracode.org/~gitbook/image?url=https%3A%2F%2F4042228299-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MRebciU3NcuLgsX3ijf%252F-M_izuZD0GIYdC3WO30G%252F-M_j1KjkK91tJjRTJuV1%252Fimage.png%3Falt%3Dmedia%26token%3D741cd407-a145-4f19-a9fa-aa2a9bb0e126&width=768&dpr=4&quality=100&sign=a8ddf6d9&sv=1)
+![](./nodemon.png)
 
 Once the request is sent with a Authorization header containing **Bearer Token**, we will receive a response back from our server that will look something like this in Postman
 
-![](./bearer-is-auth.png)
+![](./is-authenticated.png)
 
 As you can see that the **Status: 200 OK** and we received an object with a property `isAuthenticated: true`
 
