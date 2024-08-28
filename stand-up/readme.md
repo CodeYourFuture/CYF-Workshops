@@ -1,9 +1,17 @@
+# Standup
 
+## Learning Objectives
 
+Stand-up meetings are often a daily occurence for software development teams. Even if a team does not use the agile methodology, having daily stand-up enables teams to discuss progress and identify blockers.
+
+We want to get in the habit of having stand-up so that you can practice:
+- giving technical updates and describing problems 
+- public speaking
+- get in the habit of having stand-up
+
+### 🧩 Time to Have a First Standup
 
 1. Split up into breakout rooms
-2. Take it in turns to describe something that is blocking you on the coursework. Try to be as specific as possible about the issue you're having. See if you can find out the answer ( volunteers and trainees can provide guidance with this )
-
-If both volunteers and trainees don't know how to solve the problem then discuss where to go next. Where can you ask a question and in which channel? 
-
-3. 
+2. Take it in turns to describe what you worked on this week, something that is blocking you or that you struggled with (do not discuss solutions yet)and what you plan to work on today. If you need help or want to pair with someone on something specific this is a time to communicate that
+3. After everyone has given an update, reflect on next steps together. Is there something that multiple people said they struggled with that you could team up with? Is someone working on something interesting that you want to know more about?
+4. Where else can you ask a question and in which channel in slack when you have a problem? 
