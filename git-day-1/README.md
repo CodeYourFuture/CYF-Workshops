@@ -2,11 +2,11 @@
 
 ## 💡 Purpose
 
-This workshop will deepen your understanding Git, a tool crucial for collaborative software development. By the end of this workshop, participants will: 
+This workshop will deepen your understanding of Git, a tool crucial for collaborative software development. By the end of this workshop, participants will: 
 - Have hands-on experience in exploring GitHub repositories
 - Creating forks, cloning repositories, branching, and committing changes
 - Consolidate existing knowledge of Git
-- Develop your **mental model** of the working tree and the staging area
+- Develop their **mental model** of the working tree and the staging area
 - Learn to use basic Git CLI commands
 
 ## Setup 
