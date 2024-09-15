@@ -54,7 +54,7 @@ Your initial project backlog (work that needs to be done) consists of:
  
  ### Part 3: Backlog Refinement
 
-1. Backlog grooming: What new tasks were discovered upon discussion of the assumptions. Examples:
+1. [Backlog grooming](https://asana.com/resources/backlog-refinement): What new tasks were discovered upon discussion of the assumptions. Examples:
 -  Remove electrical outlet covers
 - Apply masking tape around windows
 - Purchase supplies
