@@ -2,9 +2,9 @@
 
 Feedback is the foundation of effective collaboration. Both giving and receiving feedback are important communication skills to master. 
 
-Giving feedback needs to be given in the right context, being mindful of tone and impact to the receiver.
+Giving feedback needs to be given in the right context, being mindful of tone and impact on the receiver. Feedback should be given in a timely fashion, be direct, non-accusatory (assume positive intent), and privately. Sometimes it is also better to ask if someone would like feedback.
 
-Receiving feedback is an extremely effective tool to measure your progress and whether you are living up to unspoken expectations. It is crucial to ask for feedback early and often. Asking for feedback too late on a project or presentation, has been [shown](https://hbr.org/2023/06/the-right-time-to-ask-for-feedback#:~:text=The%20best%20approach%20is%20to,annual%20performance%20review%20rolls%20around.) to lead us to be less receptive to criticism aa. It can also lead to miscommunication about expectations at work.
+Receiving feedback is also crucial as it is an effective tool to measure your progress and whether you are living up to unspoken expectations. It is important to ask for feedback early and often. Asking for feedback late on a project or presentation has been [shown](https://hbr.org/2023/06/the-right-time-to-ask-for-feedback#:~:text=The%20best%20approach%20is%20to,annual%20performance%20review%20rolls%20around.) to lead us to be less receptive to criticism and change.
 
 Not all feedback will always be positive so it is important to learn to take good and the bad feedback in stride. Both giving and receiving feedback is a skill that we will practice today.
 
