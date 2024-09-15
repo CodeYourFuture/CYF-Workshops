@@ -40,7 +40,7 @@ Your initial project backlog (work that needs to be done) consists of:
 
 2. Choose a scale, some people use T-shirt sizes (XS, S, M, L, XL), some use points (1-5). Whatever the scale that you as a group choose, the anchor wall will be in the middle of your scale. 
 
-    "Story Points" are abstract and are used to estimate the effort involved, not the time.
+    "[Story Points](https://asana.com/resources/story-points)" are abstract and are used to estimate the effort involved, not the time.
 
 ### Part 2: Estimate One Wall
 
