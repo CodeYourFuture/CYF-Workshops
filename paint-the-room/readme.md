@@ -44,7 +44,7 @@ Your initial project backlog (work that needs to be done) consists of:
 
 ### Part 2: Estimate One Wall
 
-1. Planning poker time! Pick Another Wall. Everyone write down your estimate in comparison to your anchor wall. Wait until everyone is ready and reveal your estimates at the same time. 
+1. [Planning poker ](https://planning-poker-agile.web.app/about-planning-poker)time! Pick Another Wall. Everyone write down your estimate in comparison to your anchor wall. Wait until everyone is ready and reveal your estimates at the same time. 
 
 2. Discuss Estimates:
 
