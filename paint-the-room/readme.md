@@ -72,7 +72,7 @@ Your initial project backlog (work that needs to be done) consists of:
 
 #### Key Takeaways:
 
-The value of Planning Poker is in the <b>conversation</b>. As everyone shares their assumptions, the team gains a better understanding of the scope of work.
+The value of Planning Poker is in the <strong>conversation</strong>. As everyone shares their assumptions, the team gains a better understanding of the scope of work.
 
 Relative estimation helps teams avoid anchoring on time and encourages thinking about effort in comparison to other tasks.
 
