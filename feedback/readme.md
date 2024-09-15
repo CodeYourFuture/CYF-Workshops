@@ -1,4 +1,4 @@
-# Feedback Workshop
+# Feedback Workshop 🗣️
 
 Feedback is the foundation of effective collaboration. Both giving and receiving feedback are important communication skills to master. 
 
@@ -17,13 +17,13 @@ After the workshop today, participants will be able to:
 - [] Apply feedback techniques to real-world situations, balancing critique with encouragement
 - [] Apply techniques for receiving tough feedback
 
-## Set up
+## Set up 🌼
 
 - Pair up into groups of 2
 
-## The game
+## The Activity 🏆 
 
-First read [this artical](https://tanzu.vmware.com/content/blog/mastering-feedback-in-the-workplace) on mastering feedback in the workplace. 
+First, read [this article](https://tanzu.vmware.com/content/blog/mastering-feedback-in-the-workplace) on mastering feedback in the workplace. 
 
 Read the following scenarios and role play each. One person will be the person giving the feedback and one person will be receiving the feedback. After each scenario switch who is giving the feedback and who is receiving it.
 
@@ -123,7 +123,7 @@ Scenario: A team member from another department is not communicating well with y
 
 Objective: Practice giving feedback to someone outside your immediate team, focusing on improving cross-team communication.
 
-## Reflection
+## Reflection 🧘‍♂️
 
 Come together as a group and discuss the following:
 
