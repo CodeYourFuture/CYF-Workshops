@@ -1,18 +1,21 @@
 # Paint The Room 🧑‍🎨
 
-Estimating how long a task will take is a part of every job. In software development estimating how long a large task will take is difficult due to hidden complexity.
+Understanding how to estimate tasks is a valuable skill that goes beyond just software development — it's useful in many areas of life and work. Whether you're planning a project at your job, managing a household renovation, or coordinating a group activity, the ability to break down a large task, consider hidden complexities, and accurately estimate effort can reduce stress, and help ensure success. 
 
-Today we will be learning some effective techniques that allow us to still estimate tasks and plan through an interactive game.
+Let's take a real-world example, your project manager comes to you and says he has a customer who wants you to develop an app. He wants to know how quickly can you deliver it and how much should we charge the customer. You've developed a couple of similar apps so you tell your project manager you think it will take two developers one month and cost 10,000MD (made up dollars). Suddenly three weeks into the project you realize that the app wasn't as straightforward as you initially thought, it will be at least another month until you will be close to done, and will cost another 8,000MD at least. Your project manager is furious, your customer is furious, and you are stressed because of the pressure to deliver. How to avoid this situation?!
+
+Today we will learn some effective techniques that help us plan large complicated tasks through an interactive game.
 
 ## Learning Objective 🧐
 
-We will be playing a game to learn important techniques to help us estimate our work:
-- Relative Estimation, 
-- Story Points, 
-- Story Elaboration, 
-- Story Splitting, 
-- Planning Poker, 
-- and Backlog Refinement 
+We will play a game to learn important techniques to help us estimate our work. After this workshop, participants will be able to:
+
+- [] Use relative estimation to compare the effort involved in two different tasks.
+- [] Assign story points to tasks based on complexity and effort.
+- [] Elaborate on user stories by asking questions, raising assumptions, adding necessary details and clarifications.
+- [] Split large tasks into smaller, more manageable stories.
+- [] Participate in Planning Poker to collaboratively estimate tasks.
+- [] Explain what a backlog is.
 
 ## Set up 🌼
 
@@ -21,7 +24,7 @@ We will be playing a game to learn important techniques to help us estimate our 
 
 ## The game 🎲
 
-Your team has been given the job of painting the room you are in. The customer’s vague requirement is: “Please paint the room.”
+Your team has been tasked with painting the room you are in. The customer’s vague requirement is: “Please paint the room.” Before you begin you need to tell your customer how much it will cost and how long it will take. If you underestimate the cost or time it will take, you will lose money. If you overestimate the cost or the time it will take by too much, you will lose the job to a competitor!
 
 Your initial project backlog (work that needs to be done) consists of:
 
