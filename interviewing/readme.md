@@ -42,6 +42,8 @@ Answer these questions with the [STAR method](https://ca.indeed.com/career-advic
 - <strong> Action </strong>: “I organized a meeting to discuss the pros and cons of both frameworks, focusing on performance and our project requirements. After evaluating, I suggested using React Native because it allowed us to quickly integrate with the backend we’d already built. The teammate supporting Flutter agreed once we reviewed the long-term benefits.”
 - <strong> Result </strong>: “We moved forward with React Native, completed the app on time, and received positive feedback from our professor for both functionality and performance. It also helped the team work more smoothly on future features.”
 
+### Discussion, 10 minutes
+
 Discuss how you might answer the following questions in a real interview.
 
 - Tell us about a time you missed a deadline.
