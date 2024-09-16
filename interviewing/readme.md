@@ -33,7 +33,7 @@ After the 5 minutes are up take turns practicing your introductions. While the o
 ## Step 2: The Soft Skills Interview 🥎 
 
 Soft skill interview questions are typically asked at some point during the interview process. 
-A common technique to answer these questions is to use the [STAR method](https://ca.indeed.com/career-advice/interviewing/star-interview-method) which stands for Situation, Task, Action and Result.
+Answer these questions with the [STAR method](https://ca.indeed.com/career-advice/interviewing/star-interview-method) which stands for Situation, Task, Action and Result.
 
 “Can you tell me about a time when you had to work in a team and faced a challenge?”
 
