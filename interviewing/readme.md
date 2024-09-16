@@ -40,7 +40,7 @@ Answer these questions with the [STAR method](https://ca.indeed.com/career-advic
 - <strong> Situation </strong>: "During my final group project, we had to develop a mobile app for managing student assignments. Midway through the project, we hit a roadblock because two teammates disagreed on which framework to use: one preferred React Native, while the other wanted to stick with Flutter. This was causing delays in our progress.”
 - <strong> Task </strong>: “As the team lead, my task was to resolve the conflict and ensure we stayed on schedule.”
 - <strong> Action </strong>: “I organized a meeting to discuss the pros and cons of both frameworks, focusing on performance and our project requirements. After evaluating, I suggested using React Native because it allowed us to quickly integrate with the backend we’d already built. The teammate supporting Flutter agreed once we reviewed the long-term benefits.”
-- <strong> Result </strong>: “We moved forward with React Native, completed the app on time, and received positive feedback from our professor for both functionality and performance. It also helped the team work more smoothly on future features.”
+- <strong> Result </strong>: “We moved forward with React Native, completed the app on time, and received positive feedback from our teachers for both functionality and performance. It also helped the team work more smoothly on future features.”
 
 ### Discussion, 10 minutes
 
