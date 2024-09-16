@@ -61,7 +61,7 @@ Discuss how you might answer the following questions in a real interview.
 
 Pick any technical topic such as Javascript, Python, SQL, databases, etc. and search for the Top 50 beginner interview questions for that topic. Read through the list together. Discuss if there are any surprises in there. Which questions did you find easy and which ones did you find difficult? Try asking each other a couple questions and see if you can answer them.
 
-Some tips for technical interviews:
+### Some tips for technical interviews:
 - Think out loud, walk the interviewer through your thought process.
 - Interviewers do not expect you to know everything. Be honest when you do not know something.
 - If you do not understand something, ask questions!
