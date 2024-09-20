@@ -48,7 +48,7 @@ Objectives wrapped in a [codeblock with the string objectives](https://common.co
 
 ```mermaid
 LR
-[A]-->[B]
+A-->B
 ```
 [Mermaid](https://mermaid.live/edit) works on [Common, exactly the same,](https://common.codeyourfuture.io/common-theme/render-hooks/mermaid/) and any diagrams you write in a readme or issue will render there too. There’re flowcharts, sequence diagrams, gantt charts, mindmaps, and more.
 
