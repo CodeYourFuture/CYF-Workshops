@@ -22,3 +22,36 @@ For example:
 https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions deploys itself here: https://cyf-workshop.netlify.app/asking-questions/
 
 Pull requests against this repo will automatically generate disposable branch previews and a bot will link these on the PR. This will work for trainees, if that is useful for your activity.
+
+<details>
+<summary>
+
+## Magic
+</summary>
+
+These workshops are pulled through to various front ends and displayed using the [CYF Common Theme](https://common.codeyourfuture.io/). Write for GitHub first, but you can secretly jazz up your layouts for those contexts by using [Hugo shortcodes](https://common.codeyourfuture.io/common-theme/shortcodes/) wrapped in HTML comments. You can add any shortcode in comments and it will be parsed and rendered on our curriculum sites, but not here. 
+
+<!--{{<note>}}-->
+This note will just be a block of text on GitHub, but a styled section on the curriculum
+<!--{{</note>}}-->
+
+We are working on uniting the views as much as we can. These features can be rendered in both places:
+
+>[!TIP]
+>GitHub style notes will be rendered as notes on Common
+
+```objectives
+- Start with the active verb
+- Make your objectives testable
+```
+Objectives wrapped in a [codeblock with the string objectives](https://common.codeyourfuture.io/common-theme/render-hooks/objectives/) will be piped into the [curriculum success pages](https://common.codeyourfuture.io/common-theme/pages/success/)
+
+```mermaid
+LR
+[A]-->[B]
+```
+[Mermaid](https://mermaid.live/edit) works on [Common, exactly the same,](https://common.codeyourfuture.io/common-theme/render-hooks/mermaid/) and any diagrams you write in a readme or issue will render there too. There’re flowcharts, sequence diagrams, gantt charts, mindmaps, and more.
+
+Find more [render hooks on Common](https://common.codeyourfuture.io/common-theme/render-hooks/).
+
+</details>
