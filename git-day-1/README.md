@@ -72,7 +72,7 @@ Use the guidelines from the prep section of this week to create a fork.
 - ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
-A volunteer will need to navigate and let the group guide them in creating a fork according to the steps in the previous section.
+A volunteer will need to navigate and let the group guide them in creating a fork.
 
 ## 🌀 Cloning a repository 
 
