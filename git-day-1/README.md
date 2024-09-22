@@ -1,13 +1,14 @@
-# Part 1
+# Git Day 1
 
-## 💡 Purpose
+Git is a tool for software development that you will likely come to rely on in your software development journey. It might seem complex at first but with continuous practice, you will begin to disentangle the complexity.
 
-This workshop will deepen your understanding of Git, a tool crucial for collaborative software development. By the end of this workshop, participants will: 
-- Have hands-on experience in exploring GitHub repositories
-- Creating forks, cloning repositories, branching, and committing changes
-- Consolidate existing knowledge of Git
-- Develop their **mental model** of the working tree and the staging area
-- Learn to use basic Git CLI commands
+## 💡 Objective
+
+This workshop will deepen your understanding of Git. By the end of this workshop, participants will: 
+- [ ] Navigate a GitHub repository using the VSCode interface
+- [ ] Fork and clone a repository, create branches, and commit changes using the VSCode interface
+- [ ] Articulate the difference between a fork and clone
+- [ ] Explain their <strong>mental model</strong> of the working tree and the staging area
 
 ## Setup 
 
@@ -71,7 +72,7 @@ Use the guidelines from the prep section of this week to create a fork.
 - ⏲️ 5 mins
 - A volunteer will need to facilitate this section
 
-A volunteer will need to navigate and let the group guide them in creating a fork as per the steps in the previous section.
+A volunteer will need to navigate and let the group guide them in creating a fork.
 
 ## 🌀 Cloning a repository 
 
@@ -129,14 +130,11 @@ Next, create a local branch called `week-1-workshop`
 ### Learning objectives
 
 ```objectives
-
-- [ ] save local changes to a repository in VSCode
-- [ ] stage local changes
-- [ ] commit changes to a local branch
-- [ ] define "pushing"
-- [ ] push local changes on to remote repository
-
-```
+- [ ] Save local changes to a repository in VSCode
+- [ ] Stage local changes
+- [ ] Commit changes to a local branch
+- [ ] Define "pushing"
+- [ ] Push local changes onto a remote repository
 
 
 ### 🕹️ Activity - Figure it out 🔍 
@@ -149,8 +147,7 @@ Next, create a local branch called `week-1-workshop`
 
 Follow these instructions carefully.
 
-
-Our Git timeline starts off with some commits like this:
+Our Git timeline starts with some commits like this:
 
 ![main-and-feature-in-sync](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/main-and-feature-in-sync.png)
 
@@ -313,7 +310,7 @@ A volunteer will need to navigate and let the group guide them in following thro
 
 ## 🧵 Tying things up
 
-Now is some time to wrap up and try and discuss some of the key concepts from this week.
+Now is some time to wrap up and discuss some of the key concepts from this week.
 
 ###  🗣️ Discussion in pairs
 
@@ -322,13 +319,13 @@ Now is some time to wrap up and try and discuss some of the key concepts from th
 
 In your pair, discuss the following questions/tasks:
 
-1. what is a commit? explain why need to make commits when we're developing a project?
-1. explain why we store repositories on GitHub
-1. describe the purpose of VSCode
-1. explain the difference between Git and GitHub
-1. explain why developers use branches
-1. explain the difference between a fork and a clone?
-1. what does the branch name `origin/main` mean instead of just `main`
+1. What is a commit? Explain why we need to make commits when we're developing a project.
+1. Explain why we store repositories on GitHub.
+1. Describe the purpose of VSCode.
+1. Explain the difference between Git and GitHub.
+1. Explain why developers use branches.
+1. Explain the difference between a fork and a clone.
+1. What does the branch name `origin/main` mean instead of just `main` ?
 1. Check out the following git repository diagram below:
 
 How many commits are in common between `week-1-feature` and `main`?
