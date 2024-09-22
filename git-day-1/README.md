@@ -134,7 +134,7 @@ Next, create a local branch called `week-1-workshop`
 - [ ] stage local changes
 - [ ] Commit changes to a local branch
 - [ ] define "pushing"
-- [ ] push local changes onto a remote repository
+- [ ] Push local changes onto a remote repository
 
 
 ### 🕹️ Activity - Figure it out 🔍 
