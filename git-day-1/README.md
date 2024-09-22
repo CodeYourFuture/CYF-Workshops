@@ -325,7 +325,7 @@ In your pair, discuss the following questions/tasks:
 1. Explain the difference between Git and GitHub.
 1. Explain why developers use branches.
 1. Explain the difference between a fork and a clone.
-1. what does the branch name `origin/main` mean instead of just `main`.
+1. What does the branch name `origin/main` mean instead of just `main` ?
 1. Check out the following git repository diagram below:
 
 How many commits are in common between `week-1-feature` and `main`?
