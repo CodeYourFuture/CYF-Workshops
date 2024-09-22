@@ -1,5 +1,13 @@
 # Part 1
 
+## 💡 Purpose
+
+This workshop will deepen your understanding of Git, a tool crucial for collaborative software development. By the end of this workshop, participants will: 
+- Have hands-on experience in exploring GitHub repositories
+- Creating forks, cloning repositories, branching, and committing changes
+- Consolidate existing knowledge of Git
+- Develop their **mental model** of the working tree and the staging area
+- Learn to use basic Git CLI commands
 
 ## Setup 
 
@@ -113,7 +121,6 @@ Next, create a local branch called `week-1-workshop`
 
 
 ## Take a break for 10 mins... 🍫
-
 
 
 ## Part 2 - New skills 🧰 - Committing and pushing 📸
