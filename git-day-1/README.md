@@ -8,7 +8,7 @@ This workshop will deepen your understanding of Git. By the end of this workshop
 - [ ] Navigate a GitHub repository using the VSCode interface
 - [ ] Fork and clone a repository, create branches, and commit changes using the VSCode interface
 - [ ] Articulate the difference between a fork and clone
-- [ ] Aarticulate their <strong>mental model</strong> of the working tree and the staging area
+- [ ] Explain their <strong>mental model</strong> of the working tree and the staging area
 
 ## Setup 
 
