@@ -147,7 +147,6 @@ Next, create a local branch called `week-1-workshop`
 
 Follow these instructions carefully.
 
-
 Our Git timeline starts with some commits like this:
 
 ![main-and-feature-in-sync](https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/main-and-feature-in-sync.png)
