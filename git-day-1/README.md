@@ -321,7 +321,7 @@ In your pair, discuss the following questions/tasks:
 
 1. What is a commit? Explain why we need to make commits when we're developing a project.
 1. Explain why we store repositories on GitHub.
-1. describe the purpose of VSCode.
+1. Describe the purpose of VSCode.
 1. explain the difference between Git and GitHub.
 1. explain why developers use branches.
 1. explain the difference between a fork and a clone.
