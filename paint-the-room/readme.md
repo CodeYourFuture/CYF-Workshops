@@ -2,7 +2,13 @@
 
 Understanding how to estimate tasks is a valuable skill that goes beyond just software development — it's useful in many areas of life and work. Whether you're planning a project at your job, managing a household renovation, or coordinating a group activity, the ability to break down a large task, consider hidden complexities, and accurately estimate effort can reduce stress, and help ensure success. 
 
-Let's take a real-world example, your project manager comes to you and says he has a customer who wants you to develop an app. He wants to know how quickly can you deliver it and how much should we charge the customer. You've developed a couple of similar apps so you tell your project manager you think it will take two developers one month and cost 10,000MD (made up dollars). Suddenly three weeks into the project you realize that the app wasn't as straightforward as you initially thought, it will be at least another month until you will be close to done, and will cost another 8,000MD at least. Your project manager is furious, your customer is furious, and you are stressed because of the pressure to deliver. How to avoid this situation?!
+Let's take a real-world example.
+
+Your project manager comes to you and says he has a customer who wants you to develop an app. He wants to know how quickly can you deliver it and how much should we charge the customer. You've developed a couple of similar apps so you tell your project manager you think it will take two developers one month and cost 10,000MD (made up dollars). 
+
+Suddenly three weeks into the project you realize that the app wasn't as straightforward as you initially thought: it will be at least another month until you will be close to done, and will cost another 8,000MD at least. Your project manager is furious, your customer is furious, and you are stressed because of the pressure to deliver. 
+
+How to avoid this situation?!
 
 Today we will learn some effective techniques that help us plan large complicated tasks through an interactive game.
 
