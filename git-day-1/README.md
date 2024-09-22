@@ -324,7 +324,7 @@ In your pair, discuss the following questions/tasks:
 1. Describe the purpose of VSCode.
 1. Explain the difference between Git and GitHub.
 1. Explain why developers use branches.
-1. explain the difference between a fork and a clone.
+1. Explain the difference between a fork and a clone.
 1. what does the branch name `origin/main` mean instead of just `main`.
 1. Check out the following git repository diagram below:
 
