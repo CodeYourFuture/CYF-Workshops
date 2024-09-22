@@ -133,7 +133,7 @@ Next, create a local branch called `week-1-workshop`
 - [ ] Save local changes to a repository in VSCode
 - [ ] Stage local changes
 - [ ] Commit changes to a local branch
-- [ ] define "pushing"
+- [ ] Define "pushing"
 - [ ] Push local changes onto a remote repository
 
 
