@@ -319,7 +319,7 @@ Now is some time to wrap up and discuss some of the key concepts from this week.
 
 In your pair, discuss the following questions/tasks:
 
-1. what is a commit? explain why we need to make commits when we're developing a project?
+1. What is a commit? Explain why we need to make commits when we're developing a project.
 1. explain why we store repositories on GitHub.
 1. describe the purpose of VSCode.
 1. explain the difference between Git and GitHub.
