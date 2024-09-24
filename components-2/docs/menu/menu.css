@@ -1,0 +1,13 @@
+.menu {
+  background-color: var(--ink);
+  color: var(--paper);
+  height: 100vh;
+  width: max-content;
+  padding: var(--space);
+  z-index: 1;
+  position: absolute;
+  left: -100vw;
+}
+.menu.is-active {
+  left: 0;
+}
