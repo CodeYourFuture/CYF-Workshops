@@ -5,7 +5,7 @@ layout='prep'
 type="_default"
 [[blocks]]
 name="Welcome to CYF Workshops"
-src="https://github.com/CodeYourFuture/CYF-Workshops/"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme"
 time=60
 [[blocks]]
 name="arrays"
