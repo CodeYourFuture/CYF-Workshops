@@ -12,6 +12,7 @@ There are six key instructional techniques with _reasonably_ sound evidence behi
 
 ![This graphic shows the six techniques listed next](./strategies.png)
 
+
 We're going to identify these foundational strategies in existing materials. Then we're going to identify some ways to bring them into our own material.
 
 1. "[Dual coding](https://www.structural-learning.com/post/dual-coding-a-teachers-guide)" or pairing graphics with words
@@ -141,6 +142,7 @@ Give everyone a job description and a big stack of CVs. Set a timer for 5 minute
 (Sorting words is a familiar strategy for identifying categories. Categorising is a key learning activity. It helps us organise and structure our understanding.)
 
 1. First exercise: sort the words into two groups: expressive and obscuring / straightforward and jargon etc
+
 
 > Dynamic, use, passionate, software engineer, show, care, build, team player, utilize, make, showcase, work together, leverage, detail-oriented, dedication, developer
 
