@@ -142,7 +142,7 @@ Give everyone a job description and a big stack of CVs. Set a timer for 5 minute
 
 1. First exercise: sort the words into two groups: expressive and obscuring / straightforward and jargon etc
 
-> Dynamic, use, passionate, software engineer, show, care, build, team player, utilize, make, showcase,work together, leverage, detail-oriented, dedication, developer
+> Dynamic, use, passionate, software engineer, show, care, build, team player, utilize, make, showcase, work together, leverage, detail-oriented, dedication, developer
 
 2. Second exercise, now you have identified them, highlight the buzzwords
 
