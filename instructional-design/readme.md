@@ -10,7 +10,7 @@ What is a [well designed piece of coursework](https://files.eric.ed.gov/fulltext
 
 There are six key instructional techniques with _reasonably_ sound evidence behind them.
 
-![alt_text](./strategies.png)
+![This graphic shows the six techniques listed next](./strategies.png)
 
 We're going to identify these foundational strategies in existing materials. Then we're going to identify some ways to bring them into our own material.
 
@@ -143,6 +143,20 @@ Give everyone a job description and a big stack of CVs. Set a timer for 5 minute
 1. First exercise: sort the words into two groups: expressive and obscuring / straightforward and jargon etc
 
 > Dynamic, use, passionate, software engineer, show, care, build, team player, utilize, make, showcase, work together, leverage, detail-oriented, dedication, developer
+
+<details>
+
+<summary>Example solution</summary>
+
+### buzzwords
+
+Dynamic, passionate, team player, utilize, showcase, leverage, detail-oriented, dedication
+
+### expressive words
+
+use, software engineer, show, care, build, make, work together, developer
+
+</details>
 
 2. Second exercise, now you have identified them, highlight the buzzwords
 
