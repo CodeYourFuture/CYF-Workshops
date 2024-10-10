@@ -15,10 +15,6 @@ The overall mission is to compose "components" / groupings of HTML elements to r
 
 Before you start, make sure you've installed the [CYF Extension Pack](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack) in VS Code.
 
-```bash
-npm install -g prettier
-```
-
 <!--{{<note type="activity" title="Set up your feature branch 15m">}}-->
 
 ### Set up your feature branches
