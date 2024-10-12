@@ -1,0 +1,43 @@
+document
+  .getElementById("searchForm")
+  .addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const query = document.getElementById("searchQuery").value;
+    const sort = document.getElementById("sortCriteria").value;
+    const order = document.getElementById("sortOrder").value;
+
+    const resultsDiv = document.getElementById("results");
+    resultsDiv.innerHTML = "<p>Loading...</p>";
+
+    try {
+      const response = await fetch(
+        `https://api.github.com/search/repositories?q=${encodeURIComponent(
+          query
+        )}&sort=${sort}&order=${order}`
+      );
+      const data = await response.json();
+
+      if (data.items.length > 0) {
+        resultsDiv.innerHTML = "";
+        data.items.forEach((repo) => {
+          resultsDiv.innerHTML += `
+                    <div class="result-item">
+                        <h2><a href="${repo.html_url}" target="_blank">${
+            repo.full_name
+          }</a></h2>
+                        <p>⭐ Stars: ${repo.stargazers_count}</p>
+                        <p>🍴 Forks: ${repo.forks_count}</p>
+                        <p>🕒 Last updated: ${new Date(
+                          repo.updated_at
+                        ).toLocaleDateString()}</p>
+                    </div>
+                `;
+        });
+      } else {
+        resultsDiv.innerHTML = "<p>No repositories found</p>";
+      }
+    } catch (error) {
+      resultsDiv.innerHTML = `<p>Error fetching data: ${error.message}</p>`;
+    }
+  });
