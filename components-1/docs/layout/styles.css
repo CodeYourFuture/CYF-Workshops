@@ -1,0 +1,15 @@
+/* LAYOUT 
+*/
+body {
+  display: grid;
+  gap: var(--space);
+  grid-template:
+    ". ...... ." var(--space)
+    ". header ." min-content
+    ". ...... ." var(--space)
+    ". main   ." minmax(75vh, 1fr)
+    ". footer ." min-content
+    ". ...... ." var(--space) /
+    minmax(var(--space), 1fr) var(--container) minmax(var(--space), 1fr);
+  place-content: center;
+}

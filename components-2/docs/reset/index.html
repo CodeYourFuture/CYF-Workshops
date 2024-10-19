@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CYF Components Workshop</title>
+    <meta name="description" content="A Components workshop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../assets/styles.css" />
+  </head>
+  <body>
+    <a class="is-invisible" href="#main">Skip to main</a>
+    <!-- Header goes here-->
+    <nav class="menu" id="menu" hidden>
+      <ul>
+        <li>
+          <a href="/">Components Workshop</a>
+        </li>
+        <li>
+          <a href="teams.html">Team Generator</a>
+        </li>
+        <!-- Generated menu items go here-->
+      </ul>
+    </nav>
+    <main tabindex="0" id="main" class="main">
+      <ul class="main__deck" id="cards"></ul>
+      <script type="module" name="Cards">
+        import components from "../../data/components.js";
+        import Card from "../card/card.js";
+        const cardData = components.find((data) => data.component === "reset");
+        const deck = document.getElementById("cards");
+        const cards = ["emoji", "css"].map((type) => Card(cardData, type));
+        deck.append(...cards);
+      </script>
+      <section class="copy">
+        <h2>Documentation</h2>
+        <h3>Here is the reset documentation for our tiny design system.</h3>
+        <ol>
+          <li>Resets are conservative</li>
+          <li>
+            Resets are only applied to default HTML elements without classes
+          </li>
+        </ol>
+      </section>
+    </main>
+    <!-- Footer goes here-->
+    <!-- 
+      OK, that's the end of the html elements. 
+      The rest of this is script imports.
+      
+      IMPORT AND CREATE COMPONENTS
+
+      
+      
+      Here are the components we are going to create:
+      Header
+      MenuItems
+      Footer 
+    
+    
+    -->
+    <script type="module">
+      import Header from "./../header/header.js";
+      const getHeaderLocation = document.getElementById("main");
+      const headerLink = "/";
+      const headerTitle = "Reset Component";
+      getHeaderLocation.before(Header(headerLink, headerTitle));
+    </script>
+    <script type="module">
+      import components from "../../data/components.js";
+      import MenuItem from "./../menu/menu-item.js";
+      const path = "../";
+      const menuList = document.querySelector("#menu > ul");
+      const menuItems = components.map((item) => MenuItem(item, path));
+      menuList.append(...menuItems);
+    </script>
+    <script type="module">
+      import Footer from "./../footer/footer.js";
+      const getFooterLocation = document.querySelector("main");
+      getFooterLocation.after(Footer(true));
+    </script>
+
+    <script src="../../assets/app.js" defer></script>
+    <!-- close the document-->
+  </body>
+</html>

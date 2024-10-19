@@ -1,0 +1,12 @@
+@import url(../docs/theme/styles.css);
+@import url(../docs/reset/styles.css);
+@import url(../docs/base/styles.css);
+
+@import url(../docs/layout/styles.css);
+
+@import url(../docs/header/styles.css);
+@import url(../docs/main/styles.css);
+@import url(../docs/menu/styles.css);
+@import url(../docs/footer/styles.css);
+@import url(../docs/card/styles.css);
+@import url(../docs/copy/styles.css);
