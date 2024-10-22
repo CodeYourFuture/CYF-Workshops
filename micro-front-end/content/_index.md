@@ -153,7 +153,7 @@ src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/stand-up"
 time=45
 [[blocks]]
 name="technical writing one"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/technical-writing-one
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/technical-writing-one"
 time=0
 [[blocks]]
 name="template"
