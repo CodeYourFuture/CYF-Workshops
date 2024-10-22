@@ -60,15 +60,15 @@ name="devtools"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools"
 time=90
 [[blocks]]
-name="dom-merge-conflict"
+name="dom merge conflict"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
 time=90
 [[blocks]]
-name="express-setup"
+name="express setup"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/express-setup"
 time=60
 [[blocks]]
-name="get-forms"
+name="get forms"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/get-forms"
 time=60
 [[blocks]]
@@ -76,29 +76,49 @@ name="git-cli"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-cli"
 time=30
 [[blocks]]
-name="git-day-1"
+name="git day 1"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-day-1"
 time=90
 [[blocks]]
-name="goblin-breakdown"
+name="goblin breakdown"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/goblin-breakdown"
 time=60
 [[blocks]]
+name="instructional design"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/instructional-design"
+time=120
+[[blocks]]
+name="interviewing"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interviewing"
+time=120
+[[blocks]]
 name="js1-wk1-eval"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
+time=30
+[[blocks]]
+name="know your computer"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/know-your-computer"
+time=45
+[[blocks]]
+name="learning objectives"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/learning-objectives"
 time=30
 [[blocks]]
 name="LLM writing 1"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/llm-writing-1"
 time=45
 [[blocks]]
-name="node-challenge-london-mini-guide"
+name="node challenge london-mini-guide"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-challenge-london-mini-guide"
 time=90
 [[blocks]]
 name="objects"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/objects"
 time=45
+[[blocks]]
+name="paint the room"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/paint-the-room"
+time=60
 [[blocks]]
 name="pitch-camp"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/pitch-camp"
@@ -131,6 +151,10 @@ time=90
 name="stand-up"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/stand-up"
 time=45
+[[blocks]]
+name="technical writing one"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/technical-writing-one
+time=0
 [[blocks]]
 name="template"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
