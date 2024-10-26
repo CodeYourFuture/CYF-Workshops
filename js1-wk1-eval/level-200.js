@@ -9,8 +9,17 @@
 // d) -8.921
 
 // Part 2: Use the Node REPL to check your answers to Part 1)
+console.log(Math.trunc(10.53));
+console.log(Math.floor(10.53));
+console.log(Math.trunc(170.105))
+console.log(Math.floor(170.105))
+console.log(Math.trunc(-0.34))
+console.log(Math.floor(-0.34))
+console.log(Math.trunc(-8.921))
+console.log(Math.floor(-8.921))
 // Part 3: Using Part 2, explain the difference between Math.trunc() and Math.floor() in your own words
 
+//Math.trunc() removes the decimal part towards zero, while Math.floor() rounds down to the nearest integer, moving negative numbers further from zero.
 
 
 
