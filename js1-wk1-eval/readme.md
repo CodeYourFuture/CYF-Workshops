@@ -1,4 +1,4 @@
-# JS1 week 1 evaluation
+# Learning to evaluate your understanding
 
 ## 🎓 Instructions
 
@@ -6,9 +6,9 @@ This workshop aims to _check your understanding_.
 
 Each task will explain whether or not you should run the code.
 
-- For each task, you can use [JS1 week 1 prep](https://curriculum.codeyourfuture.io/js1/sprints/1/prep/) to help you with the questions.
+- For each task, use your [prep](https://programming.codeyourfuture.io/structuring-data/prep) [materials](https://programming.codeyourfuture.io/structuring-data/sprints/1/prep/) to help you with the questions.
 - You can also use documentation to look up any functions that are unfamiliar.
-- Don't use ChatGPT or any other AI tool to help you.
+- Don't use ChatGPT or any other AI tool to help you. We are practising how to check our own understanding. You are finding out what you need to work on. Make notes as you go along to help you focus what to work on in study group. 
 
 ## 🧰 Setup
  👉 This workshop lives on [CYF-Workshops on GitHub](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval)
