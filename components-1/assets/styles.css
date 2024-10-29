@@ -11,22 +11,26 @@
 @import url(../docs/card/styles.css);
 @import url(../docs/copy/styles.css);
 
+/* =================== header ============= */
+
 .header {
     grid-area: header;
     display: grid;
     grid-template:
-      "logo space page button" var(--finger) /
-      var(--finger) var(--space) 1fr var(--finger);
-  }
-  .header__heading {
+        "logo space page button" var(--finger) /
+        var(--finger) var(--space) 1fr var(--finger);
+}
+
+.header__heading {
     grid-area: logo;
     margin: 0;
-  }
-  .header__page {
+}
+
+.header__page {
     grid-area: page;
     margin: 0 auto auto 0;
     font-size: 2em;
-  }
+}
 
 
 /* ===================  Card Style ============= */
@@ -38,16 +42,29 @@
     flex-flow: column-reverse;
     align-items: center;
     overflow: hidden;
-  }
-  .card:hover,
-  .card:focus {
+}
+
+.card:hover,
+.card:focus {
     box-shadow: 1px 1px 2px var(--shade);
-  }
-  .card__emoji {
+}
+
+.card__emoji {
     font-size: clamp(64px, calc(64px + 5vw), 144px);
-  }
-  
-  .card__code {
+}
+
+.card__code {
     overflow: scroll;
-  }
-  
+}
+
+/* ===================  footer ============= */
+
+.footer {
+    grid-area: footer;
+    display: grid;
+    grid-template: "github space" var(--finger) / var(--finger) 1fr;
+}
+
+.footer__link {
+    grid-area: github;
+}
