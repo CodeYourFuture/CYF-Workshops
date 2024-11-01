@@ -17,11 +17,11 @@ But this time, we're going to use JavaScript functions to build our components.
 ## Learning Objectives
 
 ```objectives
-- [ ] 🎄 Work on a complex sub-branch workflow
-- [ ] 🛳️ Import a function from a module
-- [ ] 🪄 Create a component on a web page
-- [ ] 📖 Write a function to build a component from a documented pattern
-- [ ] 👪 Collaborate to build a page
+- [ ] Work on a complex sub-branch workflow
+- [ ] Import a function from a module
+- [ ] Create a component on a web page
+- [ ] Write a function to build a component from a documented pattern
+- [ ] Collaborate to build a page
 ```
 
 <!--{{<note type="activity" title="Set up your working branch 15m">}}-->
