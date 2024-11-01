@@ -1,27 +1,35 @@
 class ReadmeComponent extends HTMLElement {
   constructor() {
     super();
-    this.attachShadow({ mode: "open" });
+    this.attachShadow({mode: "open"});
     this.path = this.getAttribute("path") || "readme";
   }
 
   connectedCallback() {
-    this.path = this.getAttribute("path") || "readme";
-    this.loadScript(
-      "https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"
-    ).then(() => {
-      this.fetchReadme();
-    });
+    Promise.all([
+      this.loadScript(
+        "https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"
+      ),
+    ])
+      .then(() => {
+        this.fetchReadme();
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }
 
-  loadScript(src) {
+  loadScript(src, defer) {
     return new Promise((resolve, reject) => {
       const script = document.createElement("script");
       script.src = src;
+      if (defer) {
+        script.defer = true;
+      }
       script.onload = () => resolve(script);
       script.onerror = (error) =>
         reject(new Error(`Script load error: ${error}`));
-      document.head.append(script);
+      document.head.appendChild(script);
     });
   }
 
@@ -44,7 +52,36 @@ class ReadmeComponent extends HTMLElement {
 
   render(md) {
     try {
-      let converter = new showdown.Converter();
+      showdown.extension("objectives", function () {
+        "use strict";
+        return [
+          {
+            type: "lang",
+            regex: /```objectives\s*([\s\S]*?)\s*```/g,
+            replace: (_, codeContent) => `${codeContent.trim()}`,
+          },
+        ];
+      });
+
+      let converter = new showdown.Converter({
+        omitExtraWLInCodeBlocks: true,
+        simplifiedAutoLink: true,
+        literalMidWordUnderscores: true,
+        strikethrough: true,
+        tables: true,
+        tablesHeaderId: true,
+        ghCodeBlocks: true,
+        tasklists: true,
+        disableForced4SpacesIndentedSublists: true,
+        simpleLineBreaks: true,
+        requireSpaceBeforeHeadingText: true,
+        ghCompatibleHeaderId: true,
+        ghMentions: true,
+        backslashEscapesHTMLTags: true,
+        emoji: true,
+        splitAdjacentBlockquotes: true,
+        extensions: ["objectives"],
+      });
       let html = converter.makeHtml(md);
       this.shadowRoot.innerHTML = `${html}`;
     } catch (error) {
