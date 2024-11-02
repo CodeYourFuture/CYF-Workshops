@@ -5,7 +5,7 @@ And fix this code!
 */
 
 function isValueFive(n) {
-    if (n === "5") {
+    if (n === 5) {
      return true
     }
 
