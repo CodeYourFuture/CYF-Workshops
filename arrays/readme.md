@@ -4,7 +4,7 @@ This workshop aims to _check your understanding_.
 
 Each task will explain whether or not you should run the code.
 
-For each task, you can use [JS2 week 1 prep](https://curriculum.codeyourfuture.io/js2/sprints/1/prep/)
+For each task, you can use [Data Groups Sprint 1 prep](https://programming.codeyourfuture.io/data-groups/sprints/1/prep/)
 to help you with the questions.
 You can also use documentation to look up any functions that are unfamiliar.
 Don't use ChatGPT or any other AI tool to help you.
