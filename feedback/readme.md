@@ -19,10 +19,10 @@ We will practice giving and receiving feedback today.
 
 After the workshop today, participants will be able to:
 
-- [] Choose a framework for giving clear, direct feedback depending on the scenario.
-- [] Reflect on the impact of feedback on personal growth and team dynamics
-- [] Apply feedback techniques to real-world situations, balancing critique with encouragement
-- [] Apply techniques for receiving tough feedback
+- [ ] Choose a framework for giving clear, direct feedback depending on the scenario.
+- [ ] Reflect on the impact of feedback on personal growth and team dynamics
+- [ ] Apply feedback techniques to real-world situations, balancing critique with encouragement
+- [ ] Apply techniques for receiving tough feedback
 
 ## Set up 🌼
 
@@ -52,24 +52,7 @@ For the person receiving feedback, remember to:
 * Spend 3 mins on each of these scenarios.
 * One person will be giving the feedback and one person will be receiving the feedback. After each scenario switch who is giving the feedback and who is receiving it.
 
-1. Warm-up 
-
-Scenario: A team member submits the following code that is functional but has inconsistent formatting.
-
-```javascript
-function calculateTotal(price, tax, discount){
-    var t = price + tax
-    t = t - discount
-    console.log("Total: $" + t);
-    return t
-}
-
-let price = 100, tax = 5; let discount = 10; calculateTotal(price,tax,discount);
-```
-
-Objective: Practice giving constructive feedback on code quality, style consistency, and optimization, while maintaining a positive tone. Mention specific areas for improvement such as consistent use of semicolons, better variable declaration, and reduce the use of magic numbers. Acknowledge what was done well. 
-
-2. Situation, Behavior, Impact (SBI) Framework
+1. Situation, Behavior, Impact (SBI) Framework
 
 The [SBI Framework](https://www.revolutionlearning.co.uk/article/the-sbi-feedback-model/) structures feedback in the following order:
 * Situation: Describe the situation
@@ -80,33 +63,42 @@ Try Applying the SBI method to the following scenario: A teammate consistently m
 
 Objective: Use the SBI framework for giving feedback. Practice addressing issues of accountability, responsibility, and time management without demotivating the person. 
 
-3. Observation, Feelings, Needs, and Request (OFNR) framework
+2. Observation, Feelings, Needs, and Request (OFNR) framework
 
-The [OFNA framework](https://andyblumenthal.wordpress.com/2019/09/21/ofnr-communications-model/) consists of four parts:
+The [OFNR framework](https://andyblumenthal.wordpress.com/2019/09/21/ofnr-communications-model/) consists of four parts:
 * Observation: Tell the other person the behavior you observe from them that is making you uncomfortable. "When I Observe…"
 * Feelings: Explain how the person’s behavior makes you feel (happy, sad, angry, annoyed, excited, worried, scared, hurt, embarrassed, confused) "I feel…"
 * Needs: Describe what you need from the other person (physiological, safety, social, esteem, self-actualization) "Because I need…"
 * Request: Ask them specifically what you’d like them to do. "Would you be willing to…"
 
-Try Applying the ONFR method to the following scenario: A team member gives a presentation that is informative but is too long-winded, going over an hour causing the audience to lose focus. This presentation will be used at the next client meeting which is only 1 hour long and needs to cover lots of other topics. 
+Try Applying the ONFR method to the following scenario: A team member gives an informative presentation that is too long-winded, going over an hour causing the audience to lose focus. This presentation will be used at the next client meeting which is only 1 hour long and needs to cover many other topics. 
 
 Objective: Use the (OFNR) framework to give the team member feedback. Practice providing feedback on communication skills, structuring information, and presentation techniques.
 
-4. Actionable, Specific, Kind (ASK) framework
+3. Actionable, Specific, Kind (ASK) framework
 
-The Actionable, Specific, Kind (ASK) framework to give feedback. Start by addressing the actionable issue and be specific in your request. Make sure it is delivered in a kind and understanding manner.
+The [ASK framework](https://www.stride.build/blog/using-ask-framework-to-give-feedback) focuses on the following attributes:
+* Actionable: Address the actionable issue
+* Specific: Be specific in your request.
+* Kind
 
 Scenario: A colleague dominates team discussions, interrupting others or dismissing alternative ideas without considering them. His behavior is often seen as grating or rude by the team.
 
-Objective: Use the Actionable, Specific, Kind (ASK) framework to give feedback. Start by addressing the actionable issue and be specific in your request. Make sure it is delivered in a kind and understanding manner. Address how their behavior affects group dynamics and encourage a more inclusive approach, allowing others to share their thoughts.
+Objective: Use the ASK framework to give feedback. Start by addressing the actionable issue and be specific in your request. Make sure it is delivered in a kind and understanding manner. Address how their behavior affects group dynamics and encourage a more inclusive approach, allowing others to share their thoughts.
 
-5. Goal, Reality, Options, Will (GROW) model
+4. Goal, Reality, Options, Will (GROW) model
 
-Scenario: A colleague is working towards a promotion to senior software engineer and has asked you for feedback on their performance. Although they have great technical proficiency you have noticed that they do not speak up during meetings unless directly asked and often wait for tasks to be assigned to them instead of taking initiative.
+The [Grow framework](https://www.mindtools.com/an0fzpz/the-grow-model-of-coaching-and-mentoring) focuses on mentoring and guidance to give feedback
+* Goal: Explore the individual's goals
+* Reality: Assess the current reality
+* Options: Brainstorm options
+* Will: Create a list of actions to commit to to achieve the goal
 
-Objective: Try using the Goal, Reality, Options, Will (GROW) model. Explore the individual's goals, assess the current reality, brainstorm options, and try to create a list of actions to commit to to acheive the goal. 
+Scenario: A colleague is working towards a promotion to senior software engineer and has asked you for feedback on their performance. Although they have great technical proficiency you have noticed that they do not speak up during meetings unless directly asked and often wait for tasks to be assigned instead of taking initiative.
 
-### Choose a Framework for Giving Feedback
+Objective: Use the GROW model to speak with your colleague.
+
+### Choose a Framework for Giving Feedback [10 mins]
 
 We have looked at the following frameworks for giving feedback:
 - Situation, Behavior, Impact (SBI) - Describe the situation, detail the specific behavior observed, and explain the impact it had.
@@ -114,39 +106,30 @@ We have looked at the following frameworks for giving feedback:
 - Observation, Feelings, Needs and Actions (OFNA) - discuss an observation, how it made you feel, what needs to happen to rectify this behavior and the actions they can take.
 - Goal, Reality, Options, Will (GROW) model. Explore the individual's goals, assess the current reality, brainstorm options, and commit to action. This model is best suited when the individual is already aware of the area to improve. 
 
-For the following scenarios, choose any of the frameworks to give feedback. 
+For the following scenarios, discuss with your partner which framework you think should be applied. 
 
-6. Behavioral Feedback
+1. Behavioral Feedback
 
 Scenario: A team member frequently arrives late to meetings, affecting the team's schedule.
 
-Objective: Practice addressing behavior that affects the team's efficiency while maintaining a professional and respectful tone.
-
-7. Positive Feedback for Improvement
+2. Positive Feedback for Improvement
 
 Scenario: A colleague made significant improvements in their work, but there’s still room for further development.
 
-Objective: Practice delivering feedback that celebrates progress while motivating further growth.
-
-8. Conflict Resolution
+3. Conflict Resolution
 
 Scenario: Two team members have a disagreement about how to approach a project, leading to tension in meetings.
 
-Objective: Address the need for open communication, active listening, and problem-solving together, suggesting ways to mediate and align on a common goal.
-
-9. Performance Review
+4. Performance Review
 
 Scenario: You are giving a formal performance review to a team member whose work has been solid but lacks creativity or initiative.
 
-Objective: Practice delivering a balanced performance review, highlighting both strengths and opportunities for taking initiative.
-
-10. Cross-Team Collaboration
+5. Cross-Team Collaboration
 
 Scenario: A team member from another department is not communicating well with your team, leading to delays and confusion.
 
-Objective: Practice giving feedback to someone outside your immediate team, focusing on improving cross-team communication.
 
-## Reflection 🧘‍♂️
+## Reflection 🧘‍♂️ [10 mins]
 
 Come together as a group and discuss the following:
 
