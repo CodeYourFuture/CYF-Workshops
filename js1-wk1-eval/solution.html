@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Exercises Solutions</title>
+</head>
+<body>
+    <h1>CYF-WORKSHOP</h1>
+    <h2>COMPLETE SPRINT 1 EXERCISES:  js1-wk1-evaluation.</h2>
+    <h3>Solutions to the Exercises: </h3>
+    <p id="demo"></p>
+
+    <script>
+        let a = 10;
+        let b = 56;
+        let c = a * b;
+
+        let d = 59;
+        let e = 7;
+        let f = (d / e).toFixed(4);
+
+        let g = 67;
+        let h = 100;
+        let i = 67+100; 
+
+        // Combine values into a single output string
+        document.getElementById("demo").innerHTML = "level-100.js" 
+        + "<br>a) 10 multiplied by 56 = 10*56 = " + c 
+        + "<br>b) 59 divided by 7 ( to 4 decimal places ) = " + f
+        + "<br>c) 67 plus 100 = " + i + "<br>"
+        + "<br>d) Part 1: Without running code" 
+        +"<br>"
+        + "Use documentation to evaluate Math.trunc() and Math.floor() for each of the numbers below" 
+        + "<br>Write your answers down below:" 
+        + "<br> a) 10.53   For example, Math.trunc(10.53) evaluates to 10, Math.floor(10.53) evaluates to 10" 
+        + "<br> b) 170.105  Math.trunc(170.105) evaluate to 170, Math.floor(179.105) evaluate to 170" 
+        + "<br> c) -0.34    Math.trunc(-0.34) evaluate to -0, Math.floor(-0.34) evaluate to -1" 
+        + "<br> d) -8.921   Math.trunc(-8.921) evaluate to -8, Math.floor(-8.921) evaluate to -9";
+        + "<br>"
+        + "<br>Part 2: Use the Node REPL to check your answers to Part 1)"
+        + "<br>Part 3: Using Part 2, explain the difference between Math.trunc() and Math.floor() in your own words";
+    </script>
+</body>
+</html>
