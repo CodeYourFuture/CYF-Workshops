@@ -7,8 +7,6 @@ function increment(node) {
 export function App() {
   const body = document.createElement("body");
 
-
-
   const main = document.createElement("main");
   main.innerHTML = `
         <p id="counter" data-testid="counter">0</p>
