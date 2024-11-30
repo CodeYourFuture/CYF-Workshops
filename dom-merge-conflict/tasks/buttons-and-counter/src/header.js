@@ -7,14 +7,13 @@ function increment(node) {
 export function App() {
   const body = document.createElement("body");
 
-
-
-  const main = document.createElement("main");
-  main.innerHTML = `
-        <p id="counter" data-testid="counter">0</p>
-        <button id="increment">Increment</button>
+  const header = document.createElement("header");
+  header.innerHTML = `
+        <h1>Number Counter</h1>
+        <p>A simple counter. Press increment to increase the count by one.</p>
     `;
-  body.appendChild(main);
+  body.appendChild(header);
+
 
   const button = body.querySelector("#increment");
   const counter = body.querySelector("#counter");
