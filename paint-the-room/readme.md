@@ -15,14 +15,14 @@ Today we will learn some effective techniques that help us plan large complicate
 ## Learning Objective 🧐
 
 We will play a game to learn important techniques to help us estimate our work. After this workshop, participants will be able to:
-
-- [] Use relative estimation to compare the effort involved in two different tasks.
-- [] Assign story points to tasks based on complexity and effort.
-- [] Elaborate on user stories by asking questions, raising assumptions, adding necessary details and clarifications.
-- [] Split large tasks into smaller, more manageable stories.
-- [] Participate in Planning Poker to collaboratively estimate tasks.
-- [] Explain what a backlog is.
-
+```objectives
+- [ ] Use relative estimation to compare the effort involved in two different tasks.
+- [ ] Assign story points to tasks based on complexity and effort.
+- [ ] Elaborate on user stories by asking questions, raising assumptions, adding necessary details and clarifications.
+- [ ] Split large tasks into smaller, more manageable stories.
+- [ ] Participate in Planning Poker to collaboratively estimate tasks.
+- [ ] Explain what a backlog is.
+```
 ## Set up 🌼
 
 - Split into groups of no more than  5

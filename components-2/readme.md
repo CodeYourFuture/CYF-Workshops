@@ -1,10 +1,6 @@
 # Components are Functions
 
-Today we're going to think some more about components. We're going to build a page using a design system and we're going to collaborate on a sub branch, feature branch workflow. We're going to identify the difference between HTML and the DOM using Devtools. And we're going to create new DOM nodes using JavaScript functions. Oh my goodness, it's so many things! That's why it's best to do this workshop after you've done:
-
-- [x] [HTML-CSS](https://curriculum.codeyourfuture.io/html-css/)
-- [x] [JS1](https://curriculum.codeyourfuture.io/js1/)
-- [x] [JS2](https://curriculum.codeyourfuture.io/js2/)
+Today we're going to think some more about components. We're going to build a page using a design system and we're going to collaborate on a sub branch, feature branch workflow. We're going to identify the difference between HTML and the DOM using Devtools. And we're going to create new DOM nodes using JavaScript functions. Oh my goodness, it's so many things! That's why it's best to do this workshop after you've done a couple of modules of https://programming.codeyourfuture.io/
 
 And in particular, these workshops:
 
@@ -21,11 +17,11 @@ But this time, we're going to use JavaScript functions to build our components.
 ## Learning Objectives
 
 ```objectives
-- [ ] 🎄 Work on a complex sub-branch workflow
-- [ ] 🛳️ Import a function from a module
-- [ ] 🪄 Create a component on a web page
-- [ ] 📖 Write a function to build a component from a documented pattern
-- [ ] 👪 Collaborate to build a page
+- [ ] Work on a complex sub-branch workflow
+- [ ] Import a function from a module
+- [ ] Create a component on a web page
+- [ ] Write a function to build a component from a documented pattern
+- [ ] Collaborate to build a page
 ```
 
 <!--{{<note type="activity" title="Set up your working branch 15m">}}-->
