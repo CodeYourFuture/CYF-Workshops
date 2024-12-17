@@ -7,4 +7,5 @@ function openDetailsIfHashPresent() {
 }
 
 openDetailsIfHashPresent();
-window.addEventListener('load', openDetailsIfHashPresent);
+document.addEventListener('DOMContentLoaded', openDetailsIfHashPresent);
+window.addEventListener('hashchange', openDetailsIfHashPresent);
