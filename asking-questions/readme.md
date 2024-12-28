@@ -61,14 +61,14 @@ When we ask questions, it's important that we share our current mental model as 
 
 Let's look at how asking questions helps you update your mental model with an example.
 
-<!--{{<note type="activity" title="Inversion, 5m" >}}-->
+<!--{{% note type="activity" title="Inversion, 5m" %}}-->
 
 1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. Popcorn around the room and each person give an example of a bad way to ask a question until the timer goes off. For example:
 
 > Argh I can't make it work please help me!
 
-<!--{{</note>}}-->
+<!--{{% /note %}}-->
 
 ### Why are these not useful?
 
