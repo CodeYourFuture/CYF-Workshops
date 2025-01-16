@@ -105,7 +105,7 @@ class ReadmeComponent extends HTMLElement {
   /**
    * Render the Mermaid diagrams after the Markdown content is rendered
    * @see {@link https://mermaid.js.org/config/usage.html#binding-events}
-   * @returns {Promise<void>} - The Mermaid diagrams are rendered in a temporary fragment and
+   * @returns {Promise<void>} - The Mermaid diagrams are rendered and
    * then inserted in the shadow root
    */
 
