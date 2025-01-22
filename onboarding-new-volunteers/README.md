@@ -37,11 +37,11 @@ The rest of the group should watch the exchange.
 
 ### Interaction
 
-Experienced volunteer: Approach the new volunteer, and have a conversation. Your goal is to help them get started.
+Set a timer for 5 minutes.
 
-Aim for at most a 5 minute exchange.
+The experienced volunteer should approach the new volunteer, and have a conversation. Your goal is to help them get started, and help ensure they will have a good first day.
 
-When you're finished, have a discussion about what went well, and what could have gone better.
+After 5 minutes stop. Have a discussion about what went well, and what could have gone better.
 
 Write down takeaways which will help you have this conversation in real life.
 
