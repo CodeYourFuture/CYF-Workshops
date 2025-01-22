@@ -1,5 +1,16 @@
 # Onboarding new volunteers
 
+## Learning Objectives
+
+```objectives
+- [ ] Identify things a new volunteer may not know about how to participate in class.
+- [ ] List things it's useful to tell a new volunteer to help them participate in class.
+- [ ] Identify differences in how different volunteers may need orientation based on their background.
+- [ ] Identify what is likely to make a new volunteer more or less likely to volunteer again.
+```
+
+## Workshop
+
 As a community, it's all of our job to make sure that on a volunteer's first day they:
 * Feel welcomed
 * Know what to do
