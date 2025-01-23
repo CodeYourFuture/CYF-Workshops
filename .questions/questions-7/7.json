@@ -1,0 +1,4 @@
+{
+    "question_type" : ["predict_observe_explain"],
+    "topics" : ["errors","functions","call sites","Type Error: x is not a function",""]
+}

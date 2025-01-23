@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CYF Components Workshop</title>
+    <meta name="description" content="A Components workshop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="is-invisible" href="#main">Skip to main</a>
+    <!-- Header goes here-->
+    <nav class="menu" id="menu" hidden>
+      <ul>
+        <li>
+          <a href="/">Components Workshop</a>
+        </li>
+        <li>
+          <a href="teams.html">Team Generator</a>
+        </li>
+        <!-- Generated menu items go here-->
+      </ul>
+    </nav>
+    <main tabindex="0" id="main" class="main">
+      <ul class="main__deck" id="cards">
+        <!-- Cards go here-->
+      </ul>
+      <section class="main__copy">
+        <readme-component path="readme/components-2"></readme-component>
+      </section>
+    </main>
+    <!-- Footer goes here-->
+    <!-- 
+      OK, that's the end of the html elements. 
+      The rest of this is script imports.
+      
+      IMPORT AND CREATE COMPONENTS
+
+      
+      
+      Here are the components we are going to create:
+      Header
+      MenuItems
+      Cards
+      Footer 
+    
+    
+    -->
+    <script type="module" name="Header">
+      import Header from "./docs/header/header.js";
+      const getHeaderLocation = document.getElementById("main");
+      const headerLink =
+        "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/components-2";
+      const headerTitle = "Components Workshop";
+      getHeaderLocation.after(Header(headerLink, headerTitle));
+    </script>
+    <script type="module" name="MenuItems">
+      import components from "./data/components.js";
+      import MenuItem from "./docs/menu/menu-item.js";
+      const path = "../docs/";
+      const menuList = document.querySelector("#menu > ul");
+      const listItems = components.map((component) =>
+        MenuItem(component, path)
+      );
+      menuList.append(...listItems);
+    </script>
+    <script type="module" name="Cards">
+      import components from "./data/components.js";
+      import Card from "./docs/card/card.js";
+      const path = "docs/";
+      const deck = document.getElementById("cards");
+      const cards = components.map((item) => Card(item, "emoji", path));
+      deck.append(...cards);
+    </script>
+    <script type="module" name="Footer">
+      import Footer from "./docs/footer/footer.js";
+      const getFooterLocation = document.querySelector("main");
+      getFooterLocation.after(Footer(true));
+    </script>
+
+    <!-- this component is from the next workshop, components 3! -->
+    <script type="module" src="../readme.js"></script>
+    <script src="assets/app.js" defer></script>
+    <!-- close the document-->
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.main {
+  grid-area: main;
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--space);
+}
+
+.main__deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--box), 1fr));
+  gap: var(--space);
+}
+
+.main__copy {
+  /* Why have I constrained this box? Google it!  */
+  max-width: var(--line-length);
+}
+
+.main__copy p:first-of-type::first-letter {
+  initial-letter: 2;
+  margin: 0 0.5ch 0 0;
+  padding: 0.5ch;
+  background-color: var(--brand);
+  color: var(--paper);
+}
