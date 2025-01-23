@@ -55,27 +55,27 @@ E --> A
 
 ## Updating the _right_ model
 
-If you stuck and can't explain the gap in your mental model, then it's time to ask a question!
+If you are stuck and can't explain the gap in your mental model, then it's time to ask a question!
 
 When we ask questions, it's important that we share our current mental model as part of your question so that other people can test the right thing, focus on the mis-understanding. Then together you can get quickly to a shared understanding of your specific problem.
 
 Let's look at how asking questions helps you update your mental model with an example.
 
-<!--{{<note type="activity" title="Inversion, 5m" >}}-->
+<!--{{% note type="activity" title="Inversion, 5m" %}}-->
 
 1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2. Popcorn around the room and each person give an example of a bad way to ask a question until the timer goes off. For example:
 
 > Argh I can't make it work please help me!
 
-<!--{{</note>}}-->
+<!--{{% /note %}}-->
 
 ### Why are these not useful?
 
 <!--{{<note type="activity" title="Inversion 2, 10m" >}}-->
 
 1.  Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-2.  Popcorn around the room and each person give a reason the previous question was bad until the timer goes off. For example:
+2.  Popcorn around the room and each person give a reason that one of the previous questions was bad until the timer goes off. For example:
 
 > What is _it_? What are you trying to do? In what way is it not working? Be specific! Share what you see. Do you have a link? What do you want it to do?
 

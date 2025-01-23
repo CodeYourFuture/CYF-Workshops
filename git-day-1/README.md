@@ -129,13 +129,13 @@ Next, create a local branch called `week-1-workshop`
 
 ### Learning objectives
 
-```objectives
+<!--{{<objectives>}}-->
 - [ ] Save local changes to a repository in VSCode
 - [ ] Stage local changes
 - [ ] Commit changes to a local branch
 - [ ] Define "pushing"
 - [ ] Push local changes onto a remote repository
-
+<!--{{</objectives>}}-->
 
 ### 🕹️ Activity - Figure it out 🔍 
 

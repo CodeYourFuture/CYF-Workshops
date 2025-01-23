@@ -8,15 +8,15 @@ Some of these workshops are shown on the [CYF curriculum site](https://curriculu
 
 Report issues by opening a ticket on this repo. If you are talking about a specific workshop, please include the name of the workshop in the title of the ticket and @mention the author of the workshop in the body of the ticket. There's no guarantee the author is still around!
 
-To contribute a workshop, open a pull request and label it [New Workshop]. There's a template folder with some helpful notes.
+To contribute a workshop, open a pull request and label it [New Workshop]. There's a [template folder](./template) with some helpful notes.
 
 Please only submit workshops you actually plan to use in a currently running cohort (or have run in a past CYF cohort).
 
 ## Deployments
 
-1. This repo has a micro front end that will [render your workshops in the curriculum theme](https://cyf-workshops.netlify.app/). Look through workshops and decide which to use with your cohort. 
+1. This repo has a micro front end that will [render your workshops in the curriculum theme](https://workshops.codeyourfuture.io/). Look through workshops and decide which to use with your cohort.  [![Netlify Status](https://api.netlify.com/api/v1/badges/f62b3058-5e1d-4294-bd56-86689cf51c85/deploy-status)](https://app.netlify.com/sites/cyf-workshops/deploys)
 
-2. This entire repo is also deployed to Netlify under the name `cyf-workshop`, so any index.html you upload to your folder will create a webpage you can use in your workshop. 
+2. This _entire_ repo is also deployed to Netlify under the name `cyf-workshop`, so any index.html you upload to your folder will create a webpage you can use in your workshop. 
 
 For example:
 https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions deploys itself here: https://cyf-workshop.netlify.app/asking-questions/
