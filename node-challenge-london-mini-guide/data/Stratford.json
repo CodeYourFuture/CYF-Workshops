@@ -1,0 +1,505 @@
+{
+  "pharmacies": [
+    {
+      "name": "Woodgrange Pharmacy & Travel ClinicSponsored",
+      "website": "#",
+      "phone": "020 8555 5660 ",
+      "address": "We serve Stratford, East London|London,E7"
+    },
+    {
+      "name": "Osbon Pharmacy",
+      "website": "http://www.osbonpharmacy.co.uk",
+      "phone": "020 8555 9188 ",
+      "address": "54 The Mall, The Stratford Centre, London, E15 1XE"
+    },
+    {
+      "name": "Boots UK",
+      "website": "http://www.boots.com",
+      "phone": "020 8221 2495 ",
+      "address": "31-34, The Arcarde Lower Ground Floor, London, E20 1EH"
+    },
+    {
+      "name": "Mayors Chemists",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e15%201en",
+      "phone": "020 8519 6710 ",
+      "address": "127 The Grove, London, E15 1EN"
+    },
+    {
+      "name": "Salus Pharmacy",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e20%201as",
+      "phone": "020 8555 3767 ",
+      "address": "40 Liberty Bridge Rd, London, E20 1AS"
+    },
+    {
+      "name": "Juliapharm U.K. Ltd",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e15%201en",
+      "phone": "07949 797876 ",
+      "address": "127 The Grove, London, E15 1EN"
+    },
+    {
+      "name": "Click Pharmacy",
+      "website": "http://www.clickpharmacy.co.uk",
+      "phone": "020 7867 3932 ",
+      "address": "50 Romford Rd, London, E15 4BZ"
+    },
+    {
+      "name": "Cartwright's Pharmacy",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e15%201ja",
+      "phone": "020 8534 1336 ",
+      "address": "67 Leytonstone Rd, London, E15 1JA"
+    },
+    {
+      "name": "www.your-chemist.com",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e15%202sp",
+      "phone": "020 3961 4999 ",
+      "address": "Unit 157, Stratford Workshops, Burford Rd, London, E15 2SP"
+    },
+    {
+      "name": "Britannia Pharmacy",
+      "website": "http://www.britanniapharmacy.com",
+      "phone": "020 8555 8403 ",
+      "address": "155 Leytonstone Rd, London, E15 1LH"
+    },
+    {
+      "name": "Vicarage Pharmacy",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e15%204es",
+      "phone": "020 8555 1564 ",
+      "address": "Unit 1-3 Vicarage Health Centre, 10, Vicarage Lane, London, E15 4ES"
+    },
+    {
+      "name": "Britannia Pharmacy",
+      "website": "http://www.britanniapharmacy.com",
+      "phone": "020 8534 3104 ",
+      "address": "6 Church St, Westham, London, E15 3HX"
+    },
+    {
+      "name": "Safedale Ltd",
+      "website": "http://www.safedale-ltd.co.uk",
+      "phone": "020 8534 1386 ",
+      "address": "144 High Rd Leytonstone, London, E15 1UA"
+    },
+    {
+      "name": "ASDA Pharmacy",
+      "website": "http://www.asda.com",
+      "phone": "020 8988 8317 ",
+      "address": "within Asda Leyton Mills Centre, 1, Marshall Rd, London, E10 5NH"
+    },
+    {
+      "name": "Acheason Chemist",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e11%204hh",
+      "phone": "020 8534 3154 ",
+      "address": "273 High Rd Leytonstone, London, E11 4HH"
+    },
+    {
+      "name": "Safedale Ltd",
+      "website": "http://www.safedale-ltd.co.uk",
+      "phone": "020 8539 0983 ",
+      "address": "124 Langthorne Rd, London, E11 4HR"
+    },
+    {
+      "name": "Wagpharm Chemists",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e15%203jf",
+      "phone": "020 8534 3337 ",
+      "address": "8 Mitre Rd, London, E15 3JF"
+    },
+    {
+      "name": "Langthorne Pharmacy",
+      "website": "http://www.langthornepharmacy.co.uk",
+      "phone": "020 8539 4324 ",
+      "address": "Langthorne Health Centre, 13, Langthorne Rd, London, E11 4HX"
+    },
+    {
+      "name": "Medina Pharmacy",
+      "website": "https://www.nhs.uk/service-search/find-a-pharmacy/results/e15%203et",
+      "phone": "020 8534 2692 ",
+      "address": "161 Plaistow Rd, London, E15 3ET"
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Dr Michael WetzlerSponsored",
+      "website": "/customerneeds/sendenquiry/sendtoone/100040557743000020?searchedLocation=Stratford, East London",
+      "phone": "020 3376 4598 ",
+      "address": "We serve Stratford, East London|London,N16"
+    },
+    {
+      "name": "Medicspot Clinic Stratford Shopping Centre",
+      "website": "https://www.medicspot.co.uk/clinics/england/london/newham/stratford/stratford-shopping-centre-clinic?utm_source=listings&utm_medium=local&utm_campaign=london&utm_content=stratford%20shopping%20centre",
+      "phone": "020 8555 9188 ",
+      "address": "54 The Mall, Stratford Shopping Centre, London, E15 1XE"
+    },
+    {
+      "name": "Medicspot Clinic East Village",
+      "website": "http://www.medicspot.co.uk",
+      "phone": "020 3637 8398 ",
+      "address": "42 Liberty Bridge Rd, London, E20 1AS"
+    },
+    {
+      "name": "Stratford Health Centre",
+      "phone": "020 8555 3936 ",
+      "address": "121-123 The Grove, London, E15 1EN"
+    },
+    {
+      "name": "Lantern Health-Carpenters Practice",
+      "website": "http://www.newham.co.uk",
+      "phone": "020 8534 8057 ",
+      "address": "236-252 High St, London, E15 2JA"
+    },
+    {
+      "name": "Stratford Village Surgery",
+      "website": "http://www.first4healthgroup.co.uk",
+      "phone": "020 8534 4133 ",
+      "address": "50c Romford Rd, London, E15 4BZ"
+    },
+    {
+      "name": "Leytonstone Road Medical Centre",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/e15%201lh",
+      "phone": "020 8534 1026 ",
+      "address": "157 Leytonstone Rd, London, E15 1LH"
+    },
+    {
+      "name": "Drs Umrani & Qureshi",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/e15%202tf",
+      "phone": "020 8534 2232 ",
+      "address": "327 High St, London, E15 2TF"
+    },
+    {
+      "name": "Vicarage Lane Transitional Team",
+      "phone": "020 8536 2255 ",
+      "address": "10 Vicarage Lane, London, E15 4ES"
+    },
+    {
+      "name": "Vicarage Lane Health Centre",
+      "phone": "0208536 2070 ",
+      "address": "10 Vicarage Lane, London, E15 4ES"
+    },
+    {
+      "name": "Abbey Road Medical Practice",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/e15%203lt",
+      "phone": "020 8534 2515 ",
+      "address": "28a Abbey Rd, London, E15 3LT"
+    },
+    {
+      "name": "Dr S Kumar - High Road Surgery",
+      "website": "http://www.nhs.uk",
+      "phone": "020 8532 8460 ",
+      "address": "287 High Rd Leytonstone, London, E11 4HH"
+    },
+    {
+      "name": "Dr P.R Bhowmik",
+      "website": "https://www.nhs.uk/service-search/find-a-gp/results/e15%203dj",
+      "phone": "020 8555 0428 ",
+      "address": "401 Corporation St, London, E15 3DJ"
+    },
+    {
+      "name": "Dr N Amin",
+      "website": "http://www.nhs.net",
+      "phone": "020 8980 1652 ",
+      "address": "Ruston Street Clinic Ruston St, Bow, London, E3 2LR"
+    },
+    {
+      "name": "Upton Lane Medical Centre",
+      "website": "http://www.uptonlanesurgery.nhs.uk",
+      "phone": "020 8471 6912 ",
+      "address": "75-77 Upton Lane Forest Gate, London, E7 9PB"
+    },
+    {
+      "name": "Dr Swedan",
+      "website": "https://www.drswedanandpartner.co.uk",
+      "phone": "020 8250 7530 ",
+      "address": "121 Woodgrange Rd, Forest Gate, London, E7 0EP"
+    },
+    {
+      "name": "Dr Driver & Partners",
+      "website": "http://www.drdriverandpartners.org.uk",
+      "phone": "020 8250 7510 ",
+      "address": "121 Woodgrange Rd Forest Gate, London, E7 0EP"
+    },
+    {
+      "name": "Medicspot Clinic Forest Gate Woodgrange Road",
+      "website": "https://www.medicspot.co.uk/clinics/england/london/newham/forest-gate/forest-gate-woodgrange-road-clinic?utm_source=listings&utm_medium=local&utm_campaign=london&utm_content=forest%20gate%20woodgrange%20road",
+      "phone": "020 8106 5150 ",
+      "address": "15 Woodgrange Rd, Forest Gate, London, E7 8BA"
+    },
+    {
+      "name": "Lord Lister Health Centre",
+      "website": "http://www.nhs.uk",
+      "phone": "020 8520 7550 ",
+      "address": "121 Woodgrange Rd Forest Gate, Newham, London, E7 0EP"
+    },
+    {
+      "name": "Trowbridge Practice",
+      "website": "http://www.trowbridgesurgery.co.uk",
+      "phone": "020 8986 7781 ",
+      "address": "18 Merriam Avenue, London, E9 5NE"
+    },
+    {
+      "name": "Medicspot Clinic Bow Roman Road",
+      "website": "https://www.medicspot.co.uk/clinics/england/london/tower-hamlets/bow/bow-roman-road-clinic?utm_source=listings&utm_medium=local&utm_campaign=london&utm_content=bow%20roman%20road",
+      "phone": "020 3637 8398 ",
+      "address": "625-627 Roman Rd Bow, London, E3 2RN"
+    },
+    {
+      "name": "The Stroudley Wlk Hth Ctr",
+      "website": "http://www.stroudleywalk.nhs.uk",
+      "phone": "020 8981 4742 ",
+      "address": "The Stroudley Walk Heath Centre, 38, Stroudley Walk, London, E3 3EW"
+    },
+    {
+      "name": "The Project Surgery",
+      "website": "http://www.theprojectsurgery.com",
+      "phone": "020 8472 5234 ",
+      "address": "Community Surgery, 10 Lettsom Walk, London, E13 0LN"
+    },
+    {
+      "name": "Orient Practice",
+      "phone": "020 3405 6840 ",
+      "address": "Oliver Rd Polyclinic 1st floor, 75, Oliver Rd, London, E10 5LG"
+    },
+    {
+      "name": "Dr A Sanyal - Bromley by Bow Health Centre",
+      "website": "http://www.bbbc.org.uk",
+      "phone": "020 3728 0980 ",
+      "address": "St. Leonards St, London, E3 3BT"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "Newham College of Further Education",
+      "website": "http://www.newham.ac.uk",
+      "phone": "020 8257 4000 ",
+      "address": "Get Ahead Shop, 40, Broadway, London, E15 4QS"
+    },
+    {
+      "name": "Hafs Academy",
+      "phone": "020 8555 4260 ",
+      "address": "Unit 3, Stratford, LONDON, E15 1JW"
+    },
+    {
+      "name": "Marriott Academy of Achievement",
+      "website": "http://www.marriottacademy.co.uk",
+      "phone": "020 7175 1536 ",
+      "address": "University Square Stratford, Great Eastern Rd, London, E15 1BB"
+    },
+    {
+      "name": "UK Community College",
+      "phone": "020 8519 7362 ",
+      "address": "Broadway Chambers, LONDON, E15 4QS"
+    },
+    {
+      "name": "London School of Business",
+      "website": "http://www.lsbuk.com",
+      "phone": "020 3305 8124 ",
+      "address": "Boardman House, 64, Broadway, Stratford, London, E15 1NT"
+    },
+    {
+      "name": "Building Crafts College",
+      "website": "http://www.thebcc.ac.uk",
+      "phone": "020 8522 1705 ",
+      "address": "Kennard Rd, Stratford, London, E15 1AH"
+    },
+    {
+      "name": "Newtec College",
+      "phone": "0208519 5843 ",
+      "address": "45 West Ham Lane, London, E15 4PH"
+    },
+    {
+      "name": "Sarah Bonnell School",
+      "website": "http://www.sarahbonnellonline.co.uk/",
+      "phone": "020 8534 6791 ",
+      "address": "Deanery Rd, London, E15 4LP"
+    },
+    {
+      "name": "Interlink College of Technology & Business Studies",
+      "phone": "020 8522 7600 ",
+      "address": "329-333 High St, London, E15 2TF"
+    },
+    {
+      "name": "Al-Duroosul Muthmira Trust",
+      "website": "http://www.hafsacademy.co.uk",
+      "phone": "020 8555 4260 ",
+      "address": "Unit 3 Maryland Ind Est 26, Maryland Rd, London, E15 1JW"
+    },
+    {
+      "name": "Colegrave Primary School",
+      "website": "http://www.colegrave.newham.sch.uk/",
+      "phone": "020 8534 0243 ",
+      "address": "Henniker Rd, London, E15 1JY"
+    },
+    {
+      "name": "John F Kennedy Special School",
+      "website": "http://www.johnfkennedy.newham.sch.uk/",
+      "phone": "020 8534 8544 ",
+      "address": "Pitchford St, London, E15 4RZ"
+    },
+    {
+      "name": "School 21",
+      "website": "http://www.school21.org.uk",
+      "phone": "020 8262 2121 ",
+      "address": "Pitchford St, London, E15 4RZ"
+    },
+    {
+      "name": "Westminster Central College",
+      "website": "http://www.wccuk.org",
+      "phone": "020 8555 8686 ",
+      "address": "275 High St, London, E15 2TF"
+    },
+    {
+      "name": "East London Express UK Ltd",
+      "website": "http://www.eastlondonexpress.com/",
+      "phone": "020 8534 6456 ",
+      "address": "Unit 107, 275-285, High St, London, E15 2TF"
+    },
+    {
+      "name": "Chobham Academy",
+      "website": "http://www.chobhamacademy.org.uk/",
+      "phone": "020 3747 6060 ",
+      "address": "40 Cheering Lane, London, E20 1BD"
+    },
+    {
+      "name": "Newham College of Further Education",
+      "website": "http://www.newham.ac.uk",
+      "phone": "020 8257 4000 ",
+      "address": "Stratford Campus Welfare Rd, London, E15 4HT"
+    },
+    {
+      "name": "Carpenters Primary School",
+      "website": "http://www.carpenters.newham.sch.uk",
+      "phone": "020 8534 4759 ",
+      "address": "Friendship Way, London, E15 2JQ"
+    },
+    {
+      "name": "St Francis' Catholic Primary School",
+      "website": "http://www.st-francis.newham.sch.uk",
+      "phone": "020 8534 0476 ",
+      "address": "Maryland Park, London, E15 1HD"
+    },
+    {
+      "name": "SGMC",
+      "website": "http://www.sgmc.ac.uk",
+      "phone": "07939 083509 ",
+      "address": "65 Colegrave Rd, London, E15 1DZ"
+    },
+    {
+      "name": "Newham College of Furthur Education",
+      "website": "http://www.newham.ac.uk",
+      "phone": "020 8257 4000 ",
+      "address": "Royal Docks Learning Zone, Prince Regent Lane, London, E16 3HS"
+    },
+    {
+      "name": "Education Links",
+      "phone": "020 8555 0850 ",
+      "address": "195 Vicarage Lane, Stratford, LONDON, E15 4HJ"
+    },
+    {
+      "name": "Maryland Primary School",
+      "website": "http://www.maryland.newham.sch.uk",
+      "phone": "020 8534 8135 ",
+      "address": "Gurney Rd, London, E15 1SL"
+    },
+    {
+      "name": "Park Primary School",
+      "website": "http://www.park.newham.sch.uk/",
+      "phone": "020 8534 4065 ",
+      "address": "Mathews Park Avenue, London, E15 4AE"
+    },
+    {
+      "name": "West Ham Church Primary School",
+      "website": "http://www.westham.newham.sch.uk/",
+      "phone": "020 8534 3904 ",
+      "address": "Portway, London, E15 3QG"
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "Oasis Group (London) Ltd",
+      "website": "http://www.oasisgrouplondon.org",
+      "phone": "020 8257 7259 ",
+      "address": "first floor Suite 103a, City Gate House, Romford Rd, London, E7 9HZ"
+    },
+    {
+      "name": "St Clements Hospital",
+      "phone": "020 7377 7984 ",
+      "address": "St Clements Adult Mental Health, Bow Road, LONDON, E3 4LL"
+    },
+    {
+      "name": "The Lodge",
+      "phone": "0208510 2340 ",
+      "address": "1 Crozier Terrace, London, E9 6AT"
+    },
+    {
+      "name": "Newham University Hospital",
+      "website": "https://www.nhs.uk",
+      "phone": "020 7476 4000 ",
+      "address": "Glen Rd, London, E13 8SL"
+    },
+    {
+      "name": "Homerton Hospital",
+      "website": "http://www.homerton.nhs.uk",
+      "phone": "020 8510 5555 ",
+      "address": "Homerton Row, London, E9 6SR"
+    },
+    {
+      "name": "East Ham Day Hospital",
+      "phone": "020 8586 5100 ",
+      "address": "Shrewsbury Rd, London, E7 8QR"
+    },
+    {
+      "name": "East Ham Memorial Hospital",
+      "phone": "020 8586 5000 ",
+      "address": "Shrewsbury Rd, Forest Gate, London, E7 8QR"
+    },
+    {
+      "name": "Mile End Hospital",
+      "website": "http://www.nhs.uk",
+      "phone": "020 8223 8211 ",
+      "address": "275 Bancroft Rd, London, E1 4DG"
+    },
+    {
+      "name": "The Summit Medical Practice",
+      "phone": "020 8552 2299 ",
+      "address": "East Ham Memorial Building 300b, Shrewsbury Road, London, E7 8QP"
+    },
+    {
+      "name": "N H S Tower Hamlets C C G",
+      "website": "http://www.towerhamletsccg.nhs.uk",
+      "phone": "020 3688 2500 ",
+      "address": "2nd Floor Alderney Building, Mile End Hospital, London, E1 4DG"
+    },
+    {
+      "name": "The North East London Mental Health Trust",
+      "phone": "020 8535 6478 ",
+      "address": "James Lane, London, E11 1NU"
+    },
+    {
+      "name": "London Hyperbaric Medicine Ltd",
+      "website": "http://www.londonhyperbaric.com",
+      "phone": "020 8539 1222 ",
+      "address": "Whipps Cross Hospital, Whipps Cross Rd, London, E11 1NR"
+    },
+    {
+      "name": "Whipps Cross Hospital",
+      "website": "http://www.bartshealth.nhs.uk",
+      "phone": "020 8539 5522 ",
+      "address": "Whipps Cross Rd, Leytonstone, London, E11 1NR"
+    },
+    {
+      "name": "East London NHS Foundation Trust",
+      "website": "http://www.elft.nhs.uk",
+      "phone": "020 3222 0685 ",
+      "address": "51 Three Colts Lane, London, E2 6BF"
+    },
+    {
+      "name": "BMI the London Independent Hospital",
+      "website": "http://www.bmihealthcare.co.uk/lih",
+      "phone": "020 7780 2400 ",
+      "address": "1 Beaumont Square, London, E1 4NL"
+    },
+    {
+      "name": "The Royal London Hospital",
+      "website": "https://www.nhs.uk",
+      "phone": "020 3416 5000 ",
+      "address": "East Mount Street, Shadwell, LONDON, E1 1BA"
+    }
+  ]
+}

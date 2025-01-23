@@ -1,0 +1,16 @@
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template:
+    "logo space page button" var(--finger) /
+    var(--finger) var(--space) 1fr var(--finger);
+}
+.header__heading {
+  grid-area: logo;
+  margin: 0;
+}
+.header__page {
+  grid-area: page;
+  margin: 0 auto auto 0;
+  font-size: 2em;
+}
