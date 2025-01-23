@@ -116,6 +116,10 @@ name="objects"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/objects"
 time=45
 [[blocks]]
+name="Onboarding new volunteers"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/onboarding-new-volunteers"
+time=30
+[[blocks]]
 name="paint the room"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/paint-the-room"
 time=60
