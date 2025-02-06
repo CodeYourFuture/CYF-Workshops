@@ -11,11 +11,11 @@ Please follow the steps below:
 1. In your pairs, label yourselves person 1 and person 2 - it doesn't matter who is 1 or 2, you'll end up swapping. 😄
 
 2. You will end up swapping roles frequently during this activity.
-To begin with, **Person 1** **fork** [this repository](https://github.com/CodeYourFuture/recap-workshops) and **clone** it to your local machine.
+To begin with, **Person 1** **fork** [this repository](https://github.com/CodeYourFuture/CYF-Workshops) and **clone** it to your local machine.
 
 3. Person 2 should clone **Person 1's fork** to their local machine.
 
-4. Once it is cloned, in Github desktop, Person 1 should go to Branch at the top of the window and click New branch... and then enter a name: **js-2-week-1-questions**. _Don't worry if you don't understand what branches are - they'll explained in depth later on in the course._
+4. Once it is cloned, in Github desktop, Person 1 should go to Branch at the top of the window and click New branch... and then enter a name: **questions-and-reviews-workshop**. _Don't worry if you don't understand what branches are - they'll explained in depth later on in the course._
 
 ## Answering questions ❓
 
@@ -36,7 +36,7 @@ Then swap over ( so Person 1 now becomes Person 2 and vice versa ) and try the n
 ❗🕥 Don't spend longer than 3 minutes on each question
 
 
-You'll find the first question in `js-1-week-2/0.md`
+You'll find the first question in `questions-and-reviews/questions/0.md`
 
 
 ## Whole group discussion
