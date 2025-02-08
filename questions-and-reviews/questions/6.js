@@ -6,6 +6,5 @@ function printTimesTables(n) {
         count++;
     }
 }
-
-console.log(printTimesTables(5));
+printTimesTables(5);
 
