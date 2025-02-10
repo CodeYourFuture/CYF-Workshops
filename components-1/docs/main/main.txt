@@ -1,0 +1,6 @@
+ <main tabindex="0" id="main" class="main">
+      <section class="main__deck">
+      </section>
+      <section class="main__copy">
+      </section>
+</main>
