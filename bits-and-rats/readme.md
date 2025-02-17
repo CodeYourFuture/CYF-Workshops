@@ -54,6 +54,8 @@ Two (2) 🐀 **Rats**, follow the directions of your **🤵🏻 Butler/s**. For 
 
 🍾 **Bottles**, when a 🐀 **Rat** comes to you, hand them one of your slips of paper. Don't peek!
 
+🐀 **Rats**: 🔀 Shuffle your papers if you get more than one, please!
+
 _When the **🤵🏻 Butler** yells 🧪 TEST..._
 
 🐀 **Rats** open all your paper slips. If you have a `0` on _any_ of your slips, please die as dramatically as you can manage.
