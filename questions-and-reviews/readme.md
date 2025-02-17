@@ -27,7 +27,7 @@ In this next section, you'll need to answer some questions ❓
 So for the first question, Person 1 and Person 2 can read the first question.
 
 - Person 2 try and answer the question out loud in your own words.
-- Person 1 should write down Person 1's answer in the file and then commit and push your changes.
+- Person 1 should write down Person 2's answer in the file and then commit and push your changes.
 
 
 Then swap over ( so Person 1 now becomes Person 2 and vice versa ) and try the next question.
