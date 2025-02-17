@@ -1,16 +1,16 @@
 # 🧪 The Poisoned Wine Puzzle Workshop
 
+## Prerequisites
+
+To get the most out of this workshop, you should have done the [Logic prep from the SDC](https://sdc.codeyourfuture.io/logic/), and worked through the 1000 wine bottle problem already. If you haven't done that course, this game will be a bit bewildering, so you might want to watch this video together first:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N3qmN6pYhi0?si=c4pdiu8JwCHJtGfa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 🎯 Learning Objectives
 
 ```objectives
 - [ ] Transform physical locations to binary patterns
 ```
-
-## Prerequisites
-
-To get the most out of this workshop, you should have done the logic week prep. If you haven't, you can still play the game, but you might want to watch this video together first:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N3qmN6pYhi0?si=c4pdiu8JwCHJtGfa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 🎭 The Story
 
@@ -18,7 +18,7 @@ To get the most out of this workshop, you should have done the logic week prep. 
 **The King** has stocked his wine cellar with one thousand bottles of wine for his birthday party tomorrow. However, the King's evil brother, the Duke, has poisoned one of the bottles! The poison is lethal and will kill anyone who takes even one sip within one hour. You, the Butler, must find the poisoned bottle and save the party! But how?
 {{</note>}}
 
-### 🎩 The Players
+## 🎩 The Players
 
 - 🤵🏻 **Butlers**: The players who will be planning the tests.
 - 🍾 **Bottles**: The players who will be tested.
@@ -46,41 +46,53 @@ Now assign the roles randomly and hand the bottle players their pieces of paper.
 
 ### 🌱 Round 1: "The Simple Search" (4 Bottles)
 
-Four people will be bottles. Two people will be rats. Everybody else will be the butlers and come up with a testing strategy. As nobody knows who is the poisoned bottle, the bottles and rats are free to help the butler with their strategy. This is your training round. Take your time to understand the game. Success is finding the poison within 2 tests.
+Four people will be bottles. Two people will be rats. Everybody else will be the butlers and come up with a testing strategy. This is your training round. Take your time to understand the game. Success is finding the poisoned bottle.
 
 Four (4) 🍾 **Bottles**, stand in any order the **🤵🏻 Butler** asks.
 
-Two (2) 🐀 **Rats**, follow the directions of your **🤵🏻 Butler/s**. For each round of testing you must go to the bottle or bottles directed and ask for a piece of paper. 🔀 Shuffle your papers if you get more than one, please!
-
-When the **🤵🏻 Butler** yells 🧪 TEST...
-
-🐀 **Rats** open all your paper slips. If you have a `0` on _any_ of your slips, please die as dramatically as you can manage.
+Two (2) 🐀 **Rats**, follow the directions of your **🤵🏻 Butler/s**. For each round of testing you must go to the bottle or bottles directed and ask for a piece of paper.
 
 🍾 **Bottles**, when a 🐀 **Rat** comes to you, hand them one of your slips of paper. Don't peek!
 
+_When the **🤵🏻 Butler** yells 🧪 TEST..._
+
+🐀 **Rats** open all your paper slips. If you have a `0` on _any_ of your slips, please die as dramatically as you can manage.
+
 **🤵🏻 Butler**, when you are ready to guess the poisoned 🍾 **Bottle**, go to the 🍾 **Bottle** and ask for their slip.
+
+#### Victory condition:
 
 If the paper has a `0` you have won the game! Move to Round 2.
 If the paper has a `1` you have lost, alas! Switch roles and play another round with just 4 bottles.
 
 ### 🌿 Round 2: "Resource Management" (8 Bottles)
 
-- Eight (8) **🍾 Bottles**, stand in any order the **🤵🏻 Butlers** ask.
+- Eight (8) **🍾 Bottles**, stand in any order the **🤵🏻 Butlers** ask and get ready to hand out your slips.
 - Three (3) **🐀 Rats**, get ready to do your most elaborate death, please!
 
+As before, for each round of testing, rats must go to the bottle or bottles directed and ask for a piece of paper. 🔀 Shuffle your papers if you get more than one, please!
+
+_When the **🤵🏻 Butler** yells 🧪 TEST..._
+
+🐀 **Rats** open all your paper slips. If you have a `0` on _any_ of your slips, please die as dramatically as you can manage.
+
 **🤵🏻 Butler**, when you are ready to guess the poisoned 🍾 **Bottle**, go to the 🍾 **Bottle** and ask for their slip.
+
+#### Victory condition:
 
 If the paper has a `0` you have won the game! Move to Round 3.
 If the paper has a `1` you have lost, alas! Switch roles and play another round.
 
 ### 🌳 Round 3: "The Time Crunch" (16 Bottles)
 
+You may have to switch to the [small group version](#small-group-version) at this point.
+
 The final challenge! Lots of bottles, few rats, and only one chance to test. You have 16 bottles, 4 rats, and 1 test. Good luck!
 
 <details>
 <summary>
 
-## Small Group Version
+## 🐁 Small Group Version
 
 </summary>
 
@@ -97,8 +109,9 @@ Rats will come up and take a piece of paper from the grid. Just as in the origin
 
 </summary>
 
+1. As nobody knows who is the poisoned bottle, the bottles and rats are free to help the butler with their strategy if you choose.
 1. Physical movement helps learning! Encourage people to be ham it up and act out their roles.
-2. Use clear commands:
+1. Use clear commands:
 
    ```
    "Bottles being tested by Rat 1..."
@@ -106,13 +119,13 @@ Rats will come up and take a piece of paper from the grid. Just as in the origin
    "Lock it in!"
    ```
 
-3. Between rounds, ask:
+1. Between rounds, ask:
    - What worked?
    - What was tricky?
    - What patterns did you spot?
-4. Success Looks Like...
+1. Success looks like...
 
-- Teams getting faster each round
+- Players getting faster each round
 - "Aha!" moments when binary patterns click
 - Excited discussion about testing strategies
 - Clear explanations of why solutions work
