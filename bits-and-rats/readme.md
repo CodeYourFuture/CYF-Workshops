@@ -58,7 +58,7 @@ Two (2) 🐀 **Rats**, follow the directions of your **🤵🏻 Butler/s**. For 
 
 _When the **🤵🏻 Butler** yells 🧪 TEST..._
 
-🐀 **Rats** open all your paper slips. If you have a `0` on _any_ of your slips, please die as dramatically as you can manage.
+🐀 **Rats** open all your paper slips. If you have a `0` on _any_ of your slips, please die as dramatically as you can manage. If the butlers run another round of testing, dead rats can't be used.
 
 **🤵🏻 Butler**, when you are ready to guess the poisoned 🍾 **Bottle**, go to the 🍾 **Bottle** and ask for their slip.
 
