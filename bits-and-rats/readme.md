@@ -110,7 +110,7 @@ Rats will come up and take a piece of paper from the grid. Just as in the origin
 </summary>
 
 1. As nobody knows who is the poisoned bottle, the bottles and rats are free to help the butler with their strategy if you choose.
-1. Physical movement helps learning! Encourage people to be ham it up and act out their roles.
+1. Physical movement helps learning! Encourage people to ham it up and act out their roles.
 1. Use clear commands:
 
    ```
