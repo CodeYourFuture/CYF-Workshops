@@ -17,7 +17,8 @@ class DnsResolver {
             if (ipAddresses.length == 0) {
                 System.out.printf("The host %s did not resolve to any IP addresses%n", host);
             } else {
-                System.out.printf("The host %s resolved to the following IP addresses:%n", host);
+                String pluralSuffix = ipAddresses.length == 1 ? "" : "es";
+                System.out.printf("The host %s resolved to the following IP address%s:%n", host, pluralSuffix);
             }
             for (InetAddress ipAddress : ipAddresses) {
                 System.out.println(ipAddress.getHostAddress());
