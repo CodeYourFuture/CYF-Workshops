@@ -22,7 +22,7 @@ Split into groups, one volunteer per group.
 
 ### Collect reasons (2 minutes)
 
-Think of as many reasons people use the terminal as you can.
+Set a timer for 2 minutes. Write down as many reasons people use the terminal as you can.
 
 ### Share reasons (3 minutes)
 
