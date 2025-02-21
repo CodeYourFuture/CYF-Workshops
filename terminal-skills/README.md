@@ -32,7 +32,7 @@ Popcorn around the group sharing reasons for using the terminal.
 
 One reason developers use a terminal is to query files, or find out information. There are lots of existing tools that search, sort and change data.
 
-Developers often write tools knowing that people may want to use them in scripts or pipelines.
+Developers often write tools that other people can use in scripts or pipelines.
 
 For instance, `git` exposes a lot of information that you can conveniently consume in a script.
 
