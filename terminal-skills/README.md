@@ -36,37 +36,9 @@ Developers often write tools knowing that people may want to use them in scripts
 
 For instance, `git` exposes a lot of information that you can conveniently consume in a script.
 
-We can find the email addresses of people who have contributed to a Git repo:
-
-<details>
-<summary>
+We can find the email addresses of people who have contributed to a Git repo by running:
 
 `git log | grep '^Author:' | awk -F'[<>]' '{print $2}' | grep -v 'users\.noreply\.github\.com' | sort | uniq`
-
-</summary>
-
-```console
-curriculum % git log | grep '^Author:' | awk -F'[<>]' '{print $2}' | grep -v 'users\.noreply\.github\.com' | sort | uniq
-21730055@ms.uit.edu.vn
-ajbeaumont.tb@gmail.com
-ali@alasdairsmith.co.uk
-azaralampanah2@gmail.com
-berkelih@gmail.com
-cjyuan00@gmail.com
-daniel@codeyourfuture.io
-dawagner@gmail.com
-hizmetparki@gmail.com
-isarfridriksson@gmail.com
-karam780@live.co.uk
-karen@codeyourfuture.io
-mail@sztupy.hu
-mitch@codeyourfuture.io
-mitchell.lloyd154@gmail.com
-mitchelllloyd154@gmail.com
-moneyinthesky@gmail.com
-sally@codeyourfuture.io
-```
-</details>
 
 Or sort contributors to a Git repo by number of contributions:
 
