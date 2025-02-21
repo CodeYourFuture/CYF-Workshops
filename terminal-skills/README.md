@@ -13,7 +13,8 @@ Split into groups, one volunteer per group.
 - [ ] Write and run a shell script.
 - [ ] Add a shell script to $PATH and run it by invoking just its name.
 - [ ] Find, modify, and re-run previously run shell commands from a terminal prompt.
-- [ ] Navigate within a single command at a prompt without having to press the left/right arrows for every character.
+- [ ] Navigate to the start or end of a single command at a prompt without using the left/right arrows.
+- [ ] Navigate left and right in a single command by single words without using the left/right arrows..
 - [ ] Fill in file names using tab completion in a terminal prompt.
 - [ ] Expand file names using shell glob expansion with the `*` character.
 ```
@@ -98,6 +99,10 @@ These would be hard questions to answer without some kind of program or script. 
 
 ## Being effective with the terminal
 
+This is a list of exercises for you to try on your own. You will probably get stuck or confused. Ask the people around you (either volunteers or trainees) when you're stuck.
+
+Volunteers: Make sure people aren't stuck, and help them when they are.
+
 ### Shell scripts
 
 Sometimes we want to re-use some series of commands, or share them with other people. To find our top Git contributors it'd be nicer to run `get-top-git-contributors`. That would be clearer and simpler than remembering and running all those commands each time.
@@ -108,12 +113,18 @@ The format of a shell script is to put one command per line. Often the very firs
 
 There are three ways you can run a shell script:
 1. As an argument to `bash`. If you run `bash /path/to/your/get-top-git-contributors`, your script will be run.
-2. By making the script executable. If you run `chmod a+x /path/to/your/get-top-git-contributors`, you can then run your script by putting its path into your terminal (e.g. by running `/path/to/your/get-top-git-contributors` or `./get-top-git-contributors` if you're in its directory).
+2. By making the script executable. You do this by running  `chmod a+x /path/to/your/get-top-git-contributors` once. After this, you can run your script by putting its path into your terminal. This means running `/path/to/your/get-top-git-contributors`, or `./get-top-git-contributors` if you're in the same directory as the script.
 3. By making the script executable and putting it on your `$PATH`. Once you have done this, you can run it by name: `get-top-git-contributors`.
 
 #### Make some shell scripts (20 minutes)
 
 Make a shell script (it can do whatever you want - print something, look up git information, or something else completely!). Run it via all three of the ways described above. Run it from a few different working directories.
+
+If you aren't sure what shell script to write, try to write a script which does all of the following:
+* Outputs the current date and time (using the `date` command).
+* Outputs the current working directory (using the `pwd` command).
+* Outputs the current user's username (using the `whoami` command).
+* Outputs a friendly message to the user, e.g. saying "I hope you have a good day" (using the `echo` command).
 
 ### Running previous commands
 
@@ -123,7 +134,20 @@ Pressing Control+r and typing some text (like `git`) will search back for the la
 
 #### Practice running previous commands (5 minutes)
 
-Practice using the up arrow, and Control+r to search for, edit, and run previously run commands.
+Run the following commands in a row:
+
+```console
+% git status
+% echo "Hello"
+% git rev-parse HEAD
+% echo "I ran a command"
+% echo "I ran another command"
+% date
+```
+
+Find the last `git` command you ran with Control+r. Change the argument `HEAD` to the argument `main` and run it.
+
+Practice using the up arrow, and Control+r to search for, edit, and run other previously run commands.
 
 ### Navigating within a single prompt
 
@@ -142,3 +166,7 @@ Shells also support moving the cursor one word at a time, or jumping all the way
 Shells support tab completion (pressing the tab key to fill in the names of files), and expansion (using special characters like `*`) to avoid you needing to type in the full names of files.
 
 Use both of these techniques to run commands involving files without needing to type out all of their full names.
+
+## Wrap up
+
+Run through the learning objectives of this workshop. Make sure you have achieved them. If you're not sure about any of them, work on them in study group or in the week.
