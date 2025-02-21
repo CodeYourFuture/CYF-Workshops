@@ -137,7 +137,7 @@ The format of a shell script is to put one command per line. Often the very firs
 There are three ways you can run a shell script:
 1. As an argument to `bash`. If you run `bash /path/to/your/get-top-git-contributors`, your script will be run.
 2. By making the script executable. If you run `chmod a+x /path/to/your/get-top-git-contributors`, you can then run your script by putting its path into your terminal (e.g. by running `/path/to/your/get-top-git-contributors` or `./get-top-git-contributors` if you're in its directory).
-3. By making the script executable and putting it on your `$PATH`, and then just running it by name: `get-top-git-contributors`.
+3. By making the script executable and putting it on your `$PATH`. Once you have done this, you can run it by name: `get-top-git-contributors`.
 
 #### Make some shell scripts (20 minutes)
 
