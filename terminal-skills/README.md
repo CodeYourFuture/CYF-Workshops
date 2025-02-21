@@ -155,7 +155,7 @@ Practice using the up arrow, and Control+r to search for, edit, and run previous
 
 ### Navigating within a single prompt
 
-Often we have typed a command we're going to run, but we need to slightly change the command (maybe we made a typo, or need to change an argument).
+Often we have typed a command we're going to run, but we need to slightly change the command. Maybe we made a typo, or need to change an argument. 
 
 Many terminals don't let us just click around to change the position of the cursor. We can use the left and right arrows to move around one character at a time.
 
