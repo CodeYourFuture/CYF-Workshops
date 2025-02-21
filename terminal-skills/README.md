@@ -2,7 +2,7 @@
 
 Developers frequently use the terminal to interact with their computer. It is a useful job skill to get comfortable doing this.
 
-This workshop exists for you to experiment with different ways of interacting with a terminal, while there are volunteers around who can help you.
+In this workshop you will experiment with a terminal while there are volunteers around who can help you.
 
 Split into groups, one volunteer per group.
 
