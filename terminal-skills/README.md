@@ -30,7 +30,7 @@ Popcorn around the group sharing reasons for using the terminal.
 
 ### Consider an example (2 minutes)
 
-One reason developers use a terminal is to find out information without needing to write a more complicated program themselves.
+One reason developers use a terminal is to query files, or find out information. There are lots of built in tools that search, sort and change data. 
 
 Developers often write tools knowing that people may want to use them in scripts or pipelines.
 
