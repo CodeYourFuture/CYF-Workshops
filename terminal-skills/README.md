@@ -26,7 +26,7 @@ Think of as many reasons people use the terminal as you can.
 
 ### Share reasons (3 minutes)
 
-Go around the group sharing all of your reasons for using the terminal.
+Popcorn around the group sharing reasons for using the terminal.
 
 ### Consider an example (2 minutes)
 
