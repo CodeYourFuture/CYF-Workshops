@@ -128,7 +128,7 @@ These would be hard questions to answer without some kind of program or script. 
 
 ### Shell scripts
 
-Sometimes we want to re-use some series of commands, or share them with other people. For instance, if we want to find our top Git contributors, we may not want to have to write that whole command, it'd be nicer to be able to just run `get-top-git-contributors`.
+Sometimes we want to re-use some series of commands, or share them with other people. To find our top Git contributors it'd be nicer to run `get-top-git-contributors`. That would be clearer and simpler than running all those commands each time.
 
 A way of doing this is to write them in a script. A terminal is also called a shell, so these are called shell scripts.
 
