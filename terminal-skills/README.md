@@ -4,7 +4,7 @@ Developers frequently use the terminal to interact with their computer. It is a 
 
 In this workshop you will experiment with a terminal while there are volunteers around who can help you.
 
-Split into groups, one volunteer per group.
+Split into groups, one volunteer per group. Volunteers, please follow along on your own machine, and be ready to offer help, ask helpful questions, and unblock. (But please also keep your hands off the keyboards of your group. )
 
 ## Learning objectives
 
