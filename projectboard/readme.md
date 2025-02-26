@@ -19,9 +19,9 @@ Each trainee should answer the following question:
 - What problems are we trying to solve with project boards and tickets?
 - Have you heard of reading from the right to the left? And can you explain it to the group?
 - Can you explain the concepts for work in progress?
-- What are work in progress limits and how are they useful? How should we set them?
+- What are work in progress (WIP) limits and how are they useful? How should we set them?
 
-_PS: If no one knows the answers, google it and discuss it_
+_PS: If no one knows the answers, Google it and discuss it_
 
 ## Exercise (25 min)
 
@@ -33,13 +33,13 @@ Make a copy of this [Miro board. The board tracks is for a project which tracks 
 
 Look at the board and discuss:
 - What is each column for? Why is each column useful?
-- What WIP limits may we want to apply to each column?
+- What WIP (work in progress) limits may we want to apply to each column?
 - Which ticket would you pick up first and why?
-- What information could help us decide, when we're not sure?
+- What information could help us decide when we're not sure?
 - How should we prioritise tickets in each column?
 - How can we be effective at moving tickets to done?
 - Is there anything we could remove from the board?
-- How can you ask for help or give help to your peer?
+- How can you ask for help from your team or give help to your peer?
 - How can I tell my team just with this board where I am at with my ticket?
 - We discussed a teamwork board. Can any of the things we learned today be applied to your individual coursework board?
 
