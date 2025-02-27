@@ -7,3 +7,4 @@ while(count < 10) {
     count++;
     console.log('*'.repeat(count))
 }
+// It is going to print '*' to 10 lines and adding one '*' in the next line
