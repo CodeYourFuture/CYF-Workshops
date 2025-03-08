@@ -27,5 +27,11 @@ export function App() {
     increment(counter);
   });
 
+  //Attach event listener to decrement button
+const decrementButton = body.querySelector("#decrement");
+decrementButton.addEventListener("click", () => {
+  decrement(counter);
+});
+
   return body;
 }
