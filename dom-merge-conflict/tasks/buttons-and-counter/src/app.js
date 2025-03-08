@@ -25,13 +25,10 @@ export function App() {
   const counter = body.querySelector("#counter");
   button.addEventListener("click", () => {
     increment(counter);
-  });
+  }); 
 
-  //Attach event listener to decrement button
-const decrementButton = body.querySelector("#decrement");
-decrementButton.addEventListener("click", () => {
-  decrement(counter);
-});
+
+
   //world
-  return body;
+ 
 }
