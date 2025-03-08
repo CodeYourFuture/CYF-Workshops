@@ -5,8 +5,8 @@
 
 const person = {
     "name": "Jemima",
-    "location",
-    "id_number" = 9,
+    "location": "Glasgow",
+    "id_number": 9,
 };
 
 console.assert(person.name === "Jemima");

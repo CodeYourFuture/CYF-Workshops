@@ -9,7 +9,7 @@ function collectNumbers(list) {
 
     const numbersOnly = [];
     for (const item of list) {
-        if (item === 'string') {
+        if (typeof item === 'number') {
             numbersOnly.push(item);
         }
     }
