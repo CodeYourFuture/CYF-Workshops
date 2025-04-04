@@ -1,8 +1,8 @@
 # Prioritisation & Estimation
 
-## Introduction to Prioritization (20 mins)
+## Introduction to Prioritisation (20 mins)
 
-Your objective in this section is to understand why prioritization matters in software development.
+Your objective in this section is to understand why prioritisation matters in software development.
 
 1 minute: Individually, think of as many reasons as you can that prioritisation matters in software development.
 
@@ -16,7 +16,7 @@ Make sure we've covered:
 
 * Teams can't build everything at once due to time, budget, and resource constraints.
 * There are different ways we can prioritise the features, refer to pre-reading required for the class.
-* Prioritization frameworks like Value vs. Effort help focus on high-impact features.
+* Prioritisation frameworks like Value vs. Effort help focus on high-impact features.
 
 </details>
 
@@ -26,7 +26,7 @@ Activity (15 mins): Form groups of about 3 and discuss following:
 * 10 mins: Write responses for following questions and discuss within your group:
   1. How would you decide what to build first?
   2. What would your prioritisation methodology be based on?
-  3. Which features do you think a software development team at WhatsApp prioritized in their first 6 months?
+  3. Which features do you think a software development team at WhatsApp prioritised in their first 6 months?
 
 ## Value vs. Effort Matrix Explained (10 mins)
 
@@ -34,11 +34,11 @@ Activity (15 mins): Form groups of about 3 and discuss following:
 
 <summary>Hint for volunteers</summary>
 
-Make sure we emphasize that the Value vs. Effort framework is one of the most commonly used frameworks for beginner level product development teams and cover below aspects of the Framework.
+Make sure we emphasise that the Value vs. Effort framework is one of the most commonly used frameworks for beginner level product development teams and cover below aspects of the Framework.
 
 </details>
 
-* **Value**: Benefits to users or business (e.g., user satisfaction, revenue).
+* **Value**: Benefits to users or business (e.g. user satisfaction, revenue).
 * **Effort**: Time, complexity, and resources required.
 * **Quadrants**:
 
@@ -52,7 +52,7 @@ Example:
 * *Quick Win*: Adding emoji reactions (high value, easy to implement).
 * *Time Sink*: Custom animated avatars (low value, complex).
 
-## Group Exercise: Feature Prioritization (40 mins)
+## Group Exercise: Feature Prioritisation (40 mins)
 
 ### Step 1: Review Features (5 mins)
 
@@ -61,7 +61,7 @@ In your groups of about 3, spend the next 5 mins shortlisting 8–10 features fr
 1. End-to-end encryption
 2. Message editing
 3. Group video calls
-4. User profile customization
+4. User profile customisation
 5. Message search
 6. Chat history backup
 7. Read receipts
@@ -84,7 +84,7 @@ Use below guiding questions to rate the features' value and effort:
 * Value: How many users will benefit? Does it solve a core problem?
 * Effort: How many developer hours would each feature take? Are there technical risks?
 
-### Step 3: Debate & Finalize Priorities (15 mins)
+### Step 3: Debate & Finalise Priorities (15 mins)
 
 <details>
 
@@ -96,9 +96,10 @@ Teams must agree on quadrant placements.
 
 In your groups of about 3, discuss following:
 
-* 5 min: Which 2–3 features would you build first? Why?
-* 5 min: What features are overlapping? Why?
-* 5 min: Which features depend on other features development?
+* 4 min: Which 2–3 features would you build first? Why?
+* 4 min: What features are overlapping? Why? How may that impact our choices?
+* 4 min: Which features depend on other features development?
+* 3 min: Which features will we likely _never_ build?
 
 ## Group Presentations & Discussion (15 mins)
 
@@ -118,9 +119,9 @@ Popcorn around the class and share your key takeaways from this workshop.
 
 <summary>Hint for volunteers</summary>
 
-Ensure the below points are emphasized:
+Ensure the below points are emphasised:
 
-* Prioritization forces trade-offs.
+* Prioritisation forces trade-offs.
 * You can't build everything.
 * Quick wins build momentum; time sinks must be avoided..
 
