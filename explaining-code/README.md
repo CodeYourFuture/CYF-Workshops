@@ -24,7 +24,7 @@ Volunteers: Facilitate this discussion:
 
 ## Explaining specific code (15 minutes)
 
-5 minutes: On your own, think about how you would like a new codebase to be explained to you? Some things to consider:
+5 minutes: On your own, think: how would you like a new codebase to be explained to you? Some things to consider:
 * Where would you want the explainer to start?
 * Would you want to go depth first (keep following all of the function calls before you move into the next line) or breadth first (read each line of a function, before looking at the functions it calls)?
 * What kind of example data may be useful to consider?
