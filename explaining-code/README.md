@@ -28,7 +28,7 @@ Volunteers: Facilitate this discussion:
 * Where would you want the explainer to start?
 * Would you want to go depth first (keep following all of the function calls before you move into the next line) or breadth first (read each line of a function, before looking at the functions it calls)?
 * What kind of example data may be useful to consider?
-* Is it more interesting to be focusing on the normal working cases or unusual cases (e.g. errors)?
+* Is it more interesting to focus on normal cases or unusual cases (e.g. errors)?
 
 Volunteers: Facilitate this discussion:
 
