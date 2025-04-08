@@ -16,7 +16,7 @@ Start by introducing the big picture of the code:
 
 Do this before digging into specifics (e.g. what a function does, what some lines do).
 
-5 minutes: On your own, think about what order you would want to explain the big picture ideas of a project. What is it useful for someone to know? What order is it useful to introduce those ideas? Once you have an idea, try thinking through how you would explain the project you've chosen.
+5 minutes: On your own, think about how you will explain the big picture of a project. What is useful for someone to know? In what _order_ is it useful to introduce those ideas? Once you have an idea, try thinking through how you would explain the project you've chosen.
 
 Volunteers: Facilitate this discussion:
 
