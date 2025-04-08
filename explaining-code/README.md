@@ -9,7 +9,12 @@ Pick a project you've been working on recently to explain some of. The project d
 
 ## The big picture (15 minutes)
 
-Most of the time it's useful to start by introducing the big picture of the code (what is the project, what problem does it solve, how does the program generally work) before digging into specifics (e.g. what a function does, what some lines do).
+Start by introducing the big picture of the code:
+- What is the project? 
+- What problem does it solve? 
+- How does the program generally work? 
+
+Do this before digging into specifics (e.g. what a function does, what some lines do).
 
 5 minutes: On your own, think about what order you would want to explain the big picture ideas of a project. What is it useful for someone to know? What order is it useful to introduce those ideas? Once you have an idea, try thinking through how you would explain the project you've chosen.
 
