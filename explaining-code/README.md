@@ -13,7 +13,7 @@ We often need to explain our code to others. Some examples of when we need to do
 2. When trying to get help with our code from someone else.
 3. In a job interview.
 
-Pick a project you've been working on recently to explain some of. The project doesn't need to be complete, but it should be at least 100 lines of code and should take more than a couple of sentences to explain.
+Pick a project you've been working on recently to explain. The project doesn't need to be complete, but it should be at least 100 lines of code and should take more than a couple of sentences to explain.
 
 ## The big picture (15 minutes)
 
