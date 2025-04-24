@@ -10,7 +10,7 @@
 
 You will be applying for jobs, many of which require doing a technical interview.
 
-You should already have [read about technical interviews](https://sdc.codeyourfuture.io/guides/employability/interview/technical-interview-prep/). In this workshop, you'll be practising interviewing and being interviewed about technical content.
+You should already have [read about technical interviews](https://sdc.codeyourfuture.io/guides/employability/interview/technical-interview-prep/). You should also have done an interview where you explained code in the Piscine. In this workshop, you'll be practising interviewing and being interviewed about technical content.
 
 Below is a list of interview questions. You should have decided with your partner which question you are asking before coming to class, and should have prepared for it. Do not look at, or prepare for, any of the other questions.
 
@@ -39,8 +39,8 @@ To do this you will need to:
 * Already know a good solution to the problem (ideally multiple solutions!)
 * Prepare how you're going to explain the problem
 * Listen to the candidate as they're being interviewed
-  * Work out when they're stuck (but give them enough time to come up with an answer before intervening)
-  * If they're not telling you what they're thinking, encourage them to talk aloud
+  * Work out when they're stuck (but give them enough time to come up with an answer - count slowly in your head to 10 before intervening)
+  * If they're not telling you what they're thinking, encourage them to talk aloud - say something like "Talk through what you're thinking"
   * Give nudges (ideally by asking questions), not answers, to help them get unstuck
 * Understand their code, and be able to work out whether it works
 * Identify edge cases their code does not work for
@@ -48,7 +48,7 @@ To do this you will need to:
 ## Giving feedback
 
 After you interview someone, you will give them feedback. Think about what feedback you would appreciate. Some examples of topics:
-* How clearly did they communicate their ideas?
+* How clearly did they communicate their ideas? (Think about feedback you've heard in demos before)
 * Did you always know what they were thinking/doing?
 * How easy was their code to read and understand?
 * How open were they to help?
@@ -61,9 +61,9 @@ In pairs, take turns interviewing your partner. In each interview, one of you wi
 
 You should:
 * Candidate: Open VS Code on your laptop.
-* Interviewer: Spend 2 minutes introducing the problem. It's ok to leave some details out (hopefully the candidate will ask about them), but the question should make sense.
-* Candidate: Spend 20 minutes solving the problem. This should be an interactive dialogue, where the interviewer and candidate are talking throughout.
-* Spend 8 minutes giving feedback and discussing the interview and experience.
+* Interviewer: Spend {{<timer>}}2{{</timer>}} introducing the problem. It's ok to leave some details out (hopefully the candidate will ask about them), but the question should make sense.
+* Candidate: Spend {{<timer>}}20{{</timer>}} solving the problem. This should be an interactive dialogue, where the interviewer and candidate are talking throughout.
+* Spend {{<timer>}}8{{</timer>}} giving feedback and discussing the interview and experience.
 
 Then swap.
 
