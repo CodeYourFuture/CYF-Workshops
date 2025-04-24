@@ -69,4 +69,4 @@ Then swap.
 
 ## Discussion (30 minutes)
 
-As a whole class, discuss your experience. What went well? What did/didn't you understand? What things felt uncomfortable? What could you have done differently? Try not to focus on the technical specifics of the interview question you did - try to focus on general things that will help you in your next interview.
+As a whole class, discuss your experience. What went well? What did/didn't you understand? What things felt uncomfortable? What could you have done differently? Do not focus on the technical specifics of the interview question you did. Focus on general things that will help you in your next interview.
