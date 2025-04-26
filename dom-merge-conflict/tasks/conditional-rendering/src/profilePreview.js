@@ -1,4 +1,6 @@
-export function ProfilePreview(profile) {
+export function ProfilePreview(profile, options = {}) {
+  const { showAdditionalInfo = false } = options;
+
   const preview = document.createElement("aside");
 
   const picture = document.createElement("img");
@@ -17,6 +19,8 @@ export function ProfilePreview(profile) {
   preview.appendChild(picture);
   preview.appendChild(name);
   preview.appendChild(bio);
+
+  // TODO: If showAdditionalInfo is true, add a new <p> with "Click to view full profile"
 
   return preview;
 }

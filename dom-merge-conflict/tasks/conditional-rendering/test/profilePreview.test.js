@@ -92,4 +92,56 @@ describe("profile preview", () => {
       expect(container.childElementCount).toBe(2);
     });
   });
+
+  describe("additional info option", () => {
+    test("displays additional info when showAdditionalInfo is true", () => {
+      const profile = {
+        pictureSrc: "/picture",
+        name: "Alex Smith",
+        bio: "Sample bio.",
+      };
+      Object.freeze(profile);
+
+      const container = ProfilePreview(profile, { showAdditionalInfo: true });
+
+      expect(container.childElementCount).toBe(4); // image, name, bio, additional info
+      expect(container.children[3]).toHaveTextContent(
+        "Click to view full profile"
+      );
+    });
+
+    test("does not display additional info when showAdditionalInfo is false", () => {
+      const profile = {
+        pictureSrc: "/picture",
+        name: "Alex Smith",
+        bio: "Sample bio.",
+      };
+      Object.freeze(profile);
+
+      const container = ProfilePreview(profile, { showAdditionalInfo: false });
+
+      expect(container.childElementCount).toBe(3); // image, name, bio
+      const textContents = Array.from(container.children).map(
+        (el) => el.textContent
+      );
+      expect(textContents).not.toContain("Click to view full profile");
+    });
+
+    test("does not display additional info when showAdditionalInfo is missing", () => {
+      const profile = {
+        pictureSrc: "/picture",
+        name: "Alex Smith",
+        bio: "Sample bio.",
+      };
+      Object.freeze(profile);
+
+      const container = ProfilePreview(profile);
+
+      expect(container.childElementCount).toBe(3); // image, name, bio
+      const textContents = Array.from(container.children).map(
+        (el) => el.textContent
+      );
+      expect(textContents).not.toContain("Click to view full profile");
+    });
+  });
 });

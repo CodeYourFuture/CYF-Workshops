@@ -30,3 +30,24 @@ git switch -c preview-short-form
 ```
 
 Unskip the tests describing the short form option. Update the component so that it takes an optional options argument which is an object that contains the shortForm property. Check the tests to see how the `options` object is passed to the `ProfilePreview` component. When this property is false, continue to render all the profile information. When this property is true, render all the profile information other than the bio. By default shortForm should be false.
+
+
+
+
+## Task for Person 3
+Create and switch to a new branch named preview-additional-info:
+
+bash
+Copiar
+Editar
+git switch -c preview-additional-info
+Update the component so that it takes an optional options argument which is an object that contains the showAdditionalInfo property.
+When this property is true, the component should render an extra paragraph below the bio that says "Click to view full profile".
+When this property is false or missing, the extra paragraph should not be added.
+By default, showAdditionalInfo should be false.
+
+You will also need to add new tests that check:
+
+The paragraph "Click to view full profile" appears when showAdditionalInfo is true.
+
+The paragraph is absent when showAdditionalInfo is false or missing.
