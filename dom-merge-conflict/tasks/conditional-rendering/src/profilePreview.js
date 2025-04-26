@@ -1,7 +1,14 @@
 export function ProfilePreview(profile, options = {}) {
-  const { showAdditionalInfo = false, shortForm = false } = options;
+  const { showAdditionalInfo = false, available = true } = options;
 
   const preview = document.createElement("aside");
+
+  if (!available) {
+    const message = document.createElement("p");
+    message.textContent = "Profile preview unavailable";
+    preview.appendChild(message);
+    return preview;
+  }
 
   const picture = document.createElement("img");
   picture.src = profile.pictureSrc;
