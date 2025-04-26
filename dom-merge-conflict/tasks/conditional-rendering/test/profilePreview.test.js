@@ -71,7 +71,7 @@ describe("profile preview", () => {
     });
   });
 
-  describe.skip("short form option", () => {
+  describe("short form option", () => {
     test("contains profile info except the bio with shortform on", () => {
       const profile = {
         pictureSrc: "/picture",
