@@ -1,5 +1,5 @@
 export function ProfilePreview(profile, options = {}) {
-  const { showAdditionalInfo = false } = options;
+  const { showAdditionalInfo = false, shortForm = false } = options;
 
   const preview = document.createElement("aside");
 
@@ -12,13 +12,15 @@ export function ProfilePreview(profile, options = {}) {
   name.textContent = profile.name;
   name.dataset.testid = "profileName";
 
-  const bio = document.createElement("p");
-  bio.textContent = profile.bio;
-  bio.dataset.testid = "profileBio";
-
   preview.appendChild(picture);
   preview.appendChild(name);
-  preview.appendChild(bio);
+
+  if (!shortForm) {
+    const bio = document.createElement("p");
+    bio.textContent = profile.bio;
+    bio.dataset.testid = "profileBio";
+    preview.appendChild(bio);
+  }
 
   // TODO: If showAdditionalInfo is true, add a new <p> with "Click to view full profile"
 
