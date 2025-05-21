@@ -35,65 +35,63 @@ For each algorithm, in order perform the following steps:
 
 Bubble sort keeps going through the whole list, checking whether each pair of elements is correctly sorted. If not, it swaps them. It keeps going through the list over and over again until it's sorted.
 
-Psuedocode (from Wikipedia):
+Because the highest/lowest element "bubbles" to the top in each loop, the highest/lowest encountered in each loop will be in it's correct place at the end of the loop. Each subsequent loop only needs to loop over the remaining unsorted elements (i.e. one less than the previous loop).
+
+Pseudocode (from Wikipedia):
 
 ```
-procedure bubbleSort(A : list of sortable items)
+function bubble_sort(A : list of sortable items)
     n := length(A)
     repeat
         swapped := false
         for i := 1 to n-1 inclusive do
-            { if this pair is out of order }
             if A[i-1] > A[i] then
-                { swap them and remember something changed }
-                swap(A[i-1], A[i])
+                swap  A[i-1] and A[i]
                 swapped := true
             end if
         end for
-    until not swapped
-end procedure
+        n = n - 1
+    until not swapped or n == 1
+end function
 ```
 
 ### Insertion sort (10 minutes)
 
 Insertion sort treats a subset of the array as sorted (initially just one element), and each time removes a new element, finds its correct location in the sorted subset, and _inserts_ it there.
 
-Psuedocode (from Wikipedia):
+Pseudocode (from Wikipedia):
 
 ```
-i ← 1
-while i < length(A)
-    j ← i
-    while j > 0 and A[j-1] > A[j]
-        swap A[j] and A[j-1]
-        j ← j - 1
+function insertion_sort(A : list of sortable items)
+    i := 1
+    while i < length(A)
+        j := i
+        while j > 0 and A[j-1] > A[j]
+            swap A[j] and A[j-1]
+            j := j - 1
+        end while
+        i := i + 1
     end while
-    i ← i + 1
-end while
+end function
 ```
 
 ### Merge sort (15 minutes)
 
 Merge sort splits all of the input into one-element sub-lists. It then takes pairs of those sub-lists and merges them in-order so that each merged list is sorted. It keeps merging those (increasingly large) sub-lists until there's one list, which will be sorted.
 
-Psuedocode (from Wikipedia):
+Pseudocode (from Wikipedia):
 
 ```
-function merge_sort(list m) is
+function merge_sort(A : list of sortable items)
     // Base case. A list of zero or one elements is sorted, by definition.
-    if length of m ≤ 1 then
-        return m
+    if length of A ≤ 1 then
+        return A
 
     // Recursive case. First, divide the list into equal-sized sublists
     // consisting of the first half and second half of the list.
     // This assumes lists start at index 0.
-    var left := empty list
-    var right := empty list
-    for each x with index i in m do
-        if i < (length of m)/2 then
-            add x to left
-        else
-            add x to right
+    left := A[..(len m / 2)] // From the start excluding the m/2th element.
+    right := A[(len m / 2)..] // From the m/2th element to the end, including the m/2th element.
 
     // Recursively sort both sublists.
     left := merge_sort(left)
@@ -101,6 +99,7 @@ function merge_sort(list m) is
 
     // Then merge the now-sorted sublists.
     return merge(left, right)
+end function
 ```
 
 ## Comparing the algorithms (15 minutes)
@@ -124,6 +123,6 @@ Try to devise an algorithm for sorting these 13 cards which is `O(n)`. If you do
 
 We're aiming for pigeonhole sort or counting sort here. Because we know the values are unique and contiguous, we know what the correct position is for each card (the ace should be in index 0, the 2 in index 1, the 3 in index 2, etc), so don't need to perform any comparisons at all - just insert each value into its correct place.
 
-This generalises to data where there's a known (e.g. uniform) distribution of values - we may not know _exactly_ the destination position for values, but if we can guess well enough, we can do a broad pigeonhole/counting sort and then a few smaller comparison sorts of buckets.
+This generalises to data where there's a known (e.g. uniform) distribution of values, such as a whole deck of cards. In less precisely controlled distributions, we may not know _exactly_ the destination position for values, but if we can guess well enough, we can do a broad pigeonhole/counting sort and then a few smaller comparison sorts of buckets.
 
 </details>
