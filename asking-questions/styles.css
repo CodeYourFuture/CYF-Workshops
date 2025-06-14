@@ -4,8 +4,8 @@ Here are all the rules we are
 looking at in this workshop 
 =========================== */
 /* What would happen if you added !important to this color:red */
-#important {
-  color: red;
+#important  {
+  color: red !important;
 }
 #important p {
   color: var(--ink);
@@ -19,20 +19,20 @@ main ul {
 #infinite {
   color: var(--ink);
 }
-.problems li.problem:nth-child(2) {
+.problems li.problem:nth-child(2) p {
   color: red;
 }
 #boolean {
   min-height: 1.5em;
 }
-#boolean p {
+#boolean  p{
   opacity: 1;
-  transition: opacity 0.3s;
+  transition: opacity 2s;
   display: block;
 }
 #boolean:hover p,
 #boolean:focus p {
-  display: none;
+  
   opacity: 0;
 }
 #fallback {
