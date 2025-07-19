@@ -1,32 +1,33 @@
-//increments the number in a node's text
 import { Header } from "./header.js";
-import { main } from "./main.js";
-function increment(node) {
+import { Main } from "./main.js";
+
+export function increment(node) {
   let current = node.textContent;
   node.textContent = Number(current) + 1;
 }
 
-function decrement(node) {
+export function decrement(node) {
   let current = node.textContent;
   node.textContent = Number(current) - 1;
 }
 
+export function App(node) {
+  const body = document.createElement("body");
 
   body.appendChild(Header());
-
-  
-  body.appendChild(main);
+   body.appendChild(Main());
 
   const button = body.querySelector("#increment");
   const debutton = body.querySelector("#decrement");
   const counter = body.querySelector("#counter");
+
   button.addEventListener("click", () => {
     increment(counter);
   });
-  
+
   debutton.addEventListener("click", () => {
     decrement(counter);
   });
 
   return body;
-``
+}
