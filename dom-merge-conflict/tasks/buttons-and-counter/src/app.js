@@ -1,24 +1,15 @@
 //increments the number in a node's text
+import { Header } from "./header.js";
+import { main } from "./main.js";
 function increment(node) {
   let current = node.textContent;
   node.textContent = Number(current) + 1;
 }
 
-export function App() {
-  const body = document.createElement("body");
 
-  const header = document.createElement("header");
-  header.innerHTML = `
-        <h1>Number Counter</h1>
-        <p>A simple counter. Press increment to increase the count by one.</p>
-    `;
-  body.appendChild(header);
+  body.appendChild(Header());
 
-  const main = document.createElement("main");
-  main.innerHTML = `
-        <p id="counter" data-testid="counter">0</p>
-        <button id="increment">Increment</button>
-    `;
+  
   body.appendChild(main);
 
   const button = body.querySelector("#increment");
@@ -28,4 +19,4 @@ export function App() {
   });
 
   return body;
-}
+``
