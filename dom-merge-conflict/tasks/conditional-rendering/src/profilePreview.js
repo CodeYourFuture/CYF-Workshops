@@ -1,5 +1,11 @@
-export function ProfilePreview(profile) {
+export function ProfilePreview(profile, options) {
   const preview = document.createElement("aside");
+  if (options && options.available === false) {
+    const unavailable = document.createElement("p");
+    unavailable.textContent = "Profile preview unavailable";
+    preview.appendChild(unavailable);
+    return preview;
+  }
 
   const picture = document.createElement("img");
   picture.src = profile.pictureSrc;
