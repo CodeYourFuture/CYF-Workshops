@@ -5,7 +5,10 @@
 import { getByTestId, getByRole } from "@testing-library/dom";
 import "@testing-library/jest-dom";
 
-import { App } from "../src/app";
+import { App } from "../src/app.js";
+import { Header } from "../src/header.js";
+import { Main } from "../src/main.js";
+import { increment, decrement } from "../src/app.js";
 
 describe("button and counter", () => {
   let container = App();
@@ -35,14 +38,14 @@ describe("button and counter", () => {
     expect(getByTestId(container, "counter")).toHaveTextContent(/^2$/);
   });
 
-  describe.skip("decrement button", () => {
+  describe("decrement button", () => {
     test("pressing Decrement decreases the counter", () => {
-      const button = getByRole(container, "button", {
+      const debutton = getByRole(container, "button", {
         name: "Decrement",
       });
-      button.click();
-      button.click();
-      button.click();
+      debutton.click();
+      debutton.click();
+      debutton.click();
 
       expect(getByTestId(container, "counter")).toHaveTextContent(/^-3$/);
     });
