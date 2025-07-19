@@ -35,14 +35,14 @@ describe("button and counter", () => {
     expect(getByTestId(container, "counter")).toHaveTextContent(/^2$/);
   });
 
-  describe.skip("decrement button", () => {
+  describe("decrement button", () => {
     test("pressing Decrement decreases the counter", () => {
       const button = getByRole(container, "button", {
         name: "Decrement",
       });
-      button.click();
-      button.click();
-      button.click();
+      debutton.click();
+      debutton.click();
+      debutton.click();
 
       expect(getByTestId(container, "counter")).toHaveTextContent(/^-3$/);
     });
