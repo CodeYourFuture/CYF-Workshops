@@ -68,8 +68,8 @@ Get together in pairs and talk about your own career path considering what you l
 - What will be the blockers I will have?
 
 Write down your career action plan, which you can discuss further with your Career mentor:
-💼 Job I want to explore more:
-🎓 Skills I need to learn:
-📚 Free resources I’ll start with:
-🧑‍🤝‍🧑 A person/community I’ll reach out to:
-📆 3 Things I’ll do this week:
+- 💼 Job I want to explore more:
+- 🎓 Skills I need to learn:
+- 📚 Free resources I’ll start with:
+- 🧑‍🤝‍🧑 A person/community I’ll reach out to:
+- 📆 3 Things I’ll do this week:
