@@ -15,7 +15,7 @@ Some of your will become software developers. It's a great path, but there are a
 ### Let's do some research 
 
 1.  Make pairs or small groups of 3-4. Research what jobs are available in tech industry. You can also use these [CompTIA Career Pathways](https://www.comptia.org/en/explore-careers/job-roles/?page=1&category=all) or 
-[TechCareerExplorer](https://www.careerexplorer.com/careers/?page=23&industry=42) as reference. Each group should chose one of these groups to research: 
+[TechCareerExplorer](https://www.careerexplorer.com/careers/?industry=42) as reference. Each group should chose one of these families of roles to research: 
 - Engineering roles 
 - Low code roles 
 - Tech jobs without coding
