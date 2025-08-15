@@ -41,7 +41,7 @@ Write 1 role per post it. (10 min)
 
 Make sure we've covered:
 
-* Engineering roles: Software developer, Quality Engineer, System Reliability Engineer 
+* Engineering roles: Software developer, Quality Engineer, Site Reliability Engineer 
 * Low code roles: Low-code Dev and No-code Dev, Wordpress Developer, Database administrator
 * Jobs in tech without coding: Scrum Master, Manual tester, Business Analyst, 
 * IT Jobs: IT Analyst, IT Support
