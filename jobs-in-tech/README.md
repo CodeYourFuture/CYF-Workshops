@@ -57,7 +57,7 @@ As we said in the start of this workshop, software developer is one of the many 
 
 <summary>Hint for volunteers</summary>
 
-Focus on transferrable skills and new skills, as well as what is their reality and availablity to get ready for it
+Focus on transferable skills and new skills, as well as what is their reality and availability to get ready for it
 
 </details>
 
