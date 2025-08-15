@@ -26,12 +26,12 @@ Write 1 role per post it. (10 min)
 2. Choose a wall (or, if online, use a Miro board or similar), and walk through each post it. See if you can explain the role - and if you can't, ask if anyone in the group can. (15 min)
 
 3. Pick one role from each group and let's identify more about it: (15 min)
-   🎯 Job Title: 
-   🧠 What do they actually do all day?
-   💬 Tools or software they use (Google it!)
-   📈 How to get this job: Degree? Certifications? Courses?
-   📋 Skills needed (soft and hard):
-   🔍 Find a real job post and copy 1 key requirement:
+   🎯 Job Title  \
+   🧠 What do they actually do all day? \
+   💬 Tools or software they use (Google it!) \
+   📈 How to get this job: Degree? Certifications? Courses? \
+   📋 Skills needed (soft and hard) \
+   🔍 Find a real job post and copy 1 key requirement
 
 4. Present the role back to the group.
 
