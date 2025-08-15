@@ -20,6 +20,7 @@ Some of your will become software developers. It's a great path, but there are a
 - Low code roles 
 - Tech jobs without coding
 - IT jobs 
+
 Write 1 role per post it. (10 min)
 
 2. Choose a wall (or, if online, use a Miro board or similar), and walk through each post it. See if you can explain the role - and if you can't, ask if anyone in the group can. (15 min)
