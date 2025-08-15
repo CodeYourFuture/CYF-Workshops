@@ -3,7 +3,7 @@
 ## Learning objectives
 
 ```objectives
-- [ ] Explain the common entry-level roles in tech and their necessary skills
+- [ ] List at least 3 common entry-level roles in tech, what they entail, and their necessary skills
 - [ ] Take the first actionable steps toward a career in tech. 
 - [ ] Make a decision about your own career in tech
 
