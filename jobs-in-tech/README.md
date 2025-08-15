@@ -5,7 +5,8 @@
 ```objectives
 - [ ] List at least 3 common entry-level roles in tech, what they entail, and their necessary skills
 - [ ] Take the first actionable steps toward a career in tech. 
-- [ ] Make a decision about your own career in tech
+- [ ] Describe your plan about your own career in tech
+```
 
 ## What jobs are available in the tech industry? 
 
