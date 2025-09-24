@@ -25,7 +25,7 @@ In small groups, ideally with a volunteer in each group if possible.
 
 5. In your groups, take turns reading out your introductions for Jane. Give eachother feedback. Try to put yourselves in the shoes of the hiring manager. Does their introduction give the impression that Jane is a perfect fit? If not why not? What differences are there between your introductions?
 
-6. If you have time, consider trying to make an introduction for yourself and share it with the  the group 
+6. If you have time, try making an introduction for yourself and share it with the group 
 
 <!-- {{</note>}}-->
 
