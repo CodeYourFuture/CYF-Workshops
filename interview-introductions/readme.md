@@ -2,7 +2,7 @@
 
 Before starting this workshop, you should have reviewed the interview introductions prep item.
 
-For this workshop you need to break up into small groups. We will be trying to make some  sample introductions for Jane.
+For this workshop you need to break up into groups of 3-4 trainees, each with at least one volunteer. We will be trying to make some sample introductions for Jane.
 
 Jane is a fictional person who has completed a software development programme. Jane is applying for a Junior Software Developer role with the fictional company, Software for Lawyers Ltd. You don’t need to understand all of the technical terms in these two pieces of text to complete the task. 
 
