@@ -7,8 +7,9 @@ For this workshop you need to break up into groups of 3-4 trainees, each with at
 Jane is a fictional person who has completed a software development programme. Jane is applying for a Junior Software Developer role with the fictional company, Software for Lawyers Ltd. You don’t need to understand all of the technical terms in these two pieces of text to complete the task. 
 
 ```objectives
-- [ ] Practice making a professional interview introduction
-- [ ] Thinking critically about how to improve an introduction
+- [ ] Tailor an introduction to job requirements
+- [ ] Describe what makes an introduction engaging or boring
+- [ ] Deliver an introduction out-loud
 ```
 
 <!-- {{<note type="exercise" title="Introduce Jane">}}-->
