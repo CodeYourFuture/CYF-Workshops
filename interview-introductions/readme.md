@@ -48,6 +48,7 @@ Software for Lawyers Ltd makes case management software. Their software helps la
 * Excellent interpersonal skills
 * Experience developing software in an agile team
 * Passionate about programming
+
 **Nice to Haves**
 * Experience in the legal sector
 * Some knowledge of Python
