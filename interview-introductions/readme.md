@@ -24,7 +24,7 @@ In small groups, ideally with a volunteer in each group if possible.
 
 4. Individually, write an introduction for Jane to be used for her interview with Software for Lawyers Ltd. You should be aiming for it to be 1-2 minutes long which is approximately 140-300 words. Volunteers can join in with this if they want.
 
-5. In your groups, take turns reading out your introductions for Jane. Give eachother feedback. Try to put yourselves in the shoes of the hiring manager. Does their introduction give the impression that Jane is a perfect fit? If not why not? What differences are there between your introductions?
+5. In your groups, take turns reading out your introductions for Jane. Give eachother feedback. Everyone in the group should give feedback about every introduction. Try to put yourselves in the shoes of the hiring manager. Does their introduction give the impression that Jane is a perfect fit? If not why not? What differences are there between your introductions?  Which ones make you want to work with Jane? Why?
 
 6. If you have time, try making an introduction for yourself and share it with the group 
 
