@@ -157,15 +157,6 @@ So we've explored the Elements panel, the Styles panel, and the Lighthouse panel
 
 For example, you have just looked in the Elements panel. This is not really your HTML, this is [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction), an API the browser builds using your HTML. An example of how the DOM is different from HTML is that JavaScript can change what's in the page - this changes the DOM, but doesn't change the actual HTML. The [DOM isn't the only API](https://developer.mozilla.org/en-US/docs/Web/API) it builds. Let's look at another one right now!
 
-<!-- {{<note type="exercise" title="A New Lens">}}-->
-
-1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
-1. Find the [Accessibility Panel](https://developer.chrome.com/blog/full-accessibility-tree/) and check 'Enable full-page accessibility tree'
-1. Now click the "Universal Man" button in the Elements Panel.
-1. What is _Ignored_ in the Accessibility Tree that is present in the DOM?
-1. When the timer goes off, share your answer with the other groups by pasting in the workshop thread.
-<!-- {{</note>}}-->
-
 ### Reflect
 
 <!-- {{<note type="exercise" title="Develop Your Skills">}}-->
