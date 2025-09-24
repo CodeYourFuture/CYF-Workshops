@@ -1,6 +1,6 @@
 # Interview Introductions
 
-Before starting this workshop, you should have reviewed the interview introductions prep item in sprint 3 of ITP.
+Before starting this workshop, you should have reviewed the interview introductions prep item.
 
 For this workshop you need to break up into small groups. We will be trying to make some  sample introductions for Jane.
 
