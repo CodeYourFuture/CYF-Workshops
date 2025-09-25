@@ -145,7 +145,7 @@ Don't open PRs to main. If you do open a PR to main and it is merged then it wou
 
 <!--{{</note>}}-->
 
-### Visualise this Git workflow
+### Visualize this Git workflow
 
 ```mermaid
 gitGraph
