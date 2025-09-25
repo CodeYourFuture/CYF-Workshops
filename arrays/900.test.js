@@ -17,6 +17,8 @@
 
 const previousWords = [];
 
+
+
 function getPreviousCaseOfWordOne(word) {
     for (const previousWord of previousWords) {
         if (previousWord.toLowerCase() === word.toLowerCase()) {
@@ -35,3 +37,28 @@ function getPreviousCaseOfWordTwo(word, words) {
     }
     return word;
 }
+
+// Tests for getPreviousCaseOfWordOne
+test('getPreviousCaseOfWordOne returns same word if not seen before', () => {
+    const result = getPreviousCaseOfWordOne("Hello");
+    expect(result).toBe("Hello");
+});
+
+test('getPreviousCaseOfWordOne returns previous case of word if seen before', () => {
+    getPreviousCaseOfWordOne("Hello");
+    const result = getPreviousCaseOfWordOne("HELLO");
+    expect(result).toBe("Hello");
+});
+
+// Tests for getPreviousCaseOfWordTwo
+test('getPreviousCaseOfWordTwo returns same word if not in words array', () => {
+    const words = ["World"];
+    const result = getPreviousCaseOfWordTwo("Hello", words);
+    expect(result).toBe("Hello");
+});
+
+test('getPreviousCaseOfWordTwo returns previous case of word if in words array', () => {
+    const words = ["Hello", "World"];
+    const result = getPreviousCaseOfWordTwo("HELLO", words);
+    expect(result).toBe("Hello");
+});
