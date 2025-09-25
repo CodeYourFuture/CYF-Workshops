@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "fizzbuzz": "file:"
   }
 }
