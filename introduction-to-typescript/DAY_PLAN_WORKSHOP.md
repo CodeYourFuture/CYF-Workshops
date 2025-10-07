@@ -119,7 +119,7 @@ function fetchUser(userId: number): User {
 ### Setup
 
 - Breakout into groups of about 3 to 5 trainees.
-- Make sure you have access to the [exercise repository](https://github.com/StevenVanBlerk/introduction-to-typescript).
+- Make sure you have access to the [exercise repository](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/introduction-to-typescript).
 - Clone it to a local project.
 - Follow the instructions in `README.md` to setup the project and run the exercise.
 
