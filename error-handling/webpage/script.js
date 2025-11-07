@@ -49,8 +49,7 @@ devAlertButton.addEventListener("click", () => {
 })
 
 betterAlertButton.addEventListener("click", () => {
-    const message = textarea.value;
-    console.log(message);    
+    const message = textarea.value;   
     if (validateMessage(message)) {
         appendMessage(message)
     } else {
