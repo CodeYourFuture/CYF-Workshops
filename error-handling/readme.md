@@ -4,7 +4,7 @@
 
 ```objectives
 - [ ] Give examples of good and bad error messages
-- [ ] Identify appropriate points in code to check for errors
+- [ ] Explain what makes an error message helpful
 ```
 
 ## Understanding What Went Wrong
