@@ -15,7 +15,7 @@ We have already seen examples of developer questions which can help us fix probl
 2. What I _expected_
 3. What actually _happened_
 
-The problem is that figuring out what happened can be really tricky if the developer doesn't do a good job of **error handling**. In this workshop we're going to discuss error messages, why they are important and what makes some more helpful than others.
+The problem is that figuring out what happened can be really tricky if the developer writing the code doesn't do a good job of **error handling**. In this workshop we're going to discuss error messages, why they are important and what makes some more helpful than others.
 
 What makes an error message "good" depends on who it is intended for. For example, the runtime errors you may have seen while working through the exercises are great for developers while they're working on the code but they aren't very useful for the end user looking at an app on their phone. Knowing the most appropriate way to communicate problems is a key skill for a developer.
 
@@ -52,32 +52,18 @@ Come back together to compare notes. As a group try to answer these questions:
 
 <!--{{</note>}}-->
 
-## Letting the User Know About Problems
+## Supporting the User
 
-Now we have seen what makes a good error message, lets try writing some of our own. 
+We have seen that communicating what went wrong is really important when building an application. Giving feedback to the user is useful, but how we give that feedback is important. We could improve the user experience even more by helping them avoid the problem altogether!
 
-### Setup
+<!--{{<note type="activity" title="Improving Our Error Messages, 25m" >}}-->
 
-- **Trainees**: Navigate to `error-handling/bank` in VSCode to find the exercises.
-- **Trainees**: Split into pairs. 
+Read [this article](https://piccalil.li/blog/how-to-write-error-messages-that-actually-help-users-rather-than-frustrate-them/) on writing helpful error messages. Think about the error messages we have seen so far - do they align with the suggestions made here?
 
-<!--{{<note type="activity" title="Writing Error Messages, 30m" >}}-->
+It would be even better if we never needed to show our users any error messages, but that won't happen if we aren't clear about what we need them to do. Take another look at the application from the first part of this workshop and answer these questions:
 
-Each of the exercises has a problem with the code. Some will throw an error when you run them, others will fail silently. We could just print the error message, but we want to give the user more information and (hopefully) advice on how to solve the problem. In your pairs, for each exercise:
-
-1. Run the code to see the error message (if there is one).
-2. Identify where the problem is and what is causing it. **You don't need to fix the bug!**
-3. Add a `console.log()` on the line **before** the error to explain what the problem is. Refer to `script.js` from the earlier exercise for examples of how you can do this. For example, instead of just printing an error message we would expect to see something like:
-
-```sh
-Error: variableName is null
-
-# JavaScript error message
-#   Stack trace line 1
-#   Stack trace line 2
-#   ...
-
-```
+1. What information is missing?
+2. How can we let the user know what the requirements are before they start typing?
 
 <!--{{</note>}}-->
 
