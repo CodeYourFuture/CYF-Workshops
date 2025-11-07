@@ -62,7 +62,7 @@ Read [this article](https://piccalil.li/blog/how-to-write-error-messages-that-ac
 
 It would be even better if we never needed to show our users any error messages, but that won't happen if we aren't clear about what we need them to do. Take another look at the application from the first part of this workshop and answer these questions:
 
-1. What information is missing?
+1. What information is missing that might help the user?
 2. How can we let the user know what the requirements are before they start typing?
 
 <!--{{</note>}}-->
