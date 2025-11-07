@@ -28,7 +28,7 @@ What makes an error message "good" depends on who it is intended for. For exampl
 
 <!--{{<note type="activity" title="Evaluating Error Messages, 15m" >}}-->
 
-Open your web browser and take a look at the web page you just opened. You should see a text box with five buttons below it. When you type a message it should appear below the box. Try it out by typing "hello world" and see what happens. 
+Open your web browser and take a look at the web page you just opened. You should see a text box with five buttons below it. When you type a message and press any of the buttons it should appear below the box. Try it out by typing "hello world" and see what happens. 
 
 The problem we have is that none of the buttons seem to be working! They all have the same problem but they aren't all telling us the same thing. We could probably open `script.js` and easily figure out where the problem is, but this won't be an option for the end users of our code.
 
