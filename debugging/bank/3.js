@@ -5,6 +5,9 @@ resolve the bug.
 */
 
 function calculateAverage(arr) {
+  if (arr.length === 0 ) {
+    return 0;
+  }
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
       sum += arr[i];
@@ -12,5 +15,9 @@ function calculateAverage(arr) {
     return sum / arr.length;
   }
   
-  let arr = [1, 2, 3, 4, 5];
+  let arr = [];
+  console.log(calculateAverage(arr));
+   arr = [8];
+  console.log(calculateAverage(arr));
+  arr = [10,5,1];
   console.log(calculateAverage(arr));
