@@ -8,5 +8,12 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "name": "dom-merge-conflict",
+  "description": "This workshop contains a collection of DOM components. For this workshop, you will be creating branches for refactoring and updating the components and then resolving the merge conflicts that arise. You'll be working in pairs, learning how to handle branching, refactoring, and creating pull requests.",
+  "version": "1.0.0",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
