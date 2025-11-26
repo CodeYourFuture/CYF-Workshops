@@ -36,6 +36,7 @@ const fetchUserExample3: FetchUser = (userId) => {
 };
 
 // An arrow function of type FetchUser receiving the incorrect parameter type
+// @ts-ignore
 const fetchUserExample4: FetchUser = (userId: string) => {
   return users[userId];
 };

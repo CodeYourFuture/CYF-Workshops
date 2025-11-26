@@ -1,10 +1,13 @@
 {
   "scripts": {
-    "test-exercise": "vitest --bail=1"
+    "test": "vitest src/tests",
+    "test-exercise1": "vitest src/tests/exercise1.test.ts",
+    "test-exercise2": "vitest src/tests/exercise2.test.ts --typecheck.config tsconfig.exercise2.json",
+    "test-exercise3": "vitest src/tests/exercise3.test.ts",
   },
   "devDependencies": {
     "ts-node": "10.9.2",
-    "typescript": "5.9.2",
-    "vitest": "3.2.4"
+    "typescript": "5.9.3",
+    "vitest": "4.0.13"
   }
 }
