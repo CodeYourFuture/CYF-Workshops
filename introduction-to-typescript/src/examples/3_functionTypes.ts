@@ -35,7 +35,7 @@ const fetchUserExample3: FetchUser = (userId) => {
   return users[userId];
 };
 
-// An arrow function of type FetchUser receiving the incorrect parameter type
+// An arrow function of type FetchUser receiving the incorrect parameter type. Removing @ts-ignore below will reveal a type error
 // @ts-ignore
 const fetchUserExample4: FetchUser = (userId: string) => {
   return users[userId];
