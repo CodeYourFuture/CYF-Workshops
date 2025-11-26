@@ -199,9 +199,9 @@ Since we have to `await` the user being fetched, `Promise<>` tells us that our `
 
 ### Fixing errors
 
-Now that you've got the project running locally, your job is to complete the exercises in order while ensuring all tests pass for each exercise. 
+Now that you've got the project running locally, your job is to complete the exercises in order while ensuring all tests pass for each exercise.
 
-There are TypeScript type examples within `src/examples` should you need a hint but feel free to also do your own research. 
+There are TypeScript type examples within `src/examples` should you need a hint but feel free to also do your own research.
 
 Designate a driver while the rest of your group guides the driver towards solutions. Aim to swap out drivers at least every 10 minutes.
 
