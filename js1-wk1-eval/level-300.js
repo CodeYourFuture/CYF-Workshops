@@ -8,5 +8,7 @@ const time = "21:49";
 const macTimeDisplay = `${day.slice(0,3)} ${date} ${month.slice(0,3)} ${time}`;
 
 // Before running code, answer the following - write down your answers:
-// a) how many function calls are there in this file?
-// b) predict and explain what macTimeDisplay will evaluate to. You can use documentation to look up slice
+// a) how many function calls are there in this file? (2)
+// b) predict and explain what macTimeDisplay will evaluate to. You can use documentation to look up slice 
+// a) 2
+// b) Fri 29 Sep 21:49
