@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-11-07T17:14:23Z",
+  "id": "docs",
+  "duration": 0,
+  "title": "Testing with Jest",
+  "summary": "Workshop on Jest for testing",
+  "source": "README.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "digital"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "mailto:a.j.beaumont@aston.ac.uk",
+  "url": "docs"
+}
