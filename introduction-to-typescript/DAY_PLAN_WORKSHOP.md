@@ -92,6 +92,8 @@ const myTrainee: User = {
 }
 ```
 
+If we tried to create a `User` but didn't give them a name, TypeScript would tell us. If we did the same in JavaScript, nothing would tell us we missed anything, but when we tried to get a `User`'s name, we'd get `undefined`. Even this probably wouldn't be an error - we may only find out when our UI tries to use this data and says _"undefined, aged 30, has done ITD, ITP, and Piscine"_.
+
 TypeScript also supports optional properties. For example our `User` type might have an optional `address` property that can be left out from instances of the `User` type:
 
 ```TS
@@ -187,14 +189,40 @@ Since we have to `await` the user being fetched, `Promise<>` tells us that our `
     <ul>
       <li>You can use larger breakout groups if you don't have a volunteer for every group of trainees. Alternatively volunteers can hop between breakout groups if you are confident that trainees will be able to handle the exercise without a volunteer present.</li>
       <li>This part of the workshop is the main opportunity for trainees to actively engage with TypeScript. Be supportive but encourage trainees to problem solve for themselves wherever possible.</li>
+      <li>
+        <details>
+          <summary>
+            The nuances of exercise 3
+          </summary>
+          <div>
+            This is a fairly open ended exercise. The problem is that a try catch block will always treat the error as type unknown, which isn't helpful and is prone to type errors. The simplest solution is to treat an error as <code>any</code> type, which is commonly done in the workplace. This is a valid approach to handling errors but it has the usual problems of the <code>any</code> type so trainees should be encouraged to handle errors with more nuance.
+            </br></br>
+            A slightly better approach is to use type coercion. For example <code>return (error as Error).message</code> but this is also flawed since the error type of a catch block is inherently unpredictable.
+            </br></br>
+            A more robust solution would be to confirm the type of <code>error</code> before utilising it. For example: 
+            <code>
+              if (error instanceof Error) {
+                return error.message 
+              }
+              else {
+                return error
+              }
+            </code>
+            </br></br>
+            There is no singular solution to this exercise so it is best to encourage trainees to see how far they can take error handling and TypeScript.
+          </div>
+        </details>
+      </li>
     </ul>
   </em>
 </details>
 
 ### Setup
 
-- Breakout into groups of about 3 to 5 trainees.
-- Every member should clone the [exercise repository](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/introduction-to-typescript) to a local project.
+- Breakout into groups of ideally 2, and no more than 3 trainees.
+- Ideally each group should have a single fork of [the exercise repository](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/introduction-to-typescript) from where every member collaborates.
+- Each member should clone the forked repository to a local project.
+- Navigate to the `introduction-to-typescript` directory.
 - Follow the instructions in the `README.md` to setup the project and run the exercise.
 
 ### Fixing errors

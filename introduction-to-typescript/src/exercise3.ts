@@ -4,7 +4,7 @@
  * When ready, ask a volunteer for feedback on your solution.
  *
  * There is a test file for this exercise but it will only confirm that the function still works at runtime.
- * npm run test-exercise4
+ * npm run test-exercise3
  */
 export const tryCatchDemo = (state: "fail" | "succeed") => {
   try {
