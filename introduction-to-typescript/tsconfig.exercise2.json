@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/tests/exercise2.test.ts", "src/exercise2.ts"],
+  "comments": {
+    "file": "This file exists to ensure that vitest's temperamental compile-time typechecking only runs against exercise 2. Without this config, other files will be typechecked when running exercise 2."
+  }
+}
