@@ -5,4 +5,4 @@ const sumArray = (numbers) => {
   }
   return total;
 };
-console.log(sumArray([1, 2, 3]));
+console.log(sumArray([1, 2, 3, 4, 5]));

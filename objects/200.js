@@ -9,6 +9,6 @@ const person = {
     "id_number" = 9,
 };
 
-console.assert(person.name === "Jemima");
-console.assert(person.location === "Glasgow");
-console.assert(person.id_number === 9);
+console.assert(person.name === "Jemima"); //True
+console.assert(person.location === "Glasgow"); //Undefined
+console.assert(person.id_number === 9); //True
