@@ -2,8 +2,8 @@
 
 ## Prep
 
-- [ ] Read this article about [Mental Models](https://jamesclear.com/mental-models)
-- [ ] Load this webpage, which stores the problems we will work on today. [https://cyf-workshop.netlify.app/asking-questions](https://cyf-workshop.netlify.app/asking-questions)
+- [x] Read this article about [Mental Models](https://jamesclear.com/mental-models)
+- [x] Load this webpage, which stores the problems we will work on today. [https://cyf-workshop.netlify.app/asking-questions](https://cyf-workshop.netlify.app/asking-questions)
 
 Today we're going to start learning a formal language of developer questions. We will begin with this basic format:
 
