@@ -5,7 +5,7 @@ Change the values in Devtools */
 
 :root {
   /* fonts */
-  --copy: "Lato";
+  --copy: monospace;
   /* colours */
   --paper: hsla(260, 35%, 90%, 0.95);
   --ink: hsla(270, 8%, 20%, 0.98);
