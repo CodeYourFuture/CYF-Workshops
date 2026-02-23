@@ -26,6 +26,7 @@
       <h3>🎩 Our formal language</h3>
       <ol>
         <li>What I <strong>did</strong></li>
+        
         <li>What I <strong>expected</strong></li>
         <li>What actually <strong>happened</strong></li>
       </ol>
@@ -70,8 +71,12 @@
           <li id="user" class="problem">
             <p>
               If you delete all the CSS from the styles.css in the Sources
-              panel, what styles will be applied to this page?
-            </p>
+              panel, what styles will be applied to this page?</p>
+              <ol>
+                <li><strong> what i did</strong> i remove all the css from style.css Using the browser tools.</li>
+                <li><strong>what i expected</strong> i expected the page to look plain and no color no design.</li>
+                <li><strong> what actually happened</strong> the page used default styles like (white background,black text, normal font)</li>
+            </ol>
           </li>
           <li id="infinite" class="problem">
             <p>
@@ -80,31 +85,74 @@
 
               Why isn't this paragraph red?
             </p>
-          </li>
+            <ol>
+            <li><strong> whai i did</strong> i write the code on css </li>
+            <li>what i <strong> expected</strong> i expected the second paragraph inside li will be red</li>
+            <li>what actually <strong> happened</strong> the paragraph was not red because the li was not actually the nth-child(2)</li>
+            </ol>
+          
           <li id="fallback" class="problem">
             <p>What colour is this text?</p>
+            <ol>
+            <li>what i <strong>did</strong> i checked the css code</li>
+            <li>what i <strong>expected</strong> i expected it will be black</li>
+            <li> what actually <strong>happened</strong> actually it's black but not because the color inside css<br>
+               was <code>color:var(--black);</code> but it shown the default style of the page because the root dose not has(--black) value </li>
+            </ol>
+
           </li>
           <li id="boolean" class="problem">
             <p>There's a transition on this text. Why isn't it working?</p>
+            <ol>
+            
+            <li>what i <strong>did</strong> i search on css code </li>
+            <li>what i <strong>expected</strong> i expected not working because of <code>display:none;</code></li>
+            <li> what actually <strong>happened</strong> it happened what i expected because i do searching online about this transition code</li>
+            </ol>
           </li>
           <li id="grid" class="problem">
             <p>Why <em>isn't</em> this paragraph a grid item?</p>
+            <ol>
+            <li><strong> what i did</strong> i try to resolve the problem by searching</li>
+            <li><strong> what i expected</strong> i expected the paragraph to be a grid item?</li>
+            <li><strong> the paragraph was not  a grid item because its parent does not have display: grid;</strong></li>
+            </ol>
           </li>
-          <li id="grid" class="problem">
+          <li id="grid-1" class="problem">
             <p>
               Before running Lighthouse, write down the errors it will give you
               on this page. Now
               <a href="https://validator.w3.org/">validate the HTML</a>.
             </p>
+            <ol>
+            <li><strong> what i did</strong> i checked the code in index.html</li>
+            <li><strong> what i expected</strong> i expected 1 error that was i did it </li>
+            <li><strong> what actually happened</strong> i found 3 errors and i fixe them 2 from my side and one it was two li it has same id</li>
+          </ol>
           </li>
           <li id="hundred" class="problem">
             <p>This text is 100% width. 100% of what?</p>
+            <ol>
+            <li><strong>What I did:</strong> I checked the CSS and saw that the element has width: 100%.</li>
+            <li><strong>What I expected:</strong> I expected the element to fill the whole page.</li>
+            <li><strong>What actually happened:</strong> The element filled 100% of its parent container, not the whole page. Width: 100% means 100% of the parent element's width.</li>
+            </ol>
           </li>
           <li id="important" class="problem">
             <p>
               If you add the rule <code>!important</code> to line 8 of
               styles.css, what colour will this text be? Why?
             </p>
+            <ol>
+            <li><strong>What I did:</strong> I added <code>!important</code> to the color rule in line 8 of styles.css, targeting the element with id="important".</li>
+
+            <li><strong>What I expected:</strong> I expected the text inside the element to turn red, because I used <code>!important</code> which should override other styles.</li>
+
+            <li><strong>What actually happened:</strong> The text did not change color because the rule was targeting the &lt;li&gt; only, not the &lt;p&gt; tag. 
+             The color from another rule (like <code>#important p { color: var(--ink); }</code>) was still applied. To fix it, 
+             I changed the rule to <code>#important p { color: red !important; }</code> and then the text became red.</li>
+            </ol>
+           
           </li>
         </ul>
       </details>
