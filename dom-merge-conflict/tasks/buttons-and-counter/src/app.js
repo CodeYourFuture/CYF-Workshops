@@ -8,6 +8,7 @@ export function App() {
   const body = document.createElement("body");
 
   const button = body.querySelector("#increment");
+  //testing
   const counter = body.querySelector("#counter");
   button.addEventListener("click", () => {
     increment(counter);
