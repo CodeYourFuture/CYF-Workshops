@@ -8,7 +8,7 @@ At the end of this workshop, participants can:
 
 - [] Introduce themselves in 2 minutes
 - [] Answer soft skill interview questions using the STAR method
-- [] Prepare a strategy to get ready for  technical interviews
+- [] Prepare a strategy to get ready for technical interviews
 
 ## Setup 🌼
 
@@ -63,6 +63,8 @@ Discuss how you might answer the following questions in a real interview. Take t
 ## Stage 3: The Technical Interview, 15 minutes 📞
 
 Pick any technical topic such as Javascript, Python, SQL, databases, etc., and search for the Top 50 beginner interview questions for that topic. Read through the list together. Discuss if there are any surprises in there. Which questions did you find easy and which ones did you find difficult? Try asking each other a couple of questions and see if you can answer them. Practice what you will say if you do not know an answer.
+
+[This](https://www.interviewbit.com/javascript-interview-questions/) is a good list of starter Javascript questions.
 
 ### Some tips for technical interviews:
 
