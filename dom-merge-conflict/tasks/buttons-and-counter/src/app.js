@@ -1,7 +1,13 @@
-//increments the number in a node's text
+// increments the number in a node's text
 function increment(node) {
   let current = node.textContent;
   node.textContent = Number(current) + 1;
+}
+
+// decrements the number in a node's text (تم إضافة هذه الدالة)
+function decrement(node) {
+  let current = node.textContent;
+  node.textContent = Number(current) - 1;
 }
 
 export function App() {
@@ -15,16 +21,25 @@ export function App() {
   body.appendChild(header);
 
   const main = document.createElement("main");
+  // تم إضافة زر الإنقاص في السطر التالي تحت زر الزيادة مباشرة
   main.innerHTML = `
         <p id="counter" data-testid="counter">0</p>
         <button id="increment">Increment</button>
+        <button id="decrement">Decrement</button>
     `;
   body.appendChild(main);
 
   const button = body.querySelector("#increment");
+  const decrementButton = body.querySelector("#decrement"); // جلب زر الإنقاص
   const counter = body.querySelector("#counter");
+
   button.addEventListener("click", () => {
     increment(counter);
+  });
+
+  // ربط زر الإنقاص بالدالة الخاصة به
+  decrementButton.addEventListener("click", () => {
+    decrement(counter);
   });
 
   return body;
