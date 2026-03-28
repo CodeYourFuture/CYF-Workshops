@@ -25,6 +25,7 @@ export function App() {
   const counter = body.querySelector("#counter");
   button.addEventListener("click", () => {
     increment(counter);
+    console.log counter;
   });
 
   return body;
