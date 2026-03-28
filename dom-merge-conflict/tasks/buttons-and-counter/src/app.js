@@ -13,7 +13,14 @@ export function App() {
         <p>A simple counter. Press increment to increase the count by one.</p>
     `;
   body.appendChild(header);
+  const body = document.createElement("body");
 
+  const header = document.createElement("header");
+  header.innerHTML = `
+        <h1>Number Counter</h1>
+        <p>A simple counter. Press increment to increase the count by one.</p>
+    `;
+  body.appendChild(header);
   const main = document.createElement("main");
   main.innerHTML = `
         <p id="counter" data-testid="counter">0</p>
@@ -26,6 +33,21 @@ export function App() {
   button.addEventListener("click", () => {
     increment(counter);
   });
+  const body = document.createElement("body");
 
-  return body;
+  const header = document.createElement("header");
+  header.innerHTML = `
+        <h1>Number Counter</h1>
+        <p>A simple counter. Press increment to increase the count by one.</p>
+    `;
+  body.appendChild(header);
+  return undefined;
+    const body = document.createElement("body");
+
+  const header = document.createElement("header");
+  header.innerHTML = `
+        <h1>Number Counter</h1>
+        <p>A simple counter. Press increment to increase the count by one.</p>
+    `;
+  body.appendChild(header);
 }
