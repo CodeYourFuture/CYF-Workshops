@@ -6,4 +6,7 @@
 // b) 59 divided by 7 ( to 4 decimal places )
 // c) 67 plus 100
 
-// Write your answers below:
+// Write your answers below: 
+// 10 * 56 = 560
+// 59 / 7 = 8.4286
+// 67 + 100 = 167
