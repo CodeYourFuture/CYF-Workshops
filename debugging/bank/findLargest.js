@@ -7,4 +7,4 @@ const findLargest = (numbers) => {
   }
   return largest;
 };
-console.log(findLargest([3, 7, 2, 5, 6]));
+console.log(findLargest([19, 3, 7, 2, 5, 6]));
