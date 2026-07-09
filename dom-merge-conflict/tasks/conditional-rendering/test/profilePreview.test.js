@@ -31,7 +31,7 @@ describe("profile preview", () => {
     });
   });
 
-  describe.skip("available option", () => {
+  describe("available option", () => {
     test("only notice that preview is unavailable is displayed with shortform on, available off", () => {
       const profile = {
         pictureSrc: "/null",
