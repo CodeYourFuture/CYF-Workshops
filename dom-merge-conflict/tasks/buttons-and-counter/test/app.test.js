@@ -35,7 +35,7 @@ describe("button and counter", () => {
     expect(getByTestId(container, "counter")).toHaveTextContent(/^2$/);
   });
 
-  describe.skip("decrement button", () => {
+ // describe.skip("decrement button", () => {
     test("pressing Decrement decreases the counter", () => {
       const button = getByRole(container, "button", {
         name: "Decrement",
@@ -49,8 +49,8 @@ describe("button and counter", () => {
 
     test("contains description paragraph with mention of 'decrement' in header", () => {
       expect(
-        container.querySelector("header").querySelector("p")
+        container.querySelector("header").querySelectorAll("p")[1]
       ).toHaveTextContent(/decrement/i);
     });
   });
-});
+//});
