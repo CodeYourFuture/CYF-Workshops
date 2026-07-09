@@ -7,3 +7,6 @@
 // c) 67 plus 100
 
 // Write your answers below:
+// a) 560
+// b) 8.4285
+// c) 167
