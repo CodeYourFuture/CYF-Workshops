@@ -1,1 +1,23 @@
-{}
+{
+  "name": "cyf-workshops",
+  "description": "This is a shared repository of workshops developed by CYF volunteers. All these workshops are open source and free to use. Workshops are group activities generally run on CYF class days, or sometimes in midweek sessions.",
+  "version": "1.0.0",
+  "main": "readme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baba05206/CYF-Workshops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baba05206/CYF-Workshops/issues"
+  },
+  "homepage": "https://github.com/Baba05206/CYF-Workshops#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}

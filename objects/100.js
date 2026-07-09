@@ -19,7 +19,7 @@ const person3 = person2;
 
 person3.location = "Manchester";
 
-console.log(person1.name);
+console.log(person1.name); //   
 console.log(person2["name"]);
 console.log(person1.id_number > person2["id_number"]);
 console.log(person1.job);
