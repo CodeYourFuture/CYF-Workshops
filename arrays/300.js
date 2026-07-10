@@ -12,6 +12,7 @@ function getTail(arr) {
     return arr.pop();
 };
 
+console.log(alphabet.length);
 console.log(`The first letter of the alphabet is ${getHead(alphabet)}`);
 console.log(`The last letter of the alphabet is ${getTail(alphabet)}`);
 console.log(alphabet.length);

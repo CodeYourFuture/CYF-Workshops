@@ -5,7 +5,7 @@
 // Fix anything that doesn't work
 
 function countWords(text) {
-    return text.split('').length;
+    return text.split(' ').length;
 }
 
 
