@@ -1,21 +1,37 @@
-// Predict and explain...
-// We've seen for..of loops used for arrays.
-// Below we try to use it with a variable which isn't an array.
-// What do you think will get logged?
-// Don't run the code until you've predicted and explained the whole file.
-// Then check your prediction and explanation by running the code
+// Below, we have two functions which have the same aim.
+// Both functions take a word as a parameter.
+// If the function has been called with that word before (regardless of case), the previous version of the word is returned.
+// So if you called the function with "hello", then "HELLO", the second call will return "hello".
+// If the word has not been used before, it will just be returned as-is.
 
-const sentence = "I really enjoy ice cream";
+// One of these functions has side-effects.
+// When you call it, it does something other than just returning a value based only on its parameters.
+//
+// The other doesn't have side effects.
+// When you call it with the same arguments, it always does exactly the same thing,
+// and you can see everything it does in its return value.
+//
+// Which function has side-effects? Which doesn't?
+// Try to write tests for both functions.
+// Which was easier to test? What issues did you run into writing tests?
 
-for (const part of sentence) {
-    console.log(part);
+const previousWords = [];
+
+function getPreviousCaseOfWordOne(word) {
+    for (const previousWord of previousWords) {
+        if (previousWord.toLowerCase() === word.toLowerCase()) {
+            return previousWord;
+        }
+    }
+    previousWords.push(word);
+    return word;
 }
 
-// What's the difference between what was written above, and what's below?
-// How will they behave differently?
-
-const parts = sentence.split(" ");
-
-for (const part of parts) {
-    console.log(part);
+function getPreviousCaseOfWordTwo(word, words) {
+    for (const previousWord of words) {
+        if (previousWord.toLowerCase() === word.toLowerCase()) {
+            return previousWord;
+        }
+    }
+    return word;
 }
