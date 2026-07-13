@@ -2,7 +2,6 @@
 // Try predicting and explaining what will get logged to the console when the code runs
 // To check your prediction, play computer using the Python Visualiser: https://pythontutor.com/render.html#mode=display
 
-
 const ingredients = ["olive oil","tomatoes",'garlic','onion', 'carrot'];
 let ingredientsCopy = ingredients;
 ingredientsCopy.push('pasta','salt','pepper');

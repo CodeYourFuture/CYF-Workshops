@@ -1,26 +1,15 @@
+// Predict and explain...
+// Below is a function countWords and a test that checks that it counts the words in a string correctly
+// At the moment, it isn't working. Try to reason about what happens when the function is called.
+// Check your prediction and explanation using the test
+// Fix anything that doesn't work
 
-
-// list is an array that holds a mix of data types
-// we need to collect just the numbers and not the strings
-// before runnning the tests, make a prediction and explanation about what you expect the function to return 
-// fix anything that doesn't work
-
-function collectNumbers(list) {
-
-    const numbersOnly = [];
-    for (const item of list) {
-        if (item === 'string') {
-            numbersOnly.push(item);
-        }
-    }
-    return numbersOnly;
+function countWords(text) {
+    return text.split('').length;
 }
 
-test('only collects numbers in the array',() => {
-    const currentOutput = collectNumbers([10.1,"hello",6.1,8.0, 9.7, 10.1,"hi", 3.5,"oops"]);
-    const targetOutput = [10.1,6.1,8.0, 9.7, 10.1, 3.5,];
-    
-    expect(currentOutput).toEqual(targetOutput);
+// NOTE: you do not need to change anything in the test
+test('should count the words in a string of text', () => {
+    const text = "Here is a plain sentence with some information! Try to find the word count";
+    expect(countWords(text)).toBe(14);
 });
-
-
